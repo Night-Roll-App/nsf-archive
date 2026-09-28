@@ -1,0 +1,11526 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "nes-final-fantasy-i",
+ "title": "",
+ "drivers": [
+  "nes"
+ ],
+ "songs": 23,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "nes:pulse:duty12.5:env0a06c448",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.88491
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.05,
+      0.52345
+     ],
+     [
+      0.06666,
+      0.26801
+     ],
+     [
+      0.08333,
+      0.13563
+     ],
+     [
+      0.11666,
+      0.39725
+     ],
+     [
+      0.13333,
+      0.64673
+     ],
+     [
+      0.14999,
+      0.76719
+     ],
+     [
+      0.16666,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Final Fantasy 1 #12"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 72,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 67,
+    "keyHi": 72,
+    "keySpan": 5,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.987,
+    "centroid": 1142,
+    "brightness": 2.91,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env0cdf7157",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.2333,
+    "decay": 0.2667,
+    "sustain": 0.5751,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.11254
+     ],
+     [
+      0.05,
+      1.11254
+     ],
+     [
+      0.06666,
+      1.22261
+     ],
+     [
+      0.08333,
+      1.22261
+     ],
+     [
+      0.1,
+      1.3303
+     ],
+     [
+      0.11666,
+      1.3303
+     ],
+     [
+      0.13333,
+      1.43568
+     ],
+     [
+      0.14999,
+      1.43568
+     ],
+     [
+      0.16666,
+      1.53882
+     ],
+     [
+      0.18333,
+      1.53882
+     ],
+     [
+      0.19999,
+      1.6398
+     ],
+     [
+      0.21666,
+      1.6398
+     ],
+     [
+      0.23332,
+      1.73868
+     ],
+     [
+      0.28332,
+      1.73868
+     ],
+     [
+      0.29999,
+      1.6398
+     ],
+     [
+      0.31665,
+      1.6398
+     ],
+     [
+      0.33332,
+      1.53882
+     ],
+     [
+      0.34999,
+      1.53882
+     ],
+     [
+      0.36665,
+      1.43568
+     ],
+     [
+      0.38332,
+      1.43568
+     ],
+     [
+      0.39998,
+      1.3303
+     ],
+     [
+      0.41665,
+      1.3303
+     ],
+     [
+      0.43332,
+      1.22261
+     ],
+     [
+      0.44998,
+      1.22261
+     ],
+     [
+      0.46665,
+      1.11254
+     ],
+     [
+      0.48331,
+      1.11254
+     ],
+     [
+      0.49998,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 76
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 76
+   },
+   "usedIn": [
+    "Final Fantasy 1 #15"
+   ],
+   "noteCount": 76,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 68,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 55,
+    "keyHi": 68,
+    "keySpan": 13,
+    "medianNote": 0.6,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.19,
+    "t20": null,
+    "sustain": 0.503,
+    "centroid": 858,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 2"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env0d3495cf",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.6467,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.88491
+     ],
+     [
+      0.08333,
+      0.88491
+     ],
+     [
+      0.1,
+      0.76719
+     ],
+     [
+      0.11666,
+      0.76719
+     ],
+     [
+      0.13333,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #10"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 59,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 59,
+    "keyHi": 59,
+    "keySpan": 0,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.52,
+    "centroid": 721,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 35"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env1c88e087",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3833,
+    "sustain": 0.512,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.11666,
+      1
+     ],
+     [
+      0.13333,
+      0.7589
+     ],
+     [
+      0.36665,
+      0.7589
+     ],
+     [
+      0.38332,
+      0.51201
+     ],
+     [
+      1.98325,
+      0.51201
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 102
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 102
+   },
+   "usedIn": [
+    "Final Fantasy 1 #17"
+   ],
+   "noteCount": 102,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 84,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 67,
+    "keyHi": 84,
+    "keySpan": 17,
+    "medianNote": 0.333,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.506,
+    "centroid": 1706,
+    "brightness": 2.9,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 8"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env4b832a0e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1667,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.06666,
+      1.3303
+     ],
+     [
+      0.08333,
+      1.3303
+     ],
+     [
+      0.13333,
+      1.6398
+     ],
+     [
+      0.14999,
+      1.6398
+     ],
+     [
+      0.16666,
+      1.73868
+     ],
+     [
+      1.98325,
+      1.73868
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 36
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 36
+   },
+   "usedIn": [
+    "Final Fantasy 1 #2"
+   ],
+   "noteCount": 36,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 70,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 62,
+    "keyHi": 70,
+    "keySpan": 8,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.125,
+    "t20": null,
+    "sustain": 0.987,
+    "centroid": 1142,
+    "brightness": 2.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 5"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env5c034ddc",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1667,
+    "sustain": 0.372,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      0.63988
+     ],
+     [
+      0.06666,
+      0.63988
+     ],
+     [
+      0.08333,
+      0.76512
+     ],
+     [
+      0.11666,
+      0.76512
+     ],
+     [
+      0.16666,
+      0.37197
+     ],
+     [
+      1.98325,
+      0.37197
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 41
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 41
+   },
+   "usedIn": [
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 41,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 58,
+    "median": 50
+   },
+   "features": {
+    "keyMedian": 50,
+    "keyLo": 50,
+    "keyHi": 58,
+    "keySpan": 8,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.165,
+    "sustain": 0.324,
+    "centroid": 429,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 16"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env6f793dbe",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.6399,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      0.63988
+     ],
+     [
+      0.06666,
+      0.63988
+     ],
+     [
+      0.08333,
+      0.76512
+     ],
+     [
+      0.11666,
+      0.76512
+     ],
+     [
+      0.13333,
+      0.63988
+     ],
+     [
+      1.98325,
+      0.63988
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 53,
+    "hi": 53,
+    "median": 53
+   },
+   "features": {
+    "keyMedian": 53,
+    "keyLo": 53,
+    "keyHi": 53,
+    "keySpan": 0,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.619,
+    "centroid": 510,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 38"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env8ebd7923",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.6399,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      0.82573
+     ],
+     [
+      0.06666,
+      0.82573
+     ],
+     [
+      0.11666,
+      0.63988
+     ],
+     [
+      1.98325,
+      0.63988
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 7
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 7
+   },
+   "usedIn": [
+    "Final Fantasy 1 #19",
+    "Final Fantasy 1 #20",
+    "Final Fantasy 1 #4"
+   ],
+   "noteCount": 7,
+   "used": true,
+   "keysPlayed": {
+    "lo": 66,
+    "hi": 79,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 66,
+    "keyHi": 79,
+    "keySpan": 13,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.59,
+    "centroid": 1436,
+    "brightness": 2.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 26"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env9b984335",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.8257,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.11666,
+      0.57515
+     ],
+     [
+      0.18333,
+      0.82573
+     ],
+     [
+      1.98325,
+      0.82573
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 35
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 35
+   },
+   "usedIn": [
+    "Final Fantasy 1 #19"
+   ],
+   "noteCount": 35,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 70,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 63,
+    "keyHi": 70,
+    "keySpan": 7,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.787,
+    "centroid": 1019,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 17"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env010ded41",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.9266,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.69654
+     ],
+     [
+      0.03333,
+      0.3646
+     ],
+     [
+      0.05,
+      0.69654
+     ],
+     [
+      0.06666,
+      0.3646
+     ],
+     [
+      0.08333,
+      0.69654
+     ],
+     [
+      0.1,
+      0.3646
+     ],
+     [
+      0.11666,
+      0.69654
+     ],
+     [
+      0.13333,
+      0.9266
+     ],
+     [
+      1.98325,
+      0.9266
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 62,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 50,
+    "keyHi": 62,
+    "keySpan": 12,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.761,
+    "centroid": 643,
+    "brightness": 2.92,
+    "harmonicity": 0.991,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 28"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env11c85cb7",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3167,
+    "sustain": 0.372,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.11666,
+      0.57515
+     ],
+     [
+      0.18333,
+      0.82573
+     ],
+     [
+      0.24999,
+      0.57515
+     ],
+     [
+      0.31665,
+      0.30106
+     ],
+     [
+      0.38332,
+      0.57515
+     ],
+     [
+      0.43332,
+      0.37197
+     ],
+     [
+      1.98325,
+      0.37197
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 94
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 94
+   },
+   "usedIn": [
+    "Final Fantasy 1 #13",
+    "Final Fantasy 1 #19",
+    "Final Fantasy 1 #20"
+   ],
+   "noteCount": 94,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 79,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 63,
+    "keyHi": 79,
+    "keySpan": 16,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.363,
+    "centroid": 1080,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 9"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env25bd5168",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.1356,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08333,
+      0.39725
+     ],
+     [
+      0.11666,
+      0.13563
+     ],
+     [
+      1.98325,
+      0.13563
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 176
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 176
+   },
+   "usedIn": [
+    "Final Fantasy 1 #6",
+    "Final Fantasy 1 #7",
+    "Final Fantasy 1 #15",
+    "Final Fantasy 1 #5"
+   ],
+   "noteCount": 176,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 72,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 59,
+    "keyHi": 72,
+    "keySpan": 13,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.11,
+    "sustain": 0.13,
+    "centroid": 1019,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env34e00869",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.268,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.88491
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.05,
+      0.52345
+     ],
+     [
+      0.06666,
+      0.26801
+     ],
+     [
+      1.98325,
+      0.26801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 329
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 329
+   },
+   "usedIn": [
+    "Final Fantasy 1 #5",
+    "Final Fantasy 1 #12",
+    "Final Fantasy 1 #14",
+    "Final Fantasy 1 #9"
+   ],
+   "noteCount": 329,
+   "used": true,
+   "keysPlayed": {
+    "lo": 53,
+    "hi": 74,
+    "median": 63
+   },
+   "features": {
+    "keyMedian": 63,
+    "keyLo": 53,
+    "keyHi": 74,
+    "keySpan": 21,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.244,
+    "centroid": 908,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 3"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env35ca943d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0333,
+    "decay": 0.05,
+    "sustain": 0.4281,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.69053
+     ],
+     [
+      0.03333,
+      2.33567
+     ],
+     [
+      0.05,
+      2.33567
+     ],
+     [
+      0.06666,
+      1.69053
+     ],
+     [
+      0.08333,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 346
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 346
+   },
+   "usedIn": [
+    "Final Fantasy 1 #12",
+    "Final Fantasy 1 #14",
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 346,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 68,
+    "median": 61
+   },
+   "features": {
+    "keyMedian": 61,
+    "keyLo": 50,
+    "keyHi": 68,
+    "keySpan": 18,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.025,
+    "t20": null,
+    "sustain": 0.379,
+    "centroid": 809,
+    "brightness": 2.92,
+    "harmonicity": 0.995,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 3"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env42b32781",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.9266,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.69654
+     ],
+     [
+      0.13333,
+      0.3646
+     ],
+     [
+      0.19999,
+      0.69654
+     ],
+     [
+      0.26666,
+      0.3646
+     ],
+     [
+      0.33332,
+      0.69654
+     ],
+     [
+      0.39998,
+      0.3646
+     ],
+     [
+      0.44998,
+      0.61637
+     ],
+     [
+      0.51665,
+      0.9266
+     ],
+     [
+      1.98325,
+      0.9266
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 242
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 242
+   },
+   "usedIn": [
+    "Final Fantasy 1 #3",
+    "Final Fantasy 1 #4",
+    "Final Fantasy 1 #7",
+    "Final Fantasy 1 #9",
+    "Final Fantasy 1 #10",
+    "Final Fantasy 1 #13",
+    "Final Fantasy 1 #14",
+    "Final Fantasy 1 #19",
+    "Final Fantasy 1 #20",
+    "Final Fantasy 1 #22"
+   ],
+   "noteCount": 242,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 79,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 57,
+    "keyHi": 79,
+    "keySpan": 22,
+    "medianNote": 0.467,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.859,
+    "centroid": 962,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 5"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env75f5e351",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.15,
+    "sustain": 0.6467,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.88491
+     ],
+     [
+      0.1,
+      0.88491
+     ],
+     [
+      0.11666,
+      0.76719
+     ],
+     [
+      0.13333,
+      0.76719
+     ],
+     [
+      0.14999,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 114
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 114
+   },
+   "usedIn": [
+    "Final Fantasy 1 #10",
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 114,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 73,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 50,
+    "keyHi": 73,
+    "keySpan": 23,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.624,
+    "centroid": 1080,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 7"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env90d29774",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2333,
+    "sustain": 0.0945,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.85159
+     ],
+     [
+      0.05,
+      0.85159
+     ],
+     [
+      0.08333,
+      0.69654
+     ],
+     [
+      0.1,
+      0.69654
+     ],
+     [
+      0.16666,
+      0.3646
+     ],
+     [
+      0.18333,
+      0.3646
+     ],
+     [
+      0.23332,
+      0.09447
+     ],
+     [
+      1.98325,
+      0.09447
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #11"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 55,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 55,
+    "keyHi": 55,
+    "keySpan": 0,
+    "medianNote": 0.25,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.215,
+    "sustain": 0.095,
+    "centroid": 573,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 5"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env329fa625",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.6652
+     ],
+     [
+      0.11666,
+      0.39348
+     ],
+     [
+      0.18333,
+      0.75171
+     ],
+     [
+      0.24999,
+      0.39348
+     ],
+     [
+      0.31665,
+      0.75171
+     ],
+     [
+      0.38332,
+      0.39348
+     ],
+     [
+      0.43332,
+      0.6652
+     ],
+     [
+      0.49998,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #22"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 69,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 69,
+    "keyHi": 69,
+    "keySpan": 0,
+    "medianNote": 1.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.876,
+    "centroid": 1281,
+    "brightness": 2.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 36"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env586ba3c0",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.7672,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.88491
+     ],
+     [
+      0.1,
+      0.88491
+     ],
+     [
+      0.11666,
+      0.76719
+     ],
+     [
+      1.98325,
+      0.76719
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #10"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 67,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 67,
+    "keyHi": 67,
+    "keySpan": 0,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.758,
+    "centroid": 1142,
+    "brightness": 2.91,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 37"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env1379d69b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1667,
+    "sustain": 0.1867,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08333,
+      0.61637
+     ],
+     [
+      0.1,
+      0.61637
+     ],
+     [
+      0.13333,
+      0.45047
+     ],
+     [
+      0.14999,
+      0.2767
+     ],
+     [
+      0.16666,
+      0.18668
+     ],
+     [
+      1.98325,
+      0.18668
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 47
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 47
+   },
+   "usedIn": [
+    "Final Fantasy 1 #9",
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 47,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 58,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 48,
+    "keyHi": 58,
+    "keySpan": 10,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.165,
+    "sustain": 0.187,
+    "centroid": 573,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 2"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env4361f9f3",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4667,
+    "sustain": 0.0945,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.9266
+     ],
+     [
+      0.08333,
+      0.9266
+     ],
+     [
+      0.1,
+      0.85159
+     ],
+     [
+      0.13333,
+      0.85159
+     ],
+     [
+      0.14999,
+      0.77492
+     ],
+     [
+      0.18333,
+      0.77492
+     ],
+     [
+      0.19999,
+      0.69654
+     ],
+     [
+      0.23332,
+      0.69654
+     ],
+     [
+      0.24999,
+      0.61637
+     ],
+     [
+      0.26666,
+      0.61637
+     ],
+     [
+      0.28332,
+      0.53437
+     ],
+     [
+      0.31665,
+      0.53437
+     ],
+     [
+      0.33332,
+      0.45047
+     ],
+     [
+      0.34999,
+      0.45047
+     ],
+     [
+      0.36665,
+      0.3646
+     ],
+     [
+      0.38332,
+      0.3646
+     ],
+     [
+      0.39998,
+      0.2767
+     ],
+     [
+      0.41665,
+      0.2767
+     ],
+     [
+      0.43332,
+      0.18668
+     ],
+     [
+      0.44998,
+      0.18668
+     ],
+     [
+      0.46665,
+      0.09447
+     ],
+     [
+      1.98325,
+      0.09447
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 6
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 6
+   },
+   "usedIn": [
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 6,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 63,
+    "median": 63
+   },
+   "features": {
+    "keyMedian": 63,
+    "keyLo": 62,
+    "keyHi": 63,
+    "keySpan": 1,
+    "medianNote": 0.5,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.41,
+    "sustain": 0.084,
+    "centroid": 908,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 10"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env7924d4bf",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 42
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 42
+   },
+   "usedIn": [
+    "Final Fantasy 1 #12",
+    "Final Fantasy 1 #16",
+    "Final Fantasy 1 #19",
+    "Final Fantasy 1 #23"
+   ],
+   "noteCount": 42,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 82,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 48,
+    "keyHi": 82,
+    "keySpan": 34,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.825,
+    "centroid": 764,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 14"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env43100e12",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1667,
+    "decay": 0.1667,
+    "sustain": 0.5751,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.06666,
+      1.3303
+     ],
+     [
+      0.08333,
+      1.3303
+     ],
+     [
+      0.13333,
+      1.6398
+     ],
+     [
+      0.14999,
+      1.6398
+     ],
+     [
+      0.16666,
+      1.73868
+     ],
+     [
+      0.18333,
+      1.73868
+     ],
+     [
+      0.19999,
+      1.6398
+     ],
+     [
+      0.21666,
+      1.6398
+     ],
+     [
+      0.26666,
+      1.3303
+     ],
+     [
+      0.28332,
+      1.3303
+     ],
+     [
+      0.33332,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 73
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 73
+   },
+   "usedIn": [
+    "Final Fantasy 1 #2"
+   ],
+   "noteCount": 73,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 72,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 60,
+    "keyHi": 72,
+    "keySpan": 12,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.125,
+    "t20": null,
+    "sustain": 0.569,
+    "centroid": 1142,
+    "brightness": 2.91,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 3"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env96494e7f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3666,
+    "sustain": 0.512,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      0.7589
+     ],
+     [
+      0.34999,
+      0.7589
+     ],
+     [
+      0.36665,
+      0.51201
+     ],
+     [
+      1.98325,
+      0.51201
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #17"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 70,
+    "hi": 70,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 70,
+    "keyHi": 70,
+    "keySpan": 0,
+    "medianNote": 0.467,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.46,
+    "centroid": 1356,
+    "brightness": 2.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 39"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env3077505d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.6164,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.69654
+     ],
+     [
+      0.13333,
+      0.3646
+     ],
+     [
+      0.18333,
+      0.61637
+     ],
+     [
+      1.98325,
+      0.61637
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 16
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 16
+   },
+   "usedIn": [
+    "Final Fantasy 1 #10"
+   ],
+   "noteCount": 16,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 69,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 62,
+    "keyHi": 69,
+    "keySpan": 7,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.546,
+    "centroid": 1281,
+    "brightness": 2.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 21"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env44620338",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.25,
+    "decay": 0.0167,
+    "sustain": 0.9266,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.23551
+     ],
+     [
+      0.03333,
+      1.23551
+     ],
+     [
+      0.05,
+      1.46563
+     ],
+     [
+      0.06666,
+      1.46563
+     ],
+     [
+      0.08333,
+      1.69053
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.91039
+     ],
+     [
+      0.13333,
+      1.91039
+     ],
+     [
+      0.14999,
+      2.12539
+     ],
+     [
+      0.16666,
+      2.12539
+     ],
+     [
+      0.18333,
+      2.33567
+     ],
+     [
+      0.19999,
+      2.33567
+     ],
+     [
+      0.21666,
+      2.5414
+     ],
+     [
+      0.23332,
+      2.5414
+     ],
+     [
+      0.24999,
+      2.74271
+     ],
+     [
+      0.26666,
+      2.5414
+     ],
+     [
+      1.98325,
+      2.5414
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #8"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 57,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 57,
+    "keyHi": 57,
+    "keySpan": 0,
+    "medianNote": 0.283,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.25,
+    "t20": null,
+    "sustain": 0.735,
+    "centroid": 643,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 7"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env87439743",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1833,
+    "sustain": 0.3646,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.05,
+      0.85159
+     ],
+     [
+      0.06666,
+      0.85159
+     ],
+     [
+      0.1,
+      0.69654
+     ],
+     [
+      0.11666,
+      0.69654
+     ],
+     [
+      0.18333,
+      0.3646
+     ],
+     [
+      1.98325,
+      0.3646
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 139
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 139
+   },
+   "usedIn": [
+    "Final Fantasy 1 #4",
+    "Final Fantasy 1 #11"
+   ],
+   "noteCount": 139,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 69,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 55,
+    "keyHi": 69,
+    "keySpan": 14,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.303,
+    "centroid": 764,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 6"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env91494310",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.5235,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.52345
+     ],
+     [
+      1.98325,
+      0.52345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 32
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 32
+   },
+   "usedIn": [
+    "Final Fantasy 1 #6"
+   ],
+   "noteCount": 32,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 83,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 60,
+    "keyHi": 83,
+    "keySpan": 23,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.498,
+    "centroid": 1521,
+    "brightness": 2.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 18"
+  },
+  {
+   "id": "nes:pulse:duty12.5:enva6bf3e4e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.268,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.06666,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.64673
+     ],
+     [
+      0.13333,
+      0.26801
+     ],
+     [
+      1.98325,
+      0.26801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 407
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 407
+   },
+   "usedIn": [
+    "Final Fantasy 1 #1",
+    "Final Fantasy 1 #9",
+    "Final Fantasy 1 #13"
+   ],
+   "noteCount": 407,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 94,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 48,
+    "keyHi": 94,
+    "keySpan": 46,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.252,
+    "centroid": 1019,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 2"
+  },
+  {
+   "id": "nes:pulse:duty12.5:enva6e534ef",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.64673
+     ],
+     [
+      0.03333,
+      0.26801
+     ],
+     [
+      0.05,
+      0.26801
+     ],
+     [
+      0.06666,
+      0.64673
+     ],
+     [
+      0.08333,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Final Fantasy 1 #12"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 62,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 57,
+    "keyHi": 62,
+    "keySpan": 5,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.873,
+    "centroid": 859,
+    "brightness": 2.92,
+    "harmonicity": 0.994,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 30"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envadc348be",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2667,
+    "sustain": 0.078,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      0.63988
+     ],
+     [
+      0.06666,
+      0.63988
+     ],
+     [
+      0.08333,
+      0.76512
+     ],
+     [
+      0.1,
+      0.76512
+     ],
+     [
+      0.13333,
+      0.50896
+     ],
+     [
+      0.14999,
+      0.50896
+     ],
+     [
+      0.16666,
+      0.37197
+     ],
+     [
+      0.18333,
+      0.37197
+     ],
+     [
+      0.19999,
+      0.50896
+     ],
+     [
+      0.21666,
+      0.50896
+     ],
+     [
+      0.24999,
+      0.22848
+     ],
+     [
+      0.26666,
+      0.07801
+     ],
+     [
+      1.98325,
+      0.07801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 16
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 16
+   },
+   "usedIn": [
+    "Final Fantasy 1 #13"
+   ],
+   "noteCount": 16,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 75,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 65,
+    "keyHi": 75,
+    "keySpan": 10,
+    "medianNote": 0.283,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.25,
+    "sustain": 0.073,
+    "centroid": 1436,
+    "brightness": 2.91,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 8"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envb2fe5611",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.372,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.63988
+     ],
+     [
+      0.05,
+      0.70318
+     ],
+     [
+      0.06666,
+      0.70318
+     ],
+     [
+      0.08333,
+      0.76512
+     ],
+     [
+      0.11666,
+      0.37197
+     ],
+     [
+      1.98325,
+      0.37197
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #19"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 77,
+    "hi": 77,
+    "median": 77
+   },
+   "features": {
+    "keyMedian": 77,
+    "keyLo": 77,
+    "keyHi": 77,
+    "keySpan": 0,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.358,
+    "centroid": 2026,
+    "brightness": 2.9,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 7"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envbb8f72e5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.8516,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.9266
+     ],
+     [
+      0.05,
+      0.9266
+     ],
+     [
+      0.06666,
+      0.85159
+     ],
+     [
+      1.98325,
+      0.85159
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Final Fantasy 1 #21"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 75,
+    "hi": 87,
+    "median": 83
+   },
+   "features": {
+    "keyMedian": 83,
+    "keyLo": 75,
+    "keyHi": 87,
+    "keySpan": 12,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.847,
+    "centroid": 2833,
+    "brightness": 2.87,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 6"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envbc565ec4",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1333,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.23551
+     ],
+     [
+      0.05,
+      1.23551
+     ],
+     [
+      0.06666,
+      1.46563
+     ],
+     [
+      0.08333,
+      1.46563
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.69053
+     ],
+     [
+      0.13333,
+      1.91039
+     ],
+     [
+      1.98325,
+      1.91039
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #8"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 62,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 62,
+    "keyHi": 62,
+    "keySpan": 0,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.125,
+    "t20": null,
+    "sustain": 0.873,
+    "centroid": 858,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 8"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envc3a53b91",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1833,
+    "decay": 0.15,
+    "sustain": 0.3646,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.06666,
+      1.69053
+     ],
+     [
+      0.08333,
+      1.69053
+     ],
+     [
+      0.13333,
+      2.33567
+     ],
+     [
+      0.14999,
+      2.33567
+     ],
+     [
+      0.18333,
+      2.74271
+     ],
+     [
+      0.19999,
+      2.33567
+     ],
+     [
+      0.21666,
+      2.33567
+     ],
+     [
+      0.26666,
+      1.69053
+     ],
+     [
+      0.28332,
+      1.69053
+     ],
+     [
+      0.33332,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 62
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 62
+   },
+   "usedIn": [
+    "Final Fantasy 1 #6"
+   ],
+   "noteCount": 62,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 74,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 65,
+    "keyHi": 74,
+    "keySpan": 9,
+    "medianNote": 0.667,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.175,
+    "t20": null,
+    "sustain": 0.328,
+    "centroid": 1281,
+    "brightness": 2.91,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 4"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envc33e835e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1667,
+    "decay": 0.15,
+    "sustain": 0.3646,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1.69053
+     ],
+     [
+      0.06666,
+      1.69053
+     ],
+     [
+      0.11666,
+      2.33567
+     ],
+     [
+      0.13333,
+      2.33567
+     ],
+     [
+      0.16666,
+      2.74271
+     ],
+     [
+      0.18333,
+      2.33567
+     ],
+     [
+      0.19999,
+      2.33567
+     ],
+     [
+      0.24999,
+      1.69053
+     ],
+     [
+      0.26666,
+      1.69053
+     ],
+     [
+      0.31665,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #6"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 69,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 69,
+    "keyHi": 69,
+    "keySpan": 0,
+    "medianNote": 0.65,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.125,
+    "t20": null,
+    "sustain": 0.341,
+    "centroid": 1281,
+    "brightness": 2.91,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 9"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envc763f565",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.2667,
+    "decay": 0.2333,
+    "sustain": 0.3646,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.23551
+     ],
+     [
+      0.05,
+      1.23551
+     ],
+     [
+      0.06666,
+      1.46563
+     ],
+     [
+      0.08333,
+      1.46563
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.69053
+     ],
+     [
+      0.13333,
+      1.91039
+     ],
+     [
+      0.14999,
+      1.91039
+     ],
+     [
+      0.16666,
+      2.12539
+     ],
+     [
+      0.18333,
+      2.12539
+     ],
+     [
+      0.19999,
+      2.33567
+     ],
+     [
+      0.21666,
+      2.33567
+     ],
+     [
+      0.23332,
+      2.5414
+     ],
+     [
+      0.24999,
+      2.5414
+     ],
+     [
+      0.26666,
+      2.74271
+     ],
+     [
+      0.29999,
+      2.33567
+     ],
+     [
+      0.31665,
+      2.33567
+     ],
+     [
+      0.33332,
+      2.12539
+     ],
+     [
+      0.34999,
+      2.12539
+     ],
+     [
+      0.36665,
+      1.91039
+     ],
+     [
+      0.38332,
+      1.91039
+     ],
+     [
+      0.39998,
+      1.69053
+     ],
+     [
+      0.41665,
+      1.69053
+     ],
+     [
+      0.43332,
+      1.46563
+     ],
+     [
+      0.44998,
+      1.46563
+     ],
+     [
+      0.46665,
+      1.23551
+     ],
+     [
+      0.48331,
+      1.23551
+     ],
+     [
+      0.49998,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 247
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 247
+   },
+   "usedIn": [
+    "Final Fantasy 1 #8",
+    "Final Fantasy 1 #11"
+   ],
+   "noteCount": 247,
+   "used": true,
+   "keysPlayed": {
+    "lo": 54,
+    "hi": 74,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 54,
+    "keyHi": 74,
+    "keySpan": 20,
+    "medianNote": 0.3,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.23,
+    "t20": null,
+    "sustain": 0.339,
+    "centroid": 962,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envcb5f8bd3",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1667,
+    "sustain": 0.7749,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.9266
+     ],
+     [
+      0.1,
+      0.9266
+     ],
+     [
+      0.11666,
+      0.85159
+     ],
+     [
+      0.14999,
+      0.85159
+     ],
+     [
+      0.16666,
+      0.77492
+     ],
+     [
+      1.98325,
+      0.77492
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 58,
+    "median": 58
+   },
+   "features": {
+    "keyMedian": 58,
+    "keyLo": 58,
+    "keyHi": 58,
+    "keySpan": 0,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.619,
+    "centroid": 681,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 32"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envd4c3f88a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.06666,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.64673
+     ],
+     [
+      0.13333,
+      0.26801
+     ],
+     [
+      0.14999,
+      0.26801
+     ],
+     [
+      0.16666,
+      0.13563
+     ],
+     [
+      0.18333,
+      0.13563
+     ],
+     [
+      0.19999,
+      0.26801
+     ],
+     [
+      0.21666,
+      0.26801
+     ],
+     [
+      0.26666,
+      0.64673
+     ],
+     [
+      0.28332,
+      0.64673
+     ],
+     [
+      0.33332,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 63
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 63
+   },
+   "usedIn": [
+    "Final Fantasy 1 #18"
+   ],
+   "noteCount": 63,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 70,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 59,
+    "keyHi": 70,
+    "keySpan": 11,
+    "medianNote": 0.667,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.938,
+    "centroid": 1019,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 13"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envd90edbd2",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.25,
+    "sustain": 0.078,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      0.63988
+     ],
+     [
+      0.06666,
+      0.63988
+     ],
+     [
+      0.08333,
+      0.76512
+     ],
+     [
+      0.1,
+      0.76512
+     ],
+     [
+      0.14999,
+      0.37197
+     ],
+     [
+      0.16666,
+      0.37197
+     ],
+     [
+      0.18333,
+      0.50896
+     ],
+     [
+      0.19999,
+      0.50896
+     ],
+     [
+      0.23332,
+      0.22848
+     ],
+     [
+      0.24999,
+      0.07801
+     ],
+     [
+      1.98325,
+      0.07801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 19
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 19
+   },
+   "usedIn": [
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 19,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 52,
+    "median": 52
+   },
+   "features": {
+    "keyMedian": 52,
+    "keyLo": 48,
+    "keyHi": 52,
+    "keySpan": 4,
+    "medianNote": 0.267,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.195,
+    "sustain": 0.071,
+    "centroid": 482,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 3"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envd9506435",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5167,
+    "sustain": 0.1356,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      1
+     ],
+     [
+      0.08333,
+      0.88491
+     ],
+     [
+      0.14999,
+      0.88491
+     ],
+     [
+      0.16666,
+      0.76719
+     ],
+     [
+      0.21666,
+      0.76719
+     ],
+     [
+      0.23332,
+      0.64673
+     ],
+     [
+      0.28332,
+      0.64673
+     ],
+     [
+      0.29999,
+      0.52345
+     ],
+     [
+      0.36665,
+      0.52345
+     ],
+     [
+      0.38332,
+      0.39725
+     ],
+     [
+      0.43332,
+      0.39725
+     ],
+     [
+      0.44998,
+      0.26801
+     ],
+     [
+      0.49998,
+      0.26801
+     ],
+     [
+      0.51665,
+      0.13563
+     ],
+     [
+      1.98325,
+      0.13563
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 72,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 72,
+    "keyHi": 72,
+    "keySpan": 0,
+    "medianNote": 0.55,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.505,
+    "sustain": 0.127,
+    "centroid": 1521,
+    "brightness": 2.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 11"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envdb7b629a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1833,
+    "sustain": 0.078,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.63988
+     ],
+     [
+      0.06666,
+      0.76512
+     ],
+     [
+      0.1,
+      0.37197
+     ],
+     [
+      0.13333,
+      0.50896
+     ],
+     [
+      0.14999,
+      0.50896
+     ],
+     [
+      0.16666,
+      0.30106
+     ],
+     [
+      0.18333,
+      0.07801
+     ],
+     [
+      1.98325,
+      0.07801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Final Fantasy 1 #13"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 70,
+    "hi": 70,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 70,
+    "keyHi": 70,
+    "keySpan": 0,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.17,
+    "sustain": 0.072,
+    "centroid": 1357,
+    "brightness": 2.91,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 4"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envdd710a18",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.7651,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      0.63988
+     ],
+     [
+      0.06666,
+      0.63988
+     ],
+     [
+      0.08333,
+      0.76512
+     ],
+     [
+      1.98325,
+      0.76512
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 16
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 16
+   },
+   "usedIn": [
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 16,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 55,
+    "median": 52
+   },
+   "features": {
+    "keyMedian": 52,
+    "keyLo": 48,
+    "keyHi": 55,
+    "keySpan": 7,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.696,
+    "centroid": 482,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 22"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envde5e05b7",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.8849,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.88491
+     ],
+     [
+      1.98325,
+      0.88491
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 8
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 8
+   },
+   "usedIn": [
+    "Final Fantasy 1 #10"
+   ],
+   "noteCount": 8,
+   "used": true,
+   "keysPlayed": {
+    "lo": 61,
+    "hi": 69,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 61,
+    "keyHi": 69,
+    "keySpan": 8,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.853,
+    "centroid": 1080,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 25"
+  },
+  {
+   "id": "nes:pulse:duty12.5:enve1903193",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.05,
+    "sustain": 0.4281,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.38162
+     ],
+     [
+      0.03333,
+      1.38162
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.59153
+     ],
+     [
+      1.98325,
+      0.59153
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Final Fantasy 1 #12",
+    "Final Fantasy 1 #14"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 59,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 59,
+    "keyHi": 59,
+    "keySpan": 0,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.02,
+    "t20": null,
+    "sustain": 0.34,
+    "centroid": 721,
+    "brightness": 2.92,
+    "harmonicity": 0.996,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 33"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envea47ce95",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.8516,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.9266
+     ],
+     [
+      0.03333,
+      0.9266
+     ],
+     [
+      0.05,
+      0.85159
+     ],
+     [
+      1.98325,
+      0.85159
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #21"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 71,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 71,
+    "keyHi": 71,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.787,
+    "centroid": 1436,
+    "brightness": 2.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 40"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envec3dc321",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.35,
+    "sustain": 0.1356,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.88491
+     ],
+     [
+      0.1,
+      0.88491
+     ],
+     [
+      0.11666,
+      0.76719
+     ],
+     [
+      0.13333,
+      0.76719
+     ],
+     [
+      0.14999,
+      0.64673
+     ],
+     [
+      0.19999,
+      0.64673
+     ],
+     [
+      0.21666,
+      0.52345
+     ],
+     [
+      0.24999,
+      0.52345
+     ],
+     [
+      0.26666,
+      0.39725
+     ],
+     [
+      0.28332,
+      0.39725
+     ],
+     [
+      0.29999,
+      0.26801
+     ],
+     [
+      0.33332,
+      0.26801
+     ],
+     [
+      0.34999,
+      0.13563
+     ],
+     [
+      1.98325,
+      0.13563
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 24
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 24
+   },
+   "usedIn": [
+    "Final Fantasy 1 #10"
+   ],
+   "noteCount": 24,
+   "used": true,
+   "keysPlayed": {
+    "lo": 66,
+    "hi": 73,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 66,
+    "keyHi": 73,
+    "keySpan": 7,
+    "medianNote": 0.367,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.31,
+    "sustain": 0.119,
+    "centroid": 1281,
+    "brightness": 2.91,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 7"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envecc57336",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.15,
+    "decay": 0.1667,
+    "sustain": 0.5751,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1.3303
+     ],
+     [
+      0.06666,
+      1.3303
+     ],
+     [
+      0.11666,
+      1.6398
+     ],
+     [
+      0.13333,
+      1.6398
+     ],
+     [
+      0.14999,
+      1.73868
+     ],
+     [
+      0.16666,
+      1.73868
+     ],
+     [
+      0.18333,
+      1.6398
+     ],
+     [
+      0.19999,
+      1.6398
+     ],
+     [
+      0.24999,
+      1.3303
+     ],
+     [
+      0.26666,
+      1.3303
+     ],
+     [
+      0.31665,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #2"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 60,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 60,
+    "keyHi": 60,
+    "keySpan": 0,
+    "medianNote": 1.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.13,
+    "t20": null,
+    "sustain": 0.475,
+    "centroid": 764,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 10"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envedc69667",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.3973,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08333,
+      0.39725
+     ],
+     [
+      1.98325,
+      0.39725
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 14
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 14
+   },
+   "usedIn": [
+    "Final Fantasy 1 #5"
+   ],
+   "noteCount": 14,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 62,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 60,
+    "keyHi": 62,
+    "keySpan": 2,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.355,
+    "centroid": 859,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 23"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envef05294d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2167,
+    "sustain": 0.078,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.63988
+     ],
+     [
+      0.05,
+      0.70318
+     ],
+     [
+      0.06666,
+      0.70318
+     ],
+     [
+      0.08333,
+      0.76512
+     ],
+     [
+      0.11666,
+      0.37197
+     ],
+     [
+      0.13333,
+      0.37197
+     ],
+     [
+      0.16666,
+      0.50896
+     ],
+     [
+      0.18333,
+      0.30106
+     ],
+     [
+      0.19999,
+      0.30106
+     ],
+     [
+      0.21666,
+      0.07801
+     ],
+     [
+      1.98325,
+      0.07801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #19"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 79,
+    "hi": 79,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 79,
+    "keyHi": 79,
+    "keySpan": 0,
+    "medianNote": 0.233,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.21,
+    "sustain": 0.079,
+    "centroid": 2271,
+    "brightness": 2.9,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 3"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envf2a19d65",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1667,
+    "sustain": 0.0945,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.77492
+     ],
+     [
+      0.05,
+      0.9266
+     ],
+     [
+      0.08333,
+      0.45047
+     ],
+     [
+      0.11666,
+      0.61637
+     ],
+     [
+      0.13333,
+      0.61637
+     ],
+     [
+      0.14999,
+      0.3646
+     ],
+     [
+      0.16666,
+      0.09447
+     ],
+     [
+      1.98325,
+      0.09447
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #13"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 70,
+    "hi": 70,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 70,
+    "keyHi": 70,
+    "keySpan": 0,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.16,
+    "sustain": 0.088,
+    "centroid": 1357,
+    "brightness": 2.91,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 6"
+  },
+  {
+   "id": "nes:pulse:duty25:env0a7a76c5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.2285,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.63988
+     ],
+     [
+      0.06666,
+      0.22848
+     ],
+     [
+      1.98325,
+      0.22848
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 75
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 75
+   },
+   "usedIn": [
+    "Final Fantasy 1 #9",
+    "Final Fantasy 1 #6"
+   ],
+   "noteCount": 75,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 81,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 60,
+    "keyHi": 81,
+    "keySpan": 21,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.231,
+    "centroid": 777,
+    "brightness": 1.98,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 5"
+  },
+  {
+   "id": "nes:pulse:duty25:env0beec9fe",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 1,
+    "sustain": 0.078,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.94313
+     ],
+     [
+      0.05,
+      0.94313
+     ],
+     [
+      0.06666,
+      0.88505
+     ],
+     [
+      0.08333,
+      0.88505
+     ],
+     [
+      0.1,
+      0.82573
+     ],
+     [
+      0.11666,
+      0.82573
+     ],
+     [
+      0.13333,
+      0.76512
+     ],
+     [
+      0.14999,
+      0.76512
+     ],
+     [
+      0.16666,
+      0.70318
+     ],
+     [
+      0.18333,
+      0.70318
+     ],
+     [
+      0.19999,
+      0.63988
+     ],
+     [
+      0.21666,
+      0.63988
+     ],
+     [
+      0.23332,
+      0.57515
+     ],
+     [
+      0.24999,
+      0.57515
+     ],
+     [
+      0.26666,
+      0.63988
+     ],
+     [
+      0.28332,
+      0.63988
+     ],
+     [
+      0.29999,
+      0.70318
+     ],
+     [
+      0.31665,
+      0.70318
+     ],
+     [
+      0.33332,
+      0.76512
+     ],
+     [
+      0.34999,
+      0.76512
+     ],
+     [
+      0.36665,
+      0.82573
+     ],
+     [
+      0.38332,
+      0.82573
+     ],
+     [
+      0.39998,
+      0.76512
+     ],
+     [
+      0.41665,
+      0.76512
+     ],
+     [
+      0.43332,
+      0.70318
+     ],
+     [
+      0.44998,
+      0.70318
+     ],
+     [
+      0.46665,
+      0.63988
+     ],
+     [
+      0.48331,
+      0.63988
+     ],
+     [
+      0.49998,
+      0.57515
+     ],
+     [
+      0.51665,
+      0.57515
+     ],
+     [
+      0.53331,
+      0.50896
+     ],
+     [
+      0.54998,
+      0.50896
+     ],
+     [
+      0.56664,
+      0.44125
+     ],
+     [
+      0.58331,
+      0.44125
+     ],
+     [
+      0.59998,
+      0.37197
+     ],
+     [
+      0.61664,
+      0.37197
+     ],
+     [
+      0.63331,
+      0.30106
+     ],
+     [
+      0.64997,
+      0.30106
+     ],
+     [
+      0.66664,
+      0.37197
+     ],
+     [
+      0.68331,
+      0.37197
+     ],
+     [
+      0.69997,
+      0.44125
+     ],
+     [
+      0.71664,
+      0.44125
+     ],
+     [
+      0.7333,
+      0.50896
+     ],
+     [
+      0.74997,
+      0.50896
+     ],
+     [
+      0.76664,
+      0.57515
+     ],
+     [
+      0.7833,
+      0.57515
+     ],
+     [
+      0.79997,
+      0.50896
+     ],
+     [
+      0.81663,
+      0.50896
+     ],
+     [
+      0.8333,
+      0.44125
+     ],
+     [
+      0.84997,
+      0.44125
+     ],
+     [
+      0.86663,
+      0.37197
+     ],
+     [
+      0.8833,
+      0.37197
+     ],
+     [
+      0.89996,
+      0.30106
+     ],
+     [
+      0.91663,
+      0.30106
+     ],
+     [
+      0.9333,
+      0.22848
+     ],
+     [
+      0.94996,
+      0.22848
+     ],
+     [
+      0.96663,
+      0.15415
+     ],
+     [
+      0.98329,
+      0.15415
+     ],
+     [
+      0.99996,
+      0.07801
+     ],
+     [
+      1.98325,
+      0.07801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 59
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 59
+   },
+   "usedIn": [
+    "Final Fantasy 1 #4",
+    "Final Fantasy 1 #9",
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 59,
+   "used": true,
+   "keysPlayed": {
+    "lo": 66,
+    "hi": 84,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 66,
+    "keyHi": 84,
+    "keySpan": 18,
+    "medianNote": 0.5,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.95,
+    "sustain": 0.074,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 6"
+  },
+  {
+   "id": "nes:pulse:duty25:env0c66ce19",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.4505,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.69654
+     ],
+     [
+      0.13333,
+      0.3646
+     ],
+     [
+      0.14999,
+      0.45047
+     ],
+     [
+      1.98325,
+      0.45047
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 63
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 63
+   },
+   "usedIn": [
+    "Final Fantasy 1 #17",
+    "Final Fantasy 1 #10",
+    "Final Fantasy 1 #5",
+    "Final Fantasy 1 #8",
+    "Final Fantasy 1 #13"
+   ],
+   "noteCount": 63,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 84,
+    "median": 77
+   },
+   "features": {
+    "keyMedian": 77,
+    "keyLo": 67,
+    "keyHi": 84,
+    "keySpan": 17,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.434,
+    "centroid": 1379,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 3"
+  },
+  {
+   "id": "nes:pulse:duty25:env0c91a00b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.0667,
+    "sustain": 0.3646,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.46563
+     ],
+     [
+      0.03333,
+      1.91039
+     ],
+     [
+      0.06666,
+      2.74271
+     ],
+     [
+      0.08333,
+      2.12539
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.23551
+     ],
+     [
+      0.13333,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 66
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 66
+   },
+   "usedIn": [
+    "Final Fantasy 1 #6"
+   ],
+   "noteCount": 66,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 82,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 72,
+    "keyHi": 82,
+    "keySpan": 10,
+    "medianNote": 0.333,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.055,
+    "t20": null,
+    "sustain": 0.368,
+    "centroid": 1546,
+    "brightness": 1.97,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 2"
+  },
+  {
+   "id": "nes:pulse:duty25:env0db2e69f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.372,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.63988
+     ],
+     [
+      0.05,
+      0.70318
+     ],
+     [
+      0.06666,
+      0.70318
+     ],
+     [
+      0.08333,
+      0.76512
+     ],
+     [
+      0.11666,
+      0.37197
+     ],
+     [
+      1.98325,
+      0.37197
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #19"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 85,
+    "hi": 85,
+    "median": 85
+   },
+   "features": {
+    "keyMedian": 85,
+    "keyLo": 85,
+    "keyHi": 85,
+    "keySpan": 0,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.371,
+    "centroid": 2156,
+    "brightness": 1.94,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 9"
+  },
+  {
+   "id": "nes:pulse:duty25:env1cdea16c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1667,
+    "sustain": 0.0945,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.77492
+     ],
+     [
+      0.05,
+      0.9266
+     ],
+     [
+      0.08333,
+      0.45047
+     ],
+     [
+      0.11666,
+      0.61637
+     ],
+     [
+      0.13333,
+      0.61637
+     ],
+     [
+      0.14999,
+      0.3646
+     ],
+     [
+      0.16666,
+      0.09447
+     ],
+     [
+      1.98325,
+      0.09447
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #13"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 82,
+    "hi": 82,
+    "median": 82
+   },
+   "features": {
+    "keyMedian": 82,
+    "keyLo": 82,
+    "keyHi": 82,
+    "keySpan": 0,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.16,
+    "sustain": 0.095,
+    "centroid": 1831,
+    "brightness": 1.96,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 4"
+  },
+  {
+   "id": "nes:pulse:duty25:env1d1f1b21",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.2285,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.94313
+     ],
+     [
+      0.03333,
+      0.82573
+     ],
+     [
+      0.05,
+      0.76512
+     ],
+     [
+      0.06666,
+      0.63988
+     ],
+     [
+      0.08333,
+      0.57515
+     ],
+     [
+      0.1,
+      0.44125
+     ],
+     [
+      0.11666,
+      0.37197
+     ],
+     [
+      0.13333,
+      0.22848
+     ],
+     [
+      1.98325,
+      0.22848
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 457
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 457
+   },
+   "usedIn": [
+    "Final Fantasy 1 #1",
+    "Final Fantasy 1 #9",
+    "Final Fantasy 1 #16",
+    "Final Fantasy 1 #13"
+   ],
+   "noteCount": 457,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 94,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 48,
+    "keyHi": 94,
+    "keySpan": 46,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.212,
+    "centroid": 923,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet"
+  },
+  {
+   "id": "nes:pulse:duty25:env2bb1788f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.83631
+     ],
+     [
+      0.03333,
+      0.75171
+     ],
+     [
+      0.05,
+      0.5767
+     ],
+     [
+      0.06666,
+      0.48616
+     ],
+     [
+      0.08333,
+      0.48616
+     ],
+     [
+      0.1,
+      0.5767
+     ],
+     [
+      0.11666,
+      0.75171
+     ],
+     [
+      0.13333,
+      0.6652
+     ],
+     [
+      0.14999,
+      0.48616
+     ],
+     [
+      0.16666,
+      0.39348
+     ],
+     [
+      0.18333,
+      0.5767
+     ],
+     [
+      0.19999,
+      0.6652
+     ],
+     [
+      0.21666,
+      0.6652
+     ],
+     [
+      0.23332,
+      0.5767
+     ],
+     [
+      0.24999,
+      0.39348
+     ],
+     [
+      0.26666,
+      0.48616
+     ],
+     [
+      0.28332,
+      0.6652
+     ],
+     [
+      0.29999,
+      0.75171
+     ],
+     [
+      0.31665,
+      0.91905
+     ],
+     [
+      0.33332,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #2"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 72,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 72,
+    "keyHi": 72,
+    "keySpan": 0,
+    "medianNote": 0.383,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.952,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 41"
+  },
+  {
+   "id": "nes:pulse:duty25:env5ca3403f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1833,
+    "sustain": 0.078,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.63988
+     ],
+     [
+      0.06666,
+      0.76512
+     ],
+     [
+      0.1,
+      0.37197
+     ],
+     [
+      0.13333,
+      0.50896
+     ],
+     [
+      0.14999,
+      0.50896
+     ],
+     [
+      0.16666,
+      0.30106
+     ],
+     [
+      0.18333,
+      0.07801
+     ],
+     [
+      1.98325,
+      0.07801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Final Fantasy 1 #13"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 82,
+    "hi": 82,
+    "median": 82
+   },
+   "features": {
+    "keyMedian": 82,
+    "keyLo": 82,
+    "keyHi": 82,
+    "keySpan": 0,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.175,
+    "sustain": 0.078,
+    "centroid": 1831,
+    "brightness": 1.96,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 2"
+  },
+  {
+   "id": "nes:pulse:duty25:env5e915eca",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2167,
+    "sustain": 0.078,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.63988
+     ],
+     [
+      0.05,
+      0.70318
+     ],
+     [
+      0.06666,
+      0.70318
+     ],
+     [
+      0.08333,
+      0.76512
+     ],
+     [
+      0.11666,
+      0.37197
+     ],
+     [
+      0.13333,
+      0.37197
+     ],
+     [
+      0.16666,
+      0.50896
+     ],
+     [
+      0.18333,
+      0.30106
+     ],
+     [
+      0.19999,
+      0.30106
+     ],
+     [
+      0.21666,
+      0.07801
+     ],
+     [
+      1.98325,
+      0.07801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #19"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 87,
+    "hi": 87,
+    "median": 87
+   },
+   "features": {
+    "keyMedian": 87,
+    "keyLo": 87,
+    "keyHi": 87,
+    "keySpan": 0,
+    "medianNote": 0.233,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.21,
+    "sustain": 0.077,
+    "centroid": 2393,
+    "brightness": 1.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 5"
+  },
+  {
+   "id": "nes:pulse:duty25:env9ab1a390",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.3666,
+    "decay": 0.3,
+    "sustain": 0.3646,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      1.23551
+     ],
+     [
+      0.08333,
+      1.23551
+     ],
+     [
+      0.1,
+      1.46563
+     ],
+     [
+      0.11666,
+      1.46563
+     ],
+     [
+      0.13333,
+      1.69053
+     ],
+     [
+      0.16666,
+      1.69053
+     ],
+     [
+      0.18333,
+      1.91039
+     ],
+     [
+      0.21666,
+      1.91039
+     ],
+     [
+      0.23332,
+      2.12539
+     ],
+     [
+      0.24999,
+      2.12539
+     ],
+     [
+      0.26666,
+      2.33567
+     ],
+     [
+      0.29999,
+      2.33567
+     ],
+     [
+      0.31665,
+      2.5414
+     ],
+     [
+      0.34999,
+      2.5414
+     ],
+     [
+      0.36665,
+      2.74271
+     ],
+     [
+      0.39998,
+      2.33567
+     ],
+     [
+      0.43332,
+      2.33567
+     ],
+     [
+      0.44998,
+      2.12539
+     ],
+     [
+      0.48331,
+      2.12539
+     ],
+     [
+      0.49998,
+      1.91039
+     ],
+     [
+      0.51665,
+      1.91039
+     ],
+     [
+      0.53331,
+      1.69053
+     ],
+     [
+      0.56664,
+      1.69053
+     ],
+     [
+      0.58331,
+      1.46563
+     ],
+     [
+      0.61664,
+      1.46563
+     ],
+     [
+      0.63331,
+      1.23551
+     ],
+     [
+      0.64997,
+      1.23551
+     ],
+     [
+      0.66664,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 7
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 7
+   },
+   "usedIn": [
+    "Final Fantasy 1 #6"
+   ],
+   "noteCount": 7,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 84,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 72,
+    "keyHi": 84,
+    "keySpan": 12,
+    "medianNote": 1.333,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.315,
+    "t20": null,
+    "sustain": 0.35,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 6"
+  },
+  {
+   "id": "nes:pulse:duty25:env24c29559",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5,
+    "sustain": 0.078,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.11666,
+      0.57515
+     ],
+     [
+      0.18333,
+      0.82573
+     ],
+     [
+      0.24999,
+      0.57515
+     ],
+     [
+      0.31665,
+      0.30106
+     ],
+     [
+      0.38332,
+      0.57515
+     ],
+     [
+      0.46665,
+      0.22848
+     ],
+     [
+      0.49998,
+      0.07801
+     ],
+     [
+      1.98325,
+      0.07801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 211
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 211
+   },
+   "usedIn": [
+    "Final Fantasy 1 #4",
+    "Final Fantasy 1 #10",
+    "Final Fantasy 1 #13",
+    "Final Fantasy 1 #14",
+    "Final Fantasy 1 #19",
+    "Final Fantasy 1 #20",
+    "Final Fantasy 1 #22"
+   ],
+   "noteCount": 211,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 87,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 67,
+    "keyHi": 87,
+    "keySpan": 20,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.465,
+    "sustain": 0.075,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 4"
+  },
+  {
+   "id": "nes:pulse:duty25:env36eb4adf",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.9266,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.9266
+     ],
+     [
+      1.98325,
+      0.9266
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Final Fantasy 1 #11",
+    "Final Fantasy 1 #16",
+    "Final Fantasy 1 #19",
+    "Final Fantasy 1 #23"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 51,
+    "hi": 66,
+    "median": 58
+   },
+   "features": {
+    "keyMedian": 58,
+    "keyLo": 51,
+    "keyHi": 66,
+    "keySpan": 15,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.812,
+    "centroid": 463,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 31"
+  },
+  {
+   "id": "nes:pulse:duty25:env37e65851",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.05,
+    "decay": 0.0667,
+    "sustain": 0.3646,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.30346
+     ],
+     [
+      0.05,
+      1.87136
+     ],
+     [
+      0.06666,
+      1.45016
+     ],
+     [
+      0.1,
+      0.84299
+     ],
+     [
+      0.11666,
+      0.6823
+     ],
+     [
+      1.98325,
+      0.6823
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #6"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 72,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 72,
+    "keyHi": 72,
+    "keySpan": 0,
+    "medianNote": 0.317,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.04,
+    "t20": null,
+    "sustain": 0.367,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 42"
+  },
+  {
+   "id": "nes:pulse:duty25:env58dd154e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1833,
+    "sustain": 0.3646,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.9266
+     ],
+     [
+      0.03333,
+      0.77492
+     ],
+     [
+      0.05,
+      0.69654
+     ],
+     [
+      0.06666,
+      0.53437
+     ],
+     [
+      0.08333,
+      0.45047
+     ],
+     [
+      0.1,
+      0.45047
+     ],
+     [
+      0.11666,
+      0.53437
+     ],
+     [
+      0.13333,
+      0.69654
+     ],
+     [
+      0.14999,
+      0.61637
+     ],
+     [
+      0.16666,
+      0.45047
+     ],
+     [
+      0.18333,
+      0.3646
+     ],
+     [
+      1.98325,
+      0.3646
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 18
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 18
+   },
+   "usedIn": [
+    "Final Fantasy 1 #2"
+   ],
+   "noteCount": 18,
+   "used": true,
+   "keysPlayed": {
+    "lo": 76,
+    "hi": 85,
+    "median": 81
+   },
+   "features": {
+    "keyMedian": 81,
+    "keyLo": 76,
+    "keyHi": 85,
+    "keySpan": 9,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.352,
+    "centroid": 1732,
+    "brightness": 1.97,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 5"
+  },
+  {
+   "id": "nes:pulse:duty25:env68f8a8c2",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.9266,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.69654
+     ],
+     [
+      0.03333,
+      0.3646
+     ],
+     [
+      0.05,
+      0.69654
+     ],
+     [
+      0.06666,
+      0.3646
+     ],
+     [
+      0.08333,
+      0.69654
+     ],
+     [
+      0.1,
+      0.3646
+     ],
+     [
+      0.11666,
+      0.69654
+     ],
+     [
+      0.13333,
+      0.9266
+     ],
+     [
+      1.98325,
+      0.9266
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 78,
+    "median": 75
+   },
+   "features": {
+    "keyMedian": 75,
+    "keyLo": 69,
+    "keyHi": 78,
+    "keySpan": 9,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.93,
+    "centroid": 1230,
+    "brightness": 1.98,
+    "harmonicity": 0.995,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 29"
+  },
+  {
+   "id": "nes:pulse:duty25:env186d51ae",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3666,
+    "sustain": 0.3944,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.87552
+     ],
+     [
+      0.05,
+      0.87552
+     ],
+     [
+      0.1,
+      0.67846
+     ],
+     [
+      0.11666,
+      0.67846
+     ],
+     [
+      0.13333,
+      0.60983
+     ],
+     [
+      0.16666,
+      0.74559
+     ],
+     [
+      0.18333,
+      0.74559
+     ],
+     [
+      0.21666,
+      0.87552
+     ],
+     [
+      0.23332,
+      0.81126
+     ],
+     [
+      0.24999,
+      0.81126
+     ],
+     [
+      0.29999,
+      0.60983
+     ],
+     [
+      0.31665,
+      0.60983
+     ],
+     [
+      0.36665,
+      0.3944
+     ],
+     [
+      0.38332,
+      0.3944
+     ],
+     [
+      0.39998,
+      0.31922
+     ],
+     [
+      0.43332,
+      0.46785
+     ],
+     [
+      0.44998,
+      0.46785
+     ],
+     [
+      0.48331,
+      0.60983
+     ],
+     [
+      0.49998,
+      0.53965
+     ],
+     [
+      0.51665,
+      0.53965
+     ],
+     [
+      0.54998,
+      0.3944
+     ],
+     [
+      1.98325,
+      0.3944
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #15"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 79,
+    "hi": 79,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 79,
+    "keyHi": 79,
+    "keySpan": 0,
+    "medianNote": 0.567,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.394,
+    "centroid": 1546,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 10"
+  },
+  {
+   "id": "nes:pulse:duty25:env316e7ba2",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3167,
+    "sustain": 0.078,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.06666,
+      0.82573
+     ],
+     [
+      0.08333,
+      0.82573
+     ],
+     [
+      0.13333,
+      0.63988
+     ],
+     [
+      0.14999,
+      0.63988
+     ],
+     [
+      0.19999,
+      0.44125
+     ],
+     [
+      0.21666,
+      0.44125
+     ],
+     [
+      0.26666,
+      0.22848
+     ],
+     [
+      0.28332,
+      0.22848
+     ],
+     [
+      0.31665,
+      0.07801
+     ],
+     [
+      1.98325,
+      0.07801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 12
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 12
+   },
+   "usedIn": [
+    "Final Fantasy 1 #9"
+   ],
+   "noteCount": 12,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 67,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 62,
+    "keyHi": 67,
+    "keySpan": 5,
+    "medianNote": 0.333,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.265,
+    "sustain": 0.073,
+    "centroid": 654,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 9"
+  },
+  {
+   "id": "nes:pulse:duty25:env528cb417",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2667,
+    "sustain": 0.078,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      0.63988
+     ],
+     [
+      0.06666,
+      0.63988
+     ],
+     [
+      0.08333,
+      0.76512
+     ],
+     [
+      0.1,
+      0.76512
+     ],
+     [
+      0.13333,
+      0.50896
+     ],
+     [
+      0.14999,
+      0.50896
+     ],
+     [
+      0.16666,
+      0.37197
+     ],
+     [
+      0.18333,
+      0.37197
+     ],
+     [
+      0.19999,
+      0.50896
+     ],
+     [
+      0.21666,
+      0.50896
+     ],
+     [
+      0.24999,
+      0.22848
+     ],
+     [
+      0.26666,
+      0.07801
+     ],
+     [
+      1.98325,
+      0.07801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Final Fantasy 1 #13"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 75,
+    "hi": 82,
+    "median": 82
+   },
+   "features": {
+    "keyMedian": 82,
+    "keyLo": 75,
+    "keyHi": 82,
+    "keySpan": 7,
+    "medianNote": 0.283,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.255,
+    "sustain": 0.077,
+    "centroid": 1830,
+    "brightness": 1.96,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 2"
+  },
+  {
+   "id": "nes:pulse:duty25:env7518b91e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.8257,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.11666,
+      0.57515
+     ],
+     [
+      0.18333,
+      0.82573
+     ],
+     [
+      1.98325,
+      0.82573
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 76
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 76
+   },
+   "usedIn": [
+    "Final Fantasy 1 #4",
+    "Final Fantasy 1 #10",
+    "Final Fantasy 1 #19"
+   ],
+   "noteCount": 76,
+   "used": true,
+   "keysPlayed": {
+    "lo": 68,
+    "hi": 81,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 68,
+    "keyHi": 81,
+    "keySpan": 13,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.808,
+    "centroid": 1096,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 11"
+  },
+  {
+   "id": "nes:pulse:duty25:env8740c53f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.0945,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.85159
+     ],
+     [
+      0.05,
+      0.69654
+     ],
+     [
+      0.06666,
+      0.61637
+     ],
+     [
+      0.1,
+      0.2767
+     ],
+     [
+      0.11666,
+      0.09447
+     ],
+     [
+      1.98325,
+      0.09447
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 84
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 84
+   },
+   "usedIn": [
+    "Final Fantasy 1 #6",
+    "Final Fantasy 1 #15"
+   ],
+   "noteCount": 84,
+   "used": true,
+   "keysPlayed": {
+    "lo": 70,
+    "hi": 88,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 70,
+    "keyHi": 88,
+    "keySpan": 18,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.105,
+    "sustain": 0.095,
+    "centroid": 1545,
+    "brightness": 1.97,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck"
+  },
+  {
+   "id": "nes:pulse:duty25:env014137c5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.9266,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.9266
+     ],
+     [
+      1.98325,
+      0.9266
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 288
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 288
+   },
+   "usedIn": [
+    "Final Fantasy 1 #11",
+    "Final Fantasy 1 #16",
+    "Final Fantasy 1 #19",
+    "Final Fantasy 1 #23",
+    "Final Fantasy 1 #14"
+   ],
+   "noteCount": 288,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 94,
+    "median": 68
+   },
+   "features": {
+    "keyMedian": 68,
+    "keyLo": 50,
+    "keyHi": 94,
+    "keySpan": 44,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.891,
+    "centroid": 823,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 4"
+  },
+  {
+   "id": "nes:pulse:duty25:env58581d94",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.8516,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      0.77492
+     ],
+     [
+      0.06666,
+      0.77492
+     ],
+     [
+      0.11666,
+      0.53437
+     ],
+     [
+      0.13333,
+      0.53437
+     ],
+     [
+      0.16666,
+      0.3646
+     ],
+     [
+      0.18333,
+      0.45047
+     ],
+     [
+      0.19999,
+      0.45047
+     ],
+     [
+      0.24999,
+      0.69654
+     ],
+     [
+      0.26666,
+      0.69654
+     ],
+     [
+      0.29999,
+      0.85159
+     ],
+     [
+      1.98325,
+      0.85159
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #18"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 69,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 69,
+    "keyHi": 69,
+    "keySpan": 0,
+    "medianNote": 0.317,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.786,
+    "centroid": 872,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 43"
+  },
+  {
+   "id": "nes:pulse:duty25:env069151a0",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.2767,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.53437
+     ],
+     [
+      0.05,
+      0.2767
+     ],
+     [
+      1.98325,
+      0.2767
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #9"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 62,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 62,
+    "keyHi": 62,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.257,
+    "centroid": 582,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 12"
+  },
+  {
+   "id": "nes:pulse:duty25:env78570ef9",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.6399,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.11666,
+      0.57515
+     ],
+     [
+      0.13333,
+      0.63988
+     ],
+     [
+      1.98325,
+      0.63988
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 42
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 42
+   },
+   "usedIn": [
+    "Final Fantasy 1 #13",
+    "Final Fantasy 1 #20",
+    "Final Fantasy 1 #16",
+    "Final Fantasy 1 #10",
+    "Final Fantasy 1 #19"
+   ],
+   "noteCount": 42,
+   "used": true,
+   "keysPlayed": {
+    "lo": 66,
+    "hi": 88,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 66,
+    "keyHi": 88,
+    "keySpan": 22,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.604,
+    "centroid": 1302,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 15"
+  },
+  {
+   "id": "nes:pulse:duty25:env09885167",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.0333,
+    "sustain": 0.6164,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.46563
+     ],
+     [
+      0.03333,
+      1.91039
+     ],
+     [
+      0.06666,
+      2.74271
+     ],
+     [
+      0.08333,
+      2.12539
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      1.98325,
+      1.69053
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #6"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 81,
+    "hi": 81,
+    "median": 81
+   },
+   "features": {
+    "keyMedian": 81,
+    "keyLo": 81,
+    "keyHi": 81,
+    "keySpan": 0,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.05,
+    "t20": null,
+    "sustain": 0.621,
+    "centroid": 1732,
+    "brightness": 1.97,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 8"
+  },
+  {
+   "id": "nes:pulse:duty25:env74269983",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.8257,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      0.82573
+     ],
+     [
+      1.98325,
+      0.82573
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #21"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 79,
+    "hi": 79,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 79,
+    "keyHi": 79,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.825,
+    "centroid": 1546,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 11"
+  },
+  {
+   "id": "nes:pulse:duty25:envb39d9b4a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.4413,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.63988
+     ],
+     [
+      0.05,
+      0.44125
+     ],
+     [
+      1.98325,
+      0.44125
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 12
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 12
+   },
+   "usedIn": [
+    "Final Fantasy 1 #9"
+   ],
+   "noteCount": 12,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 72,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 71,
+    "keyHi": 72,
+    "keySpan": 1,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.421,
+    "centroid": 977,
+    "brightness": 1.98,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 24"
+  },
+  {
+   "id": "nes:pulse:duty25:envb237ced8",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.723,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.72298
+     ],
+     [
+      1.98325,
+      0.72298
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #20"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 71,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 71,
+    "keyHi": 71,
+    "keySpan": 0,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.686,
+    "centroid": 977,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 44"
+  },
+  {
+   "id": "nes:pulse:duty25:envbb54e40f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.8851,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.94313
+     ],
+     [
+      0.05,
+      0.94313
+     ],
+     [
+      0.06666,
+      0.88505
+     ],
+     [
+      1.98325,
+      0.88505
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 20
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 20
+   },
+   "usedIn": [
+    "Final Fantasy 1 #9",
+    "Final Fantasy 1 #21"
+   ],
+   "noteCount": 20,
+   "used": true,
+   "keysPlayed": {
+    "lo": 70,
+    "hi": 95,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 70,
+    "keyHi": 95,
+    "keySpan": 25,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.878,
+    "centroid": 1161,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 20"
+  },
+  {
+   "id": "nes:pulse:duty25:envc8e31b40",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2667,
+    "sustain": 0.4679,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.1,
+      0.60983
+     ],
+     [
+      0.16666,
+      0.87552
+     ],
+     [
+      0.26666,
+      0.46785
+     ],
+     [
+      1.98325,
+      0.46785
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #22"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 76,
+    "hi": 76,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 76,
+    "keyHi": 76,
+    "keySpan": 0,
+    "medianNote": 0.283,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.442,
+    "centroid": 1302,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 45"
+  },
+  {
+   "id": "nes:pulse:duty25:envc656cad7",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1667,
+    "sustain": 0.7032,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.94313
+     ],
+     [
+      0.05,
+      0.94313
+     ],
+     [
+      0.06666,
+      0.88505
+     ],
+     [
+      0.08333,
+      0.88505
+     ],
+     [
+      0.1,
+      0.82573
+     ],
+     [
+      0.11666,
+      0.82573
+     ],
+     [
+      0.13333,
+      0.76512
+     ],
+     [
+      0.14999,
+      0.76512
+     ],
+     [
+      0.16666,
+      0.70318
+     ],
+     [
+      1.98325,
+      0.70318
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 24
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 24
+   },
+   "usedIn": [
+    "Final Fantasy 1 #16",
+    "Final Fantasy 1 #15"
+   ],
+   "noteCount": 24,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 74,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 65,
+    "keyHi": 74,
+    "keySpan": 9,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.642,
+    "centroid": 872,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 19"
+  },
+  {
+   "id": "nes:pulse:duty25:envc83676fb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.9266,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.9266
+     ],
+     [
+      0.03333,
+      0.77492
+     ],
+     [
+      0.05,
+      0.69654
+     ],
+     [
+      0.06666,
+      0.53437
+     ],
+     [
+      0.08333,
+      0.45047
+     ],
+     [
+      0.1,
+      0.45047
+     ],
+     [
+      0.11666,
+      0.53437
+     ],
+     [
+      0.13333,
+      0.69654
+     ],
+     [
+      0.14999,
+      0.61637
+     ],
+     [
+      0.16666,
+      0.45047
+     ],
+     [
+      0.18333,
+      0.3646
+     ],
+     [
+      0.19999,
+      0.53437
+     ],
+     [
+      0.21666,
+      0.61637
+     ],
+     [
+      0.23332,
+      0.61637
+     ],
+     [
+      0.24999,
+      0.53437
+     ],
+     [
+      0.26666,
+      0.3646
+     ],
+     [
+      0.28332,
+      0.45047
+     ],
+     [
+      0.29999,
+      0.61637
+     ],
+     [
+      0.31665,
+      0.69654
+     ],
+     [
+      0.33332,
+      0.85159
+     ],
+     [
+      0.34999,
+      0.9266
+     ],
+     [
+      1.98325,
+      0.9266
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 123
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 123
+   },
+   "usedIn": [
+    "Final Fantasy 1 #2",
+    "Final Fantasy 1 #11"
+   ],
+   "noteCount": 123,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 87,
+    "median": 81
+   },
+   "features": {
+    "keyMedian": 81,
+    "keyLo": 72,
+    "keyHi": 87,
+    "keySpan": 15,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.895,
+    "centroid": 1732,
+    "brightness": 1.97,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead"
+  },
+  {
+   "id": "nes:pulse:duty25:envcc570677",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.9266,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.69654
+     ],
+     [
+      0.13333,
+      0.3646
+     ],
+     [
+      0.19999,
+      0.69654
+     ],
+     [
+      0.26666,
+      0.3646
+     ],
+     [
+      0.33332,
+      0.69654
+     ],
+     [
+      0.39998,
+      0.3646
+     ],
+     [
+      0.44998,
+      0.61637
+     ],
+     [
+      0.51665,
+      0.9266
+     ],
+     [
+      1.98325,
+      0.9266
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 579
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 579
+   },
+   "usedIn": [
+    "Final Fantasy 1 #3",
+    "Final Fantasy 1 #5",
+    "Final Fantasy 1 #6",
+    "Final Fantasy 1 #7",
+    "Final Fantasy 1 #8",
+    "Final Fantasy 1 #9",
+    "Final Fantasy 1 #10",
+    "Final Fantasy 1 #12",
+    "Final Fantasy 1 #13",
+    "Final Fantasy 1 #14",
+    "Final Fantasy 1 #16",
+    "Final Fantasy 1 #17",
+    "Final Fantasy 1 #19",
+    "Final Fantasy 1 #20",
+    "Final Fantasy 1 #22"
+   ],
+   "noteCount": 579,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 87,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 50,
+    "keyHi": 87,
+    "keySpan": 37,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.928,
+    "centroid": 1161,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 2"
+  },
+  {
+   "id": "nes:pulse:duty25:envd0e697ba",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.9266,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.06666,
+      0.77492
+     ],
+     [
+      0.08333,
+      0.77492
+     ],
+     [
+      0.13333,
+      0.53437
+     ],
+     [
+      0.14999,
+      0.53437
+     ],
+     [
+      0.18333,
+      0.3646
+     ],
+     [
+      0.19999,
+      0.45047
+     ],
+     [
+      0.21666,
+      0.45047
+     ],
+     [
+      0.26666,
+      0.69654
+     ],
+     [
+      0.28332,
+      0.69654
+     ],
+     [
+      0.33332,
+      0.9266
+     ],
+     [
+      1.98325,
+      0.9266
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 90
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 90
+   },
+   "usedIn": [
+    "Final Fantasy 1 #18"
+   ],
+   "noteCount": 90,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 79,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 64,
+    "keyHi": 79,
+    "keySpan": 15,
+    "medianNote": 0.333,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.919,
+    "centroid": 1161,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 10"
+  },
+  {
+   "id": "nes:pulse:duty25:envdd311f62",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.6666,
+    "sustain": 0.078,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.06666,
+      0.82573
+     ],
+     [
+      0.08333,
+      0.82573
+     ],
+     [
+      0.13333,
+      0.63988
+     ],
+     [
+      0.14999,
+      0.63988
+     ],
+     [
+      0.16666,
+      0.57515
+     ],
+     [
+      0.19999,
+      0.70318
+     ],
+     [
+      0.21666,
+      0.70318
+     ],
+     [
+      0.24999,
+      0.82573
+     ],
+     [
+      0.26666,
+      0.76512
+     ],
+     [
+      0.28332,
+      0.76512
+     ],
+     [
+      0.33332,
+      0.57515
+     ],
+     [
+      0.34999,
+      0.57515
+     ],
+     [
+      0.39998,
+      0.37197
+     ],
+     [
+      0.41665,
+      0.37197
+     ],
+     [
+      0.43332,
+      0.30106
+     ],
+     [
+      0.46665,
+      0.44125
+     ],
+     [
+      0.48331,
+      0.44125
+     ],
+     [
+      0.51665,
+      0.57515
+     ],
+     [
+      0.53331,
+      0.50896
+     ],
+     [
+      0.54998,
+      0.50896
+     ],
+     [
+      0.59998,
+      0.30106
+     ],
+     [
+      0.61664,
+      0.30106
+     ],
+     [
+      0.66664,
+      0.07801
+     ],
+     [
+      1.98325,
+      0.07801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 108
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 108
+   },
+   "usedIn": [
+    "Final Fantasy 1 #15",
+    "Final Fantasy 1 #16"
+   ],
+   "noteCount": 108,
+   "used": true,
+   "keysPlayed": {
+    "lo": 74,
+    "hi": 86,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 74,
+    "keyHi": 86,
+    "keySpan": 12,
+    "medianNote": 0.3,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.635,
+    "sustain": 0.077,
+    "centroid": 1546,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "nes:pulse:duty25:envddee4b1e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.6399,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      0.63988
+     ],
+     [
+      1.98325,
+      0.63988
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Final Fantasy 1 #20"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 73,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 72,
+    "keyHi": 73,
+    "keySpan": 1,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.631,
+    "centroid": 1096,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 34"
+  },
+  {
+   "id": "nes:pulse:duty25:envdff35cb9",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.4505,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.85159
+     ],
+     [
+      0.05,
+      0.69654
+     ],
+     [
+      0.06666,
+      0.61637
+     ],
+     [
+      0.08333,
+      0.45047
+     ],
+     [
+      1.98325,
+      0.45047
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 36
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 36
+   },
+   "usedIn": [
+    "Final Fantasy 1 #10",
+    "Final Fantasy 1 #11"
+   ],
+   "noteCount": 36,
+   "used": true,
+   "keysPlayed": {
+    "lo": 70,
+    "hi": 85,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 70,
+    "keyHi": 85,
+    "keySpan": 15,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.451,
+    "centroid": 1545,
+    "brightness": 1.97,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 4"
+  },
+  {
+   "id": "nes:pulse:duty25:envea5aaaa9",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.6164,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.69654
+     ],
+     [
+      0.13333,
+      0.3646
+     ],
+     [
+      0.18333,
+      0.61637
+     ],
+     [
+      1.98325,
+      0.61637
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 69
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 69
+   },
+   "usedIn": [
+    "Final Fantasy 1 #5",
+    "Final Fantasy 1 #10"
+   ],
+   "noteCount": 69,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 85,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 67,
+    "keyHi": 85,
+    "keySpan": 18,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.583,
+    "centroid": 1302,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 12"
+  },
+  {
+   "id": "nes:pulse:duty25:envf15df1be",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.6652
+     ],
+     [
+      0.11666,
+      0.39348
+     ],
+     [
+      0.18333,
+      0.75171
+     ],
+     [
+      0.24999,
+      0.39348
+     ],
+     [
+      0.31665,
+      0.75171
+     ],
+     [
+      0.38332,
+      0.39348
+     ],
+     [
+      0.43332,
+      0.6652
+     ],
+     [
+      0.49998,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 7
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 7
+   },
+   "usedIn": [
+    "Final Fantasy 1 #3",
+    "Final Fantasy 1 #5",
+    "Final Fantasy 1 #7",
+    "Final Fantasy 1 #8",
+    "Final Fantasy 1 #12",
+    "Final Fantasy 1 #14",
+    "Final Fantasy 1 #17"
+   ],
+   "noteCount": 7,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 78,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 48,
+    "keyHi": 78,
+    "keySpan": 30,
+    "medianNote": 0.65,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.931,
+    "centroid": 977,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 27"
+  },
+  {
+   "id": "nes:pulse:duty25:envf53f18ad",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1,
+    "sustain": 0.8755,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.1,
+      0.60983
+     ],
+     [
+      0.16666,
+      0.87552
+     ],
+     [
+      1.98325,
+      0.87552
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy 1 #10"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 71,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 71,
+    "keyHi": 71,
+    "keySpan": 0,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.823,
+    "centroid": 977,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 46"
+  },
+  {
+   "id": "nes:triangle:env48a3dbda",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-triangle-envelope",
+     "groupKey": "tri",
+     "sampleCount": 2643
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "dbefed6c0b27b554",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "triangle",
+    "groupKey": "tri",
+    "clusterNotes": 2643
+   },
+   "usedIn": [
+    "Final Fantasy 1 #2",
+    "Final Fantasy 1 #3",
+    "Final Fantasy 1 #4",
+    "Final Fantasy 1 #5",
+    "Final Fantasy 1 #6",
+    "Final Fantasy 1 #7",
+    "Final Fantasy 1 #8",
+    "Final Fantasy 1 #9",
+    "Final Fantasy 1 #10",
+    "Final Fantasy 1 #11",
+    "Final Fantasy 1 #12",
+    "Final Fantasy 1 #13",
+    "Final Fantasy 1 #14",
+    "Final Fantasy 1 #15",
+    "Final Fantasy 1 #16",
+    "Final Fantasy 1 #17",
+    "Final Fantasy 1 #18",
+    "Final Fantasy 1 #19",
+    "Final Fantasy 1 #20",
+    "Final Fantasy 1 #22"
+   ],
+   "noteCount": 2643,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 75,
+    "median": 56
+   },
+   "features": {
+    "keyMedian": 56,
+    "keyLo": 38,
+    "keyHi": 75,
+    "keySpan": 37,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.962,
+    "centroid": 215,
+    "brightness": 1.03,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  }
+ ],
+ "samples": {
+  "d752779a9bacd3d1": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "d752779a9bacd3d1.wav"
+  },
+  "511e2b74a88a4d8a": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "511e2b74a88a4d8a.wav"
+  },
+  "dbefed6c0b27b554": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "dbefed6c0b27b554.wav"
+  }
+ }
+}
