@@ -1,0 +1,6147 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "nes-super-mario-bros-3",
+ "title": "",
+ "drivers": [
+  "nes"
+ ],
+ "songs": 40,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "nes:noise:p16:m0:env4264655e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p16m0",
+     "sampleCount": 639
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 16,
+      "mode": 0
+     },
+     "sample": "b77f25d77cf617e9",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.2,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.037,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.04,
+      "sustain": 0,
+      "centroid": 7774,
+      "brightness": 84.04,
+      "harmonicity": 0.1,
+      "flatness": 0.553,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p16m0",
+    "clusterNotes": 639
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #1",
+    "Super Mario Bros. 3 #3",
+    "Super Mario Bros. 3 #4",
+    "Super Mario Bros. 3 #5",
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #10",
+    "Super Mario Bros. 3 #11",
+    "Super Mario Bros. 3 #19",
+    "Super Mario Bros. 3 #22",
+    "Super Mario Bros. 3 #24",
+    "Super Mario Bros. 3 #27"
+   ],
+   "noteCount": 639,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 2",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p32:m0:env456863fe",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p32m0",
+     "sampleCount": 2770
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 32,
+      "mode": 0
+     },
+     "sample": "83a3aede5f0edb0d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.167,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.073,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.075,
+      "sustain": 0,
+      "centroid": 8015,
+      "brightness": 86.65,
+      "harmonicity": 0.087,
+      "flatness": 0.589,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p32m0",
+    "clusterNotes": 2770
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #1",
+    "Super Mario Bros. 3 #2",
+    "Super Mario Bros. 3 #3",
+    "Super Mario Bros. 3 #4",
+    "Super Mario Bros. 3 #5",
+    "Super Mario Bros. 3 #6",
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #9",
+    "Super Mario Bros. 3 #10",
+    "Super Mario Bros. 3 #11",
+    "Super Mario Bros. 3 #12",
+    "Super Mario Bros. 3 #14",
+    "Super Mario Bros. 3 #17",
+    "Super Mario Bros. 3 #19",
+    "Super Mario Bros. 3 #21",
+    "Super Mario Bros. 3 #22",
+    "Super Mario Bros. 3 #25",
+    "Super Mario Bros. 3 #27"
+   ],
+   "noteCount": 2770,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p380:m0:envdca6fc4d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p380m0",
+     "sampleCount": 413
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 380,
+      "mode": 0
+     },
+     "sample": "e3c2fe39b6778838",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.117,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.075,
+      "t20": 0.035,
+      "sustain": 0,
+      "centroid": 876,
+      "brightness": 11.94,
+      "harmonicity": 0.185,
+      "flatness": 0.008,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p380m0",
+    "clusterNotes": 413
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #2",
+    "Super Mario Bros. 3 #24"
+   ],
+   "noteCount": 413,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 3",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:pulse:duty12.5:env0f2b5492",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 1.0333,
+    "sustain": 0.2192,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.81792
+     ],
+     [
+      0.03333,
+      0.72379
+     ],
+     [
+      0.05,
+      0.52898
+     ],
+     [
+      0.06666,
+      0.6275
+     ],
+     [
+      0.08333,
+      0.6275
+     ],
+     [
+      0.1,
+      0.52898
+     ],
+     [
+      0.99996,
+      0.52898
+     ],
+     [
+      1.01663,
+      0.42814
+     ],
+     [
+      1.03329,
+      0.21921
+     ],
+     [
+      1.98325,
+      0.21921
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 686
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 686
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #5",
+    "Super Mario Bros. 3 #8",
+    "Super Mario Bros. 3 #19",
+    "Super Mario Bros. 3 #22",
+    "Super Mario Bros. 3 #24"
+   ],
+   "noteCount": 686,
+   "used": true,
+   "keysPlayed": {
+    "lo": 40,
+    "hi": 65,
+    "median": 53
+   },
+   "features": {
+    "keyMedian": 53,
+    "keyLo": 40,
+    "keyHi": 65,
+    "keySpan": 25,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 1.02,
+    "sustain": 0.212,
+    "centroid": 510,
+    "brightness": 2.92,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 2"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env1a52e309",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.7238,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.81792
+     ],
+     [
+      0.03333,
+      0.72379
+     ],
+     [
+      1.98325,
+      0.72379
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #24"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 45,
+    "median": 45
+   },
+   "features": {
+    "keyMedian": 45,
+    "keyLo": 45,
+    "keyHi": 45,
+    "keySpan": 0,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.526,
+    "centroid": 321,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env3b9c27aa",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.6275,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.90997
+     ],
+     [
+      0.03333,
+      0.72379
+     ],
+     [
+      0.05,
+      0.6275
+     ],
+     [
+      1.98325,
+      0.6275
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #32"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 70,
+    "hi": 72,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 70,
+    "keyHi": 72,
+    "keySpan": 2,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.581,
+    "centroid": 1436,
+    "brightness": 2.91,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 14"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env6fe3347d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 1.0333,
+    "sustain": 0.2192,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.81792
+     ],
+     [
+      0.03333,
+      0.72379
+     ],
+     [
+      0.05,
+      0.52898
+     ],
+     [
+      0.06666,
+      0.6275
+     ],
+     [
+      0.08333,
+      0.6275
+     ],
+     [
+      0.1,
+      0.52898
+     ],
+     [
+      0.99996,
+      0.52898
+     ],
+     [
+      1.01663,
+      0.42814
+     ],
+     [
+      1.03329,
+      0.21921
+     ],
+     [
+      1.98325,
+      0.21921
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 780
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 780
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #3",
+    "Super Mario Bros. 3 #5",
+    "Super Mario Bros. 3 #8",
+    "Super Mario Bros. 3 #19",
+    "Super Mario Bros. 3 #22",
+    "Super Mario Bros. 3 #24",
+    "Super Mario Bros. 3 #28"
+   ],
+   "noteCount": 780,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 79,
+    "median": 58
+   },
+   "features": {
+    "keyMedian": 58,
+    "keyLo": 38,
+    "keyHi": 79,
+    "keySpan": 41,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 1.03,
+    "sustain": 0.181,
+    "centroid": 681,
+    "brightness": 2.92,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env9e8ced2e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.6275,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.81792
+     ],
+     [
+      0.03333,
+      0.72379
+     ],
+     [
+      0.05,
+      0.52898
+     ],
+     [
+      0.06666,
+      0.6275
+     ],
+     [
+      1.98325,
+      0.6275
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 28
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 28
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #28"
+   ],
+   "noteCount": 28,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 83,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 59,
+    "keyHi": 83,
+    "keySpan": 24,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.602,
+    "centroid": 1521,
+    "brightness": 2.91,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 12"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env36d72297",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.15,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.90997
+     ],
+     [
+      0.03333,
+      0.72379
+     ],
+     [
+      0.11666,
+      0.21921
+     ],
+     [
+      0.13333,
+      0.21921
+     ],
+     [
+      0.14999,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 860
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 860
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #1",
+    "Super Mario Bros. 3 #2",
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #9",
+    "Super Mario Bros. 3 #10",
+    "Super Mario Bros. 3 #14",
+    "Super Mario Bros. 3 #19",
+    "Super Mario Bros. 3 #21",
+    "Super Mario Bros. 3 #23",
+    "Super Mario Bros. 3 #25",
+    "Super Mario Bros. 3 #27",
+    "Super Mario Bros. 3 #31",
+    "Super Mario Bros. 3 #18",
+    "Super Mario Bros. 3 #32"
+   ],
+   "noteCount": 860,
+   "used": true,
+   "keysPlayed": {
+    "lo": 46,
+    "hi": 91,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 46,
+    "keyHi": 91,
+    "keySpan": 45,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.12,
+    "sustain": 0.103,
+    "centroid": 1437,
+    "brightness": 2.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env0287bfe2",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.8179,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.81792
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.81792
+     ],
+     [
+      1.98325,
+      0.81792
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #28"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "features": {
+    "keyMedian": 42,
+    "keyLo": 42,
+    "keyHi": 42,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.515,
+    "centroid": 271,
+    "brightness": 2.93,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env9604cd42",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.7238,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.81792
+     ],
+     [
+      0.03333,
+      0.72379
+     ],
+     [
+      1.98325,
+      0.72379
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #24"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 45,
+    "median": 45
+   },
+   "features": {
+    "keyMedian": 45,
+    "keyLo": 45,
+    "keyHi": 45,
+    "keySpan": 0,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.526,
+    "centroid": 321,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead 2"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env71768423",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.8179,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.81792
+     ],
+     [
+      1.98325,
+      0.81792
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 70
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 70
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #28"
+   ],
+   "noteCount": 70,
+   "used": true,
+   "keysPlayed": {
+    "lo": 39,
+    "hi": 83,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 39,
+    "keyHi": 83,
+    "keySpan": 44,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.737,
+    "centroid": 859,
+    "brightness": 2.93,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 4"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envd376ae5d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.4281,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.90997
+     ],
+     [
+      0.03333,
+      0.72379
+     ],
+     [
+      0.08333,
+      0.42814
+     ],
+     [
+      1.98325,
+      0.42814
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 107
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 107
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #1",
+    "Super Mario Bros. 3 #14",
+    "Super Mario Bros. 3 #19",
+    "Super Mario Bros. 3 #2",
+    "Super Mario Bros. 3 #9"
+   ],
+   "noteCount": 107,
+   "used": true,
+   "keysPlayed": {
+    "lo": 53,
+    "hi": 76,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 53,
+    "keyHi": 76,
+    "keySpan": 23,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.396,
+    "centroid": 1437,
+    "brightness": 2.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 3"
+  },
+  {
+   "id": "nes:pulse:duty12.5:enve97a1bfd",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2667,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.6275
+     ],
+     [
+      0.08333,
+      0.6275
+     ],
+     [
+      0.1,
+      0.52898
+     ],
+     [
+      0.11666,
+      0.52898
+     ],
+     [
+      0.13333,
+      0.42814
+     ],
+     [
+      0.14999,
+      0.42814
+     ],
+     [
+      0.16666,
+      0.32492
+     ],
+     [
+      0.19999,
+      0.32492
+     ],
+     [
+      0.21666,
+      0.21921
+     ],
+     [
+      0.24999,
+      0.21921
+     ],
+     [
+      0.26666,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 215
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 215
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #2",
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #9",
+    "Super Mario Bros. 3 #10",
+    "Super Mario Bros. 3 #18",
+    "Super Mario Bros. 3 #19",
+    "Super Mario Bros. 3 #21",
+    "Super Mario Bros. 3 #25",
+    "Super Mario Bros. 3 #27",
+    "Super Mario Bros. 3 #31",
+    "Super Mario Bros. 3 #32"
+   ],
+   "noteCount": 215,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 93,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 52,
+    "keyHi": 93,
+    "keySpan": 41,
+    "medianNote": 0.367,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.225,
+    "sustain": 0.103,
+    "centroid": 1913,
+    "brightness": 2.9,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 5"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envf52035af",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2667,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.6275
+     ],
+     [
+      0.08333,
+      0.6275
+     ],
+     [
+      0.1,
+      0.52898
+     ],
+     [
+      0.11666,
+      0.52898
+     ],
+     [
+      0.13333,
+      0.42814
+     ],
+     [
+      0.14999,
+      0.42814
+     ],
+     [
+      0.16666,
+      0.32492
+     ],
+     [
+      0.19999,
+      0.32492
+     ],
+     [
+      0.21666,
+      0.21921
+     ],
+     [
+      0.24999,
+      0.21921
+     ],
+     [
+      0.26666,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 198
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 198
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #2",
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #9",
+    "Super Mario Bros. 3 #10",
+    "Super Mario Bros. 3 #18",
+    "Super Mario Bros. 3 #19",
+    "Super Mario Bros. 3 #21",
+    "Super Mario Bros. 3 #25",
+    "Super Mario Bros. 3 #27",
+    "Super Mario Bros. 3 #31",
+    "Super Mario Bros. 3 #32"
+   ],
+   "noteCount": 198,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 90,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 43,
+    "keyHi": 90,
+    "keySpan": 47,
+    "medianNote": 0.367,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.215,
+    "sustain": 0.099,
+    "centroid": 1281,
+    "brightness": 2.91,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 6"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envf55600d8",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.15,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.90997
+     ],
+     [
+      0.03333,
+      0.72379
+     ],
+     [
+      0.11666,
+      0.21921
+     ],
+     [
+      0.13333,
+      0.21921
+     ],
+     [
+      0.14999,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 775
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 775
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #1",
+    "Super Mario Bros. 3 #2",
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #9",
+    "Super Mario Bros. 3 #10",
+    "Super Mario Bros. 3 #14",
+    "Super Mario Bros. 3 #19",
+    "Super Mario Bros. 3 #21",
+    "Super Mario Bros. 3 #23",
+    "Super Mario Bros. 3 #25",
+    "Super Mario Bros. 3 #27",
+    "Super Mario Bros. 3 #31",
+    "Super Mario Bros. 3 #18",
+    "Super Mario Bros. 3 #32"
+   ],
+   "noteCount": 775,
+   "used": true,
+   "keysPlayed": {
+    "lo": 44,
+    "hi": 88,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 44,
+    "keyHi": 88,
+    "keySpan": 44,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.11,
+    "sustain": 0.103,
+    "centroid": 962,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 2"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envfd7ced91",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.4281,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.90997
+     ],
+     [
+      0.03333,
+      0.72379
+     ],
+     [
+      0.08333,
+      0.42814
+     ],
+     [
+      1.98325,
+      0.42814
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 278
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 278
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #1",
+    "Super Mario Bros. 3 #14",
+    "Super Mario Bros. 3 #2",
+    "Super Mario Bros. 3 #9"
+   ],
+   "noteCount": 278,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 69,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 48,
+    "keyHi": 69,
+    "keySpan": 21,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.398,
+    "centroid": 962,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 2"
+  },
+  {
+   "id": "nes:pulse:duty25:env2b6e2ffb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.25,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.6275
+     ],
+     [
+      0.08333,
+      0.6275
+     ],
+     [
+      0.1,
+      0.52898
+     ],
+     [
+      0.11666,
+      0.52898
+     ],
+     [
+      0.13333,
+      0.42814
+     ],
+     [
+      0.14999,
+      0.42814
+     ],
+     [
+      0.16666,
+      0.32492
+     ],
+     [
+      0.18333,
+      0.32492
+     ],
+     [
+      0.19999,
+      0.21921
+     ],
+     [
+      0.23332,
+      0.21921
+     ],
+     [
+      0.24999,
+      0.11094
+     ],
+     [
+      0.26666,
+      0.72379
+     ],
+     [
+      0.28332,
+      0.6275
+     ],
+     [
+      0.29999,
+      0.6275
+     ],
+     [
+      0.31665,
+      0.52898
+     ],
+     [
+      0.33332,
+      0.52898
+     ],
+     [
+      0.34999,
+      0.42814
+     ],
+     [
+      0.36665,
+      0.42814
+     ],
+     [
+      0.38332,
+      0.32492
+     ],
+     [
+      0.41665,
+      0.32492
+     ],
+     [
+      0.43332,
+      0.21921
+     ],
+     [
+      0.46665,
+      0.21921
+     ],
+     [
+      0.48331,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 387
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 387
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #6",
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #16",
+    "Super Mario Bros. 3 #20",
+    "Super Mario Bros. 3 #25"
+   ],
+   "noteCount": 387,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 96,
+    "median": 84
+   },
+   "features": {
+    "keyMedian": 84,
+    "keyLo": 65,
+    "keyHi": 96,
+    "keySpan": 31,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.235,
+    "sustain": 0.107,
+    "centroid": 2043,
+    "brightness": 1.95,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck"
+  },
+  {
+   "id": "nes:pulse:duty25:env3e9fb0bf",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.25,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.6275
+     ],
+     [
+      0.08333,
+      0.6275
+     ],
+     [
+      0.1,
+      0.52898
+     ],
+     [
+      0.11666,
+      0.52898
+     ],
+     [
+      0.13333,
+      0.42814
+     ],
+     [
+      0.14999,
+      0.42814
+     ],
+     [
+      0.16666,
+      0.32492
+     ],
+     [
+      0.18333,
+      0.32492
+     ],
+     [
+      0.19999,
+      0.21921
+     ],
+     [
+      0.23332,
+      0.21921
+     ],
+     [
+      0.24999,
+      0.11094
+     ],
+     [
+      0.26666,
+      0.72379
+     ],
+     [
+      0.28332,
+      0.6275
+     ],
+     [
+      0.29999,
+      0.6275
+     ],
+     [
+      0.31665,
+      0.52898
+     ],
+     [
+      0.33332,
+      0.52898
+     ],
+     [
+      0.34999,
+      0.42814
+     ],
+     [
+      0.36665,
+      0.42814
+     ],
+     [
+      0.38332,
+      0.32492
+     ],
+     [
+      0.41665,
+      0.32492
+     ],
+     [
+      0.43332,
+      0.21921
+     ],
+     [
+      0.46665,
+      0.21921
+     ],
+     [
+      0.48331,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 440
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 440
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #6",
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #16",
+    "Super Mario Bros. 3 #20",
+    "Super Mario Bros. 3 #25"
+   ],
+   "noteCount": 440,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 91,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 55,
+    "keyHi": 91,
+    "keySpan": 36,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.235,
+    "sustain": 0.105,
+    "centroid": 1302,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 3"
+  },
+  {
+   "id": "nes:pulse:duty25:env4a999c7c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5666,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.94313
+     ],
+     [
+      0.06666,
+      0.94313
+     ],
+     [
+      0.08333,
+      0.88505
+     ],
+     [
+      0.1,
+      0.88505
+     ],
+     [
+      0.11666,
+      0.82573
+     ],
+     [
+      0.13333,
+      0.82573
+     ],
+     [
+      0.14999,
+      0.76512
+     ],
+     [
+      0.18333,
+      0.76512
+     ],
+     [
+      0.19999,
+      0.70318
+     ],
+     [
+      0.21666,
+      0.70318
+     ],
+     [
+      0.23332,
+      0.63988
+     ],
+     [
+      0.24999,
+      0.63988
+     ],
+     [
+      0.26666,
+      0.57515
+     ],
+     [
+      0.28332,
+      0.57515
+     ],
+     [
+      0.29999,
+      0.50896
+     ],
+     [
+      0.33332,
+      0.50896
+     ],
+     [
+      0.34999,
+      0.44125
+     ],
+     [
+      0.36665,
+      0.44125
+     ],
+     [
+      0.38332,
+      0.37197
+     ],
+     [
+      0.39998,
+      0.37197
+     ],
+     [
+      0.41665,
+      0.30106
+     ],
+     [
+      0.43332,
+      0.30106
+     ],
+     [
+      0.44998,
+      0.22848
+     ],
+     [
+      0.48331,
+      0.22848
+     ],
+     [
+      0.49998,
+      0.15415
+     ],
+     [
+      0.51665,
+      0.15415
+     ],
+     [
+      0.53331,
+      0.07801
+     ],
+     [
+      0.54998,
+      0.07801
+     ],
+     [
+      0.56664,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #40"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 69,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 69,
+    "keyHi": 69,
+    "keySpan": 0,
+    "medianNote": 49.331,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.485,
+    "sustain": 0,
+    "centroid": 872,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 4"
+  },
+  {
+   "id": "nes:pulse:duty25:env9b2c15a8",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1333,
+    "decay": 0.1,
+    "sustain": 0.5915,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.05,
+      1.62803
+     ],
+     [
+      0.06666,
+      1.62803
+     ],
+     [
+      0.08333,
+      1.93126
+     ],
+     [
+      0.11666,
+      1.93126
+     ],
+     [
+      0.13333,
+      2.22761
+     ],
+     [
+      0.18333,
+      2.22761
+     ],
+     [
+      0.23332,
+      1.3177
+     ],
+     [
+      1.98325,
+      1.3177
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 84
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 84
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #11",
+    "Super Mario Bros. 3 #13",
+    "Super Mario Bros. 3 #15"
+   ],
+   "noteCount": 84,
+   "used": true,
+   "keysPlayed": {
+    "lo": 66,
+    "hi": 81,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 66,
+    "keyHi": 81,
+    "keySpan": 15,
+    "medianNote": 0.267,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.12,
+    "t20": null,
+    "sustain": 0.564,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad"
+  },
+  {
+   "id": "nes:pulse:duty25:env9cf9ea5c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #10",
+    "Super Mario Bros. 3 #25"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 79,
+    "hi": 88,
+    "median": 88
+   },
+   "features": {
+    "keyMedian": 88,
+    "keyLo": 79,
+    "keyHi": 88,
+    "keySpan": 9,
+    "medianNote": 0.017,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.976,
+    "centroid": 2520,
+    "brightness": 1.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like"
+  },
+  {
+   "id": "nes:pulse:duty25:env31ba5180",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1333,
+    "decay": 0.1,
+    "sustain": 0.5915,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.05,
+      1.62803
+     ],
+     [
+      0.06666,
+      1.62803
+     ],
+     [
+      0.08333,
+      1.93126
+     ],
+     [
+      0.11666,
+      1.93126
+     ],
+     [
+      0.13333,
+      2.22761
+     ],
+     [
+      0.18333,
+      2.22761
+     ],
+     [
+      0.23332,
+      1.3177
+     ],
+     [
+      1.98325,
+      1.3177
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 74
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 74
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #11",
+    "Super Mario Bros. 3 #15"
+   ],
+   "noteCount": 74,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 77,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 59,
+    "keyHi": 77,
+    "keySpan": 18,
+    "medianNote": 0.267,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.12,
+    "t20": null,
+    "sustain": 0.543,
+    "centroid": 923,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 2"
+  },
+  {
+   "id": "nes:pulse:duty25:env39ac03c2",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1333,
+    "decay": 0.8333,
+    "sustain": 0.1533,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.05,
+      1.62803
+     ],
+     [
+      0.06666,
+      1.62803
+     ],
+     [
+      0.08333,
+      1.93126
+     ],
+     [
+      0.11666,
+      1.93126
+     ],
+     [
+      0.13333,
+      2.22761
+     ],
+     [
+      0.28332,
+      2.22761
+     ],
+     [
+      0.29999,
+      1.93126
+     ],
+     [
+      0.34999,
+      1.93126
+     ],
+     [
+      0.36665,
+      1.62803
+     ],
+     [
+      0.51665,
+      1.62803
+     ],
+     [
+      0.53331,
+      1.3177
+     ],
+     [
+      0.61664,
+      1.3177
+     ],
+     [
+      0.63331,
+      1
+     ],
+     [
+      0.69997,
+      1
+     ],
+     [
+      0.71664,
+      0.67467
+     ],
+     [
+      0.94996,
+      0.67467
+     ],
+     [
+      0.96663,
+      0.34144
+     ],
+     [
+      1.98325,
+      0.34144
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 390
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 390
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #3",
+    "Super Mario Bros. 3 #4",
+    "Super Mario Bros. 3 #10",
+    "Super Mario Bros. 3 #11",
+    "Super Mario Bros. 3 #13",
+    "Super Mario Bros. 3 #15",
+    "Super Mario Bros. 3 #27"
+   ],
+   "noteCount": 390,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 86,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 59,
+    "keyHi": 86,
+    "keySpan": 27,
+    "medianNote": 0.533,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.125,
+    "t20": 0.715,
+    "sustain": 0.143,
+    "centroid": 977,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 3"
+  },
+  {
+   "id": "nes:pulse:duty25:env057e0dd7",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.3414,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.67467
+     ],
+     [
+      0.05,
+      0.67467
+     ],
+     [
+      0.06666,
+      0.34144
+     ],
+     [
+      1.98325,
+      0.34144
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 13
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 13
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #7"
+   ],
+   "noteCount": 13,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 60,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 60,
+    "keyHi": 60,
+    "keySpan": 0,
+    "medianNote": 0.217,
+    "kit": true,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.309,
+    "centroid": 519,
+    "brightness": 1.99,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Tom"
+  },
+  {
+   "id": "nes:pulse:duty25:env278de143",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.529,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08333,
+      0.52898
+     ],
+     [
+      1.98325,
+      0.52898
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 30
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 30
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #12",
+    "Super Mario Bros. 3 #7"
+   ],
+   "noteCount": 30,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 66,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 48,
+    "keyHi": 66,
+    "keySpan": 18,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.488,
+    "centroid": 437,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 11"
+  },
+  {
+   "id": "nes:pulse:duty25:env1780988a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.15,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.6275
+     ],
+     [
+      0.11666,
+      0.32492
+     ],
+     [
+      0.14999,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 218
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 218
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #12",
+    "Super Mario Bros. 3 #16",
+    "Super Mario Bros. 3 #25"
+   ],
+   "noteCount": 218,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 96,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 38,
+    "keyHi": 96,
+    "keySpan": 58,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.135,
+    "sustain": 0.097,
+    "centroid": 519,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 4"
+  },
+  {
+   "id": "nes:pulse:duty25:enva3c9a130",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.15,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      0.6275
+     ],
+     [
+      0.11666,
+      0.32492
+     ],
+     [
+      0.14999,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 154
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 154
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #12",
+    "Super Mario Bros. 3 #16"
+   ],
+   "noteCount": 154,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 91,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 38,
+    "keyHi": 91,
+    "keySpan": 53,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.135,
+    "sustain": 0.11,
+    "centroid": 389,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 7"
+  },
+  {
+   "id": "nes:pulse:duty25:enva3da0dfe",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0833,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.05,
+      1.62803
+     ],
+     [
+      0.06666,
+      1.62803
+     ],
+     [
+      0.08333,
+      1.93126
+     ],
+     [
+      1.98325,
+      1.93126
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #11",
+    "Super Mario Bros. 3 #15"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 76,
+    "hi": 85,
+    "median": 84
+   },
+   "features": {
+    "keyMedian": 84,
+    "keyLo": 76,
+    "keyHi": 85,
+    "keySpan": 9,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.08,
+    "t20": null,
+    "sustain": 0.953,
+    "centroid": 2043,
+    "brightness": 1.95,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High soft pad"
+  },
+  {
+   "id": "nes:pulse:duty25:envbbeaa29b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0833,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.05,
+      1.62803
+     ],
+     [
+      0.06666,
+      1.62803
+     ],
+     [
+      0.08333,
+      1.93126
+     ],
+     [
+      1.98325,
+      1.93126
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 23
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 23
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #11",
+    "Super Mario Bros. 3 #13",
+    "Super Mario Bros. 3 #15"
+   ],
+   "noteCount": 23,
+   "used": true,
+   "keysPlayed": {
+    "lo": 68,
+    "hi": 85,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 68,
+    "keyHi": 85,
+    "keySpan": 17,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.075,
+    "t20": null,
+    "sustain": 0.913,
+    "centroid": 872,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 13"
+  },
+  {
+   "id": "nes:pulse:duty25:envd52c2bfc",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1333,
+    "decay": 0.8333,
+    "sustain": 0.1533,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.05,
+      1.62803
+     ],
+     [
+      0.06666,
+      1.62803
+     ],
+     [
+      0.08333,
+      1.93126
+     ],
+     [
+      0.11666,
+      1.93126
+     ],
+     [
+      0.13333,
+      2.22761
+     ],
+     [
+      0.28332,
+      2.22761
+     ],
+     [
+      0.29999,
+      1.93126
+     ],
+     [
+      0.34999,
+      1.93126
+     ],
+     [
+      0.36665,
+      1.62803
+     ],
+     [
+      0.51665,
+      1.62803
+     ],
+     [
+      0.53331,
+      1.3177
+     ],
+     [
+      0.61664,
+      1.3177
+     ],
+     [
+      0.63331,
+      1
+     ],
+     [
+      0.69997,
+      1
+     ],
+     [
+      0.71664,
+      0.67467
+     ],
+     [
+      0.94996,
+      0.67467
+     ],
+     [
+      0.96663,
+      0.34144
+     ],
+     [
+      1.98325,
+      0.34144
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 221
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 221
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #10",
+    "Super Mario Bros. 3 #11",
+    "Super Mario Bros. 3 #13",
+    "Super Mario Bros. 3 #15",
+    "Super Mario Bros. 3 #27"
+   ],
+   "noteCount": 221,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 86,
+    "median": 77
+   },
+   "features": {
+    "keyMedian": 77,
+    "keyLo": 63,
+    "keyHi": 86,
+    "keySpan": 23,
+    "medianNote": 0.533,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.12,
+    "t20": 0.8,
+    "sustain": 0.146,
+    "centroid": 1379,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "nes:pulse:duty25:enve38225cc",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.529,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08333,
+      0.52898
+     ],
+     [
+      1.98325,
+      0.52898
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 31
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 31
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #12",
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #16"
+   ],
+   "noteCount": 31,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 67,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 48,
+    "keyHi": 67,
+    "keySpan": 19,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.488,
+    "centroid": 437,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 9"
+  },
+  {
+   "id": "nes:pulse:duty25:enve0714656",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #10",
+    "Super Mario Bros. 3 #31"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 83,
+    "median": 83
+   },
+   "features": {
+    "keyMedian": 83,
+    "keyLo": 55,
+    "keyHi": 83,
+    "keySpan": 28,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.995,
+    "centroid": 1934,
+    "brightness": 1.96,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like 2"
+  },
+  {
+   "id": "nes:pulse:duty25:envee345316",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.3414,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.67467
+     ],
+     [
+      0.05,
+      0.67467
+     ],
+     [
+      0.06666,
+      0.34144
+     ],
+     [
+      1.98325,
+      0.34144
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 31
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 31
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #16",
+    "Super Mario Bros. 3 #25"
+   ],
+   "noteCount": 31,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 96,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 65,
+    "keyHi": 96,
+    "keySpan": 31,
+    "medianNote": 0.217,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.335,
+    "centroid": 1302,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 10"
+  },
+  {
+   "id": "nes:pulse:duty50:env3c996b54",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3167,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.08333,
+      0.76512
+     ],
+     [
+      0.1,
+      0.76512
+     ],
+     [
+      0.16666,
+      0.50896
+     ],
+     [
+      0.18333,
+      0.50896
+     ],
+     [
+      0.24999,
+      0.22848
+     ],
+     [
+      0.26666,
+      0.22848
+     ],
+     [
+      0.29999,
+      0.07801
+     ],
+     [
+      0.31665,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #39"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 84,
+    "hi": 88,
+    "median": 88
+   },
+   "features": {
+    "keyMedian": 88,
+    "keyLo": 84,
+    "keyHi": 88,
+    "keySpan": 4,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.265,
+    "sustain": 0,
+    "centroid": 2057,
+    "brightness": 1.56,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 2"
+  },
+  {
+   "id": "nes:pulse:duty50:env8fa9211c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0333,
+    "decay": 0.0833,
+    "sustain": 0.529,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.22261
+     ],
+     [
+      0.05,
+      1.22261
+     ],
+     [
+      0.1,
+      0.88491
+     ],
+     [
+      0.11666,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #9"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 55,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 55,
+    "keyHi": 55,
+    "keySpan": 0,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.015,
+    "t20": null,
+    "sustain": 0.529,
+    "centroid": 317,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 15"
+  },
+  {
+   "id": "nes:pulse:duty50:env34f7d570",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.88505
+     ],
+     [
+      0.05,
+      0.76512
+     ],
+     [
+      0.08333,
+      0.63988
+     ],
+     [
+      0.1,
+      0.50896
+     ],
+     [
+      0.13333,
+      0.37197
+     ],
+     [
+      0.14999,
+      0.22848
+     ],
+     [
+      0.18333,
+      0.07801
+     ],
+     [
+      0.19999,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #40"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 69,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 69,
+    "keyHi": 69,
+    "keySpan": 0,
+    "medianNote": 0.65,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.155,
+    "sustain": 0,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 10"
+  },
+  {
+   "id": "nes:pulse:duty50:env242eab36",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0333,
+    "decay": 0.1167,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.22261
+     ],
+     [
+      0.05,
+      1.22261
+     ],
+     [
+      0.1,
+      0.88491
+     ],
+     [
+      0.13333,
+      0.39725
+     ],
+     [
+      0.14999,
+      0.13563
+     ],
+     [
+      1.98325,
+      0.13563
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #25"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 59,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 59,
+    "keyHi": 59,
+    "keySpan": 0,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.015,
+    "t20": 0.1,
+    "sustain": 0.11,
+    "centroid": 399,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 9"
+  },
+  {
+   "id": "nes:pulse:duty50:env332e513f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.15,
+    "sustain": 0.4489,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.86696
+     ],
+     [
+      0.03333,
+      0.86696
+     ],
+     [
+      0.05,
+      0.73084
+     ],
+     [
+      0.08333,
+      0.73084
+     ],
+     [
+      0.1,
+      0.59153
+     ],
+     [
+      0.13333,
+      0.59153
+     ],
+     [
+      0.14999,
+      0.44891
+     ],
+     [
+      1.98325,
+      0.44891
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #36"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 81,
+    "hi": 81,
+    "median": 81
+   },
+   "features": {
+    "keyMedian": 81,
+    "keyLo": 81,
+    "keyHi": 81,
+    "keySpan": 0,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.457,
+    "centroid": 1409,
+    "brightness": 1.6,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 4"
+  },
+  {
+   "id": "nes:pulse:duty50:env8557d922",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.8849,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.88491
+     ],
+     [
+      1.98325,
+      0.88491
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 67
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 67
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #5",
+    "Super Mario Bros. 3 #23",
+    "Super Mario Bros. 3 #26",
+    "Super Mario Bros. 3 #29",
+    "Super Mario Bros. 3 #30"
+   ],
+   "noteCount": 67,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 82,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 48,
+    "keyHi": 82,
+    "keySpan": 34,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.884,
+    "centroid": 842,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 5"
+  },
+  {
+   "id": "nes:pulse:duty50:env19775bc5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0333,
+    "decay": 0.1167,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.22261
+     ],
+     [
+      0.05,
+      1.22261
+     ],
+     [
+      0.1,
+      0.88491
+     ],
+     [
+      0.13333,
+      0.39725
+     ],
+     [
+      0.14999,
+      0.13563
+     ],
+     [
+      1.98325,
+      0.13563
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #25"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 67,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 67,
+    "keyHi": 67,
+    "keySpan": 0,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.015,
+    "t20": 0.105,
+    "sustain": 0.111,
+    "centroid": 632,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 8"
+  },
+  {
+   "id": "nes:pulse:duty50:envb90ca562",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 42
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 42
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #23",
+    "Super Mario Bros. 3 #25",
+    "Super Mario Bros. 3 #26",
+    "Super Mario Bros. 3 #28",
+    "Super Mario Bros. 3 #29",
+    "Super Mario Bros. 3 #30",
+    "Super Mario Bros. 3 #33",
+    "Super Mario Bros. 3 #34",
+    "Super Mario Bros. 3 #35",
+    "Super Mario Bros. 3 #36",
+    "Super Mario Bros. 3 #37",
+    "Super Mario Bros. 3 #38"
+   ],
+   "noteCount": 42,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 111,
+    "median": 96
+   },
+   "features": {
+    "keyMedian": 96,
+    "keyLo": 38,
+    "keyHi": 111,
+    "keySpan": 73,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 3060,
+    "brightness": 1.46,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead"
+  },
+  {
+   "id": "nes:pulse:duty50:envc8abb56a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.8849,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.88491
+     ],
+     [
+      1.98325,
+      0.88491
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 52
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 52
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #23",
+    "Super Mario Bros. 3 #26",
+    "Super Mario Bros. 3 #29",
+    "Super Mario Bros. 3 #30"
+   ],
+   "noteCount": 52,
+   "used": true,
+   "keysPlayed": {
+    "lo": 46,
+    "hi": 74,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 46,
+    "keyHi": 74,
+    "keySpan": 28,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.88,
+    "centroid": 632,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 6"
+  },
+  {
+   "id": "nes:pulse:duty50:envc834c43d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 1.05,
+    "sustain": 0.5235,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.88491
+     ],
+     [
+      0.08333,
+      0.88491
+     ],
+     [
+      0.1,
+      0.76719
+     ],
+     [
+      0.94996,
+      0.76719
+     ],
+     [
+      0.96663,
+      0.64673
+     ],
+     [
+      1.03329,
+      0.64673
+     ],
+     [
+      1.04996,
+      0.52345
+     ],
+     [
+      1.98325,
+      0.52345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 35
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 35
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #21",
+    "Super Mario Bros. 3 #23",
+    "Super Mario Bros. 3 #26",
+    "Super Mario Bros. 3 #29",
+    "Super Mario Bros. 3 #30"
+   ],
+   "noteCount": 35,
+   "used": true,
+   "keysPlayed": {
+    "lo": 44,
+    "hi": 76,
+    "median": 56
+   },
+   "features": {
+    "keyMedian": 56,
+    "keyLo": 44,
+    "keyHi": 76,
+    "keySpan": 32,
+    "medianNote": 1.6,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.523,
+    "centroid": 335,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 7"
+  },
+  {
+   "id": "nes:pulse:duty50:envcd923cb4",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.7308,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.86696
+     ],
+     [
+      0.03333,
+      0.86696
+     ],
+     [
+      0.05,
+      0.73084
+     ],
+     [
+      1.98325,
+      0.73084
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 11
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 11
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #36"
+   ],
+   "noteCount": 11,
+   "used": true,
+   "keysPlayed": {
+    "lo": 85,
+    "hi": 114,
+    "median": 100
+   },
+   "features": {
+    "keyMedian": 100,
+    "keyLo": 85,
+    "keyHi": 114,
+    "keySpan": 29,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.748,
+    "centroid": 3683,
+    "brightness": 1.4,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 2"
+  },
+  {
+   "id": "nes:pulse:duty50:envd2b74a9c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 22
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 22
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #5",
+    "Super Mario Bros. 3 #23",
+    "Super Mario Bros. 3 #26",
+    "Super Mario Bros. 3 #28",
+    "Super Mario Bros. 3 #29",
+    "Super Mario Bros. 3 #30"
+   ],
+   "noteCount": 22,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 84,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 38,
+    "keyHi": 84,
+    "keySpan": 46,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.994,
+    "centroid": 422,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like"
+  },
+  {
+   "id": "nes:pulse:duty50:envd0179dd6",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0333,
+    "decay": 0.0833,
+    "sustain": 0.529,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.22261
+     ],
+     [
+      0.05,
+      1.22261
+     ],
+     [
+      0.1,
+      0.88491
+     ],
+     [
+      0.11666,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #9"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 47,
+    "hi": 47,
+    "median": 47
+   },
+   "features": {
+    "keyMedian": 47,
+    "keyLo": 47,
+    "keyHi": 47,
+    "keySpan": 0,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.015,
+    "t20": null,
+    "sustain": 0.527,
+    "centroid": 199,
+    "brightness": 1.62,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead 3"
+  },
+  {
+   "id": "nes:pulse:duty50:envf37f3a70",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 1.05,
+    "sustain": 0.5235,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.88491
+     ],
+     [
+      0.08333,
+      0.88491
+     ],
+     [
+      0.1,
+      0.76719
+     ],
+     [
+      0.94996,
+      0.76719
+     ],
+     [
+      0.96663,
+      0.64673
+     ],
+     [
+      1.03329,
+      0.64673
+     ],
+     [
+      1.04996,
+      0.52345
+     ],
+     [
+      1.98325,
+      0.52345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 34
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 34
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #21",
+    "Super Mario Bros. 3 #23",
+    "Super Mario Bros. 3 #26",
+    "Super Mario Bros. 3 #29",
+    "Super Mario Bros. 3 #30"
+   ],
+   "noteCount": 34,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 84,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 52,
+    "keyHi": 84,
+    "keySpan": 32,
+    "medianNote": 1.6,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.521,
+    "centroid": 422,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 8"
+  },
+  {
+   "id": "nes:pulse:duty75:env0e9ee88d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1,
+    "sustain": 0.5915,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.86696
+     ],
+     [
+      0.03333,
+      0.86696
+     ],
+     [
+      0.05,
+      0.73084
+     ],
+     [
+      0.08333,
+      0.73084
+     ],
+     [
+      0.1,
+      0.59153
+     ],
+     [
+      1.98325,
+      0.59153
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #36"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 81,
+    "hi": 81,
+    "median": 81
+   },
+   "features": {
+    "keyMedian": 81,
+    "keyLo": 81,
+    "keyHi": 81,
+    "keySpan": 0,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.623,
+    "centroid": 1732,
+    "brightness": 1.97,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 6"
+  },
+  {
+   "id": "nes:pulse:duty75:env72db987b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.7308,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.86696
+     ],
+     [
+      0.03333,
+      0.86696
+     ],
+     [
+      0.05,
+      0.73084
+     ],
+     [
+      1.98325,
+      0.73084
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 11
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 11
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #36"
+   ],
+   "noteCount": 11,
+   "used": true,
+   "keysPlayed": {
+    "lo": 85,
+    "hi": 114,
+    "median": 100
+   },
+   "features": {
+    "keyMedian": 100,
+    "keyLo": 85,
+    "keyHi": 114,
+    "keySpan": 29,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.753,
+    "centroid": 4510,
+    "brightness": 1.71,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 3"
+  },
+  {
+   "id": "nes:pulse:duty75:env093a9820",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #36"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 81,
+    "hi": 81,
+    "median": 81
+   },
+   "features": {
+    "keyMedian": 81,
+    "keyLo": 81,
+    "keyHi": 81,
+    "keySpan": 0,
+    "medianNote": 49.081,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.959,
+    "centroid": 1732,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 5"
+  },
+  {
+   "id": "nes:triangle:env48a3dbda",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-triangle-envelope",
+     "groupKey": "tri",
+     "sampleCount": 2948
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "dbefed6c0b27b554",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "triangle",
+    "groupKey": "tri",
+    "clusterNotes": 2948
+   },
+   "usedIn": [
+    "Super Mario Bros. 3 #1",
+    "Super Mario Bros. 3 #2",
+    "Super Mario Bros. 3 #3",
+    "Super Mario Bros. 3 #4",
+    "Super Mario Bros. 3 #5",
+    "Super Mario Bros. 3 #7",
+    "Super Mario Bros. 3 #8",
+    "Super Mario Bros. 3 #9",
+    "Super Mario Bros. 3 #10",
+    "Super Mario Bros. 3 #11",
+    "Super Mario Bros. 3 #12",
+    "Super Mario Bros. 3 #13",
+    "Super Mario Bros. 3 #14",
+    "Super Mario Bros. 3 #15",
+    "Super Mario Bros. 3 #17",
+    "Super Mario Bros. 3 #18",
+    "Super Mario Bros. 3 #19",
+    "Super Mario Bros. 3 #20",
+    "Super Mario Bros. 3 #21",
+    "Super Mario Bros. 3 #22",
+    "Super Mario Bros. 3 #23",
+    "Super Mario Bros. 3 #24",
+    "Super Mario Bros. 3 #25",
+    "Super Mario Bros. 3 #26",
+    "Super Mario Bros. 3 #27",
+    "Super Mario Bros. 3 #28",
+    "Super Mario Bros. 3 #29",
+    "Super Mario Bros. 3 #30",
+    "Super Mario Bros. 3 #31",
+    "Super Mario Bros. 3 #32"
+   ],
+   "noteCount": 2948,
+   "used": true,
+   "keysPlayed": {
+    "lo": 27,
+    "hi": 80,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 27,
+    "keyHi": 80,
+    "keySpan": 53,
+    "medianNote": 0.267,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.993,
+    "centroid": 203,
+    "brightness": 1.03,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  }
+ ],
+ "samples": {
+  "511e2b74a88a4d8a": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "511e2b74a88a4d8a.wav"
+  },
+  "dbefed6c0b27b554": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "dbefed6c0b27b554.wav"
+  },
+  "83a3aede5f0edb0d": {
+   "rate": 55930,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "83a3aede5f0edb0d.wav"
+  },
+  "b77f25d77cf617e9": {
+   "rate": 111861,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "b77f25d77cf617e9.wav"
+  },
+  "e3c2fe39b6778838": {
+   "rate": 4710,
+   "length": 1413,
+   "loop": null,
+   "bytes": 2914,
+   "file": "e3c2fe39b6778838.wav"
+  },
+  "d752779a9bacd3d1": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "d752779a9bacd3d1.wav"
+  },
+  "156e74116e651302": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "156e74116e651302.wav"
+  },
+  "bec5b2e9f7d5d794": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "bec5b2e9f7d5d794.wav"
+  }
+ }
+}
