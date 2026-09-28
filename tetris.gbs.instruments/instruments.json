@@ -1,0 +1,3052 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "gb-tetris",
+ "title": "Tetris",
+ "drivers": [
+  "gb"
+ ],
+ "songs": 17,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "gb:noise:s0:w0:env2a717ebc",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1674,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.16743,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s0w0",
+     "sampleCount": 1047
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 0,
+      "width": 0
+     },
+     "sample": "7b16a200c0f4dee8",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.008,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 6795,
+      "brightness": 73.46,
+      "harmonicity": 0.159,
+      "flatness": 0.594,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s0w0",
+    "clusterNotes": 1047
+   },
+   "usedIn": [
+    "Tetris v1.0 #1",
+    "Tetris v1.0 #2",
+    "Tetris v1.0 #3",
+    "Tetris v1.0 #5",
+    "Tetris v1.0 #6",
+    "Tetris v1.0 #7",
+    "Tetris v1.0 #13",
+    "Tetris v1.0 #14",
+    "Tetris v1.0 #17",
+    "Tetris v1.0 #12"
+   ],
+   "noteCount": 1047,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:pulse:duty25:env246f8563",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5023,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.875
+     ],
+     [
+      0.1172,
+      0.875
+     ],
+     [
+      0.13394,
+      0.75
+     ],
+     [
+      0.18417,
+      0.75
+     ],
+     [
+      0.20091,
+      0.625
+     ],
+     [
+      0.2344,
+      0.625
+     ],
+     [
+      0.25114,
+      0.5
+     ],
+     [
+      0.30137,
+      0.5
+     ],
+     [
+      0.31811,
+      0.375
+     ],
+     [
+      0.36834,
+      0.375
+     ],
+     [
+      0.38508,
+      0.25
+     ],
+     [
+      0.43531,
+      0.25
+     ],
+     [
+      0.45205,
+      0.125
+     ],
+     [
+      0.48554,
+      0.125
+     ],
+     [
+      0.50228,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 192
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 192
+   },
+   "usedIn": [
+    "Tetris v1.0 #4",
+    "Tetris v1.0 #1",
+    "Tetris v1.0 #11"
+   ],
+   "noteCount": 192,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 78,
+    "median": 61
+   },
+   "features": {
+    "keyMedian": 61,
+    "keyLo": 45,
+    "keyHi": 78,
+    "keySpan": 33,
+    "medianNote": 0.368,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.41,
+    "sustain": 0,
+    "centroid": 493,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 2"
+  },
+  {
+   "id": "gb:pulse:duty25:env25945591",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2344,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.8
+     ],
+     [
+      0.08371,
+      0.8
+     ],
+     [
+      0.10046,
+      0.6
+     ],
+     [
+      0.13394,
+      0.6
+     ],
+     [
+      0.15068,
+      0.4
+     ],
+     [
+      0.18417,
+      0.4
+     ],
+     [
+      0.20091,
+      0.2
+     ],
+     [
+      0.21766,
+      0.2
+     ],
+     [
+      0.2344,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 187
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 187
+   },
+   "usedIn": [
+    "Tetris v1.0 #3"
+   ],
+   "noteCount": 187,
+   "used": true,
+   "keysPlayed": {
+    "lo": 54,
+    "hi": 71,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 54,
+    "keyHi": 71,
+    "keySpan": 17,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.19,
+    "sustain": 0,
+    "centroid": 586,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 2"
+  },
+  {
+   "id": "gb:pulse:duty25:envfb200f31",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4521,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.85714
+     ],
+     [
+      0.1172,
+      0.85714
+     ],
+     [
+      0.13394,
+      0.71429
+     ],
+     [
+      0.18417,
+      0.71429
+     ],
+     [
+      0.20091,
+      0.57143
+     ],
+     [
+      0.2344,
+      0.57143
+     ],
+     [
+      0.25114,
+      0.42857
+     ],
+     [
+      0.30137,
+      0.42857
+     ],
+     [
+      0.31811,
+      0.28571
+     ],
+     [
+      0.36834,
+      0.28571
+     ],
+     [
+      0.38508,
+      0.14286
+     ],
+     [
+      0.43531,
+      0.14286
+     ],
+     [
+      0.45205,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 241
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 241
+   },
+   "usedIn": [
+    "Tetris v1.0 #4",
+    "Tetris v1.0 #9"
+   ],
+   "noteCount": 241,
+   "used": true,
+   "keysPlayed": {
+    "lo": 61,
+    "hi": 86,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 61,
+    "keyHi": 86,
+    "keySpan": 25,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.365,
+    "sustain": 0,
+    "centroid": 982,
+    "brightness": 1.77,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet"
+  },
+  {
+   "id": "gb:pulse:duty50:env01fae245",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.83333
+     ],
+     [
+      0.05023,
+      0.83333
+     ],
+     [
+      0.06697,
+      0.66667
+     ],
+     [
+      0.08371,
+      0.66667
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.13394,
+      0.33333
+     ],
+     [
+      0.15068,
+      0.33333
+     ],
+     [
+      0.16743,
+      0.16667
+     ],
+     [
+      0.18417,
+      0.16667
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 25
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 25
+   },
+   "usedIn": [
+    "Tetris v1.0 #3",
+    "Tetris v1.0 #7"
+   ],
+   "noteCount": 25,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 87,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 59,
+    "keyHi": 87,
+    "keySpan": 28,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.16,
+    "sustain": 0,
+    "centroid": 532,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 4"
+  },
+  {
+   "id": "gb:pulse:duty50:env2a7b390e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5693,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.91667
+     ],
+     [
+      0.08371,
+      0.91667
+     ],
+     [
+      0.10046,
+      0.83333
+     ],
+     [
+      0.13394,
+      0.83333
+     ],
+     [
+      0.15068,
+      0.75
+     ],
+     [
+      0.18417,
+      0.75
+     ],
+     [
+      0.20091,
+      0.66667
+     ],
+     [
+      0.21766,
+      0.66667
+     ],
+     [
+      0.2344,
+      0.58333
+     ],
+     [
+      0.26788,
+      0.58333
+     ],
+     [
+      0.28463,
+      0.5
+     ],
+     [
+      0.31811,
+      0.5
+     ],
+     [
+      0.33485,
+      0.41667
+     ],
+     [
+      0.36834,
+      0.41667
+     ],
+     [
+      0.38508,
+      0.33333
+     ],
+     [
+      0.41857,
+      0.33333
+     ],
+     [
+      0.43531,
+      0.25
+     ],
+     [
+      0.45205,
+      0.25
+     ],
+     [
+      0.4688,
+      0.16667
+     ],
+     [
+      0.50228,
+      0.16667
+     ],
+     [
+      0.51902,
+      0.08333
+     ],
+     [
+      0.55251,
+      0.08333
+     ],
+     [
+      0.56925,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 65
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 65
+   },
+   "usedIn": [
+    "Tetris v1.0 #1",
+    "Tetris v1.0 #5"
+   ],
+   "noteCount": 65,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 88,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 63,
+    "keyHi": 88,
+    "keySpan": 25,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.46,
+    "sustain": 0,
+    "centroid": 751,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 5"
+  },
+  {
+   "id": "gb:pulse:duty50:env4ea7ac16",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5693,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.83333
+     ],
+     [
+      0.18417,
+      0.83333
+     ],
+     [
+      0.20091,
+      0.66667
+     ],
+     [
+      0.26788,
+      0.66667
+     ],
+     [
+      0.28463,
+      0.5
+     ],
+     [
+      0.36834,
+      0.5
+     ],
+     [
+      0.38508,
+      0.33333
+     ],
+     [
+      0.45205,
+      0.33333
+     ],
+     [
+      0.4688,
+      0.16667
+     ],
+     [
+      0.55251,
+      0.16667
+     ],
+     [
+      0.56925,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 21
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 21
+   },
+   "usedIn": [
+    "Tetris v1.0 #1"
+   ],
+   "noteCount": 21,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 82,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 72,
+    "keyHi": 82,
+    "keySpan": 10,
+    "medianNote": 0.553,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.405,
+    "sustain": 0,
+    "centroid": 1258,
+    "brightness": 1.6,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "gb:pulse:duty50:env7ad66de4",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2846,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.88889
+     ],
+     [
+      0.05023,
+      0.88889
+     ],
+     [
+      0.06697,
+      0.77778
+     ],
+     [
+      0.08371,
+      0.77778
+     ],
+     [
+      0.10046,
+      0.66667
+     ],
+     [
+      0.1172,
+      0.66667
+     ],
+     [
+      0.13394,
+      0.55556
+     ],
+     [
+      0.15068,
+      0.55556
+     ],
+     [
+      0.16743,
+      0.44444
+     ],
+     [
+      0.18417,
+      0.44444
+     ],
+     [
+      0.20091,
+      0.33333
+     ],
+     [
+      0.21766,
+      0.33333
+     ],
+     [
+      0.25114,
+      0.11111
+     ],
+     [
+      0.26788,
+      0.11111
+     ],
+     [
+      0.28463,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 9
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 9
+   },
+   "usedIn": [
+    "Tetris v1.0 #8"
+   ],
+   "noteCount": 9,
+   "used": true,
+   "keysPlayed": {
+    "lo": 74,
+    "hi": 77,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 74,
+    "keyHi": 77,
+    "keySpan": 3,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.23,
+    "sustain": 0,
+    "centroid": 1059,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 6"
+  },
+  {
+   "id": "gb:pulse:duty50:env7b871048",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1005,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.66667
+     ],
+     [
+      0.05023,
+      0.66667
+     ],
+     [
+      0.06697,
+      0.33333
+     ],
+     [
+      0.08371,
+      0.33333
+     ],
+     [
+      0.10046,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 20
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 20
+   },
+   "usedIn": [
+    "Tetris v1.0 #3"
+   ],
+   "noteCount": 20,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 64,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 59,
+    "keyHi": 64,
+    "keySpan": 5,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.085,
+    "sustain": 0,
+    "centroid": 532,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 5"
+  },
+  {
+   "id": "gb:pulse:duty50:env7f90ae61",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.9376,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.91667
+     ],
+     [
+      0.15068,
+      0.91667
+     ],
+     [
+      0.16743,
+      0.83333
+     ],
+     [
+      0.21766,
+      0.83333
+     ],
+     [
+      0.2344,
+      0.75
+     ],
+     [
+      0.30137,
+      0.75
+     ],
+     [
+      0.31811,
+      0.66667
+     ],
+     [
+      0.38508,
+      0.66667
+     ],
+     [
+      0.40182,
+      0.58333
+     ],
+     [
+      0.45205,
+      0.58333
+     ],
+     [
+      0.4688,
+      0.5
+     ],
+     [
+      0.53577,
+      0.5
+     ],
+     [
+      0.55251,
+      0.41667
+     ],
+     [
+      0.61948,
+      0.41667
+     ],
+     [
+      0.63622,
+      0.33333
+     ],
+     [
+      0.68645,
+      0.33333
+     ],
+     [
+      0.70319,
+      0.25
+     ],
+     [
+      0.77016,
+      0.25
+     ],
+     [
+      0.78691,
+      0.16667
+     ],
+     [
+      0.85388,
+      0.16667
+     ],
+     [
+      0.87062,
+      0.08333
+     ],
+     [
+      0.92085,
+      0.08333
+     ],
+     [
+      0.93759,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 50
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 50
+   },
+   "usedIn": [
+    "Tetris v1.0 #1"
+   ],
+   "noteCount": 50,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 75,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 62,
+    "keyHi": 75,
+    "keySpan": 13,
+    "medianNote": 0.402,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.74,
+    "sustain": 0,
+    "centroid": 751,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 6"
+  },
+  {
+   "id": "gb:pulse:duty50:env8ac77edd",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.83333
+     ],
+     [
+      0.05023,
+      0.83333
+     ],
+     [
+      0.06697,
+      0.66667
+     ],
+     [
+      0.08371,
+      0.66667
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.13394,
+      0.33333
+     ],
+     [
+      0.15068,
+      0.33333
+     ],
+     [
+      0.16743,
+      0.16667
+     ],
+     [
+      0.18417,
+      0.16667
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 284
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 284
+   },
+   "usedIn": [
+    "Tetris v1.0 #6",
+    "Tetris v1.0 #13",
+    "Tetris v1.0 #14"
+   ],
+   "noteCount": 284,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 81,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 67,
+    "keyHi": 81,
+    "keySpan": 14,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.165,
+    "sustain": 0,
+    "centroid": 751,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck"
+  },
+  {
+   "id": "gb:pulse:duty50:env8ec5c482",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 537
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 537
+   },
+   "usedIn": [
+    "Tetris v1.0 #15",
+    "Tetris v1.0 #16",
+    "Tetris v1.0 #17"
+   ],
+   "noteCount": 537,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 82,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 58,
+    "keyHi": 82,
+    "keySpan": 24,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 751,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 2"
+  },
+  {
+   "id": "gb:pulse:duty50:env9b2e10b1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1507,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.15068,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Tetris v1.0 #7"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 77,
+    "hi": 82,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 77,
+    "keyHi": 82,
+    "keySpan": 5,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.12,
+    "sustain": 0,
+    "centroid": 1258,
+    "brightness": 1.6,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 2"
+  },
+  {
+   "id": "gb:pulse:duty50:env30c58a79",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3516,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.90909
+     ],
+     [
+      0.05023,
+      0.90909
+     ],
+     [
+      0.06697,
+      0.81818
+     ],
+     [
+      0.08371,
+      0.81818
+     ],
+     [
+      0.10046,
+      0.72727
+     ],
+     [
+      0.1172,
+      0.72727
+     ],
+     [
+      0.13394,
+      0.63636
+     ],
+     [
+      0.15068,
+      0.63636
+     ],
+     [
+      0.16743,
+      0.54545
+     ],
+     [
+      0.18417,
+      0.54545
+     ],
+     [
+      0.20091,
+      0.45455
+     ],
+     [
+      0.21766,
+      0.45455
+     ],
+     [
+      0.25114,
+      0.27273
+     ],
+     [
+      0.26788,
+      0.27273
+     ],
+     [
+      0.28463,
+      0.18182
+     ],
+     [
+      0.30137,
+      0.18182
+     ],
+     [
+      0.31811,
+      0.09091
+     ],
+     [
+      0.33485,
+      0.09091
+     ],
+     [
+      0.3516,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 140
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 140
+   },
+   "usedIn": [
+    "Tetris v1.0 #8",
+    "Tetris v1.0 #12",
+    "Tetris v1.0 #14",
+    "Tetris v1.0 #10",
+    "Tetris v1.0 #11"
+   ],
+   "noteCount": 140,
+   "used": true,
+   "keysPlayed": {
+    "lo": 61,
+    "hi": 84,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 61,
+    "keyHi": 84,
+    "keySpan": 23,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.27,
+    "sustain": 0,
+    "centroid": 892,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 3"
+  },
+  {
+   "id": "gb:pulse:duty50:env36e10fbe",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3181,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.8
+     ],
+     [
+      0.1172,
+      0.8
+     ],
+     [
+      0.13394,
+      0.6
+     ],
+     [
+      0.18417,
+      0.6
+     ],
+     [
+      0.20091,
+      0.4
+     ],
+     [
+      0.2344,
+      0.4
+     ],
+     [
+      0.25114,
+      0.2
+     ],
+     [
+      0.30137,
+      0.2
+     ],
+     [
+      0.31811,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 101
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 101
+   },
+   "usedIn": [
+    "Tetris v1.0 #2",
+    "Tetris v1.0 #12"
+   ],
+   "noteCount": 101,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 81,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 64,
+    "keyHi": 81,
+    "keySpan": 17,
+    "medianNote": 0.301,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.215,
+    "sustain": 0,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 3"
+  },
+  {
+   "id": "gb:pulse:duty50:env665abf59",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2511,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.875
+     ],
+     [
+      0.05023,
+      0.875
+     ],
+     [
+      0.06697,
+      0.75
+     ],
+     [
+      0.08371,
+      0.75
+     ],
+     [
+      0.10046,
+      0.625
+     ],
+     [
+      0.1172,
+      0.625
+     ],
+     [
+      0.13394,
+      0.5
+     ],
+     [
+      0.15068,
+      0.5
+     ],
+     [
+      0.16743,
+      0.375
+     ],
+     [
+      0.18417,
+      0.375
+     ],
+     [
+      0.20091,
+      0.25
+     ],
+     [
+      0.21766,
+      0.25
+     ],
+     [
+      0.25114,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 725
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 725
+   },
+   "usedIn": [
+    "Tetris v1.0 #3",
+    "Tetris v1.0 #6",
+    "Tetris v1.0 #2"
+   ],
+   "noteCount": 725,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 89,
+    "median": 77
+   },
+   "features": {
+    "keyMedian": 77,
+    "keyLo": 58,
+    "keyHi": 89,
+    "keySpan": 31,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.225,
+    "sustain": 0,
+    "centroid": 1122,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck"
+  },
+  {
+   "id": "gb:pulse:duty50:envd4ed2a17",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5023,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.875
+     ],
+     [
+      0.1172,
+      0.875
+     ],
+     [
+      0.13394,
+      0.75
+     ],
+     [
+      0.18417,
+      0.75
+     ],
+     [
+      0.20091,
+      0.625
+     ],
+     [
+      0.2344,
+      0.625
+     ],
+     [
+      0.25114,
+      0.5
+     ],
+     [
+      0.30137,
+      0.5
+     ],
+     [
+      0.31811,
+      0.375
+     ],
+     [
+      0.36834,
+      0.375
+     ],
+     [
+      0.38508,
+      0.25
+     ],
+     [
+      0.43531,
+      0.25
+     ],
+     [
+      0.45205,
+      0.125
+     ],
+     [
+      0.48554,
+      0.125
+     ],
+     [
+      0.50228,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 121
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 121
+   },
+   "usedIn": [
+    "Tetris v1.0 #2"
+   ],
+   "noteCount": 121,
+   "used": true,
+   "keysPlayed": {
+    "lo": 66,
+    "hi": 86,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 66,
+    "keyHi": 86,
+    "keySpan": 20,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.41,
+    "sustain": 0,
+    "centroid": 892,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 4"
+  },
+  {
+   "id": "gb:pulse:duty50:envfb730fb4",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4521,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.85714
+     ],
+     [
+      0.1172,
+      0.85714
+     ],
+     [
+      0.13394,
+      0.71429
+     ],
+     [
+      0.18417,
+      0.71429
+     ],
+     [
+      0.20091,
+      0.57143
+     ],
+     [
+      0.2344,
+      0.57143
+     ],
+     [
+      0.25114,
+      0.42857
+     ],
+     [
+      0.30137,
+      0.42857
+     ],
+     [
+      0.31811,
+      0.28571
+     ],
+     [
+      0.36834,
+      0.28571
+     ],
+     [
+      0.38508,
+      0.14286
+     ],
+     [
+      0.43531,
+      0.14286
+     ],
+     [
+      0.45205,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 42
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 42
+   },
+   "usedIn": [
+    "Tetris v1.0 #1"
+   ],
+   "noteCount": 42,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 75,
+    "median": 63
+   },
+   "features": {
+    "keyMedian": 63,
+    "keyLo": 58,
+    "keyHi": 75,
+    "keySpan": 17,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.365,
+    "sustain": 0,
+    "centroid": 502,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 7"
+  },
+  {
+   "id": "gb:pulse:duty50:envfed3c93b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 540
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 540
+   },
+   "usedIn": [
+    "Tetris v1.0 #15",
+    "Tetris v1.0 #16",
+    "Tetris v1.0 #17"
+   ],
+   "noteCount": 540,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 82,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 58,
+    "keyHi": 82,
+    "keySpan": 24,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 751,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like"
+  },
+  {
+   "id": "gb:pulse:duty75:env57a3c2a1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4353,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.88889
+     ],
+     [
+      0.08371,
+      0.88889
+     ],
+     [
+      0.10046,
+      0.77778
+     ],
+     [
+      0.13394,
+      0.77778
+     ],
+     [
+      0.15068,
+      0.66667
+     ],
+     [
+      0.18417,
+      0.66667
+     ],
+     [
+      0.20091,
+      0.55556
+     ],
+     [
+      0.21766,
+      0.55556
+     ],
+     [
+      0.2344,
+      0.44444
+     ],
+     [
+      0.26788,
+      0.44444
+     ],
+     [
+      0.28463,
+      0.33333
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.33485,
+      0.22222
+     ],
+     [
+      0.36834,
+      0.22222
+     ],
+     [
+      0.38508,
+      0.11111
+     ],
+     [
+      0.41857,
+      0.11111
+     ],
+     [
+      0.43531,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 22
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 22
+   },
+   "usedIn": [
+    "Tetris v1.0 #5"
+   ],
+   "noteCount": 22,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 73,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 63,
+    "keyHi": 73,
+    "keySpan": 10,
+    "medianNote": 0.301,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.37,
+    "sustain": 0,
+    "centroid": 696,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 8"
+  },
+  {
+   "id": "gb:wave:63db546e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:2c0617850af2d27c",
+     "sampleCount": 1139
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "a8983a32db3a0c7d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:2c0617850af2d27c",
+    "clusterNotes": 1139
+   },
+   "usedIn": [
+    "Tetris v1.0 #1",
+    "Tetris v1.0 #2",
+    "Tetris v1.0 #3",
+    "Tetris v1.0 #5",
+    "Tetris v1.0 #6",
+    "Tetris v1.0 #7",
+    "Tetris v1.0 #8",
+    "Tetris v1.0 #10",
+    "Tetris v1.0 #11",
+    "Tetris v1.0 #12",
+    "Tetris v1.0 #14",
+    "Tetris v1.0 #15",
+    "Tetris v1.0 #16"
+   ],
+   "noteCount": 1139,
+   "used": true,
+   "keysPlayed": {
+    "lo": 24,
+    "hi": 74,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 24,
+    "keyHi": 74,
+    "keySpan": 50,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.915,
+    "centroid": 332,
+    "brightness": 1.51,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  },
+  {
+   "id": "gb:wave:3688d243",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:31173e1052278026",
+     "sampleCount": 234
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "2fa99e7021db9ca7",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:31173e1052278026",
+    "clusterNotes": 234
+   },
+   "usedIn": [
+    "Tetris v1.0 #17"
+   ],
+   "noteCount": 234,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 79,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 58,
+    "keyHi": 79,
+    "keySpan": 21,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.968,
+    "centroid": 480,
+    "brightness": 1.03,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 2"
+  }
+ ],
+ "samples": {
+  "21cfc05102f314ad": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "21cfc05102f314ad.wav"
+  },
+  "ea6335b24e5659b4": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "ea6335b24e5659b4.wav"
+  },
+  "a8983a32db3a0c7d": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "a8983a32db3a0c7d.wav"
+  },
+  "7b16a200c0f4dee8": {
+   "rate": 524288,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "7b16a200c0f4dee8.wav"
+  },
+  "7c708855ea845d72": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "7c708855ea845d72.wav"
+  },
+  "2fa99e7021db9ca7": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "2fa99e7021db9ca7.wav"
+  }
+ }
+}
