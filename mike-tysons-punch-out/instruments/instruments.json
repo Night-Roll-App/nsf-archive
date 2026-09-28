@@ -1,0 +1,6175 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "nes-mike-tysons-punch-out",
+ "title": "",
+ "drivers": [
+  "nes"
+ ],
+ "songs": 40,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "nes:noise:p8:m0:envfd98ea06",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      0.6274
+     ],
+     [
+      0.1,
+      0.21914
+     ],
+     [
+      0.11666,
+      0.07423
+     ],
+     [
+      0.13333,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p8m0",
+     "sampleCount": 12
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 8,
+      "mode": 0
+     },
+     "sample": "f392073fc631e05d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.117,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.018,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 7957,
+      "brightness": 86.02,
+      "harmonicity": 0.15,
+      "flatness": 0.582,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p8m0",
+    "clusterNotes": 12
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #1",
+    "Mike Tyson's Punch-Out #3",
+    "Mike Tyson's Punch-Out #11",
+    "Mike Tyson's Punch-Out #12"
+   ],
+   "noteCount": 12,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 7",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p16:m0:envb514f40a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.45,
+    "sustain": 0.0844,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.85884
+     ],
+     [
+      0.11666,
+      0.40877
+     ],
+     [
+      0.13333,
+      0.4867
+     ],
+     [
+      0.16666,
+      0.3296
+     ],
+     [
+      0.18333,
+      0.40877
+     ],
+     [
+      0.19999,
+      0.3296
+     ],
+     [
+      0.21666,
+      0.40877
+     ],
+     [
+      0.24999,
+      0.24917
+     ],
+     [
+      0.26666,
+      0.3296
+     ],
+     [
+      0.28332,
+      0.24917
+     ],
+     [
+      0.29999,
+      0.3296
+     ],
+     [
+      0.33332,
+      0.16745
+     ],
+     [
+      0.34999,
+      0.24917
+     ],
+     [
+      0.36665,
+      0.16745
+     ],
+     [
+      0.38332,
+      0.24917
+     ],
+     [
+      0.39998,
+      0.16745
+     ],
+     [
+      0.41665,
+      0.24917
+     ],
+     [
+      0.44998,
+      0.0844
+     ],
+     [
+      0.46665,
+      0.16745
+     ],
+     [
+      0.48331,
+      0.0844
+     ],
+     [
+      0.49998,
+      0.16745
+     ],
+     [
+      0.51665,
+      0.0844
+     ],
+     [
+      0.53331,
+      0.16745
+     ],
+     [
+      0.54998,
+      0.0844
+     ],
+     [
+      0.56664,
+      0.16745
+     ],
+     [
+      0.58331,
+      0.0844
+     ],
+     [
+      1.98325,
+      0.0844
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p16m0",
+     "sampleCount": 81
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 16,
+      "mode": 0
+     },
+     "sample": "b77f25d77cf617e9",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.467,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.037,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.04,
+      "sustain": 0,
+      "centroid": 7790,
+      "brightness": 84.22,
+      "harmonicity": 0.124,
+      "flatness": 0.554,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p16m0",
+    "clusterNotes": 81
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #1",
+    "Mike Tyson's Punch-Out #2",
+    "Mike Tyson's Punch-Out #3",
+    "Mike Tyson's Punch-Out #11",
+    "Mike Tyson's Punch-Out #12",
+    "Mike Tyson's Punch-Out #14"
+   ],
+   "noteCount": 81,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 5",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p32:m0:env7e0ccf4e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.45,
+    "sustain": 0.0844,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.85884
+     ],
+     [
+      0.11666,
+      0.40877
+     ],
+     [
+      0.13333,
+      0.4867
+     ],
+     [
+      0.16666,
+      0.3296
+     ],
+     [
+      0.18333,
+      0.40877
+     ],
+     [
+      0.19999,
+      0.3296
+     ],
+     [
+      0.21666,
+      0.40877
+     ],
+     [
+      0.24999,
+      0.24917
+     ],
+     [
+      0.26666,
+      0.3296
+     ],
+     [
+      0.28332,
+      0.24917
+     ],
+     [
+      0.29999,
+      0.3296
+     ],
+     [
+      0.33332,
+      0.16745
+     ],
+     [
+      0.34999,
+      0.24917
+     ],
+     [
+      0.36665,
+      0.16745
+     ],
+     [
+      0.38332,
+      0.24917
+     ],
+     [
+      0.39998,
+      0.16745
+     ],
+     [
+      0.41665,
+      0.24917
+     ],
+     [
+      0.44998,
+      0.0844
+     ],
+     [
+      0.46665,
+      0.16745
+     ],
+     [
+      0.48331,
+      0.0844
+     ],
+     [
+      0.49998,
+      0.16745
+     ],
+     [
+      0.51665,
+      0.0844
+     ],
+     [
+      0.53331,
+      0.16745
+     ],
+     [
+      0.54998,
+      0.0844
+     ],
+     [
+      0.56664,
+      0.16745
+     ],
+     [
+      0.58331,
+      0.0844
+     ],
+     [
+      1.98325,
+      0.0844
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p32m0",
+     "sampleCount": 54
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 32,
+      "mode": 0
+     },
+     "sample": "83a3aede5f0edb0d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.4,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.073,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.075,
+      "sustain": 0,
+      "centroid": 8019,
+      "brightness": 86.7,
+      "harmonicity": 0.116,
+      "flatness": 0.586,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p32m0",
+    "clusterNotes": 54
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #1",
+    "Mike Tyson's Punch-Out #3",
+    "Mike Tyson's Punch-Out #8",
+    "Mike Tyson's Punch-Out #11",
+    "Mike Tyson's Punch-Out #12",
+    "Mike Tyson's Punch-Out #13",
+    "Mike Tyson's Punch-Out #14",
+    "Mike Tyson's Punch-Out #15",
+    "Mike Tyson's Punch-Out #17",
+    "Mike Tyson's Punch-Out #18"
+   ],
+   "noteCount": 54,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 6",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p32:m0:env479c7ffa",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.5634,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.85884
+     ],
+     [
+      0.08333,
+      0.56343
+     ],
+     [
+      1.98325,
+      0.56343
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p32m0",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 32,
+      "mode": 0
+     },
+     "sample": "83a3aede5f0edb0d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.1,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.073,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.075,
+      "sustain": 0,
+      "centroid": 8019,
+      "brightness": 86.7,
+      "harmonicity": 0.116,
+      "flatness": 0.586,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p32m0",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #16",
+    "Mike Tyson's Punch-Out #11"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 8",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p32:m0:env456863fe",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p32m0",
+     "sampleCount": 91
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 32,
+      "mode": 0
+     },
+     "sample": "83a3aede5f0edb0d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.133,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.073,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.075,
+      "sustain": 0,
+      "centroid": 8015,
+      "brightness": 86.65,
+      "harmonicity": 0.087,
+      "flatness": 0.589,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p32m0",
+    "clusterNotes": 91
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #4",
+    "Mike Tyson's Punch-Out #8",
+    "Mike Tyson's Punch-Out #9",
+    "Mike Tyson's Punch-Out #16",
+    "Mike Tyson's Punch-Out #17"
+   ],
+   "noteCount": 91,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 4",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p128:m0:enve2517b4f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p128m0",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 128,
+      "mode": 0
+     },
+     "sample": "02abdb4410d126c1",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.083,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.293,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.295,
+      "sustain": 0,
+      "centroid": 2656,
+      "brightness": 36.18,
+      "harmonicity": 0.24,
+      "flatness": 0.329,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p128m0",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #9",
+    "Mike Tyson's Punch-Out #40"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 15",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p160:m0:envf01a4b33",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p160m0",
+     "sampleCount": 116
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 160,
+      "mode": 0
+     },
+     "sample": "4905a206193949d9",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.083,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.28,
+      "sustain": 0,
+      "centroid": 2125,
+      "brightness": 28.95,
+      "harmonicity": 0.294,
+      "flatness": 0.154,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p160m0",
+    "clusterNotes": 116
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #9",
+    "Mike Tyson's Punch-Out #16",
+    "Mike Tyson's Punch-Out #20",
+    "Mike Tyson's Punch-Out #29",
+    "Mike Tyson's Punch-Out #30"
+   ],
+   "noteCount": 116,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 2",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p202:m0:env7471df40",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p202m0",
+     "sampleCount": 199
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 202,
+      "mode": 0
+     },
+     "sample": "accf980e05b24066",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.167,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.275,
+      "sustain": 0,
+      "centroid": 1620,
+      "brightness": 22.06,
+      "harmonicity": 0.331,
+      "flatness": 0.052,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p202m0",
+    "clusterNotes": 199
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #9",
+    "Mike Tyson's Punch-Out #17",
+    "Mike Tyson's Punch-Out #20",
+    "Mike Tyson's Punch-Out #29"
+   ],
+   "noteCount": 199,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p254:m0:env919ed0ad",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p254m0",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 254,
+      "mode": 0
+     },
+     "sample": "3bf18bc59590df32",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.235,
+      "sustain": 0,
+      "centroid": 1253,
+      "brightness": 17.07,
+      "harmonicity": 0.346,
+      "flatness": 0.028,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p254m0",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #29",
+    "Mike Tyson's Punch-Out #30"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 12",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p380:m0:envdca6fc4d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p380m0",
+     "sampleCount": 111
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 380,
+      "mode": 0
+     },
+     "sample": "e3c2fe39b6778838",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.167,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.075,
+      "t20": 0.035,
+      "sustain": 0,
+      "centroid": 876,
+      "brightness": 11.94,
+      "harmonicity": 0.185,
+      "flatness": 0.008,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p380m0",
+    "clusterNotes": 111
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #9",
+    "Mike Tyson's Punch-Out #15",
+    "Mike Tyson's Punch-Out #18",
+    "Mike Tyson's Punch-Out #20",
+    "Mike Tyson's Punch-Out #27",
+    "Mike Tyson's Punch-Out #29",
+    "Mike Tyson's Punch-Out #30",
+    "Mike Tyson's Punch-Out #40"
+   ],
+   "noteCount": 111,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 3",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p508:m0:env8f967de1",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p508m0",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 508,
+      "mode": 0
+     },
+     "sample": "a223303b6af4932e",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.03,
+      "t20": 0.125,
+      "sustain": 0,
+      "centroid": 620,
+      "brightness": 8.45,
+      "harmonicity": 0.287,
+      "flatness": 0.003,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p508m0",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #29",
+    "Mike Tyson's Punch-Out #30",
+    "Mike Tyson's Punch-Out #40"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 13",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p762:m0:envc2a344ad",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p762m0",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 762,
+      "mode": 0
+     },
+     "sample": "3a611f0a516f4ad7",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.095,
+      "t20": 0.205,
+      "sustain": 0,
+      "centroid": 470,
+      "brightness": 7.61,
+      "harmonicity": 0.476,
+      "flatness": 0.001,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p762m0",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #29",
+    "Mike Tyson's Punch-Out #30",
+    "Mike Tyson's Punch-Out #40"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 10",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p1016:m0:env578f1bbb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p1016m0",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 1016,
+      "mode": 0
+     },
+     "sample": "bdcdc06995a55bd8",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 327,
+      "brightness": 5.29,
+      "harmonicity": 0.606,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p1016m0",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #29",
+    "Mike Tyson's Punch-Out #30"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 14",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p2034:m0:env92c1dcdb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p2034m0",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 2034,
+      "mode": 0
+     },
+     "sample": "6d02335f363abafa",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 173,
+      "brightness": 2.8,
+      "harmonicity": 0.853,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p2034m0",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #29",
+    "Mike Tyson's Punch-Out #30"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 11",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p4068:m0:envc67f791e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p4068m0",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 4068,
+      "mode": 0
+     },
+     "sample": "4004e82e3c674467",
+     "loop": null,
+     "nameGuess": "Kick",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 84,
+      "brightness": 1.36,
+      "harmonicity": 0.966,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p4068m0",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #29",
+    "Mike Tyson's Punch-Out #30"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 9",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:pulse:duty12.5:env8cdd627c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0333,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.17427
+     ],
+     [
+      1.98325,
+      1.17427
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #39"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 54,
+    "hi": 54,
+    "median": 54
+   },
+   "features": {
+    "keyMedian": 54,
+    "keyLo": 54,
+    "keyHi": 54,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.025,
+    "t20": null,
+    "sustain": 0.95,
+    "centroid": 540,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 14"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env12a667be",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.8166,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.94313
+     ],
+     [
+      0.1,
+      0.94313
+     ],
+     [
+      0.11666,
+      0.88505
+     ],
+     [
+      0.14999,
+      0.88505
+     ],
+     [
+      0.16666,
+      0.82573
+     ],
+     [
+      0.19999,
+      0.82573
+     ],
+     [
+      0.21666,
+      0.76512
+     ],
+     [
+      0.26666,
+      0.76512
+     ],
+     [
+      0.28332,
+      0.70318
+     ],
+     [
+      0.31665,
+      0.70318
+     ],
+     [
+      0.33332,
+      0.63988
+     ],
+     [
+      0.36665,
+      0.63988
+     ],
+     [
+      0.38332,
+      0.57515
+     ],
+     [
+      0.41665,
+      0.57515
+     ],
+     [
+      0.43332,
+      0.50896
+     ],
+     [
+      0.48331,
+      0.50896
+     ],
+     [
+      0.49998,
+      0.44125
+     ],
+     [
+      0.53331,
+      0.44125
+     ],
+     [
+      0.54998,
+      0.37197
+     ],
+     [
+      0.58331,
+      0.37197
+     ],
+     [
+      0.59998,
+      0.30106
+     ],
+     [
+      0.63331,
+      0.30106
+     ],
+     [
+      0.64997,
+      0.22848
+     ],
+     [
+      0.69997,
+      0.22848
+     ],
+     [
+      0.71664,
+      0.15415
+     ],
+     [
+      0.74997,
+      0.15415
+     ],
+     [
+      0.76664,
+      0.07801
+     ],
+     [
+      0.79997,
+      0.07801
+     ],
+     [
+      0.81663,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 51
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 51
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #17",
+    "Mike Tyson's Punch-Out #20"
+   ],
+   "noteCount": 51,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 81,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 59,
+    "keyHi": 81,
+    "keySpan": 22,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.68,
+    "sustain": 0,
+    "centroid": 2271,
+    "brightness": 2.9,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env26ba05bd",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0333,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.30698
+     ],
+     [
+      1.98325,
+      1.30698
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #36"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 56,
+    "median": 56
+   },
+   "features": {
+    "keyMedian": 56,
+    "keyLo": 56,
+    "keyHi": 56,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.13,
+    "t20": null,
+    "sustain": 0.898,
+    "centroid": 607,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 3"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envde5b840c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 28
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 28
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #28",
+    "Mike Tyson's Punch-Out #36",
+    "Mike Tyson's Punch-Out #37",
+    "Mike Tyson's Punch-Out #38",
+    "Mike Tyson's Punch-Out #39"
+   ],
+   "noteCount": 28,
+   "used": true,
+   "keysPlayed": {
+    "lo": 47,
+    "hi": 85,
+    "median": 58
+   },
+   "features": {
+    "keyMedian": 58,
+    "keyLo": 47,
+    "keyHi": 85,
+    "keySpan": 38,
+    "medianNote": 0.017,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.794,
+    "centroid": 681,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 7"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envf51e5c8d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.8851,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.94313
+     ],
+     [
+      0.03333,
+      0.94313
+     ],
+     [
+      0.05,
+      0.88505
+     ],
+     [
+      1.98325,
+      0.88505
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #38"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 55,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 55,
+    "keyHi": 55,
+    "keySpan": 0,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.883,
+    "centroid": 573,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 15"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envfbc45ffb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.8645,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.86449
+     ],
+     [
+      1.98325,
+      0.86449
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #37",
+    "Mike Tyson's Punch-Out #38",
+    "Mike Tyson's Punch-Out #36",
+    "Mike Tyson's Punch-Out #39"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 55,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 52,
+    "keyHi": 55,
+    "keySpan": 3,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.846,
+    "centroid": 573,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 8"
+  },
+  {
+   "id": "nes:pulse:duty25:env3d9ef95a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3333,
+    "sustain": 0.1768,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.84299
+     ],
+     [
+      0.11666,
+      0.84299
+     ],
+     [
+      0.13333,
+      0.6823
+     ],
+     [
+      0.18333,
+      0.6823
+     ],
+     [
+      0.19999,
+      0.5178
+     ],
+     [
+      0.24999,
+      0.5178
+     ],
+     [
+      0.26666,
+      0.34934
+     ],
+     [
+      0.31665,
+      0.34934
+     ],
+     [
+      0.33332,
+      0.17679
+     ],
+     [
+      1.98325,
+      0.17679
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 105
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 105
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #1",
+    "Mike Tyson's Punch-Out #2",
+    "Mike Tyson's Punch-Out #3",
+    "Mike Tyson's Punch-Out #11",
+    "Mike Tyson's Punch-Out #12"
+   ],
+   "noteCount": 105,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 84,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 55,
+    "keyHi": 84,
+    "keySpan": 29,
+    "medianNote": 0.35,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.325,
+    "sustain": 0.172,
+    "centroid": 733,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 2"
+  },
+  {
+   "id": "nes:pulse:duty25:env3dd0fb5b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.6823,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.84299
+     ],
+     [
+      0.11666,
+      0.84299
+     ],
+     [
+      0.13333,
+      0.6823
+     ],
+     [
+      1.98325,
+      0.6823
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #11"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 55,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 55,
+    "keyHi": 55,
+    "keySpan": 0,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.67,
+    "centroid": 389,
+    "brightness": 1.99,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 9"
+  },
+  {
+   "id": "nes:pulse:duty25:env4a999c7c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5666,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.94313
+     ],
+     [
+      0.06666,
+      0.94313
+     ],
+     [
+      0.08333,
+      0.88505
+     ],
+     [
+      0.1,
+      0.88505
+     ],
+     [
+      0.11666,
+      0.82573
+     ],
+     [
+      0.13333,
+      0.82573
+     ],
+     [
+      0.14999,
+      0.76512
+     ],
+     [
+      0.18333,
+      0.76512
+     ],
+     [
+      0.19999,
+      0.70318
+     ],
+     [
+      0.21666,
+      0.70318
+     ],
+     [
+      0.23332,
+      0.63988
+     ],
+     [
+      0.24999,
+      0.63988
+     ],
+     [
+      0.26666,
+      0.57515
+     ],
+     [
+      0.28332,
+      0.57515
+     ],
+     [
+      0.29999,
+      0.50896
+     ],
+     [
+      0.33332,
+      0.50896
+     ],
+     [
+      0.34999,
+      0.44125
+     ],
+     [
+      0.36665,
+      0.44125
+     ],
+     [
+      0.38332,
+      0.37197
+     ],
+     [
+      0.39998,
+      0.37197
+     ],
+     [
+      0.41665,
+      0.30106
+     ],
+     [
+      0.43332,
+      0.30106
+     ],
+     [
+      0.44998,
+      0.22848
+     ],
+     [
+      0.48331,
+      0.22848
+     ],
+     [
+      0.49998,
+      0.15415
+     ],
+     [
+      0.51665,
+      0.15415
+     ],
+     [
+      0.53331,
+      0.07801
+     ],
+     [
+      0.54998,
+      0.07801
+     ],
+     [
+      0.56664,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 105
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 105
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #4",
+    "Mike Tyson's Punch-Out #20"
+   ],
+   "noteCount": 105,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 76,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 64,
+    "keyHi": 76,
+    "keySpan": 12,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.485,
+    "sustain": 0,
+    "centroid": 872,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 3"
+  },
+  {
+   "id": "nes:pulse:duty25:env9cf9ea5c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #1"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 79,
+    "hi": 79,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 79,
+    "keyHi": 79,
+    "keySpan": 0,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.99,
+    "centroid": 1546,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like"
+  },
+  {
+   "id": "nes:pulse:duty25:env40fdbdbe",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3333,
+    "sustain": 0.1542,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.11666,
+      1
+     ],
+     [
+      0.23332,
+      0.57515
+     ],
+     [
+      0.29999,
+      0.30106
+     ],
+     [
+      0.33332,
+      0.15415
+     ],
+     [
+      1.98325,
+      0.15415
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #26"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 43,
+    "median": 43
+   },
+   "features": {
+    "keyMedian": 43,
+    "keyLo": 43,
+    "keyHi": 43,
+    "keySpan": 0,
+    "medianNote": 0.35,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.26,
+    "sustain": 0.114,
+    "centroid": 195,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Plucked bass"
+  },
+  {
+   "id": "nes:pulse:duty25:env86cec654",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5666,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.94313
+     ],
+     [
+      0.06666,
+      0.94313
+     ],
+     [
+      0.08333,
+      0.88505
+     ],
+     [
+      0.1,
+      0.88505
+     ],
+     [
+      0.11666,
+      0.82573
+     ],
+     [
+      0.13333,
+      0.82573
+     ],
+     [
+      0.14999,
+      0.76512
+     ],
+     [
+      0.18333,
+      0.76512
+     ],
+     [
+      0.19999,
+      0.70318
+     ],
+     [
+      0.21666,
+      0.70318
+     ],
+     [
+      0.23332,
+      0.63988
+     ],
+     [
+      0.24999,
+      0.63988
+     ],
+     [
+      0.26666,
+      0.57515
+     ],
+     [
+      0.28332,
+      0.57515
+     ],
+     [
+      0.29999,
+      0.50896
+     ],
+     [
+      0.33332,
+      0.50896
+     ],
+     [
+      0.34999,
+      0.44125
+     ],
+     [
+      0.36665,
+      0.44125
+     ],
+     [
+      0.38332,
+      0.37197
+     ],
+     [
+      0.39998,
+      0.37197
+     ],
+     [
+      0.41665,
+      0.30106
+     ],
+     [
+      0.43332,
+      0.30106
+     ],
+     [
+      0.44998,
+      0.22848
+     ],
+     [
+      0.48331,
+      0.22848
+     ],
+     [
+      0.49998,
+      0.15415
+     ],
+     [
+      0.51665,
+      0.15415
+     ],
+     [
+      0.53331,
+      0.07801
+     ],
+     [
+      0.54998,
+      0.07801
+     ],
+     [
+      0.56664,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 67
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 67
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #4",
+    "Mike Tyson's Punch-Out #20"
+   ],
+   "noteCount": 67,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 79,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 62,
+    "keyHi": 79,
+    "keySpan": 17,
+    "medianNote": 0.317,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.45,
+    "sustain": 0,
+    "centroid": 977,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 4"
+  },
+  {
+   "id": "nes:pulse:duty25:enva4c38a92",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.843,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.84299
+     ],
+     [
+      1.98325,
+      0.84299
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 581
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 581
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #1",
+    "Mike Tyson's Punch-Out #2",
+    "Mike Tyson's Punch-Out #3",
+    "Mike Tyson's Punch-Out #10",
+    "Mike Tyson's Punch-Out #11",
+    "Mike Tyson's Punch-Out #12"
+   ],
+   "noteCount": 581,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 83,
+    "median": 78
+   },
+   "features": {
+    "keyMedian": 78,
+    "keyLo": 67,
+    "keyHi": 83,
+    "keySpan": 16,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.82,
+    "centroid": 1460,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead"
+  },
+  {
+   "id": "nes:pulse:duty25:enved240eac",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.25,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.1,
+      0.63988
+     ],
+     [
+      0.18333,
+      0.30106
+     ],
+     [
+      0.23332,
+      0.07801
+     ],
+     [
+      0.24999,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #31"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 72,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 72,
+    "keyHi": 72,
+    "keySpan": 0,
+    "medianNote": 0.25,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.205,
+    "sustain": 0,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck"
+  },
+  {
+   "id": "nes:pulse:duty50:env0ea3cae0",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.7672,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.88491
+     ],
+     [
+      0.06666,
+      0.88491
+     ],
+     [
+      0.08333,
+      0.76719
+     ],
+     [
+      1.98325,
+      0.76719
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #24"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 66,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 65,
+    "keyHi": 66,
+    "keySpan": 1,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.777,
+    "centroid": 597,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 13"
+  },
+  {
+   "id": "nes:pulse:duty50:env801d8e71",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.8516,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.9266
+     ],
+     [
+      0.06666,
+      0.9266
+     ],
+     [
+      0.08333,
+      0.85159
+     ],
+     [
+      1.98325,
+      0.85159
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #24"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 70,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 67,
+    "keyHi": 70,
+    "keySpan": 3,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.859,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 11"
+  },
+  {
+   "id": "nes:pulse:duty50:env802e6447",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.512,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.7589
+     ],
+     [
+      0.06666,
+      0.7589
+     ],
+     [
+      0.08333,
+      0.51201
+     ],
+     [
+      1.98325,
+      0.51201
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #24"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 63,
+    "median": 63
+   },
+   "features": {
+    "keyMedian": 63,
+    "keyLo": 63,
+    "keyHi": 63,
+    "keySpan": 0,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.53,
+    "centroid": 502,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 16"
+  },
+  {
+   "id": "nes:pulse:duty50:env675648be",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.58131
+     ],
+     [
+      1.98325,
+      0.58131
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #32",
+    "Mike Tyson's Punch-Out #33",
+    "Mike Tyson's Punch-Out #34"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 84,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 55,
+    "keyHi": 84,
+    "keySpan": 29,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.597,
+    "centroid": 632,
+    "brightness": 1.61,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 10"
+  },
+  {
+   "id": "nes:pulse:duty50:envb90ca562",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 1.9333,
+    "sustain": 0.1867,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.31661,
+      1
+     ],
+     [
+      1.33328,
+      0.9266
+     ],
+     [
+      1.38328,
+      0.9266
+     ],
+     [
+      1.39994,
+      0.85159
+     ],
+     [
+      1.44994,
+      0.85159
+     ],
+     [
+      1.46661,
+      0.77492
+     ],
+     [
+      1.51661,
+      0.77492
+     ],
+     [
+      1.53327,
+      0.69654
+     ],
+     [
+      1.58327,
+      0.69654
+     ],
+     [
+      1.59994,
+      0.61637
+     ],
+     [
+      1.64993,
+      0.61637
+     ],
+     [
+      1.6666,
+      0.53437
+     ],
+     [
+      1.7166,
+      0.53437
+     ],
+     [
+      1.73326,
+      0.45047
+     ],
+     [
+      1.78326,
+      0.45047
+     ],
+     [
+      1.79993,
+      0.3646
+     ],
+     [
+      1.84993,
+      0.3646
+     ],
+     [
+      1.86659,
+      0.2767
+     ],
+     [
+      1.91659,
+      0.2767
+     ],
+     [
+      1.93326,
+      0.18668
+     ],
+     [
+      1.98325,
+      0.18668
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 14
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 14
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #25",
+    "Mike Tyson's Punch-Out #28",
+    "Mike Tyson's Punch-Out #24"
+   ],
+   "noteCount": 14,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 105,
+    "median": 96
+   },
+   "features": {
+    "keyMedian": 96,
+    "keyLo": 71,
+    "keyHi": 105,
+    "keySpan": 34,
+    "medianNote": 0.017,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.885,
+    "sustain": 0.209,
+    "centroid": 3060,
+    "brightness": 1.46,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 2"
+  },
+  {
+   "id": "nes:pulse:duty50:envce622bbb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5666,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.94313
+     ],
+     [
+      0.06666,
+      0.94313
+     ],
+     [
+      0.08333,
+      0.88505
+     ],
+     [
+      0.1,
+      0.88505
+     ],
+     [
+      0.11666,
+      0.82573
+     ],
+     [
+      0.13333,
+      0.82573
+     ],
+     [
+      0.14999,
+      0.76512
+     ],
+     [
+      0.18333,
+      0.76512
+     ],
+     [
+      0.19999,
+      0.70318
+     ],
+     [
+      0.21666,
+      0.70318
+     ],
+     [
+      0.23332,
+      0.63988
+     ],
+     [
+      0.24999,
+      0.63988
+     ],
+     [
+      0.26666,
+      0.57515
+     ],
+     [
+      0.28332,
+      0.57515
+     ],
+     [
+      0.29999,
+      0.50896
+     ],
+     [
+      0.33332,
+      0.50896
+     ],
+     [
+      0.34999,
+      0.44125
+     ],
+     [
+      0.36665,
+      0.44125
+     ],
+     [
+      0.38332,
+      0.37197
+     ],
+     [
+      0.39998,
+      0.37197
+     ],
+     [
+      0.41665,
+      0.30106
+     ],
+     [
+      0.43332,
+      0.30106
+     ],
+     [
+      0.44998,
+      0.22848
+     ],
+     [
+      0.48331,
+      0.22848
+     ],
+     [
+      0.49998,
+      0.15415
+     ],
+     [
+      0.51665,
+      0.15415
+     ],
+     [
+      0.53331,
+      0.07801
+     ],
+     [
+      0.54998,
+      0.07801
+     ],
+     [
+      0.56664,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #35"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 78,
+    "hi": 78,
+    "median": 78
+   },
+   "features": {
+    "keyMedian": 78,
+    "keyLo": 78,
+    "keyHi": 78,
+    "keySpan": 0,
+    "medianNote": 1.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.475,
+    "sustain": 0,
+    "centroid": 1188,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 4"
+  },
+  {
+   "id": "nes:pulse:duty50:envd06e8049",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.5061,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.50608
+     ],
+     [
+      1.98325,
+      0.50608
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #24"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 62,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 62,
+    "keyHi": 62,
+    "keySpan": 0,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.542,
+    "centroid": 474,
+    "brightness": 1.61,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 17"
+  },
+  {
+   "id": "nes:pulse:duty50:envf406f7bb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.90997
+     ],
+     [
+      0.11666,
+      0.90997
+     ],
+     [
+      0.13333,
+      0.72379
+     ],
+     [
+      0.18333,
+      0.72379
+     ],
+     [
+      0.19999,
+      0.6275
+     ],
+     [
+      0.24999,
+      0.6275
+     ],
+     [
+      0.26666,
+      0.42814
+     ],
+     [
+      0.31665,
+      0.42814
+     ],
+     [
+      0.33332,
+      0.32492
+     ],
+     [
+      0.38332,
+      0.32492
+     ],
+     [
+      0.39998,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 211
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 211
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #1",
+    "Mike Tyson's Punch-Out #2",
+    "Mike Tyson's Punch-Out #3",
+    "Mike Tyson's Punch-Out #11",
+    "Mike Tyson's Punch-Out #12"
+   ],
+   "noteCount": 211,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 79,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 60,
+    "keyHi": 79,
+    "keySpan": 19,
+    "medianNote": 0.467,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.355,
+    "sustain": 0.111,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet"
+  },
+  {
+   "id": "nes:pulse:duty50:envf48378b6",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5666,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.94313
+     ],
+     [
+      0.06666,
+      0.94313
+     ],
+     [
+      0.08333,
+      0.88505
+     ],
+     [
+      0.1,
+      0.88505
+     ],
+     [
+      0.11666,
+      0.82573
+     ],
+     [
+      0.13333,
+      0.82573
+     ],
+     [
+      0.14999,
+      0.76512
+     ],
+     [
+      0.18333,
+      0.76512
+     ],
+     [
+      0.19999,
+      0.70318
+     ],
+     [
+      0.21666,
+      0.70318
+     ],
+     [
+      0.23332,
+      0.63988
+     ],
+     [
+      0.24999,
+      0.63988
+     ],
+     [
+      0.26666,
+      0.57515
+     ],
+     [
+      0.28332,
+      0.57515
+     ],
+     [
+      0.29999,
+      0.50896
+     ],
+     [
+      0.33332,
+      0.50896
+     ],
+     [
+      0.34999,
+      0.44125
+     ],
+     [
+      0.36665,
+      0.44125
+     ],
+     [
+      0.38332,
+      0.37197
+     ],
+     [
+      0.39998,
+      0.37197
+     ],
+     [
+      0.41665,
+      0.30106
+     ],
+     [
+      0.43332,
+      0.30106
+     ],
+     [
+      0.44998,
+      0.22848
+     ],
+     [
+      0.48331,
+      0.22848
+     ],
+     [
+      0.49998,
+      0.15415
+     ],
+     [
+      0.51665,
+      0.15415
+     ],
+     [
+      0.53331,
+      0.07801
+     ],
+     [
+      0.54998,
+      0.07801
+     ],
+     [
+      0.56664,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #35",
+    "Mike Tyson's Punch-Out #39"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 103,
+    "median": 103
+   },
+   "features": {
+    "keyMedian": 103,
+    "keyLo": 57,
+    "keyHi": 103,
+    "keySpan": 46,
+    "medianNote": 1.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.47,
+    "sustain": 0,
+    "centroid": 4251,
+    "brightness": 1.36,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 3"
+  },
+  {
+   "id": "nes:pulse:duty75:env1b3adca4",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4,
+    "sustain": 0.5178,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.84299
+     ],
+     [
+      0.18333,
+      0.84299
+     ],
+     [
+      0.19999,
+      0.6823
+     ],
+     [
+      0.38332,
+      0.6823
+     ],
+     [
+      0.39998,
+      0.5178
+     ],
+     [
+      1.98325,
+      0.5178
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 126
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 126
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #21",
+    "Mike Tyson's Punch-Out #22",
+    "Mike Tyson's Punch-Out #23"
+   ],
+   "noteCount": 126,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 88,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 60,
+    "keyHi": 88,
+    "keySpan": 28,
+    "medianNote": 0.317,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.517,
+    "centroid": 777,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 4"
+  },
+  {
+   "id": "nes:pulse:duty75:env8b7cd644",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4,
+    "sustain": 0.5178,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.84299
+     ],
+     [
+      0.18333,
+      0.84299
+     ],
+     [
+      0.19999,
+      0.6823
+     ],
+     [
+      0.38332,
+      0.6823
+     ],
+     [
+      0.39998,
+      0.5178
+     ],
+     [
+      1.98325,
+      0.5178
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 126
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 126
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #21",
+    "Mike Tyson's Punch-Out #22",
+    "Mike Tyson's Punch-Out #23"
+   ],
+   "noteCount": 126,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 74,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 57,
+    "keyHi": 74,
+    "keySpan": 17,
+    "medianNote": 0.317,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.463,
+    "centroid": 583,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 5"
+  },
+  {
+   "id": "nes:pulse:duty75:env093a9820",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 48
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 48
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #1",
+    "Mike Tyson's Punch-Out #3",
+    "Mike Tyson's Punch-Out #7",
+    "Mike Tyson's Punch-Out #11",
+    "Mike Tyson's Punch-Out #12",
+    "Mike Tyson's Punch-Out #17",
+    "Mike Tyson's Punch-Out #23"
+   ],
+   "noteCount": 48,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 80,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 62,
+    "keyHi": 80,
+    "keySpan": 18,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.935,
+    "centroid": 1302,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 6"
+  },
+  {
+   "id": "nes:pulse:duty75:env149af9e5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.6652,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.6652
+     ],
+     [
+      0.11666,
+      0.6652
+     ],
+     [
+      0.13333,
+      0.83631
+     ],
+     [
+      0.18333,
+      0.83631
+     ],
+     [
+      0.19999,
+      0.6652
+     ],
+     [
+      0.24999,
+      0.6652
+     ],
+     [
+      0.26666,
+      0.5767
+     ],
+     [
+      0.31665,
+      0.5767
+     ],
+     [
+      0.33332,
+      0.83631
+     ],
+     [
+      0.38332,
+      0.83631
+     ],
+     [
+      0.39998,
+      0.6652
+     ],
+     [
+      0.44998,
+      0.6652
+     ],
+     [
+      0.46665,
+      0.5767
+     ],
+     [
+      0.51665,
+      0.5767
+     ],
+     [
+      0.53331,
+      0.48616
+     ],
+     [
+      0.58331,
+      0.48616
+     ],
+     [
+      0.59998,
+      0.6652
+     ],
+     [
+      1.98325,
+      0.6652
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 33
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 33
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #17",
+    "Mike Tyson's Punch-Out #20"
+   ],
+   "noteCount": 33,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 81,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 64,
+    "keyHi": 81,
+    "keySpan": 17,
+    "medianNote": 0.367,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.661,
+    "centroid": 1546,
+    "brightness": 1.97,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 2"
+  },
+  {
+   "id": "nes:pulse:duty75:env430fc08f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.843,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.84299
+     ],
+     [
+      1.98325,
+      0.84299
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 362
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 362
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #21",
+    "Mike Tyson's Punch-Out #22",
+    "Mike Tyson's Punch-Out #23"
+   ],
+   "noteCount": 362,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 84,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 60,
+    "keyHi": 84,
+    "keySpan": 24,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.803,
+    "centroid": 693,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 2"
+  },
+  {
+   "id": "nes:pulse:duty75:env94190a75",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.8666,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      1.18625
+     ],
+     [
+      0.24999,
+      1.18625
+     ],
+     [
+      0.26666,
+      1.36828
+     ],
+     [
+      0.44998,
+      1.36828
+     ],
+     [
+      0.46665,
+      1.54624
+     ],
+     [
+      0.64997,
+      1.54624
+     ],
+     [
+      0.66664,
+      1.72025
+     ],
+     [
+      0.84997,
+      1.72025
+     ],
+     [
+      0.86663,
+      1.89045
+     ],
+     [
+      1.98325,
+      1.89045
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 336
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 336
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #5",
+    "Mike Tyson's Punch-Out #6",
+    "Mike Tyson's Punch-Out #7",
+    "Mike Tyson's Punch-Out #8",
+    "Mike Tyson's Punch-Out #9",
+    "Mike Tyson's Punch-Out #13",
+    "Mike Tyson's Punch-Out #14",
+    "Mike Tyson's Punch-Out #15",
+    "Mike Tyson's Punch-Out #16",
+    "Mike Tyson's Punch-Out #17",
+    "Mike Tyson's Punch-Out #18",
+    "Mike Tyson's Punch-Out #19",
+    "Mike Tyson's Punch-Out #20"
+   ],
+   "noteCount": 336,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 83,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 52,
+    "keyHi": 83,
+    "keySpan": 31,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.675,
+    "t20": null,
+    "sustain": 0.933,
+    "centroid": 654,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 2"
+  },
+  {
+   "id": "nes:pulse:duty75:env75773567",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.843,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.84299
+     ],
+     [
+      1.98325,
+      0.84299
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 362
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 362
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #21",
+    "Mike Tyson's Punch-Out #22",
+    "Mike Tyson's Punch-Out #23"
+   ],
+   "noteCount": 362,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 76,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 55,
+    "keyHi": 76,
+    "keySpan": 21,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.754,
+    "centroid": 583,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 3"
+  },
+  {
+   "id": "nes:pulse:duty75:envbde88940",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #7",
+    "Mike Tyson's Punch-Out #23",
+    "Mike Tyson's Punch-Out #27"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 68,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 52,
+    "keyHi": 68,
+    "keySpan": 16,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.035,
+    "t20": null,
+    "sustain": 0.913,
+    "centroid": 437,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 12"
+  },
+  {
+   "id": "nes:pulse:duty75:envdb3ff334",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.8666,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      1.18625
+     ],
+     [
+      0.24999,
+      1.18625
+     ],
+     [
+      0.26666,
+      1.36828
+     ],
+     [
+      0.44998,
+      1.36828
+     ],
+     [
+      0.46665,
+      1.54624
+     ],
+     [
+      0.64997,
+      1.54624
+     ],
+     [
+      0.66664,
+      1.72025
+     ],
+     [
+      0.84997,
+      1.72025
+     ],
+     [
+      0.86663,
+      1.89045
+     ],
+     [
+      1.98325,
+      1.89045
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 416
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 416
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #1",
+    "Mike Tyson's Punch-Out #3",
+    "Mike Tyson's Punch-Out #5",
+    "Mike Tyson's Punch-Out #6",
+    "Mike Tyson's Punch-Out #7",
+    "Mike Tyson's Punch-Out #8",
+    "Mike Tyson's Punch-Out #9",
+    "Mike Tyson's Punch-Out #10",
+    "Mike Tyson's Punch-Out #11",
+    "Mike Tyson's Punch-Out #12",
+    "Mike Tyson's Punch-Out #13",
+    "Mike Tyson's Punch-Out #14",
+    "Mike Tyson's Punch-Out #15",
+    "Mike Tyson's Punch-Out #16",
+    "Mike Tyson's Punch-Out #18",
+    "Mike Tyson's Punch-Out #19"
+   ],
+   "noteCount": 416,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 84,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 57,
+    "keyHi": 84,
+    "keySpan": 27,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.67,
+    "t20": null,
+    "sustain": 0.95,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad"
+  },
+  {
+   "id": "nes:pulse:duty75:enve083ede9",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.8363,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.6652
+     ],
+     [
+      0.11666,
+      0.6652
+     ],
+     [
+      0.13333,
+      0.83631
+     ],
+     [
+      1.98325,
+      0.83631
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 15
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 15
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #20"
+   ],
+   "noteCount": 15,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 81,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 59,
+    "keyHi": 81,
+    "keySpan": 22,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.831,
+    "centroid": 1546,
+    "brightness": 1.97,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 3"
+  },
+  {
+   "id": "nes:triangle:env48a3dbda",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-triangle-envelope",
+     "groupKey": "tri",
+     "sampleCount": 1990
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "dbefed6c0b27b554",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "triangle",
+    "groupKey": "tri",
+    "clusterNotes": 1990
+   },
+   "usedIn": [
+    "Mike Tyson's Punch-Out #1",
+    "Mike Tyson's Punch-Out #2",
+    "Mike Tyson's Punch-Out #3",
+    "Mike Tyson's Punch-Out #4",
+    "Mike Tyson's Punch-Out #5",
+    "Mike Tyson's Punch-Out #6",
+    "Mike Tyson's Punch-Out #7",
+    "Mike Tyson's Punch-Out #8",
+    "Mike Tyson's Punch-Out #9",
+    "Mike Tyson's Punch-Out #10",
+    "Mike Tyson's Punch-Out #11",
+    "Mike Tyson's Punch-Out #12",
+    "Mike Tyson's Punch-Out #13",
+    "Mike Tyson's Punch-Out #14",
+    "Mike Tyson's Punch-Out #15",
+    "Mike Tyson's Punch-Out #16",
+    "Mike Tyson's Punch-Out #17",
+    "Mike Tyson's Punch-Out #18",
+    "Mike Tyson's Punch-Out #19",
+    "Mike Tyson's Punch-Out #20",
+    "Mike Tyson's Punch-Out #21",
+    "Mike Tyson's Punch-Out #22",
+    "Mike Tyson's Punch-Out #23"
+   ],
+   "noteCount": 1990,
+   "used": true,
+   "keysPlayed": {
+    "lo": 37,
+    "hi": 65,
+    "median": 50
+   },
+   "features": {
+    "keyMedian": 50,
+    "keyLo": 37,
+    "keyHi": 65,
+    "keySpan": 28,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.01,
+    "t20": null,
+    "sustain": 0.89,
+    "centroid": 152,
+    "brightness": 1.03,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  }
+ ],
+ "samples": {
+  "bec5b2e9f7d5d794": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "bec5b2e9f7d5d794.wav"
+  },
+  "d752779a9bacd3d1": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "d752779a9bacd3d1.wav"
+  },
+  "156e74116e651302": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "156e74116e651302.wav"
+  },
+  "dbefed6c0b27b554": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "dbefed6c0b27b554.wav"
+  },
+  "83a3aede5f0edb0d": {
+   "rate": 55930,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "83a3aede5f0edb0d.wav"
+  },
+  "b77f25d77cf617e9": {
+   "rate": 111861,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "b77f25d77cf617e9.wav"
+  },
+  "f392073fc631e05d": {
+   "rate": 223722,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "f392073fc631e05d.wav"
+  },
+  "accf980e05b24066": {
+   "rate": 8860,
+   "length": 2658,
+   "loop": null,
+   "bytes": 5404,
+   "file": "accf980e05b24066.wav"
+  },
+  "02abdb4410d126c1": {
+   "rate": 13983,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "02abdb4410d126c1.wav"
+  },
+  "e3c2fe39b6778838": {
+   "rate": 4710,
+   "length": 1413,
+   "loop": null,
+   "bytes": 2914,
+   "file": "e3c2fe39b6778838.wav"
+  },
+  "4905a206193949d9": {
+   "rate": 11186,
+   "length": 3356,
+   "loop": null,
+   "bytes": 6800,
+   "file": "4905a206193949d9.wav"
+  },
+  "511e2b74a88a4d8a": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "511e2b74a88a4d8a.wav"
+  },
+  "4004e82e3c674467": {
+   "rate": 440,
+   "length": 132,
+   "loop": null,
+   "bytes": 352,
+   "file": "4004e82e3c674467.wav"
+  },
+  "6d02335f363abafa": {
+   "rate": 880,
+   "length": 264,
+   "loop": null,
+   "bytes": 616,
+   "file": "6d02335f363abafa.wav"
+  },
+  "bdcdc06995a55bd8": {
+   "rate": 1762,
+   "length": 529,
+   "loop": null,
+   "bytes": 1146,
+   "file": "bdcdc06995a55bd8.wav"
+  },
+  "3a611f0a516f4ad7": {
+   "rate": 2349,
+   "length": 705,
+   "loop": null,
+   "bytes": 1498,
+   "file": "3a611f0a516f4ad7.wav"
+  },
+  "a223303b6af4932e": {
+   "rate": 3523,
+   "length": 1057,
+   "loop": null,
+   "bytes": 2202,
+   "file": "a223303b6af4932e.wav"
+  },
+  "3bf18bc59590df32": {
+   "rate": 7046,
+   "length": 2114,
+   "loop": null,
+   "bytes": 4316,
+   "file": "3bf18bc59590df32.wav"
+  }
+ }
+}
