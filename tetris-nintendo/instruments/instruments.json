@@ -1,0 +1,8798 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "nes2-tetris-nintendo",
+ "title": "",
+ "drivers": [
+  "nes"
+ ],
+ "songs": 31,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "nes:noise:p4:m1:env9999885e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p4m1",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 4,
+      "mode": 1
+     },
+     "sample": "70260905e7694d67",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.009,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 9242,
+      "brightness": 99.91,
+      "harmonicity": 0.603,
+      "flatness": 0.544,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p4m1",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #26"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 12",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p128:m0:enve2517b4f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p128m0",
+     "sampleCount": 2999
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 128,
+      "mode": 0
+     },
+     "sample": "02abdb4410d126c1",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.293,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.295,
+      "sustain": 0,
+      "centroid": 2656,
+      "brightness": 36.18,
+      "harmonicity": 0.24,
+      "flatness": 0.329,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p128m0",
+    "clusterNotes": 2999
+   },
+   "usedIn": [
+    "Tetris #26",
+    "Tetris #28"
+   ],
+   "noteCount": 2999,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p160:m0:envf01a4b33",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p160m0",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 160,
+      "mode": 0
+     },
+     "sample": "4905a206193949d9",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.28,
+      "sustain": 0,
+      "centroid": 2125,
+      "brightness": 28.95,
+      "harmonicity": 0.294,
+      "flatness": 0.154,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p160m0",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #24"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 7",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p202:m1:envcc8d7d34",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p202m1",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 202,
+      "mode": 1
+     },
+     "sample": "fc49f371e9eae13c",
+     "loop": null,
+     "nameGuess": "Mallet",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.005,
+      "t20": 0.075,
+      "sustain": 0,
+      "centroid": 2323,
+      "brightness": 31.64,
+      "harmonicity": 0.998,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p202m1",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #27"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 8",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p254:m0:env919ed0ad",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p254m0",
+     "sampleCount": 2999
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 254,
+      "mode": 0
+     },
+     "sample": "3bf18bc59590df32",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.235,
+      "sustain": 0,
+      "centroid": 1253,
+      "brightness": 17.07,
+      "harmonicity": 0.346,
+      "flatness": 0.028,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p254m0",
+    "clusterNotes": 2999
+   },
+   "usedIn": [
+    "Tetris #27",
+    "Tetris #29"
+   ],
+   "noteCount": 2999,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 2",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p380:m0:envdca6fc4d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p380m0",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 380,
+      "mode": 0
+     },
+     "sample": "e3c2fe39b6778838",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.075,
+      "t20": 0.035,
+      "sustain": 0,
+      "centroid": 876,
+      "brightness": 11.94,
+      "harmonicity": 0.185,
+      "flatness": 0.008,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p380m0",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #24"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 11",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p1016:m0:env578f1bbb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p1016m0",
+     "sampleCount": 7
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 1016,
+      "mode": 0
+     },
+     "sample": "bdcdc06995a55bd8",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 327,
+      "brightness": 5.29,
+      "harmonicity": 0.606,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p1016m0",
+    "clusterNotes": 7
+   },
+   "usedIn": [
+    "Tetris #24"
+   ],
+   "noteCount": 7,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 5",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p2034:m0:env92c1dcdb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p2034m0",
+     "sampleCount": 12
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 2034,
+      "mode": 0
+     },
+     "sample": "6d02335f363abafa",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 173,
+      "brightness": 2.8,
+      "harmonicity": 0.853,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p2034m0",
+    "clusterNotes": 12
+   },
+   "usedIn": [
+    "Tetris #24"
+   ],
+   "noteCount": 12,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 4",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p2034:m0:envaa162f03",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.8638,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.86382
+     ],
+     [
+      1.98325,
+      0.86382
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p2034m0",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 2034,
+      "mode": 0
+     },
+     "sample": "6d02335f363abafa",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.067,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 173,
+      "brightness": 2.8,
+      "harmonicity": 0.853,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p2034m0",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #24"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 9",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p2034:m0:envccd2e48a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5666,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.94018
+     ],
+     [
+      0.06666,
+      0.94018
+     ],
+     [
+      0.08333,
+      0.87947
+     ],
+     [
+      0.1,
+      0.87947
+     ],
+     [
+      0.11666,
+      0.81786
+     ],
+     [
+      0.13333,
+      0.81786
+     ],
+     [
+      0.14999,
+      0.75532
+     ],
+     [
+      0.18333,
+      0.75532
+     ],
+     [
+      0.19999,
+      0.69184
+     ],
+     [
+      0.21666,
+      0.69184
+     ],
+     [
+      0.23332,
+      0.6274
+     ],
+     [
+      0.24999,
+      0.6274
+     ],
+     [
+      0.26666,
+      0.56196
+     ],
+     [
+      0.28332,
+      0.56196
+     ],
+     [
+      0.29999,
+      0.49552
+     ],
+     [
+      0.33332,
+      0.49552
+     ],
+     [
+      0.34999,
+      0.42804
+     ],
+     [
+      0.36665,
+      0.42804
+     ],
+     [
+      0.38332,
+      0.3595
+     ],
+     [
+      0.39998,
+      0.3595
+     ],
+     [
+      0.41665,
+      0.28987
+     ],
+     [
+      0.43332,
+      0.28987
+     ],
+     [
+      0.44998,
+      0.21914
+     ],
+     [
+      0.48331,
+      0.21914
+     ],
+     [
+      0.49998,
+      0.14727
+     ],
+     [
+      0.51665,
+      0.14727
+     ],
+     [
+      0.53331,
+      0.07423
+     ],
+     [
+      0.54998,
+      0.07423
+     ],
+     [
+      0.56664,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p2034m0",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 2034,
+      "mode": 0
+     },
+     "sample": "6d02335f363abafa",
+     "loop": null,
+     "nameGuess": "Kick",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.533,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.065,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 123,
+      "brightness": 2,
+      "harmonicity": 0.835,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p2034m0",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #25"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 10",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p4068:m0:env06dac406",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.672,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.67203
+     ],
+     [
+      1.98325,
+      0.67203
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p4068m0",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 4068,
+      "mode": 0
+     },
+     "sample": "4004e82e3c674467",
+     "loop": null,
+     "nameGuess": "Kick",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.067,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 84,
+      "brightness": 1.36,
+      "harmonicity": 0.966,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p4068m0",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #24"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 13",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p4068:m0:envac418912",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.8795,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.87947
+     ],
+     [
+      1.98325,
+      0.87947
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p4068m0",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 4068,
+      "mode": 0
+     },
+     "sample": "4004e82e3c674467",
+     "loop": null,
+     "nameGuess": "Kick",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.033,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 84,
+      "brightness": 1.36,
+      "harmonicity": 0.966,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p4068m0",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Tetris #24"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 6",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p4068:m0:envb19602e9",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.8818,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.88176
+     ],
+     [
+      1.98325,
+      0.88176
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p4068m0",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 4068,
+      "mode": 0
+     },
+     "sample": "4004e82e3c674467",
+     "loop": null,
+     "nameGuess": "Kick",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.05,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 84,
+      "brightness": 1.36,
+      "harmonicity": 0.966,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p4068m0",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #24"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 14",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p4068:m0:envc67f791e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p4068m0",
+     "sampleCount": 13
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 4068,
+      "mode": 0
+     },
+     "sample": "4004e82e3c674467",
+     "loop": null,
+     "nameGuess": "Kick",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.033,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 84,
+      "brightness": 1.36,
+      "harmonicity": 0.966,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p4068m0",
+    "clusterNotes": 13
+   },
+   "usedIn": [
+    "Tetris #24"
+   ],
+   "noteCount": 13,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 3",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:pulse:duty12.5:env2bbc0193",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.4144,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.61424
+     ],
+     [
+      0.03333,
+      0.41441
+     ],
+     [
+      1.98325,
+      0.41441
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Tetris #7"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 65,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 64,
+    "keyHi": 65,
+    "keySpan": 1,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.408,
+    "centroid": 1019,
+    "brightness": 2.92,
+    "harmonicity": 0.995,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 27"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env3cf63969",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.6652,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.75171
+     ],
+     [
+      0.03333,
+      0.6652
+     ],
+     [
+      1.98325,
+      0.6652
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 46
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 46
+   },
+   "usedIn": [
+    "Tetris #7"
+   ],
+   "noteCount": 46,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 67,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 56,
+    "keyHi": 67,
+    "keySpan": 11,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.604,
+    "centroid": 859,
+    "brightness": 2.93,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 14"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env3f23c720",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.1356,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.13563
+     ],
+     [
+      1.98325,
+      0.13563
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 68
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 68
+   },
+   "usedIn": [
+    "Tetris #4",
+    "Tetris #7"
+   ],
+   "noteCount": 68,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 67,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 52,
+    "keyHi": 67,
+    "keySpan": 15,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.07,
+    "sustain": 0.13,
+    "centroid": 962,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 7"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env6d56085f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.268,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.64673
+     ],
+     [
+      0.06666,
+      0.26801
+     ],
+     [
+      1.98325,
+      0.26801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 11
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 11
+   },
+   "usedIn": [
+    "Tetris #4"
+   ],
+   "noteCount": 11,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 65,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 56,
+    "keyHi": 65,
+    "keySpan": 9,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.256,
+    "centroid": 962,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 5"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env7bbfad0d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1,
+    "sustain": 0.2015,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.75171
+     ],
+     [
+      0.06666,
+      0.48616
+     ],
+     [
+      0.08333,
+      0.29862
+     ],
+     [
+      0.1,
+      0.20147
+     ],
+     [
+      1.98325,
+      0.20147
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 102
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 102
+   },
+   "usedIn": [
+    "Tetris #7",
+    "Tetris #4"
+   ],
+   "noteCount": 102,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 74,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 57,
+    "keyHi": 74,
+    "keySpan": 17,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.11,
+    "sustain": 0.205,
+    "centroid": 1142,
+    "brightness": 2.91,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 5"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env9e6ac7b4",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.1356,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.13563
+     ],
+     [
+      1.98325,
+      0.13563
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 318
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 318
+   },
+   "usedIn": [
+    "Tetris #4",
+    "Tetris #7"
+   ],
+   "noteCount": 318,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 74,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 56,
+    "keyHi": 74,
+    "keySpan": 18,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.07,
+    "sustain": 0.13,
+    "centroid": 962,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env59d19298",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1,
+    "sustain": 0.2015,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.75171
+     ],
+     [
+      0.06666,
+      0.48616
+     ],
+     [
+      0.08333,
+      0.29862
+     ],
+     [
+      0.1,
+      0.20147
+     ],
+     [
+      1.98325,
+      0.20147
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 260
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 260
+   },
+   "usedIn": [
+    "Tetris #7",
+    "Tetris #4"
+   ],
+   "noteCount": 260,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 69,
+    "median": 61
+   },
+   "features": {
+    "keyMedian": 61,
+    "keyLo": 52,
+    "keyHi": 69,
+    "keySpan": 17,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.095,
+    "sustain": 0.178,
+    "centroid": 809,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 2"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env099ea879",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.5235,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.64673
+     ],
+     [
+      0.03333,
+      0.52345
+     ],
+     [
+      1.98325,
+      0.52345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 22
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 22
+   },
+   "usedIn": [
+    "Tetris #7"
+   ],
+   "noteCount": 22,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 65,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 56,
+    "keyHi": 65,
+    "keySpan": 9,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.5,
+    "centroid": 962,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 19"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env37012a51",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.6652,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.75171
+     ],
+     [
+      0.03333,
+      0.6652
+     ],
+     [
+      1.98325,
+      0.6652
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 28
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 28
+   },
+   "usedIn": [
+    "Tetris #7"
+   ],
+   "noteCount": 28,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 72,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 62,
+    "keyHi": 72,
+    "keySpan": 10,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.646,
+    "centroid": 1019,
+    "brightness": 2.92,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 18"
+  },
+  {
+   "id": "nes:pulse:duty12.5:enva3d55caa",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.4144,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.61424
+     ],
+     [
+      0.03333,
+      0.41441
+     ],
+     [
+      1.98325,
+      0.41441
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 12
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 12
+   },
+   "usedIn": [
+    "Tetris #7"
+   ],
+   "noteCount": 12,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 62,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 62,
+    "keyHi": 62,
+    "keySpan": 0,
+    "medianNote": 0.05,
+    "kit": true,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.383,
+    "centroid": 859,
+    "brightness": 2.93,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Tom 2"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envb44e7ee2",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.4862,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.75171
+     ],
+     [
+      0.06666,
+      0.48616
+     ],
+     [
+      1.98325,
+      0.48616
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 34
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 34
+   },
+   "usedIn": [
+    "Tetris #4"
+   ],
+   "noteCount": 34,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 67,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 56,
+    "keyHi": 67,
+    "keySpan": 11,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.441,
+    "centroid": 859,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 15"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envb718fce5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.0827,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.81126
+     ],
+     [
+      0.05,
+      0.53965
+     ],
+     [
+      0.08333,
+      0.24225
+     ],
+     [
+      0.11666,
+      0.08271
+     ],
+     [
+      1.98325,
+      0.08271
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 8
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 8
+   },
+   "usedIn": [
+    "Tetris #4",
+    "Tetris #7"
+   ],
+   "noteCount": 8,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 62,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 52,
+    "keyHi": 62,
+    "keySpan": 10,
+    "medianNote": 0.25,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.08,
+    "sustain": 0.067,
+    "centroid": 643,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 10"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envc8d53cfa",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.4862,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.75171
+     ],
+     [
+      0.06666,
+      0.48616
+     ],
+     [
+      1.98325,
+      0.48616
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 16
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 16
+   },
+   "usedIn": [
+    "Tetris #4"
+   ],
+   "noteCount": 16,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 72,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 62,
+    "keyHi": 72,
+    "keySpan": 10,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.472,
+    "centroid": 1019,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 23"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envcf6e0f59",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.0827,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.81126
+     ],
+     [
+      0.05,
+      0.53965
+     ],
+     [
+      0.08333,
+      0.24225
+     ],
+     [
+      0.11666,
+      0.08271
+     ],
+     [
+      1.98325,
+      0.08271
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Tetris #4",
+    "Tetris #7"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 61,
+    "hi": 61,
+    "median": 61
+   },
+   "features": {
+    "keyMedian": 61,
+    "keyLo": 61,
+    "keyHi": 61,
+    "keySpan": 0,
+    "medianNote": 0.25,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.08,
+    "sustain": 0.073,
+    "centroid": 809,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 12"
+  },
+  {
+   "id": "nes:pulse:duty12.5:enveaeee506",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.5235,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.64673
+     ],
+     [
+      0.03333,
+      0.52345
+     ],
+     [
+      1.98325,
+      0.52345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 64
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 64
+   },
+   "usedIn": [
+    "Tetris #7"
+   ],
+   "noteCount": 64,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 72,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 60,
+    "keyHi": 72,
+    "keySpan": 12,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.539,
+    "centroid": 1142,
+    "brightness": 2.91,
+    "harmonicity": 0.996,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 11"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envf29c5a42",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.268,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.64673
+     ],
+     [
+      0.06666,
+      0.26801
+     ],
+     [
+      1.98325,
+      0.26801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 43
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 43
+   },
+   "usedIn": [
+    "Tetris #4"
+   ],
+   "noteCount": 43,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 72,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 60,
+    "keyHi": 72,
+    "keySpan": 12,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.263,
+    "centroid": 1019,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 2"
+  },
+  {
+   "id": "nes:pulse:duty50:env0b7e6f8b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.05,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.46563
+     ],
+     [
+      0.03333,
+      1.91039
+     ],
+     [
+      0.05,
+      2.12539
+     ],
+     [
+      1.98325,
+      2.12539
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #10"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 62,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 62,
+    "keyHi": 62,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.035,
+    "t20": null,
+    "sustain": 0.993,
+    "centroid": 474,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 29"
+  },
+  {
+   "id": "nes:pulse:duty50:env6c4046ec",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.90997
+     ],
+     [
+      0.03333,
+      0.90997
+     ],
+     [
+      0.05,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 50
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 50
+   },
+   "usedIn": [
+    "Tetris #1"
+   ],
+   "noteCount": 50,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 95,
+    "median": 77
+   },
+   "features": {
+    "keyMedian": 77,
+    "keyLo": 41,
+    "keyHi": 95,
+    "keySpan": 54,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.05,
+    "sustain": 0.112,
+    "centroid": 1122,
+    "brightness": 1.61,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck"
+  },
+  {
+   "id": "nes:pulse:duty50:env7a30ed0a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.0333,
+    "sustain": 0.867,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.9531
+     ],
+     [
+      0.05,
+      2.41307
+     ],
+     [
+      0.06666,
+      3.30177
+     ],
+     [
+      0.08333,
+      3.30177
+     ],
+     [
+      0.1,
+      2.86251
+     ],
+     [
+      1.98325,
+      2.86251
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 295
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 295
+   },
+   "usedIn": [
+    "Tetris #8"
+   ],
+   "noteCount": 295,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 81,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 64,
+    "keyHi": 81,
+    "keySpan": 17,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.06,
+    "t20": null,
+    "sustain": 0.865,
+    "centroid": 597,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 4"
+  },
+  {
+   "id": "nes:pulse:duty50:env008d96db",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.0667,
+    "sustain": 0.7308,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.9531
+     ],
+     [
+      0.05,
+      2.41307
+     ],
+     [
+      0.06666,
+      3.30177
+     ],
+     [
+      0.08333,
+      3.30177
+     ],
+     [
+      0.1,
+      2.86251
+     ],
+     [
+      0.11666,
+      2.86251
+     ],
+     [
+      0.13333,
+      2.41307
+     ],
+     [
+      1.98325,
+      2.41307
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #5"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 66,
+    "hi": 66,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 66,
+    "keyHi": 66,
+    "keySpan": 0,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.06,
+    "t20": null,
+    "sustain": 0.729,
+    "centroid": 597,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 28"
+  },
+  {
+   "id": "nes:pulse:duty50:env8e6a1191",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.05,
+    "decay": 0.0167,
+    "sustain": 0.8988,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.46563
+     ],
+     [
+      0.03333,
+      1.91039
+     ],
+     [
+      0.05,
+      2.12539
+     ],
+     [
+      0.06666,
+      1.91039
+     ],
+     [
+      1.98325,
+      1.91039
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 13
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 13
+   },
+   "usedIn": [
+    "Tetris #10"
+   ],
+   "noteCount": 13,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 62,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 62,
+    "keyHi": 62,
+    "keySpan": 0,
+    "medianNote": 0.083,
+    "kit": true,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.035,
+    "t20": null,
+    "sustain": 0.913,
+    "centroid": 474,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Tom"
+  },
+  {
+   "id": "nes:pulse:duty50:env34f7d570",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.88505
+     ],
+     [
+      0.05,
+      0.76512
+     ],
+     [
+      0.08333,
+      0.63988
+     ],
+     [
+      0.1,
+      0.50896
+     ],
+     [
+      0.13333,
+      0.37197
+     ],
+     [
+      0.14999,
+      0.22848
+     ],
+     [
+      0.18333,
+      0.07801
+     ],
+     [
+      0.19999,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #19"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 98,
+    "hi": 98,
+    "median": 98
+   },
+   "features": {
+    "keyMedian": 98,
+    "keyLo": 98,
+    "keyHi": 98,
+    "keySpan": 0,
+    "medianNote": 0.233,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.155,
+    "sustain": 0,
+    "centroid": 3370,
+    "brightness": 1.43,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 3"
+  },
+  {
+   "id": "nes:pulse:duty50:env78bad8f2",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.9531
+     ],
+     [
+      0.05,
+      2.41307
+     ],
+     [
+      0.06666,
+      3.30177
+     ],
+     [
+      1.98325,
+      3.30177
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 17
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 17
+   },
+   "usedIn": [
+    "Tetris #2",
+    "Tetris #8",
+    "Tetris #11"
+   ],
+   "noteCount": 17,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 72,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 64,
+    "keyHi": 72,
+    "keySpan": 8,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.06,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 22"
+  },
+  {
+   "id": "nes:pulse:duty50:env92a47c1f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.05,
+    "decay": 0.0167,
+    "sustain": 0.8988,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.46563
+     ],
+     [
+      0.03333,
+      1.91039
+     ],
+     [
+      0.05,
+      2.12539
+     ],
+     [
+      0.06666,
+      1.91039
+     ],
+     [
+      1.98325,
+      1.91039
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 360
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 360
+   },
+   "usedIn": [
+    "Tetris #10"
+   ],
+   "noteCount": 360,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 78,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 62,
+    "keyHi": 78,
+    "keySpan": 16,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.035,
+    "t20": null,
+    "sustain": 0.913,
+    "centroid": 795,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 3"
+  },
+  {
+   "id": "nes:pulse:duty50:env206c2ce7",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.6747,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.67467
+     ],
+     [
+      1.98325,
+      0.67467
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 491
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 491
+   },
+   "usedIn": [
+    "Tetris #5",
+    "Tetris #8"
+   ],
+   "noteCount": 491,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 81,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 64,
+    "keyHi": 81,
+    "keySpan": 17,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.706,
+    "centroid": 597,
+    "brightness": 1.61,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 2"
+  },
+  {
+   "id": "nes:pulse:duty50:env823c094c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.05,
+    "decay": 0.2667,
+    "sustain": 0.1219,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.46563
+     ],
+     [
+      0.03333,
+      1.91039
+     ],
+     [
+      0.05,
+      2.12539
+     ],
+     [
+      0.08333,
+      1.69053
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.46563
+     ],
+     [
+      0.14999,
+      1.46563
+     ],
+     [
+      0.16666,
+      1.23551
+     ],
+     [
+      0.18333,
+      1.23551
+     ],
+     [
+      0.19999,
+      1
+     ],
+     [
+      0.21666,
+      1
+     ],
+     [
+      0.23332,
+      0.7589
+     ],
+     [
+      0.24999,
+      0.7589
+     ],
+     [
+      0.26666,
+      0.51201
+     ],
+     [
+      0.29999,
+      0.51201
+     ],
+     [
+      0.31665,
+      0.25912
+     ],
+     [
+      1.98325,
+      0.25912
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 6
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 6
+   },
+   "usedIn": [
+    "Tetris #10"
+   ],
+   "noteCount": 6,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 81,
+    "median": 81
+   },
+   "features": {
+    "keyMedian": 81,
+    "keyLo": 71,
+    "keyHi": 81,
+    "keySpan": 10,
+    "medianNote": 0.367,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.035,
+    "t20": 0.255,
+    "sustain": 0.124,
+    "centroid": 1409,
+    "brightness": 1.6,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 2"
+  },
+  {
+   "id": "nes:pulse:duty50:env940aae6f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.9531
+     ],
+     [
+      0.05,
+      2.41307
+     ],
+     [
+      0.06666,
+      3.30177
+     ],
+     [
+      1.98325,
+      3.30177
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 16
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 16
+   },
+   "usedIn": [
+    "Tetris #2",
+    "Tetris #11"
+   ],
+   "noteCount": 16,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 80,
+    "median": 77
+   },
+   "features": {
+    "keyMedian": 77,
+    "keyLo": 72,
+    "keyHi": 80,
+    "keySpan": 8,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.06,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 1122,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 4"
+  },
+  {
+   "id": "nes:pulse:duty50:env998ca6bd",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.2,
+    "sustain": 0.4489,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.9531
+     ],
+     [
+      0.05,
+      2.41307
+     ],
+     [
+      0.06666,
+      3.30177
+     ],
+     [
+      0.08333,
+      3.30177
+     ],
+     [
+      0.1,
+      2.86251
+     ],
+     [
+      0.11666,
+      2.86251
+     ],
+     [
+      0.13333,
+      2.41307
+     ],
+     [
+      0.14999,
+      2.41307
+     ],
+     [
+      0.16666,
+      1.9531
+     ],
+     [
+      0.24999,
+      1.9531
+     ],
+     [
+      0.26666,
+      1.4822
+     ],
+     [
+      1.98325,
+      1.4822
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 6
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 6
+   },
+   "usedIn": [
+    "Tetris #2",
+    "Tetris #11"
+   ],
+   "noteCount": 6,
+   "used": true,
+   "keysPlayed": {
+    "lo": 74,
+    "hi": 81,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 74,
+    "keyHi": 81,
+    "keySpan": 7,
+    "medianNote": 0.283,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.06,
+    "t20": null,
+    "sustain": 0.448,
+    "centroid": 944,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 26"
+  },
+  {
+   "id": "nes:pulse:duty50:env7203c49d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.1219,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.89885
+     ],
+     [
+      0.05,
+      0.12191
+     ],
+     [
+      1.98325,
+      0.12191
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 164
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 164
+   },
+   "usedIn": [
+    "Tetris #9"
+   ],
+   "noteCount": 164,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 76,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 60,
+    "keyHi": 76,
+    "keySpan": 16,
+    "medianNote": 0.233,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.05,
+    "sustain": 0.122,
+    "centroid": 795,
+    "brightness": 1.61,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 3"
+  },
+  {
+   "id": "nes:pulse:duty50:env973996e8",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.05,
+    "decay": 0.2667,
+    "sustain": 0.1219,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.46563
+     ],
+     [
+      0.03333,
+      1.91039
+     ],
+     [
+      0.05,
+      2.12539
+     ],
+     [
+      0.08333,
+      1.69053
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.46563
+     ],
+     [
+      0.14999,
+      1.46563
+     ],
+     [
+      0.16666,
+      1.23551
+     ],
+     [
+      0.18333,
+      1.23551
+     ],
+     [
+      0.19999,
+      1
+     ],
+     [
+      0.21666,
+      1
+     ],
+     [
+      0.23332,
+      0.7589
+     ],
+     [
+      0.24999,
+      0.7589
+     ],
+     [
+      0.26666,
+      0.51201
+     ],
+     [
+      0.29999,
+      0.51201
+     ],
+     [
+      0.31665,
+      0.25912
+     ],
+     [
+      1.98325,
+      0.25912
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Tetris #10"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 62,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 62,
+    "keyHi": 62,
+    "keySpan": 0,
+    "medianNote": 0.367,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.035,
+    "t20": 0.255,
+    "sustain": 0.124,
+    "centroid": 474,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 6"
+  },
+  {
+   "id": "nes:pulse:duty50:envabc9543d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.2,
+    "sustain": 0.4489,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.9531
+     ],
+     [
+      0.05,
+      2.41307
+     ],
+     [
+      0.06666,
+      3.30177
+     ],
+     [
+      0.08333,
+      3.30177
+     ],
+     [
+      0.1,
+      2.86251
+     ],
+     [
+      0.11666,
+      2.86251
+     ],
+     [
+      0.13333,
+      2.41307
+     ],
+     [
+      0.14999,
+      2.41307
+     ],
+     [
+      0.16666,
+      1.9531
+     ],
+     [
+      0.24999,
+      1.9531
+     ],
+     [
+      0.26666,
+      1.4822
+     ],
+     [
+      1.98325,
+      1.4822
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 222
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 222
+   },
+   "usedIn": [
+    "Tetris #2",
+    "Tetris #5",
+    "Tetris #8",
+    "Tetris #11"
+   ],
+   "noteCount": 222,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 81,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 64,
+    "keyHi": 81,
+    "keySpan": 17,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.06,
+    "t20": null,
+    "sustain": 0.449,
+    "centroid": 632,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 5"
+  },
+  {
+   "id": "nes:pulse:duty50:envb24b49f3",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.6823,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.6823
+     ],
+     [
+      0.03333,
+      0.5178
+     ],
+     [
+      0.05,
+      0.6823
+     ],
+     [
+      0.06666,
+      0.5178
+     ],
+     [
+      0.08333,
+      0.6823
+     ],
+     [
+      0.1,
+      0.5178
+     ],
+     [
+      0.11666,
+      0.6823
+     ],
+     [
+      1.98325,
+      0.6823
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #19"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 96,
+    "hi": 96,
+    "median": 96
+   },
+   "features": {
+    "keyMedian": 96,
+    "keyLo": 96,
+    "keyHi": 96,
+    "keySpan": 0,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.715,
+    "centroid": 3060,
+    "brightness": 1.46,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 8"
+  },
+  {
+   "id": "nes:pulse:duty50:envb90ca562",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 41
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 41
+   },
+   "usedIn": [
+    "Tetris #14",
+    "Tetris #15",
+    "Tetris #16",
+    "Tetris #18",
+    "Tetris #20",
+    "Tetris #21"
+   ],
+   "noteCount": 41,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 95,
+    "median": 84
+   },
+   "features": {
+    "keyMedian": 84,
+    "keyLo": 45,
+    "keyHi": 95,
+    "keySpan": 50,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 1664,
+    "brightness": 1.59,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like 2"
+  },
+  {
+   "id": "nes:pulse:duty50:envbdc481ae",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.05,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.46563
+     ],
+     [
+      0.03333,
+      1.91039
+     ],
+     [
+      0.05,
+      2.12539
+     ],
+     [
+      1.98325,
+      2.12539
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #10"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 66,
+    "hi": 66,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 66,
+    "keyHi": 66,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.035,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 597,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 30"
+  },
+  {
+   "id": "nes:pulse:duty50:envca8694c5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2333,
+    "sustain": 0.3414,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.67467
+     ],
+     [
+      0.21666,
+      0.67467
+     ],
+     [
+      0.23332,
+      0.34144
+     ],
+     [
+      1.98325,
+      0.34144
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 20
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 20
+   },
+   "usedIn": [
+    "Tetris #5",
+    "Tetris #8"
+   ],
+   "noteCount": 20,
+   "used": true,
+   "keysPlayed": {
+    "lo": 66,
+    "hi": 78,
+    "median": 78
+   },
+   "features": {
+    "keyMedian": 78,
+    "keyLo": 66,
+    "keyHi": 78,
+    "keySpan": 12,
+    "medianNote": 0.517,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.358,
+    "centroid": 1188,
+    "brightness": 1.61,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 2"
+  },
+  {
+   "id": "nes:pulse:duty50:envcf3686cf",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.1356,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.64673
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.05,
+      0.13563
+     ],
+     [
+      1.98325,
+      0.13563
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 51
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 51
+   },
+   "usedIn": [
+    "Tetris #1"
+   ],
+   "noteCount": 51,
+   "used": true,
+   "keysPlayed": {
+    "lo": 53,
+    "hi": 96,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 53,
+    "keyHi": 96,
+    "keySpan": 43,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.05,
+    "sustain": 0.143,
+    "centroid": 892,
+    "brightness": 1.61,
+    "harmonicity": 0.996,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 8"
+  },
+  {
+   "id": "nes:pulse:duty50:enve2dfeb88",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.05,
+    "decay": 0.1167,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.46563
+     ],
+     [
+      0.03333,
+      1.91039
+     ],
+     [
+      0.05,
+      2.12539
+     ],
+     [
+      0.08333,
+      1.69053
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.46563
+     ],
+     [
+      0.14999,
+      1.46563
+     ],
+     [
+      0.16666,
+      1.23551
+     ],
+     [
+      1.98325,
+      1.23551
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 51
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 51
+   },
+   "usedIn": [
+    "Tetris #10"
+   ],
+   "noteCount": 51,
+   "used": true,
+   "keysPlayed": {
+    "lo": 68,
+    "hi": 76,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 68,
+    "keyHi": 76,
+    "keySpan": 8,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.03,
+    "t20": null,
+    "sustain": 0.589,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 12"
+  },
+  {
+   "id": "nes:pulse:duty50:enve4c13fc7",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.15,
+    "sustain": 0.1356,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.76719
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.05,
+      0.64673
+     ],
+     [
+      0.06666,
+      0.52345
+     ],
+     [
+      0.11666,
+      0.52345
+     ],
+     [
+      0.13333,
+      0.39725
+     ],
+     [
+      0.14999,
+      0.13563
+     ],
+     [
+      1.98325,
+      0.13563
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 96
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 96
+   },
+   "usedIn": [
+    "Tetris #10"
+   ],
+   "noteCount": 96,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 64,
+    "median": 61
+   },
+   "features": {
+    "keyMedian": 61,
+    "keyLo": 59,
+    "keyHi": 64,
+    "keySpan": 5,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.145,
+    "sustain": 0.14,
+    "centroid": 447,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 6"
+  },
+  {
+   "id": "nes:pulse:duty50:enve41da2f4",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0333,
+    "sustain": 0.1356,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.54624
+     ],
+     [
+      0.03333,
+      1.36828
+     ],
+     [
+      0.05,
+      0.20972
+     ],
+     [
+      1.98325,
+      0.20972
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 143
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 143
+   },
+   "usedIn": [
+    "Tetris #9"
+   ],
+   "noteCount": 143,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 72,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 43,
+    "keyHi": 72,
+    "keySpan": 29,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.01,
+    "t20": 0.035,
+    "sustain": 0.138,
+    "centroid": 473,
+    "brightness": 1.61,
+    "harmonicity": 0.993,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 4"
+  },
+  {
+   "id": "nes:pulse:duty50:envf7e5db26",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.05,
+    "decay": 0.1167,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.46563
+     ],
+     [
+      0.03333,
+      1.91039
+     ],
+     [
+      0.05,
+      2.12539
+     ],
+     [
+      0.08333,
+      1.69053
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.46563
+     ],
+     [
+      0.14999,
+      1.46563
+     ],
+     [
+      0.16666,
+      1.23551
+     ],
+     [
+      1.98325,
+      1.23551
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 22
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 22
+   },
+   "usedIn": [
+    "Tetris #10"
+   ],
+   "noteCount": 22,
+   "used": true,
+   "keysPlayed": {
+    "lo": 61,
+    "hi": 64,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 61,
+    "keyHi": 64,
+    "keySpan": 3,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.035,
+    "t20": null,
+    "sustain": 0.59,
+    "centroid": 532,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 20"
+  },
+  {
+   "id": "nes:pulse:duty75:env1dde753b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.15,
+    "sustain": 0.1219,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.7954
+     ],
+     [
+      0.05,
+      0.58131
+     ],
+     [
+      0.06666,
+      0.35706
+     ],
+     [
+      0.08333,
+      0.2409
+     ],
+     [
+      0.1,
+      0.4705
+     ],
+     [
+      0.14999,
+      0.12191
+     ],
+     [
+      1.98325,
+      0.12191
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 26
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 26
+   },
+   "usedIn": [
+    "Tetris #6",
+    "Tetris #3"
+   ],
+   "noteCount": 26,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 92,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 56,
+    "keyHi": 92,
+    "keySpan": 36,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.14,
+    "sustain": 0.13,
+    "centroid": 1302,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 9"
+  },
+  {
+   "id": "nes:pulse:duty75:env3c6c1d00",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2,
+    "sustain": 0.1768,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6823
+     ],
+     [
+      0.08333,
+      0.6823
+     ],
+     [
+      0.1,
+      0.5178
+     ],
+     [
+      0.11666,
+      0.5178
+     ],
+     [
+      0.13333,
+      0.34934
+     ],
+     [
+      0.18333,
+      0.34934
+     ],
+     [
+      0.19999,
+      0.17679
+     ],
+     [
+      1.98325,
+      0.17679
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Tetris #3"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 85,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 49,
+    "keyHi": 85,
+    "keySpan": 36,
+    "medianNote": 0.383,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": 0.195,
+    "sustain": 0.177,
+    "centroid": 654,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 11"
+  },
+  {
+   "id": "nes:pulse:duty75:env3ed10e50",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.6823,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6823
+     ],
+     [
+      1.98325,
+      0.6823
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 11
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 11
+   },
+   "usedIn": [
+    "Tetris #6"
+   ],
+   "noteCount": 11,
+   "used": true,
+   "keysPlayed": {
+    "lo": 68,
+    "hi": 84,
+    "median": 82
+   },
+   "features": {
+    "keyMedian": 82,
+    "keyLo": 68,
+    "keyHi": 84,
+    "keySpan": 16,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.716,
+    "centroid": 1831,
+    "brightness": 1.96,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 6"
+  },
+  {
+   "id": "nes:pulse:duty75:env4cd41b1d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.529,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6275
+     ],
+     [
+      0.05,
+      0.6275
+     ],
+     [
+      0.06666,
+      0.52898
+     ],
+     [
+      1.98325,
+      0.52898
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 196
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 196
+   },
+   "usedIn": [
+    "Tetris #3",
+    "Tetris #6"
+   ],
+   "noteCount": 196,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 90,
+    "median": 68
+   },
+   "features": {
+    "keyMedian": 68,
+    "keyLo": 59,
+    "keyHi": 90,
+    "keySpan": 31,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.552,
+    "centroid": 823,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 6"
+  },
+  {
+   "id": "nes:pulse:duty75:env6af1b3f8",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1,
+    "sustain": 0.3571,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.7954
+     ],
+     [
+      0.06666,
+      0.4705
+     ],
+     [
+      0.08333,
+      0.4705
+     ],
+     [
+      0.1,
+      0.35706
+     ],
+     [
+      1.98325,
+      0.35706
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 51
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 51
+   },
+   "usedIn": [
+    "Tetris #3",
+    "Tetris #6"
+   ],
+   "noteCount": 51,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 68,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 49,
+    "keyHi": 68,
+    "keySpan": 19,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.366,
+    "centroid": 654,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 13"
+  },
+  {
+   "id": "nes:pulse:duty75:env6e0c47b5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.4281,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6275
+     ],
+     [
+      0.05,
+      0.6275
+     ],
+     [
+      0.06666,
+      0.52898
+     ],
+     [
+      0.1,
+      0.52898
+     ],
+     [
+      0.11666,
+      0.42814
+     ],
+     [
+      0.13333,
+      0.42814
+     ],
+     [
+      0.14999,
+      0.32492
+     ],
+     [
+      0.16666,
+      0.42814
+     ],
+     [
+      1.98325,
+      0.42814
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 118
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 118
+   },
+   "usedIn": [
+    "Tetris #3",
+    "Tetris #6"
+   ],
+   "noteCount": 118,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 92,
+    "median": 68
+   },
+   "features": {
+    "keyMedian": 68,
+    "keyLo": 63,
+    "keyHi": 92,
+    "keySpan": 29,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.446,
+    "centroid": 823,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 9"
+  },
+  {
+   "id": "nes:pulse:duty75:env23a888c9",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1167,
+    "sustain": 0.4281,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6275
+     ],
+     [
+      0.05,
+      0.6275
+     ],
+     [
+      0.06666,
+      0.52898
+     ],
+     [
+      0.1,
+      0.52898
+     ],
+     [
+      0.11666,
+      0.42814
+     ],
+     [
+      0.13333,
+      0.42814
+     ],
+     [
+      0.14999,
+      0.32492
+     ],
+     [
+      0.16666,
+      0.42814
+     ],
+     [
+      1.98325,
+      0.42814
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 136
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 136
+   },
+   "usedIn": [
+    "Tetris #3",
+    "Tetris #6"
+   ],
+   "noteCount": 136,
+   "used": true,
+   "keysPlayed": {
+    "lo": 66,
+    "hi": 87,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 66,
+    "keyHi": 87,
+    "keySpan": 21,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.456,
+    "centroid": 1096,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 8"
+  },
+  {
+   "id": "nes:pulse:duty75:env38de9e11",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.2591,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.7589
+     ],
+     [
+      0.05,
+      0.7589
+     ],
+     [
+      0.06666,
+      0.51201
+     ],
+     [
+      0.11666,
+      0.51201
+     ],
+     [
+      0.13333,
+      0.25912
+     ],
+     [
+      1.98325,
+      0.25912
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 21
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 21
+   },
+   "usedIn": [
+    "Tetris #3",
+    "Tetris #6"
+   ],
+   "noteCount": 21,
+   "used": true,
+   "keysPlayed": {
+    "lo": 68,
+    "hi": 87,
+    "median": 75
+   },
+   "features": {
+    "keyMedian": 75,
+    "keyLo": 68,
+    "keyHi": 87,
+    "keySpan": 19,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.262,
+    "centroid": 1230,
+    "brightness": 1.98,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 4"
+  },
+  {
+   "id": "nes:pulse:duty75:env43f2f6e2",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2,
+    "sustain": 0.1768,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6823
+     ],
+     [
+      0.08333,
+      0.6823
+     ],
+     [
+      0.1,
+      0.5178
+     ],
+     [
+      0.11666,
+      0.5178
+     ],
+     [
+      0.13333,
+      0.34934
+     ],
+     [
+      0.18333,
+      0.34934
+     ],
+     [
+      0.19999,
+      0.17679
+     ],
+     [
+      1.98325,
+      0.17679
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Tetris #3"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 88,
+    "hi": 88,
+    "median": 88
+   },
+   "features": {
+    "keyMedian": 88,
+    "keyLo": 88,
+    "keyHi": 88,
+    "keySpan": 0,
+    "medianNote": 0.383,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.195,
+    "sustain": 0.187,
+    "centroid": 2520,
+    "brightness": 1.91,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 4"
+  },
+  {
+   "id": "nes:pulse:duty75:env82daff3a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3167,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6275
+     ],
+     [
+      0.05,
+      0.6275
+     ],
+     [
+      0.06666,
+      0.52898
+     ],
+     [
+      0.1,
+      0.52898
+     ],
+     [
+      0.11666,
+      0.42814
+     ],
+     [
+      0.13333,
+      0.42814
+     ],
+     [
+      0.14999,
+      0.32492
+     ],
+     [
+      0.16666,
+      0.42814
+     ],
+     [
+      0.18333,
+      0.32492
+     ],
+     [
+      0.19999,
+      0.32492
+     ],
+     [
+      0.21666,
+      0.21921
+     ],
+     [
+      0.29999,
+      0.21921
+     ],
+     [
+      0.31665,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 45
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 45
+   },
+   "usedIn": [
+    "Tetris #3",
+    "Tetris #6"
+   ],
+   "noteCount": 45,
+   "used": true,
+   "keysPlayed": {
+    "lo": 68,
+    "hi": 87,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 68,
+    "keyHi": 87,
+    "keySpan": 19,
+    "medianNote": 0.383,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.295,
+    "sustain": 0.115,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet"
+  },
+  {
+   "id": "nes:pulse:duty75:env93cd7989",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.4203,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.64985
+     ],
+     [
+      0.06666,
+      0.42028
+     ],
+     [
+      1.98325,
+      0.42028
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 18
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 18
+   },
+   "usedIn": [
+    "Tetris #3"
+   ],
+   "noteCount": 18,
+   "used": true,
+   "keysPlayed": {
+    "lo": 75,
+    "hi": 85,
+    "median": 78
+   },
+   "features": {
+    "keyMedian": 78,
+    "keyLo": 75,
+    "keyHi": 85,
+    "keySpan": 10,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.473,
+    "centroid": 1460,
+    "brightness": 1.97,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 3"
+  },
+  {
+   "id": "nes:pulse:duty75:env96e3aed2",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.2591,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.7589
+     ],
+     [
+      0.05,
+      0.7589
+     ],
+     [
+      0.06666,
+      0.51201
+     ],
+     [
+      0.11666,
+      0.51201
+     ],
+     [
+      0.13333,
+      0.25912
+     ],
+     [
+      1.98325,
+      0.25912
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 8
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 8
+   },
+   "usedIn": [
+    "Tetris #3",
+    "Tetris #6"
+   ],
+   "noteCount": 8,
+   "used": true,
+   "keysPlayed": {
+    "lo": 68,
+    "hi": 84,
+    "median": 82
+   },
+   "features": {
+    "keyMedian": 82,
+    "keyLo": 68,
+    "keyHi": 84,
+    "keySpan": 16,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.253,
+    "centroid": 1830,
+    "brightness": 1.96,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "nes:pulse:duty75:env367f2d8a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.3493,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6823
+     ],
+     [
+      0.08333,
+      0.6823
+     ],
+     [
+      0.1,
+      0.5178
+     ],
+     [
+      0.11666,
+      0.5178
+     ],
+     [
+      0.13333,
+      0.34934
+     ],
+     [
+      1.98325,
+      0.34934
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 15
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 15
+   },
+   "usedIn": [
+    "Tetris #3",
+    "Tetris #6"
+   ],
+   "noteCount": 15,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 85,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 49,
+    "keyHi": 85,
+    "keySpan": 36,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.35,
+    "centroid": 654,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 24"
+  },
+  {
+   "id": "nes:pulse:duty75:env719f3e5a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.512,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.7589
+     ],
+     [
+      0.05,
+      0.7589
+     ],
+     [
+      0.06666,
+      0.51201
+     ],
+     [
+      1.98325,
+      0.51201
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 18
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 18
+   },
+   "usedIn": [
+    "Tetris #6"
+   ],
+   "noteCount": 18,
+   "used": true,
+   "keysPlayed": {
+    "lo": 68,
+    "hi": 85,
+    "median": 75
+   },
+   "features": {
+    "keyMedian": 75,
+    "keyLo": 68,
+    "keyHi": 85,
+    "keySpan": 17,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.517,
+    "centroid": 1230,
+    "brightness": 1.98,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 21"
+  },
+  {
+   "id": "nes:pulse:duty75:env8420caed",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1,
+    "sustain": 0.3571,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.7954
+     ],
+     [
+      0.06666,
+      0.4705
+     ],
+     [
+      0.08333,
+      0.4705
+     ],
+     [
+      0.1,
+      0.35706
+     ],
+     [
+      1.98325,
+      0.35706
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 12
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 12
+   },
+   "usedIn": [
+    "Tetris #6",
+    "Tetris #3"
+   ],
+   "noteCount": 12,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 64,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 49,
+    "keyHi": 64,
+    "keySpan": 15,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.366,
+    "centroid": 654,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 25"
+  },
+  {
+   "id": "nes:pulse:duty75:env37926af7",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.8179,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.81792
+     ],
+     [
+      1.98325,
+      0.81792
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 32
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 32
+   },
+   "usedIn": [
+    "Tetris #6"
+   ],
+   "noteCount": 32,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 76,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 64,
+    "keyHi": 76,
+    "keySpan": 12,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.87,
+    "centroid": 923,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 16"
+  },
+  {
+   "id": "nes:pulse:duty75:env5245996f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.6499,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.64985
+     ],
+     [
+      1.98325,
+      0.64985
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 48
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 48
+   },
+   "usedIn": [
+    "Tetris #6"
+   ],
+   "noteCount": 48,
+   "used": true,
+   "keysPlayed": {
+    "lo": 75,
+    "hi": 97,
+    "median": 84
+   },
+   "features": {
+    "keyMedian": 84,
+    "keyLo": 75,
+    "keyHi": 97,
+    "keySpan": 22,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.698,
+    "centroid": 2043,
+    "brightness": 1.95,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead"
+  },
+  {
+   "id": "nes:pulse:duty75:enva5f9596c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.6275,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6275
+     ],
+     [
+      1.98325,
+      0.6275
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 85
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 85
+   },
+   "usedIn": [
+    "Tetris #6",
+    "Tetris #3"
+   ],
+   "noteCount": 85,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 87,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 59,
+    "keyHi": 87,
+    "keySpan": 28,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.638,
+    "centroid": 654,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 10"
+  },
+  {
+   "id": "nes:pulse:duty75:envbde88940",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 237
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 237
+   },
+   "usedIn": [
+    "Tetris #6",
+    "Tetris #12",
+    "Tetris #13",
+    "Tetris #17",
+    "Tetris #28"
+   ],
+   "noteCount": 237,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 93,
+    "median": 93
+   },
+   "features": {
+    "keyMedian": 93,
+    "keyLo": 67,
+    "keyHi": 93,
+    "keySpan": 26,
+    "medianNote": 0.233,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.988,
+    "centroid": 3235,
+    "brightness": 1.84,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like"
+  },
+  {
+   "id": "nes:pulse:duty75:envc274cb6b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3167,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6275
+     ],
+     [
+      0.05,
+      0.6275
+     ],
+     [
+      0.06666,
+      0.52898
+     ],
+     [
+      0.1,
+      0.52898
+     ],
+     [
+      0.11666,
+      0.42814
+     ],
+     [
+      0.13333,
+      0.42814
+     ],
+     [
+      0.14999,
+      0.32492
+     ],
+     [
+      0.16666,
+      0.42814
+     ],
+     [
+      0.18333,
+      0.32492
+     ],
+     [
+      0.19999,
+      0.32492
+     ],
+     [
+      0.21666,
+      0.21921
+     ],
+     [
+      0.29999,
+      0.21921
+     ],
+     [
+      0.31665,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 27
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 27
+   },
+   "usedIn": [
+    "Tetris #3"
+   ],
+   "noteCount": 27,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 92,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 63,
+    "keyHi": 92,
+    "keySpan": 29,
+    "medianNote": 0.383,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.305,
+    "sustain": 0.124,
+    "centroid": 734,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 3"
+  },
+  {
+   "id": "nes:pulse:duty75:envc2191da3",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.5061,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      1
+     ],
+     [
+      0.06666,
+      0.50608
+     ],
+     [
+      1.98325,
+      0.50608
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 32
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 32
+   },
+   "usedIn": [
+    "Tetris #3",
+    "Tetris #6"
+   ],
+   "noteCount": 32,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 73,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 49,
+    "keyHi": 73,
+    "keySpan": 24,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.01,
+    "t20": null,
+    "sustain": 0.465,
+    "centroid": 923,
+    "brightness": 1.98,
+    "harmonicity": 0.996,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 17"
+  },
+  {
+   "id": "nes:pulse:duty75:envd2db233b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.0881,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.64985
+     ],
+     [
+      0.1,
+      0.25815
+     ],
+     [
+      0.13333,
+      0.08814
+     ],
+     [
+      1.98325,
+      0.08814
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Tetris #3",
+    "Tetris #6"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 92,
+    "median": 92
+   },
+   "features": {
+    "keyMedian": 92,
+    "keyLo": 56,
+    "keyHi": 92,
+    "keySpan": 36,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.115,
+    "sustain": 0.094,
+    "centroid": 3083,
+    "brightness": 1.86,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 2"
+  },
+  {
+   "id": "nes:pulse:duty75:envdc54d71b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.529,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6275
+     ],
+     [
+      0.05,
+      0.6275
+     ],
+     [
+      0.06666,
+      0.52898
+     ],
+     [
+      1.98325,
+      0.52898
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 146
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 146
+   },
+   "usedIn": [
+    "Tetris #6"
+   ],
+   "noteCount": 146,
+   "used": true,
+   "keysPlayed": {
+    "lo": 66,
+    "hi": 87,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 66,
+    "keyHi": 87,
+    "keySpan": 21,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.564,
+    "centroid": 1096,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 7"
+  },
+  {
+   "id": "nes:pulse:duty75:envde340ae7",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.512,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.7589
+     ],
+     [
+      0.05,
+      0.7589
+     ],
+     [
+      0.06666,
+      0.51201
+     ],
+     [
+      1.98325,
+      0.51201
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 12
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 12
+   },
+   "usedIn": [
+    "Tetris #3",
+    "Tetris #6"
+   ],
+   "noteCount": 12,
+   "used": true,
+   "keysPlayed": {
+    "lo": 68,
+    "hi": 82,
+    "median": 80
+   },
+   "features": {
+    "keyMedian": 80,
+    "keyLo": 68,
+    "keyHi": 82,
+    "keySpan": 14,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.517,
+    "centroid": 1636,
+    "brightness": 1.97,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 5"
+  },
+  {
+   "id": "nes:pulse:duty75:enve64db807",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.3493,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6823
+     ],
+     [
+      0.08333,
+      0.6823
+     ],
+     [
+      0.1,
+      0.5178
+     ],
+     [
+      0.11666,
+      0.5178
+     ],
+     [
+      0.13333,
+      0.34934
+     ],
+     [
+      1.98325,
+      0.34934
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 7
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 7
+   },
+   "usedIn": [
+    "Tetris #3",
+    "Tetris #6"
+   ],
+   "noteCount": 7,
+   "used": true,
+   "keysPlayed": {
+    "lo": 68,
+    "hi": 88,
+    "median": 87
+   },
+   "features": {
+    "keyMedian": 87,
+    "keyLo": 68,
+    "keyHi": 88,
+    "keySpan": 20,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.363,
+    "centroid": 2393,
+    "brightness": 1.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 7"
+  },
+  {
+   "id": "nes:triangle:env48a3dbda",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-triangle-envelope",
+     "groupKey": "tri",
+     "sampleCount": 1990
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "dbefed6c0b27b554",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "triangle",
+    "groupKey": "tri",
+    "clusterNotes": 1990
+   },
+   "usedIn": [
+    "Tetris #1",
+    "Tetris #2",
+    "Tetris #3",
+    "Tetris #4",
+    "Tetris #5",
+    "Tetris #6",
+    "Tetris #7",
+    "Tetris #8",
+    "Tetris #9",
+    "Tetris #10",
+    "Tetris #11",
+    "Tetris #22",
+    "Tetris #23"
+   ],
+   "noteCount": 1990,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 81,
+    "median": 52
+   },
+   "features": {
+    "keyMedian": 52,
+    "keyLo": 36,
+    "keyHi": 81,
+    "keySpan": 45,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.916,
+    "centroid": 170,
+    "brightness": 1.03,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  }
+ ],
+ "samples": {
+  "156e74116e651302": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "156e74116e651302.wav"
+  },
+  "dbefed6c0b27b554": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "dbefed6c0b27b554.wav"
+  },
+  "bec5b2e9f7d5d794": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "bec5b2e9f7d5d794.wav"
+  },
+  "511e2b74a88a4d8a": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "511e2b74a88a4d8a.wav"
+  },
+  "4004e82e3c674467": {
+   "rate": 440,
+   "length": 132,
+   "loop": null,
+   "bytes": 352,
+   "file": "4004e82e3c674467.wav"
+  },
+  "4905a206193949d9": {
+   "rate": 11186,
+   "length": 3356,
+   "loop": null,
+   "bytes": 6800,
+   "file": "4905a206193949d9.wav"
+  },
+  "e3c2fe39b6778838": {
+   "rate": 4710,
+   "length": 1413,
+   "loop": null,
+   "bytes": 2914,
+   "file": "e3c2fe39b6778838.wav"
+  },
+  "bdcdc06995a55bd8": {
+   "rate": 1762,
+   "length": 529,
+   "loop": null,
+   "bytes": 1146,
+   "file": "bdcdc06995a55bd8.wav"
+  },
+  "6d02335f363abafa": {
+   "rate": 880,
+   "length": 264,
+   "loop": null,
+   "bytes": 616,
+   "file": "6d02335f363abafa.wav"
+  },
+  "70260905e7694d67": {
+   "rate": 447443,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "70260905e7694d67.wav"
+  },
+  "02abdb4410d126c1": {
+   "rate": 13983,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "02abdb4410d126c1.wav"
+  },
+  "fc49f371e9eae13c": {
+   "rate": 8860,
+   "length": 2658,
+   "loop": null,
+   "bytes": 5404,
+   "file": "fc49f371e9eae13c.wav"
+  },
+  "3bf18bc59590df32": {
+   "rate": 7046,
+   "length": 2114,
+   "loop": null,
+   "bytes": 4316,
+   "file": "3bf18bc59590df32.wav"
+  }
+ }
+}
