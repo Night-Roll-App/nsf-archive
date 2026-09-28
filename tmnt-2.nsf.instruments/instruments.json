@@ -1,0 +1,4962 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "tmnt-2",
+ "title": "TMNT 2",
+ "drivers": [
+  "nes"
+ ],
+ "songs": 40,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "nes:noise:p8:m0:env54be33f1",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p8m0",
+     "sampleCount": 13
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 8,
+      "mode": 0
+     },
+     "sample": "f392073fc631e05d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.033,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.018,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 7943,
+      "brightness": 85.87,
+      "harmonicity": 0.138,
+      "flatness": 0.584,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p8m0",
+    "clusterNotes": 13
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #1",
+    "Teenage Mutant Hero Turtles 2 #2",
+    "Teenage Mutant Hero Turtles 2 #14",
+    "Teenage Mutant Hero Turtles 2 #32",
+    "Teenage Mutant Hero Turtles 2 #37"
+   ],
+   "noteCount": 13,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 15",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p16:m0:env4264655e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p16m0",
+     "sampleCount": 13
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 16,
+      "mode": 0
+     },
+     "sample": "b77f25d77cf617e9",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.037,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.04,
+      "sustain": 0,
+      "centroid": 7774,
+      "brightness": 84.04,
+      "harmonicity": 0.1,
+      "flatness": 0.553,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p16m0",
+    "clusterNotes": 13
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #1",
+    "Teenage Mutant Hero Turtles 2 #2",
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #13",
+    "Teenage Mutant Hero Turtles 2 #14",
+    "Teenage Mutant Hero Turtles 2 #21",
+    "Teenage Mutant Hero Turtles 2 #32"
+   ],
+   "noteCount": 13,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 14",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p32:m0:env456863fe",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p32m0",
+     "sampleCount": 14
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 32,
+      "mode": 0
+     },
+     "sample": "83a3aede5f0edb0d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.073,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.075,
+      "sustain": 0,
+      "centroid": 8015,
+      "brightness": 86.65,
+      "harmonicity": 0.087,
+      "flatness": 0.589,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p32m0",
+    "clusterNotes": 14
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #13",
+    "Teenage Mutant Hero Turtles 2 #14",
+    "Teenage Mutant Hero Turtles 2 #18",
+    "Teenage Mutant Hero Turtles 2 #21",
+    "Teenage Mutant Hero Turtles 2 #30",
+    "Teenage Mutant Hero Turtles 2 #32",
+    "Teenage Mutant Hero Turtles 2 #37",
+    "Teenage Mutant Hero Turtles 2 #40"
+   ],
+   "noteCount": 14,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 13",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p64:m0:env1c90c25f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p64m0",
+     "sampleCount": 523
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 64,
+      "mode": 0
+     },
+     "sample": "8fc2bb7bc828680d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.146,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.15,
+      "sustain": 0,
+      "centroid": 5548,
+      "brightness": 59.98,
+      "harmonicity": 0.151,
+      "flatness": 0.574,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p64m0",
+    "clusterNotes": 523
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #8",
+    "Teenage Mutant Hero Turtles 2 #13",
+    "Teenage Mutant Hero Turtles 2 #14",
+    "Teenage Mutant Hero Turtles 2 #18",
+    "Teenage Mutant Hero Turtles 2 #30",
+    "Teenage Mutant Hero Turtles 2 #32"
+   ],
+   "noteCount": 523,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 3",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p96:m0:env603a75c3",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p96m0",
+     "sampleCount": 18
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 96,
+      "mode": 0
+     },
+     "sample": "5337058d647d9baa",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.22,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.22,
+      "sustain": 0,
+      "centroid": 3613,
+      "brightness": 39.06,
+      "harmonicity": 0.215,
+      "flatness": 0.488,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p96m0",
+    "clusterNotes": 18
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #3",
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #6",
+    "Teenage Mutant Hero Turtles 2 #13",
+    "Teenage Mutant Hero Turtles 2 #14",
+    "Teenage Mutant Hero Turtles 2 #15",
+    "Teenage Mutant Hero Turtles 2 #18",
+    "Teenage Mutant Hero Turtles 2 #21",
+    "Teenage Mutant Hero Turtles 2 #22",
+    "Teenage Mutant Hero Turtles 2 #30"
+   ],
+   "noteCount": 18,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 12",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p128:m0:enve2517b4f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p128m0",
+     "sampleCount": 2525
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 128,
+      "mode": 0
+     },
+     "sample": "02abdb4410d126c1",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.293,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.295,
+      "sustain": 0,
+      "centroid": 2656,
+      "brightness": 36.18,
+      "harmonicity": 0.24,
+      "flatness": 0.329,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p128m0",
+    "clusterNotes": 2525
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #3",
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #6",
+    "Teenage Mutant Hero Turtles 2 #8",
+    "Teenage Mutant Hero Turtles 2 #13",
+    "Teenage Mutant Hero Turtles 2 #15",
+    "Teenage Mutant Hero Turtles 2 #18",
+    "Teenage Mutant Hero Turtles 2 #21",
+    "Teenage Mutant Hero Turtles 2 #22",
+    "Teenage Mutant Hero Turtles 2 #24",
+    "Teenage Mutant Hero Turtles 2 #25",
+    "Teenage Mutant Hero Turtles 2 #30",
+    "Teenage Mutant Hero Turtles 2 #31",
+    "Teenage Mutant Hero Turtles 2 #32",
+    "Teenage Mutant Hero Turtles 2 #36",
+    "Teenage Mutant Hero Turtles 2 #40"
+   ],
+   "noteCount": 2525,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p160:m0:envf01a4b33",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p160m0",
+     "sampleCount": 19
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 160,
+      "mode": 0
+     },
+     "sample": "4905a206193949d9",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.28,
+      "sustain": 0,
+      "centroid": 2125,
+      "brightness": 28.95,
+      "harmonicity": 0.294,
+      "flatness": 0.154,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p160m0",
+    "clusterNotes": 19
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #3",
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #6",
+    "Teenage Mutant Hero Turtles 2 #14",
+    "Teenage Mutant Hero Turtles 2 #15",
+    "Teenage Mutant Hero Turtles 2 #18",
+    "Teenage Mutant Hero Turtles 2 #21",
+    "Teenage Mutant Hero Turtles 2 #24",
+    "Teenage Mutant Hero Turtles 2 #30",
+    "Teenage Mutant Hero Turtles 2 #35",
+    "Teenage Mutant Hero Turtles 2 #40"
+   ],
+   "noteCount": 19,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 11",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p202:m0:env7471df40",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p202m0",
+     "sampleCount": 56
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 202,
+      "mode": 0
+     },
+     "sample": "accf980e05b24066",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.275,
+      "sustain": 0,
+      "centroid": 1620,
+      "brightness": 22.06,
+      "harmonicity": 0.331,
+      "flatness": 0.052,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p202m0",
+    "clusterNotes": 56
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #3",
+    "Teenage Mutant Hero Turtles 2 #4",
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #6",
+    "Teenage Mutant Hero Turtles 2 #9",
+    "Teenage Mutant Hero Turtles 2 #11",
+    "Teenage Mutant Hero Turtles 2 #13",
+    "Teenage Mutant Hero Turtles 2 #15",
+    "Teenage Mutant Hero Turtles 2 #20",
+    "Teenage Mutant Hero Turtles 2 #21",
+    "Teenage Mutant Hero Turtles 2 #22",
+    "Teenage Mutant Hero Turtles 2 #24",
+    "Teenage Mutant Hero Turtles 2 #30",
+    "Teenage Mutant Hero Turtles 2 #31",
+    "Teenage Mutant Hero Turtles 2 #35",
+    "Teenage Mutant Hero Turtles 2 #37",
+    "Teenage Mutant Hero Turtles 2 #40"
+   ],
+   "noteCount": 56,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 6",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p254:m0:env919ed0ad",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p254m0",
+     "sampleCount": 73
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 254,
+      "mode": 0
+     },
+     "sample": "3bf18bc59590df32",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.235,
+      "sustain": 0,
+      "centroid": 1253,
+      "brightness": 17.07,
+      "harmonicity": 0.346,
+      "flatness": 0.028,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p254m0",
+    "clusterNotes": 73
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #3",
+    "Teenage Mutant Hero Turtles 2 #4",
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #6",
+    "Teenage Mutant Hero Turtles 2 #9",
+    "Teenage Mutant Hero Turtles 2 #11",
+    "Teenage Mutant Hero Turtles 2 #12",
+    "Teenage Mutant Hero Turtles 2 #13",
+    "Teenage Mutant Hero Turtles 2 #14",
+    "Teenage Mutant Hero Turtles 2 #15",
+    "Teenage Mutant Hero Turtles 2 #17",
+    "Teenage Mutant Hero Turtles 2 #18",
+    "Teenage Mutant Hero Turtles 2 #20",
+    "Teenage Mutant Hero Turtles 2 #21",
+    "Teenage Mutant Hero Turtles 2 #22",
+    "Teenage Mutant Hero Turtles 2 #24",
+    "Teenage Mutant Hero Turtles 2 #30",
+    "Teenage Mutant Hero Turtles 2 #32",
+    "Teenage Mutant Hero Turtles 2 #34",
+    "Teenage Mutant Hero Turtles 2 #35",
+    "Teenage Mutant Hero Turtles 2 #37",
+    "Teenage Mutant Hero Turtles 2 #40"
+   ],
+   "noteCount": 73,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 5",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p380:m0:envdca6fc4d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p380m0",
+     "sampleCount": 47
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 380,
+      "mode": 0
+     },
+     "sample": "e3c2fe39b6778838",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.075,
+      "t20": 0.035,
+      "sustain": 0,
+      "centroid": 876,
+      "brightness": 11.94,
+      "harmonicity": 0.185,
+      "flatness": 0.008,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p380m0",
+    "clusterNotes": 47
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #3",
+    "Teenage Mutant Hero Turtles 2 #4",
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #6",
+    "Teenage Mutant Hero Turtles 2 #9",
+    "Teenage Mutant Hero Turtles 2 #11",
+    "Teenage Mutant Hero Turtles 2 #12",
+    "Teenage Mutant Hero Turtles 2 #13",
+    "Teenage Mutant Hero Turtles 2 #15",
+    "Teenage Mutant Hero Turtles 2 #17",
+    "Teenage Mutant Hero Turtles 2 #20",
+    "Teenage Mutant Hero Turtles 2 #21",
+    "Teenage Mutant Hero Turtles 2 #22",
+    "Teenage Mutant Hero Turtles 2 #24",
+    "Teenage Mutant Hero Turtles 2 #30",
+    "Teenage Mutant Hero Turtles 2 #32",
+    "Teenage Mutant Hero Turtles 2 #34",
+    "Teenage Mutant Hero Turtles 2 #35",
+    "Teenage Mutant Hero Turtles 2 #37",
+    "Teenage Mutant Hero Turtles 2 #38"
+   ],
+   "noteCount": 47,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 9",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p508:m0:env8f967de1",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p508m0",
+     "sampleCount": 54
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 508,
+      "mode": 0
+     },
+     "sample": "a223303b6af4932e",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.03,
+      "t20": 0.125,
+      "sustain": 0,
+      "centroid": 620,
+      "brightness": 8.45,
+      "harmonicity": 0.287,
+      "flatness": 0.003,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p508m0",
+    "clusterNotes": 54
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #3",
+    "Teenage Mutant Hero Turtles 2 #4",
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #6",
+    "Teenage Mutant Hero Turtles 2 #9",
+    "Teenage Mutant Hero Turtles 2 #10",
+    "Teenage Mutant Hero Turtles 2 #11",
+    "Teenage Mutant Hero Turtles 2 #12",
+    "Teenage Mutant Hero Turtles 2 #14",
+    "Teenage Mutant Hero Turtles 2 #15",
+    "Teenage Mutant Hero Turtles 2 #16",
+    "Teenage Mutant Hero Turtles 2 #17",
+    "Teenage Mutant Hero Turtles 2 #18",
+    "Teenage Mutant Hero Turtles 2 #20",
+    "Teenage Mutant Hero Turtles 2 #21",
+    "Teenage Mutant Hero Turtles 2 #22",
+    "Teenage Mutant Hero Turtles 2 #23",
+    "Teenage Mutant Hero Turtles 2 #24",
+    "Teenage Mutant Hero Turtles 2 #30",
+    "Teenage Mutant Hero Turtles 2 #33",
+    "Teenage Mutant Hero Turtles 2 #35",
+    "Teenage Mutant Hero Turtles 2 #37",
+    "Teenage Mutant Hero Turtles 2 #38"
+   ],
+   "noteCount": 54,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 8",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p762:m0:envc2a344ad",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p762m0",
+     "sampleCount": 55
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 762,
+      "mode": 0
+     },
+     "sample": "3a611f0a516f4ad7",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.033,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.095,
+      "t20": 0.205,
+      "sustain": 0,
+      "centroid": 470,
+      "brightness": 7.61,
+      "harmonicity": 0.476,
+      "flatness": 0.001,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p762m0",
+    "clusterNotes": 55
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #3",
+    "Teenage Mutant Hero Turtles 2 #4",
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #6",
+    "Teenage Mutant Hero Turtles 2 #9",
+    "Teenage Mutant Hero Turtles 2 #16",
+    "Teenage Mutant Hero Turtles 2 #17",
+    "Teenage Mutant Hero Turtles 2 #20",
+    "Teenage Mutant Hero Turtles 2 #22",
+    "Teenage Mutant Hero Turtles 2 #23",
+    "Teenage Mutant Hero Turtles 2 #24",
+    "Teenage Mutant Hero Turtles 2 #33",
+    "Teenage Mutant Hero Turtles 2 #35",
+    "Teenage Mutant Hero Turtles 2 #37",
+    "Teenage Mutant Hero Turtles 2 #38"
+   ],
+   "noteCount": 55,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 7",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p1016:m0:env578f1bbb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p1016m0",
+     "sampleCount": 1193
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 1016,
+      "mode": 0
+     },
+     "sample": "bdcdc06995a55bd8",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.083,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 327,
+      "brightness": 5.29,
+      "harmonicity": 0.606,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p1016m0",
+    "clusterNotes": 1193
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #3",
+    "Teenage Mutant Hero Turtles 2 #4",
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #7",
+    "Teenage Mutant Hero Turtles 2 #9",
+    "Teenage Mutant Hero Turtles 2 #12",
+    "Teenage Mutant Hero Turtles 2 #14",
+    "Teenage Mutant Hero Turtles 2 #17",
+    "Teenage Mutant Hero Turtles 2 #20",
+    "Teenage Mutant Hero Turtles 2 #21",
+    "Teenage Mutant Hero Turtles 2 #22",
+    "Teenage Mutant Hero Turtles 2 #23",
+    "Teenage Mutant Hero Turtles 2 #24",
+    "Teenage Mutant Hero Turtles 2 #25",
+    "Teenage Mutant Hero Turtles 2 #26",
+    "Teenage Mutant Hero Turtles 2 #27",
+    "Teenage Mutant Hero Turtles 2 #32",
+    "Teenage Mutant Hero Turtles 2 #33",
+    "Teenage Mutant Hero Turtles 2 #35",
+    "Teenage Mutant Hero Turtles 2 #36",
+    "Teenage Mutant Hero Turtles 2 #37",
+    "Teenage Mutant Hero Turtles 2 #38"
+   ],
+   "noteCount": 1193,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 2",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p2034:m0:env92c1dcdb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p2034m0",
+     "sampleCount": 76
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 2034,
+      "mode": 0
+     },
+     "sample": "6d02335f363abafa",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.033,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 173,
+      "brightness": 2.8,
+      "harmonicity": 0.853,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p2034m0",
+    "clusterNotes": 76
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #10",
+    "Teenage Mutant Hero Turtles 2 #12",
+    "Teenage Mutant Hero Turtles 2 #14",
+    "Teenage Mutant Hero Turtles 2 #15",
+    "Teenage Mutant Hero Turtles 2 #16",
+    "Teenage Mutant Hero Turtles 2 #17",
+    "Teenage Mutant Hero Turtles 2 #20",
+    "Teenage Mutant Hero Turtles 2 #22",
+    "Teenage Mutant Hero Turtles 2 #23",
+    "Teenage Mutant Hero Turtles 2 #24",
+    "Teenage Mutant Hero Turtles 2 #25",
+    "Teenage Mutant Hero Turtles 2 #26",
+    "Teenage Mutant Hero Turtles 2 #28",
+    "Teenage Mutant Hero Turtles 2 #29",
+    "Teenage Mutant Hero Turtles 2 #33",
+    "Teenage Mutant Hero Turtles 2 #35",
+    "Teenage Mutant Hero Turtles 2 #36",
+    "Teenage Mutant Hero Turtles 2 #37",
+    "Teenage Mutant Hero Turtles 2 #39"
+   ],
+   "noteCount": 76,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 4",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p4068:m0:envc67f791e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p4068m0",
+     "sampleCount": 40
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 4068,
+      "mode": 0
+     },
+     "sample": "4004e82e3c674467",
+     "loop": null,
+     "nameGuess": "Kick",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 84,
+      "brightness": 1.36,
+      "harmonicity": 0.966,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p4068m0",
+    "clusterNotes": 40
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #9",
+    "Teenage Mutant Hero Turtles 2 #14",
+    "Teenage Mutant Hero Turtles 2 #16",
+    "Teenage Mutant Hero Turtles 2 #17",
+    "Teenage Mutant Hero Turtles 2 #21",
+    "Teenage Mutant Hero Turtles 2 #22",
+    "Teenage Mutant Hero Turtles 2 #23",
+    "Teenage Mutant Hero Turtles 2 #24",
+    "Teenage Mutant Hero Turtles 2 #28",
+    "Teenage Mutant Hero Turtles 2 #29",
+    "Teenage Mutant Hero Turtles 2 #33",
+    "Teenage Mutant Hero Turtles 2 #35",
+    "Teenage Mutant Hero Turtles 2 #37",
+    "Teenage Mutant Hero Turtles 2 #39"
+   ],
+   "noteCount": 40,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 10",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:pulse:duty12.5:envd614a917",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.8645,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.53882
+     ],
+     [
+      0.03333,
+      1.3303
+     ],
+     [
+      1.98325,
+      1.3303
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #32"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 102,
+    "hi": 102,
+    "median": 102
+   },
+   "features": {
+    "keyMedian": 102,
+    "keyLo": 102,
+    "keyHi": 102,
+    "keySpan": 0,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.01,
+    "t20": null,
+    "sustain": 0.867,
+    "centroid": 7047,
+    "brightness": 2.38,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 2"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envde5b840c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 81
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 81
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #5",
+    "Teenage Mutant Hero Turtles 2 #7",
+    "Teenage Mutant Hero Turtles 2 #11",
+    "Teenage Mutant Hero Turtles 2 #14",
+    "Teenage Mutant Hero Turtles 2 #21",
+    "Teenage Mutant Hero Turtles 2 #24",
+    "Teenage Mutant Hero Turtles 2 #32"
+   ],
+   "noteCount": 81,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 127,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 43,
+    "keyHi": 127,
+    "keySpan": 84,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.988,
+    "centroid": 1706,
+    "brightness": 2.9,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 2"
+  },
+  {
+   "id": "nes:pulse:duty25:env1d423d92",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1,
+    "sustain": 0.3414,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.67467
+     ],
+     [
+      0.08333,
+      0.67467
+     ],
+     [
+      0.1,
+      0.34144
+     ],
+     [
+      1.98325,
+      0.34144
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #32"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 111,
+    "hi": 111,
+    "median": 111
+   },
+   "features": {
+    "keyMedian": 111,
+    "keyLo": 111,
+    "keyHi": 111,
+    "keySpan": 0,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.339,
+    "centroid": 7081,
+    "brightness": 1.42,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 3"
+  },
+  {
+   "id": "nes:pulse:duty25:env9cf9ea5c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 42
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 42
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #18",
+    "Teenage Mutant Hero Turtles 2 #19",
+    "Teenage Mutant Hero Turtles 2 #20",
+    "Teenage Mutant Hero Turtles 2 #25",
+    "Teenage Mutant Hero Turtles 2 #32",
+    "Teenage Mutant Hero Turtles 2 #36"
+   ],
+   "noteCount": 42,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 102,
+    "median": 81
+   },
+   "features": {
+    "keyMedian": 81,
+    "keyLo": 57,
+    "keyHi": 102,
+    "keySpan": 45,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.956,
+    "centroid": 1732,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead"
+  },
+  {
+   "id": "nes:pulse:duty25:env8125639f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.867,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.86696
+     ],
+     [
+      1.98325,
+      0.86696
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #32"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 111,
+    "hi": 111,
+    "median": 111
+   },
+   "features": {
+    "keyMedian": 111,
+    "keyLo": 111,
+    "keyHi": 111,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.86,
+    "centroid": 7080,
+    "brightness": 1.42,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 4"
+  },
+  {
+   "id": "nes:pulse:duty25:envafa5f31d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3333,
+    "sustain": 0.1768,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.84299
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.84299
+     ],
+     [
+      0.06666,
+      1
+     ],
+     [
+      0.08333,
+      0.84299
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      0.84299
+     ],
+     [
+      0.13333,
+      1
+     ],
+     [
+      0.14999,
+      0.84299
+     ],
+     [
+      0.16666,
+      1
+     ],
+     [
+      0.18333,
+      0.84299
+     ],
+     [
+      0.19999,
+      1
+     ],
+     [
+      0.21666,
+      0.84299
+     ],
+     [
+      0.23332,
+      0.84299
+     ],
+     [
+      0.28332,
+      0.34934
+     ],
+     [
+      0.31665,
+      0.34934
+     ],
+     [
+      0.33332,
+      0.17679
+     ],
+     [
+      1.98325,
+      0.17679
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #31"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 98,
+    "hi": 98,
+    "median": 98
+   },
+   "features": {
+    "keyMedian": 98,
+    "keyLo": 98,
+    "keyHi": 98,
+    "keySpan": 0,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.265,
+    "sustain": 0.177,
+    "centroid": 4094,
+    "brightness": 1.74,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "nes:pulse:duty50:env3bd9d428",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.4144,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.06666,
+      0.41441
+     ],
+     [
+      1.98325,
+      0.41441
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #33"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 49,
+    "median": 49
+   },
+   "features": {
+    "keyMedian": 49,
+    "keyLo": 49,
+    "keyHi": 49,
+    "keySpan": 0,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.412,
+    "centroid": 224,
+    "brightness": 1.62,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 3"
+  },
+  {
+   "id": "nes:pulse:duty50:env4b26f404",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.05,
+    "sustain": 0.6747,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      0.67467
+     ],
+     [
+      1.98325,
+      0.67467
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #17"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 39,
+    "hi": 39,
+    "median": 39
+   },
+   "features": {
+    "keyMedian": 39,
+    "keyLo": 39,
+    "keyHi": 39,
+    "keySpan": 0,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.66,
+    "centroid": 126,
+    "brightness": 1.62,
+    "harmonicity": 0.994,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass 2"
+  },
+  {
+   "id": "nes:pulse:duty50:env142d3c7d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2167,
+    "sustain": 0.1109,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.6275
+     ],
+     [
+      0.05,
+      0.21921
+     ],
+     [
+      0.06666,
+      0.42814
+     ],
+     [
+      0.11666,
+      0.72379
+     ],
+     [
+      0.18333,
+      0.32492
+     ],
+     [
+      0.21666,
+      0.11094
+     ],
+     [
+      1.98325,
+      0.11094
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #23"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 46,
+    "hi": 46,
+    "median": 46
+   },
+   "features": {
+    "keyMedian": 46,
+    "keyLo": 46,
+    "keyHi": 46,
+    "keySpan": 0,
+    "medianNote": 0.233,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.205,
+    "sustain": 0.114,
+    "centroid": 188,
+    "brightness": 1.62,
+    "harmonicity": 0.986,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low pluck"
+  },
+  {
+   "id": "nes:pulse:duty50:env535fa84a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.7589,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.7589
+     ],
+     [
+      1.98325,
+      0.7589
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #17"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 45,
+    "median": 45
+   },
+   "features": {
+    "keyMedian": 45,
+    "keyLo": 41,
+    "keyHi": 45,
+    "keySpan": 4,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.785,
+    "centroid": 178,
+    "brightness": 1.62,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead"
+  },
+  {
+   "id": "nes:pulse:duty50:env2915dfc9",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.7308,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.86696
+     ],
+     [
+      0.06666,
+      0.86696
+     ],
+     [
+      0.08333,
+      0.73084
+     ],
+     [
+      1.98325,
+      0.73084
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #33"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 45,
+    "median": 45
+   },
+   "features": {
+    "keyMedian": 45,
+    "keyLo": 45,
+    "keyHi": 45,
+    "keySpan": 0,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.729,
+    "centroid": 178,
+    "brightness": 1.62,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead 2"
+  },
+  {
+   "id": "nes:pulse:duty50:env4785e7ef",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.8849,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.88491
+     ],
+     [
+      1.98325,
+      0.88491
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #33"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 54,
+    "hi": 54,
+    "median": 54
+   },
+   "features": {
+    "keyMedian": 54,
+    "keyLo": 54,
+    "keyHi": 54,
+    "keySpan": 0,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.876,
+    "centroid": 299,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 4"
+  },
+  {
+   "id": "nes:pulse:duty50:env39278b89",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0333,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.54624
+     ],
+     [
+      0.03333,
+      2.05696
+     ],
+     [
+      1.98325,
+      2.05696
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #23"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 50,
+    "median": 50
+   },
+   "features": {
+    "keyMedian": 50,
+    "keyLo": 50,
+    "keyHi": 50,
+    "keySpan": 0,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.025,
+    "t20": null,
+    "sustain": 0.993,
+    "centroid": 237,
+    "brightness": 1.62,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 2"
+  },
+  {
+   "id": "nes:pulse:duty50:enva98a1e33",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0167,
+    "sustain": 0.9191,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      0.91905
+     ],
+     [
+      0.03333,
+      0.6652
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      0.91905
+     ],
+     [
+      0.13333,
+      0.6652
+     ],
+     [
+      0.19999,
+      1
+     ],
+     [
+      0.21666,
+      0.91905
+     ],
+     [
+      0.23332,
+      0.6652
+     ],
+     [
+      0.29999,
+      1
+     ],
+     [
+      0.31665,
+      0.91905
+     ],
+     [
+      0.33332,
+      0.6652
+     ],
+     [
+      0.39998,
+      1
+     ],
+     [
+      0.41665,
+      0.91905
+     ],
+     [
+      0.43332,
+      0.6652
+     ],
+     [
+      0.49998,
+      1
+     ],
+     [
+      0.51665,
+      0.91905
+     ],
+     [
+      0.53331,
+      0.6652
+     ],
+     [
+      0.59998,
+      1
+     ],
+     [
+      0.61664,
+      0.91905
+     ],
+     [
+      0.63331,
+      0.6652
+     ],
+     [
+      0.69997,
+      1
+     ],
+     [
+      0.71664,
+      0.91905
+     ],
+     [
+      0.7333,
+      0.6652
+     ],
+     [
+      0.79997,
+      1
+     ],
+     [
+      0.81663,
+      0.91905
+     ],
+     [
+      0.8333,
+      0.6652
+     ],
+     [
+      0.89996,
+      1
+     ],
+     [
+      0.91663,
+      0.91905
+     ],
+     [
+      0.9333,
+      0.6652
+     ],
+     [
+      0.99996,
+      1
+     ],
+     [
+      1.01663,
+      0.91905
+     ],
+     [
+      1.03329,
+      0.6652
+     ],
+     [
+      1.09996,
+      1
+     ],
+     [
+      1.11662,
+      0.91905
+     ],
+     [
+      1.13329,
+      0.6652
+     ],
+     [
+      1.19995,
+      1
+     ],
+     [
+      1.21662,
+      0.91905
+     ],
+     [
+      1.23328,
+      0.6652
+     ],
+     [
+      1.29995,
+      1
+     ],
+     [
+      1.31661,
+      0.91905
+     ],
+     [
+      1.33328,
+      0.6652
+     ],
+     [
+      1.39994,
+      1
+     ],
+     [
+      1.41661,
+      0.91905
+     ],
+     [
+      1.43328,
+      0.6652
+     ],
+     [
+      1.49994,
+      1
+     ],
+     [
+      1.51661,
+      0.91905
+     ],
+     [
+      1.53327,
+      0.6652
+     ],
+     [
+      1.59994,
+      1
+     ],
+     [
+      1.6166,
+      0.91905
+     ],
+     [
+      1.63327,
+      0.6652
+     ],
+     [
+      1.69993,
+      1
+     ],
+     [
+      1.7166,
+      0.91905
+     ],
+     [
+      1.73326,
+      0.6652
+     ],
+     [
+      1.79993,
+      1
+     ],
+     [
+      1.81659,
+      0.91905
+     ],
+     [
+      1.83326,
+      0.6652
+     ],
+     [
+      1.89992,
+      1
+     ],
+     [
+      1.91659,
+      0.91905
+     ],
+     [
+      1.93326,
+      0.6652
+     ],
+     [
+      1.98325,
+      0.91905
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #26",
+    "Teenage Mutant Hero Turtles 2 #27"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 37,
+    "hi": 38,
+    "median": 38
+   },
+   "features": {
+    "keyMedian": 38,
+    "keyLo": 37,
+    "keyHi": 38,
+    "keySpan": 1,
+    "medianNote": 49.981,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.834,
+    "centroid": 119,
+    "brightness": 1.61,
+    "harmonicity": 0.992,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass"
+  },
+  {
+   "id": "nes:pulse:duty50:envb90ca562",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 63
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 63
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #6",
+    "Teenage Mutant Hero Turtles 2 #17",
+    "Teenage Mutant Hero Turtles 2 #25",
+    "Teenage Mutant Hero Turtles 2 #26",
+    "Teenage Mutant Hero Turtles 2 #28",
+    "Teenage Mutant Hero Turtles 2 #29",
+    "Teenage Mutant Hero Turtles 2 #33",
+    "Teenage Mutant Hero Turtles 2 #36",
+    "Teenage Mutant Hero Turtles 2 #23"
+   ],
+   "noteCount": 63,
+   "used": true,
+   "keysPlayed": {
+    "lo": 34,
+    "hi": 118,
+    "median": 51
+   },
+   "features": {
+    "keyMedian": 51,
+    "keyLo": 34,
+    "keyHi": 118,
+    "keySpan": 84,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.992,
+    "centroid": 251,
+    "brightness": 1.62,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 3"
+  },
+  {
+   "id": "nes:pulse:duty50:enve171f3a4",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0833,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.36828
+     ],
+     [
+      0.08333,
+      1.89045
+     ],
+     [
+      1.98325,
+      1.89045
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #26"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 33,
+    "hi": 33,
+    "median": 33
+   },
+   "features": {
+    "keyMedian": 33,
+    "keyLo": 33,
+    "keyHi": 33,
+    "keySpan": 0,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.065,
+    "t20": null,
+    "sustain": 0.979,
+    "centroid": 89,
+    "brightness": 1.62,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass 3"
+  },
+  {
+   "id": "nes:pulse:duty75:env1cde8689",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1,
+    "sustain": 0.5178,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.84299
+     ],
+     [
+      0.05,
+      0.84299
+     ],
+     [
+      0.06666,
+      0.6823
+     ],
+     [
+      0.08333,
+      0.6823
+     ],
+     [
+      0.1,
+      0.5178
+     ],
+     [
+      1.98325,
+      0.5178
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #39"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 49,
+    "median": 49
+   },
+   "features": {
+    "keyMedian": 49,
+    "keyLo": 49,
+    "keyHi": 49,
+    "keySpan": 0,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.449,
+    "centroid": 275,
+    "brightness": 1.99,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 5"
+  },
+  {
+   "id": "nes:pulse:duty75:env24cb482d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0667,
+    "sustain": 0.8645,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.93297
+     ],
+     [
+      0.05,
+      0.93297
+     ],
+     [
+      0.06666,
+      0.86449
+     ],
+     [
+      1.98325,
+      0.86449
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #39"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 52,
+    "median": 52
+   },
+   "features": {
+    "keyMedian": 52,
+    "keyLo": 52,
+    "keyHi": 52,
+    "keySpan": 0,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.01,
+    "t20": null,
+    "sustain": 0.797,
+    "centroid": 327,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 6"
+  },
+  {
+   "id": "nes:pulse:duty75:env51fd62d5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1333,
+    "sustain": 0.4144,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.80938
+     ],
+     [
+      0.06666,
+      0.80938
+     ],
+     [
+      0.08333,
+      0.61424
+     ],
+     [
+      0.11666,
+      0.61424
+     ],
+     [
+      0.13333,
+      0.41441
+     ],
+     [
+      1.98325,
+      0.41441
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #38"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 51,
+    "hi": 51,
+    "median": 51
+   },
+   "features": {
+    "keyMedian": 51,
+    "keyLo": 51,
+    "keyHi": 51,
+    "keySpan": 0,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.381,
+    "centroid": 309,
+    "brightness": 1.99,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 8"
+  },
+  {
+   "id": "nes:pulse:duty75:env82dd2f94",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.4822
+     ],
+     [
+      0.05,
+      1.4822
+     ],
+     [
+      0.06666,
+      1.9531
+     ],
+     [
+      0.08333,
+      1.9531
+     ],
+     [
+      0.1,
+      2.41307
+     ],
+     [
+      1.98325,
+      2.41307
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #38"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 59,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 59,
+    "keyHi": 59,
+    "keySpan": 0,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.1,
+    "t20": null,
+    "sustain": 0.841,
+    "centroid": 490,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 3"
+  },
+  {
+   "id": "nes:pulse:duty75:env8231fa7f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1667,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08333,
+      1
+     ],
+     [
+      0.1,
+      1.19573
+     ],
+     [
+      0.14999,
+      1.19573
+     ],
+     [
+      0.16666,
+      1.38316
+     ],
+     [
+      1.98325,
+      1.38316
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #39"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 56,
+    "median": 56
+   },
+   "features": {
+    "keyMedian": 56,
+    "keyLo": 56,
+    "keyHi": 56,
+    "keySpan": 0,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.16,
+    "t20": null,
+    "sustain": 0.965,
+    "centroid": 412,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 2"
+  },
+  {
+   "id": "nes:pulse:duty75:env12238d4e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.8645,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.93297
+     ],
+     [
+      0.06666,
+      0.93297
+     ],
+     [
+      0.08333,
+      0.86449
+     ],
+     [
+      1.98325,
+      0.86449
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #38"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 53,
+    "hi": 55,
+    "median": 54
+   },
+   "features": {
+    "keyMedian": 54,
+    "keyLo": 53,
+    "keyHi": 55,
+    "keySpan": 2,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.866,
+    "centroid": 367,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  },
+  {
+   "id": "nes:pulse:duty75:env425545fc",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0833,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.15345
+     ],
+     [
+      0.05,
+      1.15345
+     ],
+     [
+      0.08333,
+      1.45016
+     ],
+     [
+      1.98325,
+      1.45016
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #38"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 58,
+    "median": 58
+   },
+   "features": {
+    "keyMedian": 58,
+    "keyLo": 58,
+    "keyHi": 58,
+    "keySpan": 0,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.085,
+    "t20": null,
+    "sustain": 0.875,
+    "centroid": 463,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad"
+  },
+  {
+   "id": "nes:pulse:duty75:env40596604",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0833,
+    "sustain": 0.7308,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.86696
+     ],
+     [
+      0.06666,
+      0.86696
+     ],
+     [
+      0.08333,
+      0.73084
+     ],
+     [
+      1.98325,
+      0.73084
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #38"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 52,
+    "median": 52
+   },
+   "features": {
+    "keyMedian": 52,
+    "keyLo": 52,
+    "keyHi": 52,
+    "keySpan": 0,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.01,
+    "t20": null,
+    "sustain": 0.674,
+    "centroid": 327,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 7"
+  },
+  {
+   "id": "nes:pulse:duty75:envbde88940",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 109
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 109
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #10",
+    "Teenage Mutant Hero Turtles 2 #12",
+    "Teenage Mutant Hero Turtles 2 #15",
+    "Teenage Mutant Hero Turtles 2 #24",
+    "Teenage Mutant Hero Turtles 2 #38",
+    "Teenage Mutant Hero Turtles 2 #39"
+   ],
+   "noteCount": 109,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 125,
+    "median": 54
+   },
+   "features": {
+    "keyMedian": 54,
+    "keyLo": 43,
+    "keyHi": 125,
+    "keySpan": 82,
+    "medianNote": 0.017,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.982,
+    "centroid": 367,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like"
+  },
+  {
+   "id": "nes:pulse:duty75:envc3bb1716",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.8849,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.88491
+     ],
+     [
+      1.98325,
+      0.88491
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #39"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 50,
+    "median": 50
+   },
+   "features": {
+    "keyMedian": 50,
+    "keyLo": 50,
+    "keyHi": 50,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.769,
+    "centroid": 292,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 9"
+  },
+  {
+   "id": "nes:pulse:duty75:envd5644e4f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.05,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.19573
+     ],
+     [
+      0.03333,
+      1.19573
+     ],
+     [
+      0.05,
+      1.29045
+     ],
+     [
+      1.98325,
+      1.29045
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #38"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 57,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 57,
+    "keyHi": 57,
+    "keySpan": 0,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.04,
+    "t20": null,
+    "sustain": 0.913,
+    "centroid": 437,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 10"
+  },
+  {
+   "id": "nes:pulse:duty75:envf21349b0",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0333,
+    "sustain": 0.5061,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.50608
+     ],
+     [
+      1.98325,
+      0.50608
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "bec5b2e9f7d5d794",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Teenage Mutant Hero Turtles 2 #39"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 48,
+    "median": 48
+   },
+   "features": {
+    "keyMedian": 48,
+    "keyLo": 48,
+    "keyHi": 48,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.424,
+    "centroid": 260,
+    "brightness": 1.99,
+    "harmonicity": 0.992,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 11"
+  }
+ ],
+ "samples": {
+  "b77f25d77cf617e9": {
+   "rate": 111861,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "b77f25d77cf617e9.wav"
+  },
+  "f392073fc631e05d": {
+   "rate": 223722,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "f392073fc631e05d.wav"
+  },
+  "3bf18bc59590df32": {
+   "rate": 7046,
+   "length": 2114,
+   "loop": null,
+   "bytes": 4316,
+   "file": "3bf18bc59590df32.wav"
+  },
+  "e3c2fe39b6778838": {
+   "rate": 4710,
+   "length": 1413,
+   "loop": null,
+   "bytes": 2914,
+   "file": "e3c2fe39b6778838.wav"
+  },
+  "a223303b6af4932e": {
+   "rate": 3523,
+   "length": 1057,
+   "loop": null,
+   "bytes": 2202,
+   "file": "a223303b6af4932e.wav"
+  },
+  "3a611f0a516f4ad7": {
+   "rate": 2349,
+   "length": 705,
+   "loop": null,
+   "bytes": 1498,
+   "file": "3a611f0a516f4ad7.wav"
+  },
+  "bdcdc06995a55bd8": {
+   "rate": 1762,
+   "length": 529,
+   "loop": null,
+   "bytes": 1146,
+   "file": "bdcdc06995a55bd8.wav"
+  },
+  "accf980e05b24066": {
+   "rate": 8860,
+   "length": 2658,
+   "loop": null,
+   "bytes": 5404,
+   "file": "accf980e05b24066.wav"
+  },
+  "4905a206193949d9": {
+   "rate": 11186,
+   "length": 3356,
+   "loop": null,
+   "bytes": 6800,
+   "file": "4905a206193949d9.wav"
+  },
+  "02abdb4410d126c1": {
+   "rate": 13983,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "02abdb4410d126c1.wav"
+  },
+  "5337058d647d9baa": {
+   "rate": 18643,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "5337058d647d9baa.wav"
+  },
+  "511e2b74a88a4d8a": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "511e2b74a88a4d8a.wav"
+  },
+  "8fc2bb7bc828680d": {
+   "rate": 27965,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "8fc2bb7bc828680d.wav"
+  },
+  "83a3aede5f0edb0d": {
+   "rate": 55930,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "83a3aede5f0edb0d.wav"
+  },
+  "156e74116e651302": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "156e74116e651302.wav"
+  },
+  "4004e82e3c674467": {
+   "rate": 440,
+   "length": 132,
+   "loop": null,
+   "bytes": 352,
+   "file": "4004e82e3c674467.wav"
+  },
+  "bec5b2e9f7d5d794": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "bec5b2e9f7d5d794.wav"
+  },
+  "6d02335f363abafa": {
+   "rate": 880,
+   "length": 264,
+   "loop": null,
+   "bytes": 616,
+   "file": "6d02335f363abafa.wav"
+  },
+  "d752779a9bacd3d1": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "d752779a9bacd3d1.wav"
+  }
+ }
+}
