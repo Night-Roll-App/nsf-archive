@@ -1,0 +1,4599 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "nes-legend-of-zelda",
+ "title": "",
+ "drivers": [
+  "nes"
+ ],
+ "songs": 37,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "nes:noise:p32:m0:env456863fe",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p32m0",
+     "sampleCount": 557
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 32,
+      "mode": 0
+     },
+     "sample": "83a3aede5f0edb0d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.167,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.073,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.075,
+      "sustain": 0,
+      "centroid": 8015,
+      "brightness": 86.65,
+      "harmonicity": 0.087,
+      "flatness": 0.589,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p32m0",
+    "clusterNotes": 557
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #2",
+    "The Legend of Zelda #3",
+    "The Legend of Zelda #13"
+   ],
+   "noteCount": 557,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p32:m0:enva969abcd",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 2.1159,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.87947
+     ],
+     [
+      0.05,
+      0.75532
+     ],
+     [
+      0.08333,
+      0.6274
+     ],
+     [
+      0.1,
+      0.49552
+     ],
+     [
+      0.13333,
+      0.3595
+     ],
+     [
+      0.14999,
+      0.21914
+     ],
+     [
+      0.18333,
+      0.07423
+     ],
+     [
+      0.19999,
+      1
+     ],
+     [
+      0.23332,
+      0.87947
+     ],
+     [
+      0.24999,
+      0.75532
+     ],
+     [
+      0.28332,
+      0.6274
+     ],
+     [
+      0.29999,
+      0.49552
+     ],
+     [
+      0.33332,
+      0.3595
+     ],
+     [
+      0.34999,
+      0.21914
+     ],
+     [
+      0.38332,
+      0.07423
+     ],
+     [
+      0.39998,
+      1
+     ],
+     [
+      0.43332,
+      0.87947
+     ],
+     [
+      0.44998,
+      0.75532
+     ],
+     [
+      0.48331,
+      0.6274
+     ],
+     [
+      0.49998,
+      0.49552
+     ],
+     [
+      0.53331,
+      0.3595
+     ],
+     [
+      0.54998,
+      0.21914
+     ],
+     [
+      0.58331,
+      0.07423
+     ],
+     [
+      0.59998,
+      1
+     ],
+     [
+      0.63331,
+      0.87947
+     ],
+     [
+      0.64997,
+      0.75532
+     ],
+     [
+      0.68331,
+      0.6274
+     ],
+     [
+      0.69997,
+      0.49552
+     ],
+     [
+      0.7333,
+      0.3595
+     ],
+     [
+      0.74997,
+      0.21914
+     ],
+     [
+      0.7833,
+      0.07423
+     ],
+     [
+      0.79997,
+      1
+     ],
+     [
+      0.8333,
+      0.87947
+     ],
+     [
+      0.84997,
+      0.75532
+     ],
+     [
+      0.8833,
+      0.6274
+     ],
+     [
+      0.89996,
+      0.49552
+     ],
+     [
+      0.9333,
+      0.3595
+     ],
+     [
+      0.94996,
+      0.21914
+     ],
+     [
+      0.98329,
+      0.07423
+     ],
+     [
+      0.99996,
+      1
+     ],
+     [
+      1.03329,
+      0.87947
+     ],
+     [
+      1.04996,
+      0.75532
+     ],
+     [
+      1.08329,
+      0.6274
+     ],
+     [
+      1.09996,
+      0.49552
+     ],
+     [
+      1.13329,
+      0.3595
+     ],
+     [
+      1.14995,
+      0.21914
+     ],
+     [
+      1.18329,
+      0.07423
+     ],
+     [
+      1.19995,
+      1
+     ],
+     [
+      1.23328,
+      0.87947
+     ],
+     [
+      1.24995,
+      0.75532
+     ],
+     [
+      1.28328,
+      0.6274
+     ],
+     [
+      1.29995,
+      0.49552
+     ],
+     [
+      1.33328,
+      0.3595
+     ],
+     [
+      1.34995,
+      0.21914
+     ],
+     [
+      1.38328,
+      0.07423
+     ],
+     [
+      1.39994,
+      1
+     ],
+     [
+      1.43328,
+      0.87947
+     ],
+     [
+      1.44994,
+      0.75532
+     ],
+     [
+      1.48327,
+      0.6274
+     ],
+     [
+      1.49994,
+      0.49552
+     ],
+     [
+      1.53327,
+      0.3595
+     ],
+     [
+      1.54994,
+      0.21914
+     ],
+     [
+      1.58327,
+      0.07423
+     ],
+     [
+      1.59994,
+      1
+     ],
+     [
+      1.63327,
+      0.87947
+     ],
+     [
+      1.64993,
+      0.75532
+     ],
+     [
+      1.68327,
+      0.6274
+     ],
+     [
+      1.69993,
+      0.49552
+     ],
+     [
+      1.73326,
+      0.3595
+     ],
+     [
+      1.74993,
+      0.21914
+     ],
+     [
+      1.78326,
+      0.07423
+     ],
+     [
+      1.79993,
+      1
+     ],
+     [
+      1.83326,
+      0.87947
+     ],
+     [
+      1.84993,
+      0.75532
+     ],
+     [
+      1.88326,
+      0.6274
+     ],
+     [
+      1.89992,
+      0.49552
+     ],
+     [
+      1.93326,
+      0.3595
+     ],
+     [
+      1.94992,
+      0.21914
+     ],
+     [
+      1.98325,
+      0.07423
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p32m0",
+     "sampleCount": 8
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 32,
+      "mode": 0
+     },
+     "sample": "83a3aede5f0edb0d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.073,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.075,
+      "sustain": 0,
+      "centroid": 8012,
+      "brightness": 86.61,
+      "harmonicity": 0.109,
+      "flatness": 0.586,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p32m0",
+    "clusterNotes": 8
+   },
+   "usedIn": [
+    "The Legend of Zelda #13"
+   ],
+   "noteCount": 8,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 7",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p32:m0:envedb570ad",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 2.0495,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05,
+      0.6274
+     ],
+     [
+      0.1,
+      0.21914
+     ],
+     [
+      0.11666,
+      0.07423
+     ],
+     [
+      0.13333,
+      1
+     ],
+     [
+      0.18333,
+      0.6274
+     ],
+     [
+      0.21666,
+      0.3595
+     ],
+     [
+      0.24999,
+      0.07423
+     ],
+     [
+      0.26666,
+      1
+     ],
+     [
+      0.31665,
+      0.6274
+     ],
+     [
+      0.34999,
+      0.3595
+     ],
+     [
+      0.38332,
+      0.07423
+     ],
+     [
+      0.39998,
+      1
+     ],
+     [
+      0.44998,
+      0.6274
+     ],
+     [
+      0.49998,
+      0.21914
+     ],
+     [
+      0.51665,
+      0.07423
+     ],
+     [
+      0.53331,
+      1
+     ],
+     [
+      0.58331,
+      0.6274
+     ],
+     [
+      0.63331,
+      0.21914
+     ],
+     [
+      0.64997,
+      0.07423
+     ],
+     [
+      0.66664,
+      1
+     ],
+     [
+      0.71664,
+      0.6274
+     ],
+     [
+      0.76664,
+      0.21914
+     ],
+     [
+      0.7833,
+      0.07423
+     ],
+     [
+      0.79997,
+      1
+     ],
+     [
+      0.84997,
+      0.6274
+     ],
+     [
+      0.8833,
+      0.3595
+     ],
+     [
+      0.91663,
+      0.07423
+     ],
+     [
+      0.9333,
+      1
+     ],
+     [
+      0.98329,
+      0.6274
+     ],
+     [
+      1.01663,
+      0.3595
+     ],
+     [
+      1.04996,
+      0.07423
+     ],
+     [
+      1.06662,
+      1
+     ],
+     [
+      1.11662,
+      0.6274
+     ],
+     [
+      1.16662,
+      0.21914
+     ],
+     [
+      1.18329,
+      0.07423
+     ],
+     [
+      1.19995,
+      1
+     ],
+     [
+      1.24995,
+      0.6274
+     ],
+     [
+      1.29995,
+      0.21914
+     ],
+     [
+      1.31661,
+      0.07423
+     ],
+     [
+      1.33328,
+      1
+     ],
+     [
+      1.38328,
+      0.6274
+     ],
+     [
+      1.43328,
+      0.21914
+     ],
+     [
+      1.44994,
+      0.07423
+     ],
+     [
+      1.46661,
+      1
+     ],
+     [
+      1.51661,
+      0.6274
+     ],
+     [
+      1.54994,
+      0.3595
+     ],
+     [
+      1.58327,
+      0.07423
+     ],
+     [
+      1.59994,
+      1
+     ],
+     [
+      1.64993,
+      0.6274
+     ],
+     [
+      1.68327,
+      0.3595
+     ],
+     [
+      1.7166,
+      0.07423
+     ],
+     [
+      1.73326,
+      1
+     ],
+     [
+      1.78326,
+      0.6274
+     ],
+     [
+      1.83326,
+      0.21914
+     ],
+     [
+      1.84993,
+      0.07423
+     ],
+     [
+      1.86659,
+      1
+     ],
+     [
+      1.91659,
+      0.6274
+     ],
+     [
+      1.96659,
+      0.21914
+     ],
+     [
+      1.98325,
+      0.07423
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p32m0",
+     "sampleCount": 9
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 32,
+      "mode": 0
+     },
+     "sample": "83a3aede5f0edb0d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.073,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.075,
+      "sustain": 0,
+      "centroid": 8022,
+      "brightness": 86.73,
+      "harmonicity": 0.128,
+      "flatness": 0.587,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p32m0",
+    "clusterNotes": 9
+   },
+   "usedIn": [
+    "The Legend of Zelda #13"
+   ],
+   "noteCount": 9,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 5",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p160:m0:envf01a4b33",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p160m0",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 160,
+      "mode": 0
+     },
+     "sample": "4905a206193949d9",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.28,
+      "sustain": 0,
+      "centroid": 2125,
+      "brightness": 28.95,
+      "harmonicity": 0.294,
+      "flatness": 0.154,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p160m0",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "The Legend of Zelda #26"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 9",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p202:m0:env7471df40",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p202m0",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 202,
+      "mode": 0
+     },
+     "sample": "accf980e05b24066",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.275,
+      "sustain": 0,
+      "centroid": 1620,
+      "brightness": 22.06,
+      "harmonicity": 0.331,
+      "flatness": 0.052,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p202m0",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "The Legend of Zelda #26"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 12",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p254:m0:env919ed0ad",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p254m0",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 254,
+      "mode": 0
+     },
+     "sample": "3bf18bc59590df32",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.235,
+      "sustain": 0,
+      "centroid": 1253,
+      "brightness": 17.07,
+      "harmonicity": 0.346,
+      "flatness": 0.028,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p254m0",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "The Legend of Zelda #26",
+    "The Legend of Zelda #27"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 10",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p380:m0:envdca6fc4d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p380m0",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 380,
+      "mode": 0
+     },
+     "sample": "e3c2fe39b6778838",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.075,
+      "t20": 0.035,
+      "sustain": 0,
+      "centroid": 876,
+      "brightness": 11.94,
+      "harmonicity": 0.185,
+      "flatness": 0.008,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p380m0",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "The Legend of Zelda #26"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 8",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p508:m0:env8f967de1",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p508m0",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 508,
+      "mode": 0
+     },
+     "sample": "a223303b6af4932e",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.03,
+      "t20": 0.125,
+      "sustain": 0,
+      "centroid": 620,
+      "brightness": 8.45,
+      "harmonicity": 0.287,
+      "flatness": 0.003,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p508m0",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "The Legend of Zelda #26"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 11",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p762:m0:envc2a344ad",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p762m0",
+     "sampleCount": 9
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 762,
+      "mode": 0
+     },
+     "sample": "3a611f0a516f4ad7",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.095,
+      "t20": 0.205,
+      "sustain": 0,
+      "centroid": 470,
+      "brightness": 7.61,
+      "harmonicity": 0.476,
+      "flatness": 0.001,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p762m0",
+    "clusterNotes": 9
+   },
+   "usedIn": [
+    "The Legend of Zelda #29",
+    "The Legend of Zelda #30"
+   ],
+   "noteCount": 9,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 6",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p1016:m0:env578f1bbb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p1016m0",
+     "sampleCount": 11
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 1016,
+      "mode": 0
+     },
+     "sample": "bdcdc06995a55bd8",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 327,
+      "brightness": 5.29,
+      "harmonicity": 0.606,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p1016m0",
+    "clusterNotes": 11
+   },
+   "usedIn": [
+    "The Legend of Zelda #27",
+    "The Legend of Zelda #29",
+    "The Legend of Zelda #30"
+   ],
+   "noteCount": 11,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 4",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p2034:m0:env92c1dcdb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p2034m0",
+     "sampleCount": 41
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 2034,
+      "mode": 0
+     },
+     "sample": "6d02335f363abafa",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 173,
+      "brightness": 2.8,
+      "harmonicity": 0.853,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p2034m0",
+    "clusterNotes": 41
+   },
+   "usedIn": [
+    "The Legend of Zelda #27",
+    "The Legend of Zelda #28",
+    "The Legend of Zelda #30"
+   ],
+   "noteCount": 41,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 2",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p4068:m0:envc67f791e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p4068m0",
+     "sampleCount": 13
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 4068,
+      "mode": 0
+     },
+     "sample": "4004e82e3c674467",
+     "loop": null,
+     "nameGuess": "Kick",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 84,
+      "brightness": 1.36,
+      "harmonicity": 0.966,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p4068m0",
+    "clusterNotes": 13
+   },
+   "usedIn": [
+    "The Legend of Zelda #27",
+    "The Legend of Zelda #30"
+   ],
+   "noteCount": 13,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 3",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:pulse:duty50:env01ec3a70",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.1167,
+    "sustain": 0.7954,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.13006
+     ],
+     [
+      0.05,
+      1.13006
+     ],
+     [
+      0.06666,
+      1.25723
+     ],
+     [
+      0.1,
+      1.25723
+     ],
+     [
+      0.11666,
+      1.13006
+     ],
+     [
+      0.16666,
+      1.13006
+     ],
+     [
+      0.18333,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 56
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 56
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #5",
+    "The Legend of Zelda #6",
+    "The Legend of Zelda #7",
+    "The Legend of Zelda #8",
+    "The Legend of Zelda #12"
+   ],
+   "noteCount": 56,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 73,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 50,
+    "keyHi": 73,
+    "keySpan": 23,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.05,
+    "t20": null,
+    "sustain": 0.792,
+    "centroid": 474,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 10"
+  },
+  {
+   "id": "nes:pulse:duty50:env3dbef22c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.46563
+     ],
+     [
+      0.05,
+      1.46563
+     ],
+     [
+      0.06666,
+      1.69053
+     ],
+     [
+      1.98325,
+      1.69053
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 93
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 93
+   },
+   "usedIn": [
+    "The Legend of Zelda #2",
+    "The Legend of Zelda #3"
+   ],
+   "noteCount": 93,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 75,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 57,
+    "keyHi": 75,
+    "keySpan": 18,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.055,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 563,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 7"
+  },
+  {
+   "id": "nes:pulse:duty50:env5d6af704",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.05,
+    "sustain": 0.867,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.46563
+     ],
+     [
+      0.05,
+      1.46563
+     ],
+     [
+      0.06666,
+      1.69053
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.46563
+     ],
+     [
+      1.98325,
+      1.46563
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 129
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 129
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #3",
+    "The Legend of Zelda #4"
+   ],
+   "noteCount": 129,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 84,
+    "median": 61
+   },
+   "features": {
+    "keyMedian": 61,
+    "keyLo": 41,
+    "keyHi": 84,
+    "keySpan": 43,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.055,
+    "t20": null,
+    "sustain": 0.862,
+    "centroid": 447,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 6"
+  },
+  {
+   "id": "nes:pulse:duty50:env9eef7aa7",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.15,
+    "decay": 0.3667,
+    "sustain": 0.372,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      1.59363
+     ],
+     [
+      0.14999,
+      2.26631
+     ],
+     [
+      0.34999,
+      2.26631
+     ],
+     [
+      0.43332,
+      1.59363
+     ],
+     [
+      0.48331,
+      1.15345
+     ],
+     [
+      0.51665,
+      0.84299
+     ],
+     [
+      1.98325,
+      0.84299
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 7
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 7
+   },
+   "usedIn": [
+    "The Legend of Zelda #10",
+    "The Legend of Zelda #11"
+   ],
+   "noteCount": 7,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 86,
+    "median": 83
+   },
+   "features": {
+    "keyMedian": 83,
+    "keyLo": 64,
+    "keyHi": 86,
+    "keySpan": 22,
+    "medianNote": 0.333,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.125,
+    "t20": null,
+    "sustain": 0.371,
+    "centroid": 1574,
+    "brightness": 1.59,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High soft pad"
+  },
+  {
+   "id": "nes:pulse:duty50:env22bd3443",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06666,
+      1.59363
+     ],
+     [
+      1.98325,
+      1.59363
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 22
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 22
+   },
+   "usedIn": [
+    "The Legend of Zelda #10"
+   ],
+   "noteCount": 22,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 75,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 65,
+    "keyHi": 75,
+    "keySpan": 10,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.05,
+    "t20": null,
+    "sustain": 0.995,
+    "centroid": 795,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 16"
+  },
+  {
+   "id": "nes:pulse:duty50:env28ca123e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.1167,
+    "sustain": 0.7308,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.46563
+     ],
+     [
+      0.05,
+      1.46563
+     ],
+     [
+      0.06666,
+      1.69053
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.46563
+     ],
+     [
+      0.16666,
+      1.46563
+     ],
+     [
+      0.18333,
+      1.23551
+     ],
+     [
+      1.98325,
+      1.23551
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 33
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 33
+   },
+   "usedIn": [
+    "The Legend of Zelda #2",
+    "The Legend of Zelda #3"
+   ],
+   "noteCount": 33,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 84,
+    "median": 75
+   },
+   "features": {
+    "keyMedian": 75,
+    "keyLo": 65,
+    "keyHi": 84,
+    "keySpan": 19,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.055,
+    "t20": null,
+    "sustain": 0.73,
+    "centroid": 1000,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 15"
+  },
+  {
+   "id": "nes:pulse:duty50:env29e60044",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.05,
+    "sustain": 0.8988,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.13006
+     ],
+     [
+      0.05,
+      1.13006
+     ],
+     [
+      0.06666,
+      1.25723
+     ],
+     [
+      0.1,
+      1.25723
+     ],
+     [
+      0.11666,
+      1.13006
+     ],
+     [
+      1.98325,
+      1.13006
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 51
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 51
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #6",
+    "The Legend of Zelda #12"
+   ],
+   "noteCount": 51,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 77,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 50,
+    "keyHi": 77,
+    "keySpan": 27,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.05,
+    "t20": null,
+    "sustain": 0.896,
+    "centroid": 563,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 11"
+  },
+  {
+   "id": "nes:pulse:duty50:env30e8ef36",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.05,
+    "sustain": 0.8988,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.13006
+     ],
+     [
+      0.05,
+      1.13006
+     ],
+     [
+      0.06666,
+      1.25723
+     ],
+     [
+      0.1,
+      1.25723
+     ],
+     [
+      0.11666,
+      1.13006
+     ],
+     [
+      1.98325,
+      1.13006
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 34
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 34
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #6",
+    "The Legend of Zelda #12"
+   ],
+   "noteCount": 34,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 77,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 55,
+    "keyHi": 77,
+    "keySpan": 22,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.05,
+    "t20": null,
+    "sustain": 0.897,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 14"
+  },
+  {
+   "id": "nes:pulse:duty50:env34f7d570",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      0.88505
+     ],
+     [
+      0.05,
+      0.76512
+     ],
+     [
+      0.08333,
+      0.63988
+     ],
+     [
+      0.1,
+      0.50896
+     ],
+     [
+      0.13333,
+      0.37197
+     ],
+     [
+      0.14999,
+      0.22848
+     ],
+     [
+      0.18333,
+      0.07801
+     ],
+     [
+      0.19999,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "The Legend of Zelda #31"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 81,
+    "hi": 83,
+    "median": 83
+   },
+   "features": {
+    "keyMedian": 83,
+    "keyLo": 81,
+    "keyHi": 83,
+    "keySpan": 2,
+    "medianNote": 0.017,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.155,
+    "sustain": 0,
+    "centroid": 1575,
+    "brightness": 1.59,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck"
+  },
+  {
+   "id": "nes:pulse:duty50:env43fe26b7",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.1167,
+    "sustain": 0.7954,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.13006
+     ],
+     [
+      0.05,
+      1.13006
+     ],
+     [
+      0.06666,
+      1.25723
+     ],
+     [
+      0.1,
+      1.25723
+     ],
+     [
+      0.11666,
+      1.13006
+     ],
+     [
+      0.16666,
+      1.13006
+     ],
+     [
+      0.18333,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 41
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 41
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #5",
+    "The Legend of Zelda #7",
+    "The Legend of Zelda #8",
+    "The Legend of Zelda #12"
+   ],
+   "noteCount": 41,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 82,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 55,
+    "keyHi": 82,
+    "keySpan": 27,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.05,
+    "t20": null,
+    "sustain": 0.792,
+    "centroid": 474,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 13"
+  },
+  {
+   "id": "nes:pulse:duty50:env136ac5dd",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.05,
+    "sustain": 0.867,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.46563
+     ],
+     [
+      0.05,
+      1.46563
+     ],
+     [
+      0.06666,
+      1.69053
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.46563
+     ],
+     [
+      1.98325,
+      1.46563
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 47
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 47
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #3"
+   ],
+   "noteCount": 47,
+   "used": true,
+   "keysPlayed": {
+    "lo": 68,
+    "hi": 82,
+    "median": 75
+   },
+   "features": {
+    "keyMedian": 75,
+    "keyLo": 68,
+    "keyHi": 82,
+    "keySpan": 14,
+    "medianNote": 0.133,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.055,
+    "t20": null,
+    "sustain": 0.866,
+    "centroid": 1000,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 12"
+  },
+  {
+   "id": "nes:pulse:duty50:env643e352c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.1167,
+    "sustain": 0.7308,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.46563
+     ],
+     [
+      0.05,
+      1.46563
+     ],
+     [
+      0.06666,
+      1.69053
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.46563
+     ],
+     [
+      0.16666,
+      1.46563
+     ],
+     [
+      0.18333,
+      1.23551
+     ],
+     [
+      1.98325,
+      1.23551
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 60
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 60
+   },
+   "usedIn": [
+    "The Legend of Zelda #2",
+    "The Legend of Zelda #3"
+   ],
+   "noteCount": 60,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 75,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 57,
+    "keyHi": 75,
+    "keySpan": 18,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.055,
+    "t20": null,
+    "sustain": 0.728,
+    "centroid": 597,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 9"
+  },
+  {
+   "id": "nes:pulse:duty50:env1314d3e5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.13006
+     ],
+     [
+      0.05,
+      1.13006
+     ],
+     [
+      0.06666,
+      1.25723
+     ],
+     [
+      1.98325,
+      1.25723
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 19
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 19
+   },
+   "usedIn": [
+    "The Legend of Zelda #6",
+    "The Legend of Zelda #7",
+    "The Legend of Zelda #12"
+   ],
+   "noteCount": 19,
+   "used": true,
+   "keysPlayed": {
+    "lo": 54,
+    "hi": 72,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 54,
+    "keyHi": 72,
+    "keySpan": 18,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.05,
+    "t20": null,
+    "sustain": 0.994,
+    "centroid": 422,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 17"
+  },
+  {
+   "id": "nes:pulse:duty50:env2312e053",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.45,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      0.94313
+     ],
+     [
+      0.05,
+      0.94313
+     ],
+     [
+      0.06666,
+      0.88505
+     ],
+     [
+      0.08333,
+      0.88505
+     ],
+     [
+      0.11666,
+      0.76512
+     ],
+     [
+      0.13333,
+      0.76512
+     ],
+     [
+      0.14999,
+      0.70318
+     ],
+     [
+      0.16666,
+      0.70318
+     ],
+     [
+      0.18333,
+      0.63988
+     ],
+     [
+      0.19999,
+      0.63988
+     ],
+     [
+      0.23332,
+      0.50896
+     ],
+     [
+      0.24999,
+      0.50896
+     ],
+     [
+      0.26666,
+      0.44125
+     ],
+     [
+      0.28332,
+      0.44125
+     ],
+     [
+      0.29999,
+      0.37197
+     ],
+     [
+      0.31665,
+      0.37197
+     ],
+     [
+      0.34999,
+      0.22848
+     ],
+     [
+      0.36665,
+      0.22848
+     ],
+     [
+      0.38332,
+      0.15415
+     ],
+     [
+      0.39998,
+      0.15415
+     ],
+     [
+      0.41665,
+      0.07801
+     ],
+     [
+      0.43332,
+      0.07801
+     ],
+     [
+      0.44998,
+      0
+     ],
+     [
+      1.98325,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 182
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 182
+   },
+   "usedIn": [
+    "The Legend of Zelda #9",
+    "The Legend of Zelda #21",
+    "The Legend of Zelda #22",
+    "The Legend of Zelda #23",
+    "The Legend of Zelda #24",
+    "The Legend of Zelda #25"
+   ],
+   "noteCount": 182,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 104,
+    "median": 86
+   },
+   "features": {
+    "keyMedian": 86,
+    "keyLo": 56,
+    "keyHi": 104,
+    "keySpan": 48,
+    "medianNote": 0.333,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.375,
+    "sustain": 0,
+    "centroid": 1853,
+    "brightness": 1.58,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "nes:pulse:duty50:enva373d032",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.46563
+     ],
+     [
+      0.05,
+      1.46563
+     ],
+     [
+      0.06666,
+      1.69053
+     ],
+     [
+      1.98325,
+      1.69053
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 63
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 63
+   },
+   "usedIn": [
+    "The Legend of Zelda #2",
+    "The Legend of Zelda #3"
+   ],
+   "noteCount": 63,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 83,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 65,
+    "keyHi": 83,
+    "keySpan": 18,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.055,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 751,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 8"
+  },
+  {
+   "id": "nes:pulse:duty50:envb90ca562",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 85
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 85
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #2",
+    "The Legend of Zelda #5",
+    "The Legend of Zelda #6",
+    "The Legend of Zelda #7",
+    "The Legend of Zelda #8",
+    "The Legend of Zelda #12",
+    "The Legend of Zelda #32",
+    "The Legend of Zelda #33",
+    "The Legend of Zelda #34",
+    "The Legend of Zelda #35",
+    "The Legend of Zelda #36",
+    "The Legend of Zelda #37"
+   ],
+   "noteCount": 85,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 91,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 48,
+    "keyHi": 91,
+    "keySpan": 43,
+    "medianNote": 0.017,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 563,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like"
+  },
+  {
+   "id": "nes:pulse:duty50:envd0f671c9",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.4333,
+    "sustain": 0.3029,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.46563
+     ],
+     [
+      0.05,
+      1.46563
+     ],
+     [
+      0.06666,
+      1.69053
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.46563
+     ],
+     [
+      0.16666,
+      1.46563
+     ],
+     [
+      0.18333,
+      1.23551
+     ],
+     [
+      0.23332,
+      1.23551
+     ],
+     [
+      0.24999,
+      1
+     ],
+     [
+      0.39998,
+      1
+     ],
+     [
+      0.41665,
+      0.7589
+     ],
+     [
+      0.48331,
+      0.7589
+     ],
+     [
+      0.49998,
+      0.51201
+     ],
+     [
+      1.98325,
+      0.51201
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 215
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 215
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #2",
+    "The Legend of Zelda #3",
+    "The Legend of Zelda #4"
+   ],
+   "noteCount": 215,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 78,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 48,
+    "keyHi": 78,
+    "keySpan": 30,
+    "medianNote": 0.333,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.055,
+    "t20": null,
+    "sustain": 0.302,
+    "centroid": 795,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 3"
+  },
+  {
+   "id": "nes:pulse:duty50:envd2b74a9c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 31
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 31
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #2",
+    "The Legend of Zelda #5",
+    "The Legend of Zelda #6",
+    "The Legend of Zelda #7",
+    "The Legend of Zelda #8",
+    "The Legend of Zelda #12"
+   ],
+   "noteCount": 31,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 82,
+    "median": 68
+   },
+   "features": {
+    "keyMedian": 68,
+    "keyLo": 57,
+    "keyHi": 82,
+    "keySpan": 25,
+    "medianNote": 0.667,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.999,
+    "centroid": 669,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 2"
+  },
+  {
+   "id": "nes:pulse:duty50:envd2ccdd59",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.4,
+    "sustain": 0.4705,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.13006
+     ],
+     [
+      0.05,
+      1.13006
+     ],
+     [
+      0.06666,
+      1.25723
+     ],
+     [
+      0.1,
+      1.25723
+     ],
+     [
+      0.11666,
+      1.13006
+     ],
+     [
+      0.16666,
+      1.13006
+     ],
+     [
+      0.18333,
+      1
+     ],
+     [
+      0.23332,
+      1
+     ],
+     [
+      0.24999,
+      0.86696
+     ],
+     [
+      0.36665,
+      0.86696
+     ],
+     [
+      0.38332,
+      0.73084
+     ],
+     [
+      0.44998,
+      0.73084
+     ],
+     [
+      0.46665,
+      0.59153
+     ],
+     [
+      1.98325,
+      0.59153
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 143
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 143
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #2",
+    "The Legend of Zelda #5",
+    "The Legend of Zelda #6",
+    "The Legend of Zelda #7",
+    "The Legend of Zelda #8",
+    "The Legend of Zelda #12"
+   ],
+   "noteCount": 143,
+   "used": true,
+   "keysPlayed": {
+    "lo": 54,
+    "hi": 86,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 54,
+    "keyHi": 86,
+    "keySpan": 32,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.05,
+    "t20": null,
+    "sustain": 0.469,
+    "centroid": 563,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 4"
+  },
+  {
+   "id": "nes:pulse:duty50:envdd29a3ea",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.13006
+     ],
+     [
+      0.05,
+      1.13006
+     ],
+     [
+      0.06666,
+      1.25723
+     ],
+     [
+      1.98325,
+      1.25723
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 19
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 19
+   },
+   "usedIn": [
+    "The Legend of Zelda #6",
+    "The Legend of Zelda #12"
+   ],
+   "noteCount": 19,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 84,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 60,
+    "keyHi": 84,
+    "keySpan": 24,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.05,
+    "t20": null,
+    "sustain": 0.995,
+    "centroid": 795,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 18"
+  },
+  {
+   "id": "nes:pulse:duty50:enve0ceb712",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.4333,
+    "sustain": 0.3029,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.46563
+     ],
+     [
+      0.05,
+      1.46563
+     ],
+     [
+      0.06666,
+      1.69053
+     ],
+     [
+      0.1,
+      1.69053
+     ],
+     [
+      0.11666,
+      1.46563
+     ],
+     [
+      0.16666,
+      1.46563
+     ],
+     [
+      0.18333,
+      1.23551
+     ],
+     [
+      0.23332,
+      1.23551
+     ],
+     [
+      0.24999,
+      1
+     ],
+     [
+      0.39998,
+      1
+     ],
+     [
+      0.41665,
+      0.7589
+     ],
+     [
+      0.48331,
+      0.7589
+     ],
+     [
+      0.49998,
+      0.51201
+     ],
+     [
+      1.98325,
+      0.51201
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 289
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 289
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #2",
+    "The Legend of Zelda #3",
+    "The Legend of Zelda #4"
+   ],
+   "noteCount": 289,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 95,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 49,
+    "keyHi": 95,
+    "keySpan": 46,
+    "medianNote": 0.333,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.055,
+    "t20": null,
+    "sustain": 0.302,
+    "centroid": 944,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 2"
+  },
+  {
+   "id": "nes:pulse:duty50:enve7841921",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0.4,
+    "sustain": 0.4705,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.13006
+     ],
+     [
+      0.05,
+      1.13006
+     ],
+     [
+      0.06666,
+      1.25723
+     ],
+     [
+      0.1,
+      1.25723
+     ],
+     [
+      0.11666,
+      1.13006
+     ],
+     [
+      0.16666,
+      1.13006
+     ],
+     [
+      0.18333,
+      1
+     ],
+     [
+      0.23332,
+      1
+     ],
+     [
+      0.24999,
+      0.86696
+     ],
+     [
+      0.36665,
+      0.86696
+     ],
+     [
+      0.38332,
+      0.73084
+     ],
+     [
+      0.44998,
+      0.73084
+     ],
+     [
+      0.46665,
+      0.59153
+     ],
+     [
+      1.98325,
+      0.59153
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 136
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 136
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #2",
+    "The Legend of Zelda #5",
+    "The Legend of Zelda #6",
+    "The Legend of Zelda #7",
+    "The Legend of Zelda #8",
+    "The Legend of Zelda #12"
+   ],
+   "noteCount": 136,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 79,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 49,
+    "keyHi": 79,
+    "keySpan": 30,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.05,
+    "t20": null,
+    "sustain": 0.468,
+    "centroid": 422,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 5"
+  },
+  {
+   "id": "nes:triangle:env48a3dbda",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-triangle-envelope",
+     "groupKey": "tri",
+     "sampleCount": 982
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "dbefed6c0b27b554",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "triangle",
+    "groupKey": "tri",
+    "clusterNotes": 982
+   },
+   "usedIn": [
+    "The Legend of Zelda #1",
+    "The Legend of Zelda #2",
+    "The Legend of Zelda #3",
+    "The Legend of Zelda #4",
+    "The Legend of Zelda #5",
+    "The Legend of Zelda #6",
+    "The Legend of Zelda #7",
+    "The Legend of Zelda #8",
+    "The Legend of Zelda #12"
+   ],
+   "noteCount": 982,
+   "used": true,
+   "keysPlayed": {
+    "lo": 39,
+    "hi": 69,
+    "median": 48
+   },
+   "features": {
+    "keyMedian": 48,
+    "keyLo": 39,
+    "keyHi": 69,
+    "keySpan": 30,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.883,
+    "centroid": 135,
+    "brightness": 1.03,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  }
+ ],
+ "samples": {
+  "156e74116e651302": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "156e74116e651302.wav"
+  },
+  "dbefed6c0b27b554": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "dbefed6c0b27b554.wav"
+  },
+  "83a3aede5f0edb0d": {
+   "rate": 55930,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "83a3aede5f0edb0d.wav"
+  },
+  "a223303b6af4932e": {
+   "rate": 3523,
+   "length": 1057,
+   "loop": null,
+   "bytes": 2202,
+   "file": "a223303b6af4932e.wav"
+  },
+  "e3c2fe39b6778838": {
+   "rate": 4710,
+   "length": 1413,
+   "loop": null,
+   "bytes": 2914,
+   "file": "e3c2fe39b6778838.wav"
+  },
+  "3bf18bc59590df32": {
+   "rate": 7046,
+   "length": 2114,
+   "loop": null,
+   "bytes": 4316,
+   "file": "3bf18bc59590df32.wav"
+  },
+  "accf980e05b24066": {
+   "rate": 8860,
+   "length": 2658,
+   "loop": null,
+   "bytes": 5404,
+   "file": "accf980e05b24066.wav"
+  },
+  "4905a206193949d9": {
+   "rate": 11186,
+   "length": 3356,
+   "loop": null,
+   "bytes": 6800,
+   "file": "4905a206193949d9.wav"
+  },
+  "4004e82e3c674467": {
+   "rate": 440,
+   "length": 132,
+   "loop": null,
+   "bytes": 352,
+   "file": "4004e82e3c674467.wav"
+  },
+  "6d02335f363abafa": {
+   "rate": 880,
+   "length": 264,
+   "loop": null,
+   "bytes": 616,
+   "file": "6d02335f363abafa.wav"
+  },
+  "bdcdc06995a55bd8": {
+   "rate": 1762,
+   "length": 529,
+   "loop": null,
+   "bytes": 1146,
+   "file": "bdcdc06995a55bd8.wav"
+  },
+  "3a611f0a516f4ad7": {
+   "rate": 2349,
+   "length": 705,
+   "loop": null,
+   "bytes": 1498,
+   "file": "3a611f0a516f4ad7.wav"
+  }
+ }
+}
