@@ -1,0 +1,5447 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "final-fantasy-legend",
+ "title": "Final Fantasy Legend",
+ "drivers": [
+  "gb"
+ ],
+ "songs": 17,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "gb:pulse:duty12.5:env790de4b0",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.83333
+     ],
+     [
+      0.05023,
+      0.83333
+     ],
+     [
+      0.06697,
+      0.66667
+     ],
+     [
+      0.08371,
+      0.66667
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.13394,
+      0.33333
+     ],
+     [
+      0.15068,
+      0.33333
+     ],
+     [
+      0.16743,
+      0.16667
+     ],
+     [
+      0.18417,
+      0.16667
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 27
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 27
+   },
+   "usedIn": [
+    "Final Fantasy Legend #4"
+   ],
+   "noteCount": 27,
+   "used": true,
+   "keysPlayed": {
+    "lo": 83,
+    "hi": 90,
+    "median": 86
+   },
+   "features": {
+    "keyMedian": 86,
+    "keyLo": 83,
+    "keyHi": 90,
+    "keySpan": 7,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.16,
+    "sustain": 0,
+    "centroid": 2240,
+    "brightness": 1.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env2640ff3d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.83333
+     ],
+     [
+      0.05023,
+      0.83333
+     ],
+     [
+      0.06697,
+      0.66667
+     ],
+     [
+      0.08371,
+      0.66667
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.13394,
+      0.33333
+     ],
+     [
+      0.15068,
+      0.33333
+     ],
+     [
+      0.16743,
+      0.16667
+     ],
+     [
+      0.18417,
+      0.16667
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 19
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 19
+   },
+   "usedIn": [
+    "Final Fantasy Legend #4"
+   ],
+   "noteCount": 19,
+   "used": true,
+   "keysPlayed": {
+    "lo": 79,
+    "hi": 81,
+    "median": 81
+   },
+   "features": {
+    "keyMedian": 81,
+    "keyLo": 79,
+    "keyHi": 81,
+    "keySpan": 2,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.16,
+    "sustain": 0,
+    "centroid": 1708,
+    "brightness": 1.94,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 2"
+  },
+  {
+   "id": "gb:pulse:duty12.5:enva5b1b843",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 743
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 743
+   },
+   "usedIn": [
+    "Final Fantasy Legend #5",
+    "Final Fantasy Legend #7",
+    "Final Fantasy Legend #11",
+    "Final Fantasy Legend #17"
+   ],
+   "noteCount": 743,
+   "used": true,
+   "keysPlayed": {
+    "lo": 54,
+    "hi": 75,
+    "median": 63
+   },
+   "features": {
+    "keyMedian": 63,
+    "keyLo": 54,
+    "keyHi": 75,
+    "keySpan": 21,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.992,
+    "centroid": 619,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 2"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envaf51e9f1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.7534,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      1.33333
+     ],
+     [
+      0.1172,
+      1.33333
+     ],
+     [
+      0.13394,
+      1.66667
+     ],
+     [
+      0.18417,
+      1.66667
+     ],
+     [
+      0.20091,
+      2
+     ],
+     [
+      0.2344,
+      2
+     ],
+     [
+      0.25114,
+      2.33333
+     ],
+     [
+      0.30137,
+      2.33333
+     ],
+     [
+      0.31811,
+      2.66667
+     ],
+     [
+      0.36834,
+      2.66667
+     ],
+     [
+      0.38508,
+      3
+     ],
+     [
+      0.43531,
+      3
+     ],
+     [
+      0.45205,
+      3.33333
+     ],
+     [
+      0.48554,
+      3.33333
+     ],
+     [
+      0.50228,
+      3.66667
+     ],
+     [
+      0.55251,
+      3.66667
+     ],
+     [
+      0.56925,
+      4
+     ],
+     [
+      0.61948,
+      4
+     ],
+     [
+      0.63622,
+      4.33333
+     ],
+     [
+      0.68645,
+      4.33333
+     ],
+     [
+      0.70319,
+      4.66667
+     ],
+     [
+      0.73668,
+      4.66667
+     ],
+     [
+      0.75342,
+      5
+     ],
+     [
+      1.97564,
+      5
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy Legend #11"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 65,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 65,
+    "keyHi": 65,
+    "keySpan": 0,
+    "medianNote": 0.619,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.7,
+    "t20": null,
+    "sustain": 0.991,
+    "centroid": 690,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 10"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envb2eae848",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.7032,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      1.25
+     ],
+     [
+      0.1172,
+      1.25
+     ],
+     [
+      0.13394,
+      1.5
+     ],
+     [
+      0.18417,
+      1.5
+     ],
+     [
+      0.20091,
+      1.75
+     ],
+     [
+      0.2344,
+      1.75
+     ],
+     [
+      0.25114,
+      2
+     ],
+     [
+      0.30137,
+      2
+     ],
+     [
+      0.31811,
+      2.25
+     ],
+     [
+      0.36834,
+      2.25
+     ],
+     [
+      0.38508,
+      2.5
+     ],
+     [
+      0.43531,
+      2.5
+     ],
+     [
+      0.45205,
+      2.75
+     ],
+     [
+      0.48554,
+      2.75
+     ],
+     [
+      0.50228,
+      3
+     ],
+     [
+      0.55251,
+      3
+     ],
+     [
+      0.56925,
+      3.25
+     ],
+     [
+      0.61948,
+      3.25
+     ],
+     [
+      0.63622,
+      3.5
+     ],
+     [
+      0.68645,
+      3.5
+     ],
+     [
+      0.70319,
+      3.75
+     ],
+     [
+      1.97564,
+      3.75
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 33
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 33
+   },
+   "usedIn": [
+    "Final Fantasy Legend #11"
+   ],
+   "noteCount": 33,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 72,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 58,
+    "keyHi": 72,
+    "keySpan": 14,
+    "medianNote": 0.184,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.63,
+    "t20": null,
+    "sustain": 0.991,
+    "centroid": 693,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 4"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envbcaf7718",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4521,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.75
+     ],
+     [
+      0.21766,
+      0.75
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.31811,
+      0.5
+     ],
+     [
+      0.33485,
+      0.25
+     ],
+     [
+      0.43531,
+      0.25
+     ],
+     [
+      0.45205,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 23
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 23
+   },
+   "usedIn": [
+    "Final Fantasy Legend #7",
+    "Final Fantasy Legend #4"
+   ],
+   "noteCount": 23,
+   "used": true,
+   "keysPlayed": {
+    "lo": 61,
+    "hi": 71,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 61,
+    "keyHi": 71,
+    "keySpan": 10,
+    "medianNote": 0.184,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.4,
+    "sustain": 0,
+    "centroid": 651,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 5"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envd6e8992c",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.8874,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.875
+     ],
+     [
+      0.21766,
+      0.875
+     ],
+     [
+      0.2344,
+      0.75
+     ],
+     [
+      0.31811,
+      0.75
+     ],
+     [
+      0.33485,
+      0.625
+     ],
+     [
+      0.43531,
+      0.625
+     ],
+     [
+      0.45205,
+      0.5
+     ],
+     [
+      0.53577,
+      0.5
+     ],
+     [
+      0.55251,
+      0.375
+     ],
+     [
+      0.65297,
+      0.375
+     ],
+     [
+      0.66971,
+      0.25
+     ],
+     [
+      0.75342,
+      0.25
+     ],
+     [
+      0.77016,
+      0.125
+     ],
+     [
+      0.87062,
+      0.125
+     ],
+     [
+      0.88736,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 11
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 11
+   },
+   "usedIn": [
+    "Final Fantasy Legend #7"
+   ],
+   "noteCount": 11,
+   "used": true,
+   "keysPlayed": {
+    "lo": 61,
+    "hi": 66,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 61,
+    "keyHi": 66,
+    "keySpan": 5,
+    "medianNote": 0.335,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.72,
+    "sustain": 0,
+    "centroid": 653,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 6"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envd37f6eef",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 1.0381,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      1.25
+     ],
+     [
+      0.18417,
+      1.25
+     ],
+     [
+      0.20091,
+      1.5
+     ],
+     [
+      0.26788,
+      1.5
+     ],
+     [
+      0.28463,
+      1.75
+     ],
+     [
+      0.36834,
+      1.75
+     ],
+     [
+      0.38508,
+      2
+     ],
+     [
+      0.45205,
+      2
+     ],
+     [
+      0.4688,
+      2.25
+     ],
+     [
+      0.55251,
+      2.25
+     ],
+     [
+      0.56925,
+      2.5
+     ],
+     [
+      0.65297,
+      2.5
+     ],
+     [
+      0.66971,
+      2.75
+     ],
+     [
+      0.73668,
+      2.75
+     ],
+     [
+      0.75342,
+      3
+     ],
+     [
+      0.83714,
+      3
+     ],
+     [
+      0.85388,
+      3.25
+     ],
+     [
+      0.92085,
+      3.25
+     ],
+     [
+      0.93759,
+      3.5
+     ],
+     [
+      1.02131,
+      3.5
+     ],
+     [
+      1.03805,
+      3.75
+     ],
+     [
+      1.97564,
+      3.75
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 21
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 21
+   },
+   "usedIn": [
+    "Final Fantasy Legend #7"
+   ],
+   "noteCount": 21,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 69,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 59,
+    "keyHi": 69,
+    "keySpan": 10,
+    "medianNote": 0.352,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.935,
+    "t20": null,
+    "sustain": 0.991,
+    "centroid": 658,
+    "brightness": 2,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 7"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envef1eedca",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 1.4231,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.92308
+     ],
+     [
+      0.21766,
+      0.92308
+     ],
+     [
+      0.2344,
+      0.84615
+     ],
+     [
+      0.31811,
+      0.84615
+     ],
+     [
+      0.33485,
+      0.76923
+     ],
+     [
+      0.43531,
+      0.76923
+     ],
+     [
+      0.45205,
+      0.69231
+     ],
+     [
+      0.53577,
+      0.69231
+     ],
+     [
+      0.55251,
+      0.61538
+     ],
+     [
+      0.65297,
+      0.61538
+     ],
+     [
+      0.66971,
+      0.53846
+     ],
+     [
+      0.75342,
+      0.53846
+     ],
+     [
+      0.77016,
+      0.46154
+     ],
+     [
+      0.87062,
+      0.46154
+     ],
+     [
+      0.88736,
+      0.38462
+     ],
+     [
+      0.97108,
+      0.38462
+     ],
+     [
+      0.98782,
+      0.30769
+     ],
+     [
+      1.08828,
+      0.30769
+     ],
+     [
+      1.10502,
+      0.23077
+     ],
+     [
+      1.18873,
+      0.23077
+     ],
+     [
+      1.20547,
+      0.15385
+     ],
+     [
+      1.30593,
+      0.15385
+     ],
+     [
+      1.32267,
+      0.07692
+     ],
+     [
+      1.40639,
+      0.07692
+     ],
+     [
+      1.42313,
+      0
+     ],
+     [
+      1.55707,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy Legend #4"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 78,
+    "hi": 78,
+    "median": 78
+   },
+   "features": {
+    "keyMedian": 78,
+    "keyLo": 78,
+    "keyHi": 78,
+    "keySpan": 0,
+    "medianNote": 1.172,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 1.165,
+    "sustain": 0,
+    "centroid": 1455,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "gb:pulse:duty25:env3ef9f437",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.5693,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      1.16667
+     ],
+     [
+      0.1172,
+      1.16667
+     ],
+     [
+      0.13394,
+      1.33333
+     ],
+     [
+      0.18417,
+      1.33333
+     ],
+     [
+      0.20091,
+      1.5
+     ],
+     [
+      0.2344,
+      1.5
+     ],
+     [
+      0.25114,
+      1.66667
+     ],
+     [
+      0.30137,
+      1.66667
+     ],
+     [
+      0.31811,
+      1.83333
+     ],
+     [
+      0.36834,
+      1.83333
+     ],
+     [
+      0.38508,
+      2
+     ],
+     [
+      0.43531,
+      2
+     ],
+     [
+      0.45205,
+      2.16667
+     ],
+     [
+      0.48554,
+      2.16667
+     ],
+     [
+      0.50228,
+      2.33333
+     ],
+     [
+      0.55251,
+      2.33333
+     ],
+     [
+      0.56925,
+      2.5
+     ],
+     [
+      1.97564,
+      2.5
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 97
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 97
+   },
+   "usedIn": [
+    "Final Fantasy Legend #6",
+    "Final Fantasy Legend #9",
+    "Final Fantasy Legend #14"
+   ],
+   "noteCount": 97,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 89,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 64,
+    "keyHi": 89,
+    "keySpan": 25,
+    "medianNote": 0.368,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.495,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 1040,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 2"
+  },
+  {
+   "id": "gb:pulse:duty25:env3fb4abfe",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.6362,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.9
+     ],
+     [
+      0.1172,
+      0.9
+     ],
+     [
+      0.13394,
+      0.8
+     ],
+     [
+      0.18417,
+      0.8
+     ],
+     [
+      0.20091,
+      0.7
+     ],
+     [
+      0.2344,
+      0.7
+     ],
+     [
+      0.25114,
+      0.6
+     ],
+     [
+      0.30137,
+      0.6
+     ],
+     [
+      0.31811,
+      0.5
+     ],
+     [
+      0.36834,
+      0.5
+     ],
+     [
+      0.38508,
+      0.4
+     ],
+     [
+      0.43531,
+      0.4
+     ],
+     [
+      0.45205,
+      0.3
+     ],
+     [
+      0.48554,
+      0.3
+     ],
+     [
+      0.50228,
+      0.2
+     ],
+     [
+      0.55251,
+      0.2
+     ],
+     [
+      0.56925,
+      0.1
+     ],
+     [
+      0.61948,
+      0.1
+     ],
+     [
+      0.63622,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 155
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 155
+   },
+   "usedIn": [
+    "Final Fantasy Legend #13"
+   ],
+   "noteCount": 155,
+   "used": true,
+   "keysPlayed": {
+    "lo": 74,
+    "hi": 79,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 74,
+    "keyHi": 79,
+    "keySpan": 5,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.495,
+    "sustain": 0,
+    "centroid": 1167,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 3"
+  },
+  {
+   "id": "gb:pulse:duty25:env04c3af61",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1356
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1356
+   },
+   "usedIn": [
+    "Final Fantasy Legend #6",
+    "Final Fantasy Legend #7",
+    "Final Fantasy Legend #9",
+    "Final Fantasy Legend #11",
+    "Final Fantasy Legend #13",
+    "Final Fantasy Legend #14",
+    "Final Fantasy Legend #15",
+    "Final Fantasy Legend #2",
+    "Final Fantasy Legend #4",
+    "Final Fantasy Legend #5",
+    "Final Fantasy Legend #12",
+    "Final Fantasy Legend #3"
+   ],
+   "noteCount": 1356,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 95,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 38,
+    "keyHi": 95,
+    "keySpan": 57,
+    "medianNote": 0.151,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.993,
+    "centroid": 927,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like"
+  },
+  {
+   "id": "gb:pulse:duty25:env8e60bc83",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.6697,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.83333
+     ],
+     [
+      0.21766,
+      0.83333
+     ],
+     [
+      0.2344,
+      0.66667
+     ],
+     [
+      0.31811,
+      0.66667
+     ],
+     [
+      0.33485,
+      0.5
+     ],
+     [
+      0.43531,
+      0.5
+     ],
+     [
+      0.45205,
+      0.33333
+     ],
+     [
+      0.53577,
+      0.33333
+     ],
+     [
+      0.55251,
+      0.16667
+     ],
+     [
+      0.65297,
+      0.16667
+     ],
+     [
+      0.66971,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 453
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 453
+   },
+   "usedIn": [
+    "Final Fantasy Legend #3",
+    "Final Fantasy Legend #4",
+    "Final Fantasy Legend #11",
+    "Final Fantasy Legend #6",
+    "Final Fantasy Legend #9",
+    "Final Fantasy Legend #1",
+    "Final Fantasy Legend #14"
+   ],
+   "noteCount": 453,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 92,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 45,
+    "keyHi": 92,
+    "keySpan": 47,
+    "medianNote": 0.184,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.52,
+    "sustain": 0,
+    "centroid": 656,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet"
+  },
+  {
+   "id": "gb:pulse:duty25:env047cb459",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.8204,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      1.5
+     ],
+     [
+      0.1172,
+      1.5
+     ],
+     [
+      0.13394,
+      2
+     ],
+     [
+      0.18417,
+      2
+     ],
+     [
+      0.20091,
+      2.5
+     ],
+     [
+      0.2344,
+      2.5
+     ],
+     [
+      0.25114,
+      3
+     ],
+     [
+      0.30137,
+      3
+     ],
+     [
+      0.31811,
+      3.5
+     ],
+     [
+      0.36834,
+      3.5
+     ],
+     [
+      0.38508,
+      4
+     ],
+     [
+      0.43531,
+      4
+     ],
+     [
+      0.45205,
+      4.5
+     ],
+     [
+      0.48554,
+      4.5
+     ],
+     [
+      0.50228,
+      5
+     ],
+     [
+      0.55251,
+      5
+     ],
+     [
+      0.56925,
+      5.5
+     ],
+     [
+      0.61948,
+      5.5
+     ],
+     [
+      0.63622,
+      6
+     ],
+     [
+      0.68645,
+      6
+     ],
+     [
+      0.70319,
+      6.5
+     ],
+     [
+      0.73668,
+      6.5
+     ],
+     [
+      0.75342,
+      7
+     ],
+     [
+      0.80365,
+      7
+     ],
+     [
+      0.82039,
+      7.5
+     ],
+     [
+      1.97564,
+      7.5
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy Legend #8"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 64,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 64,
+    "keyHi": 64,
+    "keySpan": 0,
+    "medianNote": 0.318,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.745,
+    "t20": null,
+    "sustain": 0.991,
+    "centroid": 586,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 11"
+  },
+  {
+   "id": "gb:pulse:duty25:env65e476ac",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2344,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.21766,
+      0.5
+     ],
+     [
+      0.2344,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 12
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 12
+   },
+   "usedIn": [
+    "Final Fantasy Legend #6"
+   ],
+   "noteCount": 12,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 65,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 64,
+    "keyHi": 65,
+    "keySpan": 1,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.215,
+    "sustain": 0,
+    "centroid": 618,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 2"
+  },
+  {
+   "id": "gb:pulse:duty25:env68ee2068",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.7032,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      1.25
+     ],
+     [
+      0.1172,
+      1.25
+     ],
+     [
+      0.13394,
+      1.5
+     ],
+     [
+      0.18417,
+      1.5
+     ],
+     [
+      0.20091,
+      1.75
+     ],
+     [
+      0.2344,
+      1.75
+     ],
+     [
+      0.25114,
+      2
+     ],
+     [
+      0.30137,
+      2
+     ],
+     [
+      0.31811,
+      2.25
+     ],
+     [
+      0.36834,
+      2.25
+     ],
+     [
+      0.38508,
+      2.5
+     ],
+     [
+      0.43531,
+      2.5
+     ],
+     [
+      0.45205,
+      2.75
+     ],
+     [
+      0.48554,
+      2.75
+     ],
+     [
+      0.50228,
+      3
+     ],
+     [
+      0.55251,
+      3
+     ],
+     [
+      0.56925,
+      3.25
+     ],
+     [
+      0.61948,
+      3.25
+     ],
+     [
+      0.63622,
+      3.5
+     ],
+     [
+      0.68645,
+      3.5
+     ],
+     [
+      0.70319,
+      3.75
+     ],
+     [
+      1.97564,
+      3.75
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 92
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 92
+   },
+   "usedIn": [
+    "Final Fantasy Legend #1",
+    "Final Fantasy Legend #11",
+    "Final Fantasy Legend #14",
+    "Final Fantasy Legend #12"
+   ],
+   "noteCount": 92,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 77,
+    "median": 63
+   },
+   "features": {
+    "keyMedian": 63,
+    "keyLo": 45,
+    "keyHi": 77,
+    "keySpan": 32,
+    "medianNote": 0.435,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.63,
+    "t20": null,
+    "sustain": 0.992,
+    "centroid": 553,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 3"
+  },
+  {
+   "id": "gb:pulse:duty25:env2908fa6b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.7534,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      1.33333
+     ],
+     [
+      0.1172,
+      1.33333
+     ],
+     [
+      0.13394,
+      1.66667
+     ],
+     [
+      0.18417,
+      1.66667
+     ],
+     [
+      0.20091,
+      2
+     ],
+     [
+      0.2344,
+      2
+     ],
+     [
+      0.25114,
+      2.33333
+     ],
+     [
+      0.30137,
+      2.33333
+     ],
+     [
+      0.31811,
+      2.66667
+     ],
+     [
+      0.36834,
+      2.66667
+     ],
+     [
+      0.38508,
+      3
+     ],
+     [
+      0.43531,
+      3
+     ],
+     [
+      0.45205,
+      3.33333
+     ],
+     [
+      0.48554,
+      3.33333
+     ],
+     [
+      0.50228,
+      3.66667
+     ],
+     [
+      0.55251,
+      3.66667
+     ],
+     [
+      0.56925,
+      4
+     ],
+     [
+      0.61948,
+      4
+     ],
+     [
+      0.63622,
+      4.33333
+     ],
+     [
+      0.68645,
+      4.33333
+     ],
+     [
+      0.70319,
+      4.66667
+     ],
+     [
+      0.73668,
+      4.66667
+     ],
+     [
+      0.75342,
+      5
+     ],
+     [
+      1.97564,
+      5
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Final Fantasy Legend #11"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 67,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 63,
+    "keyHi": 67,
+    "keySpan": 4,
+    "medianNote": 0.619,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.695,
+    "t20": null,
+    "sustain": 0.995,
+    "centroid": 620,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 9"
+  },
+  {
+   "id": "gb:pulse:duty25:env31809c6a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 545
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 545
+   },
+   "usedIn": [
+    "Final Fantasy Legend #4",
+    "Final Fantasy Legend #6",
+    "Final Fantasy Legend #8",
+    "Final Fantasy Legend #9",
+    "Final Fantasy Legend #10",
+    "Final Fantasy Legend #11",
+    "Final Fantasy Legend #3",
+    "Final Fantasy Legend #12"
+   ],
+   "noteCount": 545,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 91,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 43,
+    "keyHi": 91,
+    "keySpan": 48,
+    "medianNote": 0.184,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.995,
+    "centroid": 621,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 3"
+  },
+  {
+   "id": "gb:pulse:duty25:env80052b32",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3349,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.66667
+     ],
+     [
+      0.21766,
+      0.66667
+     ],
+     [
+      0.2344,
+      0.33333
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.33485,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Final Fantasy Legend #6"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 72,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 71,
+    "keyHi": 72,
+    "keySpan": 1,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.29,
+    "sustain": 0,
+    "centroid": 924,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 7"
+  },
+  {
+   "id": "gb:pulse:duty25:env104590ab",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 1.2222,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      1.5
+     ],
+     [
+      0.18417,
+      1.5
+     ],
+     [
+      0.20091,
+      2
+     ],
+     [
+      0.26788,
+      2
+     ],
+     [
+      0.28463,
+      2.5
+     ],
+     [
+      0.36834,
+      2.5
+     ],
+     [
+      0.38508,
+      3
+     ],
+     [
+      0.45205,
+      3
+     ],
+     [
+      0.4688,
+      3.5
+     ],
+     [
+      0.55251,
+      3.5
+     ],
+     [
+      0.56925,
+      4
+     ],
+     [
+      0.65297,
+      4
+     ],
+     [
+      0.66971,
+      4.5
+     ],
+     [
+      0.73668,
+      4.5
+     ],
+     [
+      0.75342,
+      5
+     ],
+     [
+      0.83714,
+      5
+     ],
+     [
+      0.85388,
+      5.5
+     ],
+     [
+      0.92085,
+      5.5
+     ],
+     [
+      0.93759,
+      6
+     ],
+     [
+      1.02131,
+      6
+     ],
+     [
+      1.03805,
+      6.5
+     ],
+     [
+      1.12176,
+      6.5
+     ],
+     [
+      1.1385,
+      7
+     ],
+     [
+      1.20547,
+      7
+     ],
+     [
+      1.22222,
+      7.5
+     ],
+     [
+      1.97564,
+      7.5
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 63
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 63
+   },
+   "usedIn": [
+    "Final Fantasy Legend #5"
+   ],
+   "noteCount": 63,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 53,
+    "median": 46
+   },
+   "features": {
+    "keyMedian": 46,
+    "keyLo": 38,
+    "keyHi": 53,
+    "keySpan": 15,
+    "medianNote": 0.502,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 1.135,
+    "t20": null,
+    "sustain": 0.979,
+    "centroid": 208,
+    "brightness": 1.79,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low soft pad"
+  },
+  {
+   "id": "gb:pulse:duty25:envb7182da1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5525,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.8
+     ],
+     [
+      0.21766,
+      0.8
+     ],
+     [
+      0.2344,
+      0.6
+     ],
+     [
+      0.31811,
+      0.6
+     ],
+     [
+      0.33485,
+      0.4
+     ],
+     [
+      0.43531,
+      0.4
+     ],
+     [
+      0.45205,
+      0.2
+     ],
+     [
+      0.53577,
+      0.2
+     ],
+     [
+      0.55251,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 26
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 26
+   },
+   "usedIn": [
+    "Final Fantasy Legend #5",
+    "Final Fantasy Legend #6",
+    "Final Fantasy Legend #7"
+   ],
+   "noteCount": 26,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 75,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 50,
+    "keyHi": 75,
+    "keySpan": 25,
+    "medianNote": 0.352,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.44,
+    "sustain": 0,
+    "centroid": 779,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 4"
+  },
+  {
+   "id": "gb:pulse:duty25:envb3977595",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 351
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 351
+   },
+   "usedIn": [
+    "Final Fantasy Legend #12"
+   ],
+   "noteCount": 351,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 72,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 56,
+    "keyHi": 72,
+    "keySpan": 16,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.11,
+    "sustain": 0,
+    "centroid": 613,
+    "brightness": 1.75,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck"
+  },
+  {
+   "id": "gb:pulse:duty50:env1afa66a1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5023,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.875
+     ],
+     [
+      0.1172,
+      0.875
+     ],
+     [
+      0.13394,
+      0.75
+     ],
+     [
+      0.18417,
+      0.75
+     ],
+     [
+      0.20091,
+      0.625
+     ],
+     [
+      0.2344,
+      0.625
+     ],
+     [
+      0.25114,
+      0.5
+     ],
+     [
+      0.30137,
+      0.5
+     ],
+     [
+      0.31811,
+      0.375
+     ],
+     [
+      0.36834,
+      0.375
+     ],
+     [
+      0.38508,
+      0.25
+     ],
+     [
+      0.43531,
+      0.25
+     ],
+     [
+      0.45205,
+      0.125
+     ],
+     [
+      0.48554,
+      0.125
+     ],
+     [
+      0.50228,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 156
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 156
+   },
+   "usedIn": [
+    "Final Fantasy Legend #13"
+   ],
+   "noteCount": 156,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 75,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 71,
+    "keyHi": 75,
+    "keySpan": 4,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.395,
+    "sustain": 0,
+    "centroid": 842,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 2"
+  },
+  {
+   "id": "gb:pulse:duty50:env01fae245",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.83333
+     ],
+     [
+      0.05023,
+      0.83333
+     ],
+     [
+      0.06697,
+      0.66667
+     ],
+     [
+      0.08371,
+      0.66667
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.13394,
+      0.33333
+     ],
+     [
+      0.15068,
+      0.33333
+     ],
+     [
+      0.16743,
+      0.16667
+     ],
+     [
+      0.18417,
+      0.16667
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy Legend #4"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 86,
+    "hi": 86,
+    "median": 86
+   },
+   "features": {
+    "keyMedian": 86,
+    "keyLo": 86,
+    "keyHi": 86,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.165,
+    "sustain": 0,
+    "centroid": 1853,
+    "brightness": 1.58,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 3"
+  },
+  {
+   "id": "gb:pulse:duty50:env8ac77edd",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.83333
+     ],
+     [
+      0.05023,
+      0.83333
+     ],
+     [
+      0.06697,
+      0.66667
+     ],
+     [
+      0.08371,
+      0.66667
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.13394,
+      0.33333
+     ],
+     [
+      0.15068,
+      0.33333
+     ],
+     [
+      0.16743,
+      0.16667
+     ],
+     [
+      0.18417,
+      0.16667
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy Legend #4"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 79,
+    "hi": 79,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 79,
+    "keyHi": 79,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.165,
+    "sustain": 0,
+    "centroid": 1258,
+    "brightness": 1.6,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 4"
+  },
+  {
+   "id": "gb:pulse:duty50:env8ec5c482",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 322
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 322
+   },
+   "usedIn": [
+    "Final Fantasy Legend #2",
+    "Final Fantasy Legend #6",
+    "Final Fantasy Legend #5",
+    "Final Fantasy Legend #7",
+    "Final Fantasy Legend #8",
+    "Final Fantasy Legend #9",
+    "Final Fantasy Legend #11",
+    "Final Fantasy Legend #17",
+    "Final Fantasy Legend #1",
+    "Final Fantasy Legend #13",
+    "Final Fantasy Legend #15",
+    "Final Fantasy Legend #3",
+    "Final Fantasy Legend #10"
+   ],
+   "noteCount": 322,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 83,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 43,
+    "keyHi": 83,
+    "keySpan": 40,
+    "medianNote": 0.218,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 597,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 4"
+  },
+  {
+   "id": "gb:pulse:duty50:env62b48d03",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 1.2222,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      1.5
+     ],
+     [
+      0.18417,
+      1.5
+     ],
+     [
+      0.20091,
+      2
+     ],
+     [
+      0.26788,
+      2
+     ],
+     [
+      0.28463,
+      2.5
+     ],
+     [
+      0.36834,
+      2.5
+     ],
+     [
+      0.38508,
+      3
+     ],
+     [
+      0.45205,
+      3
+     ],
+     [
+      0.4688,
+      3.5
+     ],
+     [
+      0.55251,
+      3.5
+     ],
+     [
+      0.56925,
+      4
+     ],
+     [
+      0.65297,
+      4
+     ],
+     [
+      0.66971,
+      4.5
+     ],
+     [
+      0.73668,
+      4.5
+     ],
+     [
+      0.75342,
+      5
+     ],
+     [
+      0.83714,
+      5
+     ],
+     [
+      0.85388,
+      5.5
+     ],
+     [
+      0.92085,
+      5.5
+     ],
+     [
+      0.93759,
+      6
+     ],
+     [
+      1.02131,
+      6
+     ],
+     [
+      1.03805,
+      6.5
+     ],
+     [
+      1.12176,
+      6.5
+     ],
+     [
+      1.1385,
+      7
+     ],
+     [
+      1.20547,
+      7
+     ],
+     [
+      1.22222,
+      7.5
+     ],
+     [
+      1.97564,
+      7.5
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy Legend #5"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 40,
+    "hi": 40,
+    "median": 40
+   },
+   "features": {
+    "keyMedian": 40,
+    "keyLo": 40,
+    "keyHi": 40,
+    "keySpan": 0,
+    "medianNote": 0.469,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 1.135,
+    "t20": null,
+    "sustain": 0.98,
+    "centroid": 133,
+    "brightness": 1.62,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass"
+  },
+  {
+   "id": "gb:pulse:duty50:env84a36a2e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.5693,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      1.16667
+     ],
+     [
+      0.1172,
+      1.16667
+     ],
+     [
+      0.13394,
+      1.33333
+     ],
+     [
+      0.18417,
+      1.33333
+     ],
+     [
+      0.20091,
+      1.5
+     ],
+     [
+      0.2344,
+      1.5
+     ],
+     [
+      0.25114,
+      1.66667
+     ],
+     [
+      0.30137,
+      1.66667
+     ],
+     [
+      0.31811,
+      1.83333
+     ],
+     [
+      0.36834,
+      1.83333
+     ],
+     [
+      0.38508,
+      2
+     ],
+     [
+      0.43531,
+      2
+     ],
+     [
+      0.45205,
+      2.16667
+     ],
+     [
+      0.48554,
+      2.16667
+     ],
+     [
+      0.50228,
+      2.33333
+     ],
+     [
+      0.55251,
+      2.33333
+     ],
+     [
+      0.56925,
+      2.5
+     ],
+     [
+      1.97564,
+      2.5
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 409
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 409
+   },
+   "usedIn": [
+    "Final Fantasy Legend #1",
+    "Final Fantasy Legend #6",
+    "Final Fantasy Legend #8",
+    "Final Fantasy Legend #9",
+    "Final Fantasy Legend #10",
+    "Final Fantasy Legend #14",
+    "Final Fantasy Legend #16",
+    "Final Fantasy Legend #17"
+   ],
+   "noteCount": 409,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 95,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 62,
+    "keyHi": 95,
+    "keySpan": 33,
+    "medianNote": 0.352,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.495,
+    "t20": null,
+    "sustain": 0.999,
+    "centroid": 842,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad"
+  },
+  {
+   "id": "gb:pulse:duty50:env1361da79",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.6362,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      1.2
+     ],
+     [
+      0.1172,
+      1.2
+     ],
+     [
+      0.13394,
+      1.4
+     ],
+     [
+      0.18417,
+      1.4
+     ],
+     [
+      0.20091,
+      1.6
+     ],
+     [
+      0.2344,
+      1.6
+     ],
+     [
+      0.25114,
+      1.8
+     ],
+     [
+      0.30137,
+      1.8
+     ],
+     [
+      0.31811,
+      2
+     ],
+     [
+      0.36834,
+      2
+     ],
+     [
+      0.38508,
+      2.2
+     ],
+     [
+      0.43531,
+      2.2
+     ],
+     [
+      0.45205,
+      2.4
+     ],
+     [
+      0.48554,
+      2.4
+     ],
+     [
+      0.50228,
+      2.6
+     ],
+     [
+      0.55251,
+      2.6
+     ],
+     [
+      0.56925,
+      2.8
+     ],
+     [
+      0.61948,
+      2.8
+     ],
+     [
+      0.63622,
+      3
+     ],
+     [
+      1.97564,
+      3
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 24
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 24
+   },
+   "usedIn": [
+    "Final Fantasy Legend #1",
+    "Final Fantasy Legend #16",
+    "Final Fantasy Legend #14"
+   ],
+   "noteCount": 24,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 85,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 50,
+    "keyHi": 85,
+    "keySpan": 35,
+    "medianNote": 0.402,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.56,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 1059,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 5"
+  },
+  {
+   "id": "gb:pulse:duty50:env3064f382",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.7534,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      1.33333
+     ],
+     [
+      0.1172,
+      1.33333
+     ],
+     [
+      0.13394,
+      1.66667
+     ],
+     [
+      0.18417,
+      1.66667
+     ],
+     [
+      0.20091,
+      2
+     ],
+     [
+      0.2344,
+      2
+     ],
+     [
+      0.25114,
+      2.33333
+     ],
+     [
+      0.30137,
+      2.33333
+     ],
+     [
+      0.31811,
+      2.66667
+     ],
+     [
+      0.36834,
+      2.66667
+     ],
+     [
+      0.38508,
+      3
+     ],
+     [
+      0.43531,
+      3
+     ],
+     [
+      0.45205,
+      3.33333
+     ],
+     [
+      0.48554,
+      3.33333
+     ],
+     [
+      0.50228,
+      3.66667
+     ],
+     [
+      0.55251,
+      3.66667
+     ],
+     [
+      0.56925,
+      4
+     ],
+     [
+      0.61948,
+      4
+     ],
+     [
+      0.63622,
+      4.33333
+     ],
+     [
+      0.68645,
+      4.33333
+     ],
+     [
+      0.70319,
+      4.66667
+     ],
+     [
+      0.73668,
+      4.66667
+     ],
+     [
+      0.75342,
+      5
+     ],
+     [
+      1.97564,
+      5
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Final Fantasy Legend #11"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 61,
+    "hi": 67,
+    "median": 63
+   },
+   "features": {
+    "keyMedian": 63,
+    "keyLo": 61,
+    "keyHi": 67,
+    "keySpan": 6,
+    "medianNote": 0.619,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.695,
+    "t20": null,
+    "sustain": 0.999,
+    "centroid": 502,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 8"
+  },
+  {
+   "id": "gb:pulse:duty50:env506784b2",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.8204,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      1.5
+     ],
+     [
+      0.1172,
+      1.5
+     ],
+     [
+      0.13394,
+      2
+     ],
+     [
+      0.18417,
+      2
+     ],
+     [
+      0.20091,
+      2.5
+     ],
+     [
+      0.2344,
+      2.5
+     ],
+     [
+      0.25114,
+      3
+     ],
+     [
+      0.30137,
+      3
+     ],
+     [
+      0.31811,
+      3.5
+     ],
+     [
+      0.36834,
+      3.5
+     ],
+     [
+      0.38508,
+      4
+     ],
+     [
+      0.43531,
+      4
+     ],
+     [
+      0.45205,
+      4.5
+     ],
+     [
+      0.48554,
+      4.5
+     ],
+     [
+      0.50228,
+      5
+     ],
+     [
+      0.55251,
+      5
+     ],
+     [
+      0.56925,
+      5.5
+     ],
+     [
+      0.61948,
+      5.5
+     ],
+     [
+      0.63622,
+      6
+     ],
+     [
+      0.68645,
+      6
+     ],
+     [
+      0.70319,
+      6.5
+     ],
+     [
+      0.73668,
+      6.5
+     ],
+     [
+      0.75342,
+      7
+     ],
+     [
+      0.80365,
+      7
+     ],
+     [
+      0.82039,
+      7.5
+     ],
+     [
+      1.97564,
+      7.5
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 24
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 24
+   },
+   "usedIn": [
+    "Final Fantasy Legend #8"
+   ],
+   "noteCount": 24,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 74,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 60,
+    "keyHi": 74,
+    "keySpan": 14,
+    "medianNote": 0.301,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.745,
+    "t20": null,
+    "sustain": 0.997,
+    "centroid": 532,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 6"
+  },
+  {
+   "id": "gb:pulse:duty50:envcad30d6a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Final Fantasy Legend #12"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 58,
+    "median": 58
+   },
+   "features": {
+    "keyMedian": 58,
+    "keyLo": 58,
+    "keyHi": 58,
+    "keySpan": 0,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.105,
+    "sustain": 0,
+    "centroid": 376,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 3"
+  },
+  {
+   "id": "gb:pulse:duty50:envfed3c93b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 65
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 65
+   },
+   "usedIn": [
+    "Final Fantasy Legend #1",
+    "Final Fantasy Legend #6",
+    "Final Fantasy Legend #8",
+    "Final Fantasy Legend #9",
+    "Final Fantasy Legend #10",
+    "Final Fantasy Legend #11",
+    "Final Fantasy Legend #13",
+    "Final Fantasy Legend #15",
+    "Final Fantasy Legend #2",
+    "Final Fantasy Legend #3",
+    "Final Fantasy Legend #7",
+    "Final Fantasy Legend #12"
+   ],
+   "noteCount": 65,
+   "used": true,
+   "keysPlayed": {
+    "lo": 39,
+    "hi": 91,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 39,
+    "keyHi": 91,
+    "keySpan": 52,
+    "medianNote": 0.268,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.997,
+    "centroid": 892,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 7"
+  },
+  {
+   "id": "gb:wave:06b324ef",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:f6882ef1ae3442c1",
+     "sampleCount": 158
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "a5abc884445dc172",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:f6882ef1ae3442c1",
+    "clusterNotes": 158
+   },
+   "usedIn": [
+    "Final Fantasy Legend #12",
+    "Final Fantasy Legend #17"
+   ],
+   "noteCount": 158,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 84,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 55,
+    "keyHi": 84,
+    "keySpan": 29,
+    "medianNote": 0.352,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.94,
+    "centroid": 880,
+    "brightness": 3.36,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 2"
+  },
+  {
+   "id": "gb:wave:8a9db271",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:2087bf7a4577a8a3",
+     "sampleCount": 218
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "3e097f91dca45197",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:2087bf7a4577a8a3",
+    "clusterNotes": 218
+   },
+   "usedIn": [
+    "Final Fantasy Legend #5",
+    "Final Fantasy Legend #10"
+   ],
+   "noteCount": 218,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 77,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 60,
+    "keyHi": 77,
+    "keySpan": 17,
+    "medianNote": 0.335,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.99,
+    "centroid": 1650,
+    "brightness": 4.21,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 5"
+  },
+  {
+   "id": "gb:wave:9ecc5dab",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:8100897149d8d315",
+     "sampleCount": 132
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "37d6aff8ef8f2c0e",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:8100897149d8d315",
+    "clusterNotes": 132
+   },
+   "usedIn": [
+    "Final Fantasy Legend #8"
+   ],
+   "noteCount": 132,
+   "used": true,
+   "keysPlayed": {
+    "lo": 40,
+    "hi": 64,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 40,
+    "keyHi": 64,
+    "keySpan": 24,
+    "medianNote": 0.368,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.99,
+    "centroid": 661,
+    "brightness": 3.37,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 6"
+  },
+  {
+   "id": "gb:wave:94122872",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:1d42cd456c2237a1",
+     "sampleCount": 37
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "86edfead92235fec",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:1d42cd456c2237a1",
+    "clusterNotes": 37
+   },
+   "usedIn": [
+    "Final Fantasy Legend #5"
+   ],
+   "noteCount": 37,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 83,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 71,
+    "keyHi": 83,
+    "keySpan": 12,
+    "medianNote": 0.502,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.999,
+    "centroid": 1810,
+    "brightness": 2.75,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 8"
+  },
+  {
+   "id": "gb:wave:cdd17d4f",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:21637ed791a6adbb",
+     "sampleCount": 2401
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "bfa75c98b3c33441",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:21637ed791a6adbb",
+    "clusterNotes": 2401
+   },
+   "usedIn": [
+    "Final Fantasy Legend #1",
+    "Final Fantasy Legend #2",
+    "Final Fantasy Legend #3",
+    "Final Fantasy Legend #4",
+    "Final Fantasy Legend #6",
+    "Final Fantasy Legend #7",
+    "Final Fantasy Legend #9",
+    "Final Fantasy Legend #11",
+    "Final Fantasy Legend #13",
+    "Final Fantasy Legend #14",
+    "Final Fantasy Legend #15"
+   ],
+   "noteCount": 2401,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 71,
+    "median": 52
+   },
+   "features": {
+    "keyMedian": 52,
+    "keyLo": 36,
+    "keyHi": 71,
+    "keySpan": 35,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.942,
+    "centroid": 550,
+    "brightness": 3.34,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  }
+ ],
+ "samples": {
+  "21cfc05102f314ad": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "21cfc05102f314ad.wav"
+  },
+  "ea6335b24e5659b4": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "ea6335b24e5659b4.wav"
+  },
+  "bfa75c98b3c33441": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "bfa75c98b3c33441.wav"
+  },
+  "a4262fc218a2a29d": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "a4262fc218a2a29d.wav"
+  },
+  "3e097f91dca45197": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "3e097f91dca45197.wav"
+  },
+  "86edfead92235fec": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "86edfead92235fec.wav"
+  },
+  "37d6aff8ef8f2c0e": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "37d6aff8ef8f2c0e.wav"
+  },
+  "a5abc884445dc172": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "a5abc884445dc172.wav"
+  }
+ }
+}
