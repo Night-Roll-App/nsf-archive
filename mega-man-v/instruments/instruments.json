@@ -1,0 +1,8599 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "gb-mega-man-v",
+ "title": "",
+ "drivers": [
+  "gb"
+ ],
+ "songs": 33,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "gb:noise:s0:w0:env7da129cf",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.9
+     ],
+     [
+      0.08371,
+      0.9
+     ],
+     [
+      0.10046,
+      0.8
+     ],
+     [
+      0.13394,
+      0.8
+     ],
+     [
+      0.15068,
+      0.7
+     ],
+     [
+      0.18417,
+      0.7
+     ],
+     [
+      0.20091,
+      0.6
+     ],
+     [
+      0.21766,
+      0.6
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.26788,
+      0.5
+     ],
+     [
+      0.28463,
+      0.4
+     ],
+     [
+      0.31811,
+      0.4
+     ],
+     [
+      0.33485,
+      0.3
+     ],
+     [
+      0.36834,
+      0.3
+     ],
+     [
+      0.38508,
+      0.2
+     ],
+     [
+      0.41857,
+      0.2
+     ],
+     [
+      0.43531,
+      0.1
+     ],
+     [
+      0.45205,
+      0.1
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s0w0",
+     "sampleCount": 1014
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 0,
+      "width": 0
+     },
+     "sample": "7b16a200c0f4dee8",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.201,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.008,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 6791,
+      "brightness": 73.42,
+      "harmonicity": 0.158,
+      "flatness": 0.593,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s0w0",
+    "clusterNotes": 1014
+   },
+   "usedIn": [
+    "Mega Man V #1",
+    "Mega Man V #2",
+    "Mega Man V #3",
+    "Mega Man V #4",
+    "Mega Man V #5",
+    "Mega Man V #6",
+    "Mega Man V #7",
+    "Mega Man V #8",
+    "Mega Man V #9",
+    "Mega Man V #10",
+    "Mega Man V #11",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #15",
+    "Mega Man V #17",
+    "Mega Man V #18",
+    "Mega Man V #19",
+    "Mega Man V #20",
+    "Mega Man V #22",
+    "Mega Man V #23",
+    "Mega Man V #24",
+    "Mega Man V #25",
+    "Mega Man V #26",
+    "Mega Man V #27",
+    "Mega Man V #30",
+    "Mega Man V #31",
+    "Mega Man V #32",
+    "Mega Man V #33"
+   ],
+   "noteCount": 1014,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 3",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s0:w0:env099f4e3c",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1507,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.15068,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s0w0",
+     "sampleCount": 4103
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 0,
+      "width": 0
+     },
+     "sample": "7b16a200c0f4dee8",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.084,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.008,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 6795,
+      "brightness": 73.46,
+      "harmonicity": 0.159,
+      "flatness": 0.594,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s0w0",
+    "clusterNotes": 4103
+   },
+   "usedIn": [
+    "Mega Man V #1",
+    "Mega Man V #2",
+    "Mega Man V #3",
+    "Mega Man V #4",
+    "Mega Man V #5",
+    "Mega Man V #6",
+    "Mega Man V #7",
+    "Mega Man V #8",
+    "Mega Man V #9",
+    "Mega Man V #10",
+    "Mega Man V #11",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #15",
+    "Mega Man V #16",
+    "Mega Man V #17",
+    "Mega Man V #18",
+    "Mega Man V #21",
+    "Mega Man V #22",
+    "Mega Man V #24",
+    "Mega Man V #25",
+    "Mega Man V #26",
+    "Mega Man V #27",
+    "Mega Man V #28",
+    "Mega Man V #30",
+    "Mega Man V #31",
+    "Mega Man V #32",
+    "Mega Man V #33"
+   ],
+   "noteCount": 4103,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s0:w0:enveee16603",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.067,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s0w0",
+     "sampleCount": 78
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 0,
+      "width": 0
+     },
+     "sample": "7b16a200c0f4dee8",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.008,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 6791,
+      "brightness": 73.42,
+      "harmonicity": 0.158,
+      "flatness": 0.593,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s0w0",
+    "clusterNotes": 78
+   },
+   "usedIn": [
+    "Mega Man V #2",
+    "Mega Man V #4",
+    "Mega Man V #8",
+    "Mega Man V #9",
+    "Mega Man V #15",
+    "Mega Man V #19",
+    "Mega Man V #20",
+    "Mega Man V #22",
+    "Mega Man V #23",
+    "Mega Man V #25",
+    "Mega Man V #30",
+    "Mega Man V #32"
+   ],
+   "noteCount": 78,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 5",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s1:w0:enve00351ac",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1507,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.15068,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s1w0",
+     "sampleCount": 2676
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 1,
+      "width": 0
+     },
+     "sample": "a0cc766d654a5d44",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.117,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.016,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 7644,
+      "brightness": 82.64,
+      "harmonicity": 0.154,
+      "flatness": 0.563,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s1w0",
+    "clusterNotes": 2676
+   },
+   "usedIn": [
+    "Mega Man V #1",
+    "Mega Man V #2",
+    "Mega Man V #3",
+    "Mega Man V #4",
+    "Mega Man V #5",
+    "Mega Man V #6",
+    "Mega Man V #7",
+    "Mega Man V #8",
+    "Mega Man V #9",
+    "Mega Man V #10",
+    "Mega Man V #11",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #15",
+    "Mega Man V #17",
+    "Mega Man V #18",
+    "Mega Man V #19",
+    "Mega Man V #20",
+    "Mega Man V #21",
+    "Mega Man V #22",
+    "Mega Man V #23",
+    "Mega Man V #24",
+    "Mega Man V #25",
+    "Mega Man V #26",
+    "Mega Man V #27",
+    "Mega Man V #28",
+    "Mega Man V #29",
+    "Mega Man V #30",
+    "Mega Man V #31",
+    "Mega Man V #32",
+    "Mega Man V #33"
+   ],
+   "noteCount": 2676,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 2",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s5:w1:env27ef57a8",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s5w1",
+     "sampleCount": 149
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "shift": 5,
+      "width": 1
+     },
+     "sample": "fa7a9cd0e4e00001",
+     "loop": null,
+     "nameGuess": "Mallet",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.067,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.25,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.095,
+      "sustain": 0,
+      "centroid": 3407,
+      "brightness": 46.41,
+      "harmonicity": 0.999,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s5w1",
+    "clusterNotes": 149
+   },
+   "usedIn": [
+    "Mega Man V #4",
+    "Mega Man V #7",
+    "Mega Man V #9",
+    "Mega Man V #11",
+    "Mega Man V #14",
+    "Mega Man V #15",
+    "Mega Man V #30",
+    "Mega Man V #31",
+    "Mega Man V #33"
+   ],
+   "noteCount": 149,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 4",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:pulse:duty12.5:env2e96be73",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2344,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.85714
+     ],
+     [
+      0.05023,
+      0.85714
+     ],
+     [
+      0.06697,
+      0.71429
+     ],
+     [
+      0.08371,
+      0.71429
+     ],
+     [
+      0.10046,
+      0.57143
+     ],
+     [
+      0.1172,
+      0.57143
+     ],
+     [
+      0.13394,
+      0.42857
+     ],
+     [
+      0.15068,
+      0.42857
+     ],
+     [
+      0.16743,
+      0.28571
+     ],
+     [
+      0.18417,
+      0.28571
+     ],
+     [
+      0.20091,
+      0.14286
+     ],
+     [
+      0.21766,
+      0.14286
+     ],
+     [
+      0.2344,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 118
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 118
+   },
+   "usedIn": [
+    "Mega Man V #30",
+    "Mega Man V #7",
+    "Mega Man V #9"
+   ],
+   "noteCount": 118,
+   "used": true,
+   "keysPlayed": {
+    "lo": 53,
+    "hi": 68,
+    "median": 58
+   },
+   "features": {
+    "keyMedian": 58,
+    "keyLo": 53,
+    "keyHi": 68,
+    "keySpan": 15,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.185,
+    "sustain": 0,
+    "centroid": 461,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 6"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env2fb1e377",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.9
+     ],
+     [
+      0.08371,
+      0.9
+     ],
+     [
+      0.10046,
+      0.8
+     ],
+     [
+      0.13394,
+      0.8
+     ],
+     [
+      0.15068,
+      0.7
+     ],
+     [
+      0.18417,
+      0.7
+     ],
+     [
+      0.20091,
+      0.6
+     ],
+     [
+      0.21766,
+      0.6
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.26788,
+      0.5
+     ],
+     [
+      0.28463,
+      0.4
+     ],
+     [
+      0.31811,
+      0.4
+     ],
+     [
+      0.33485,
+      0.3
+     ],
+     [
+      0.36834,
+      0.3
+     ],
+     [
+      0.38508,
+      0.2
+     ],
+     [
+      0.41857,
+      0.2
+     ],
+     [
+      0.43531,
+      0.1
+     ],
+     [
+      0.45205,
+      0.1
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 23
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 23
+   },
+   "usedIn": [
+    "Mega Man V #23"
+   ],
+   "noteCount": 23,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 73,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 60,
+    "keyHi": 73,
+    "keySpan": 13,
+    "medianNote": 0.268,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.385,
+    "sustain": 0,
+    "centroid": 777,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 19"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env3dcae030",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1674,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.5
+     ],
+     [
+      0.15068,
+      0.5
+     ],
+     [
+      0.16743,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 15
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 15
+   },
+   "usedIn": [
+    "Mega Man V #15"
+   ],
+   "noteCount": 15,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 64,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 64,
+    "keyHi": 64,
+    "keySpan": 0,
+    "medianNote": 0.084,
+    "kit": true,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.12,
+    "sustain": 0,
+    "centroid": 615,
+    "brightness": 1.87,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Tom"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env5bfb5f1b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.519,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.90909
+     ],
+     [
+      0.08371,
+      0.90909
+     ],
+     [
+      0.10046,
+      0.81818
+     ],
+     [
+      0.13394,
+      0.81818
+     ],
+     [
+      0.15068,
+      0.72727
+     ],
+     [
+      0.18417,
+      0.72727
+     ],
+     [
+      0.20091,
+      0.63636
+     ],
+     [
+      0.21766,
+      0.63636
+     ],
+     [
+      0.2344,
+      0.54545
+     ],
+     [
+      0.26788,
+      0.54545
+     ],
+     [
+      0.28463,
+      0.45455
+     ],
+     [
+      0.31811,
+      0.45455
+     ],
+     [
+      0.33485,
+      0.36364
+     ],
+     [
+      0.36834,
+      0.36364
+     ],
+     [
+      0.38508,
+      0.27273
+     ],
+     [
+      0.41857,
+      0.27273
+     ],
+     [
+      0.43531,
+      0.18182
+     ],
+     [
+      0.45205,
+      0.18182
+     ],
+     [
+      0.4688,
+      0.09091
+     ],
+     [
+      0.50228,
+      0.09091
+     ],
+     [
+      0.51902,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 444
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 444
+   },
+   "usedIn": [
+    "Mega Man V #4",
+    "Mega Man V #23",
+    "Mega Man V #29",
+    "Mega Man V #31",
+    "Mega Man V #7"
+   ],
+   "noteCount": 444,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 88,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 55,
+    "keyHi": 88,
+    "keySpan": 33,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.43,
+    "sustain": 0,
+    "centroid": 777,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 5"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env14b70e2b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.8
+     ],
+     [
+      0.18417,
+      0.8
+     ],
+     [
+      0.20091,
+      0.6
+     ],
+     [
+      0.26788,
+      0.6
+     ],
+     [
+      0.28463,
+      0.4
+     ],
+     [
+      0.36834,
+      0.4
+     ],
+     [
+      0.38508,
+      0.2
+     ],
+     [
+      0.45205,
+      0.2
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 10
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 10
+   },
+   "usedIn": [
+    "Mega Man V #28",
+    "Mega Man V #33"
+   ],
+   "noteCount": 10,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 79,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 69,
+    "keyHi": 79,
+    "keySpan": 10,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.38,
+    "sustain": 0,
+    "centroid": 858,
+    "brightness": 1.95,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 22"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env18eafc2a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1339,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      1.09091
+     ],
+     [
+      0.05023,
+      1.09091
+     ],
+     [
+      0.06697,
+      1.18182
+     ],
+     [
+      0.08371,
+      1.18182
+     ],
+     [
+      0.10046,
+      1.27273
+     ],
+     [
+      0.1172,
+      1.27273
+     ],
+     [
+      0.13394,
+      1.36364
+     ],
+     [
+      1.97564,
+      1.36364
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 63
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 63
+   },
+   "usedIn": [
+    "Mega Man V #7"
+   ],
+   "noteCount": 63,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 63,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 58,
+    "keyHi": 63,
+    "keySpan": 5,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.09,
+    "t20": null,
+    "sustain": 0.994,
+    "centroid": 518,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 2"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env83ed68f5",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.83333
+     ],
+     [
+      0.15068,
+      0.83333
+     ],
+     [
+      0.16743,
+      0.66667
+     ],
+     [
+      0.21766,
+      0.66667
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.30137,
+      0.5
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.38508,
+      0.33333
+     ],
+     [
+      0.40182,
+      0.16667
+     ],
+     [
+      0.45205,
+      0.16667
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 70
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 70
+   },
+   "usedIn": [
+    "Mega Man V #5",
+    "Mega Man V #7",
+    "Mega Man V #9",
+    "Mega Man V #19"
+   ],
+   "noteCount": 70,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 91,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 57,
+    "keyHi": 91,
+    "keySpan": 34,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.345,
+    "sustain": 0,
+    "centroid": 514,
+    "brightness": 1.96,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 14"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env563df97d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 180
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 180
+   },
+   "usedIn": [
+    "Mega Man V #4",
+    "Mega Man V #7",
+    "Mega Man V #9",
+    "Mega Man V #15",
+    "Mega Man V #17",
+    "Mega Man V #19",
+    "Mega Man V #20",
+    "Mega Man V #28",
+    "Mega Man V #29",
+    "Mega Man V #32"
+   ],
+   "noteCount": 180,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 86,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 57,
+    "keyHi": 86,
+    "keySpan": 29,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.994,
+    "centroid": 521,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 7"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env6512f1b8",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2846,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.88889
+     ],
+     [
+      0.05023,
+      0.88889
+     ],
+     [
+      0.06697,
+      0.77778
+     ],
+     [
+      0.08371,
+      0.77778
+     ],
+     [
+      0.10046,
+      0.66667
+     ],
+     [
+      0.1172,
+      0.66667
+     ],
+     [
+      0.13394,
+      0.55556
+     ],
+     [
+      0.15068,
+      0.55556
+     ],
+     [
+      0.16743,
+      0.44444
+     ],
+     [
+      0.18417,
+      0.44444
+     ],
+     [
+      0.20091,
+      0.33333
+     ],
+     [
+      0.21766,
+      0.33333
+     ],
+     [
+      0.25114,
+      0.11111
+     ],
+     [
+      0.26788,
+      0.11111
+     ],
+     [
+      0.28463,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 338
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 338
+   },
+   "usedIn": [
+    "Mega Man V #31",
+    "Mega Man V #24",
+    "Mega Man V #32"
+   ],
+   "noteCount": 338,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 83,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 45,
+    "keyHi": 83,
+    "keySpan": 38,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.23,
+    "sustain": 0,
+    "centroid": 490,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 3"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env30900b10",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5693,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.83333
+     ],
+     [
+      0.18417,
+      0.83333
+     ],
+     [
+      0.20091,
+      0.66667
+     ],
+     [
+      0.26788,
+      0.66667
+     ],
+     [
+      0.28463,
+      0.5
+     ],
+     [
+      0.36834,
+      0.5
+     ],
+     [
+      0.38508,
+      0.33333
+     ],
+     [
+      0.45205,
+      0.33333
+     ],
+     [
+      0.4688,
+      0.16667
+     ],
+     [
+      0.55251,
+      0.16667
+     ],
+     [
+      0.56925,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 15
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 15
+   },
+   "usedIn": [
+    "Mega Man V #2",
+    "Mega Man V #32"
+   ],
+   "noteCount": 15,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 73,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 49,
+    "keyHi": 73,
+    "keySpan": 24,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.425,
+    "sustain": 0,
+    "centroid": 646,
+    "brightness": 1.96,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 21"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env322483d0",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1674,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.5
+     ],
+     [
+      0.15068,
+      0.5
+     ],
+     [
+      0.16743,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 10
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 10
+   },
+   "usedIn": [
+    "Mega Man V #15"
+   ],
+   "noteCount": 10,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 57,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 57,
+    "keyHi": 57,
+    "keySpan": 0,
+    "medianNote": 0.084,
+    "kit": true,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.145,
+    "sustain": 0,
+    "centroid": 412,
+    "brightness": 1.87,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Tom 3"
+  },
+  {
+   "id": "gb:pulse:duty12.5:enva2c4441d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3516,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.90909
+     ],
+     [
+      0.05023,
+      0.90909
+     ],
+     [
+      0.06697,
+      0.81818
+     ],
+     [
+      0.08371,
+      0.81818
+     ],
+     [
+      0.10046,
+      0.72727
+     ],
+     [
+      0.1172,
+      0.72727
+     ],
+     [
+      0.13394,
+      0.63636
+     ],
+     [
+      0.15068,
+      0.63636
+     ],
+     [
+      0.16743,
+      0.54545
+     ],
+     [
+      0.18417,
+      0.54545
+     ],
+     [
+      0.20091,
+      0.45455
+     ],
+     [
+      0.21766,
+      0.45455
+     ],
+     [
+      0.25114,
+      0.27273
+     ],
+     [
+      0.26788,
+      0.27273
+     ],
+     [
+      0.28463,
+      0.18182
+     ],
+     [
+      0.30137,
+      0.18182
+     ],
+     [
+      0.31811,
+      0.09091
+     ],
+     [
+      0.33485,
+      0.09091
+     ],
+     [
+      0.3516,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 258
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 258
+   },
+   "usedIn": [
+    "Mega Man V #1",
+    "Mega Man V #17",
+    "Mega Man V #24",
+    "Mega Man V #32",
+    "Mega Man V #19",
+    "Mega Man V #5"
+   ],
+   "noteCount": 258,
+   "used": true,
+   "keysPlayed": {
+    "lo": 51,
+    "hi": 91,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 51,
+    "keyHi": 91,
+    "keySpan": 40,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.28,
+    "sustain": 0,
+    "centroid": 733,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 8"
+  },
+  {
+   "id": "gb:pulse:duty12.5:enva5b1b843",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 968
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 968
+   },
+   "usedIn": [
+    "Mega Man V #1",
+    "Mega Man V #2",
+    "Mega Man V #5",
+    "Mega Man V #10",
+    "Mega Man V #11",
+    "Mega Man V #15",
+    "Mega Man V #20",
+    "Mega Man V #22",
+    "Mega Man V #28",
+    "Mega Man V #30",
+    "Mega Man V #31",
+    "Mega Man V #32",
+    "Mega Man V #33"
+   ],
+   "noteCount": 968,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 87,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 45,
+    "keyHi": 87,
+    "keySpan": 42,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.997,
+    "centroid": 872,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 3"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envb1000dee",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.66667
+     ],
+     [
+      0.1172,
+      0.66667
+     ],
+     [
+      0.13394,
+      0.33333
+     ],
+     [
+      0.18417,
+      0.33333
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 64
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 64
+   },
+   "usedIn": [
+    "Mega Man V #30"
+   ],
+   "noteCount": 64,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 65,
+    "median": 58
+   },
+   "features": {
+    "keyMedian": 58,
+    "keyLo": 56,
+    "keyHi": 65,
+    "keySpan": 9,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.175,
+    "sustain": 0,
+    "centroid": 461,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 7"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envb8832178",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5525,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.8
+     ],
+     [
+      0.21766,
+      0.8
+     ],
+     [
+      0.2344,
+      0.6
+     ],
+     [
+      0.31811,
+      0.6
+     ],
+     [
+      0.33485,
+      0.4
+     ],
+     [
+      0.43531,
+      0.4
+     ],
+     [
+      0.45205,
+      0.2
+     ],
+     [
+      0.53577,
+      0.2
+     ],
+     [
+      0.55251,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 50
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 50
+   },
+   "usedIn": [
+    "Mega Man V #4",
+    "Mega Man V #29"
+   ],
+   "noteCount": 50,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 74,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 57,
+    "keyHi": 74,
+    "keySpan": 17,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.36,
+    "sustain": 0,
+    "centroid": 690,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 17"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envbcaf7718",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4521,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.75
+     ],
+     [
+      0.21766,
+      0.75
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.31811,
+      0.5
+     ],
+     [
+      0.33485,
+      0.25
+     ],
+     [
+      0.43531,
+      0.25
+     ],
+     [
+      0.45205,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 220
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 220
+   },
+   "usedIn": [
+    "Mega Man V #15",
+    "Mega Man V #31",
+    "Mega Man V #33",
+    "Mega Man V #32"
+   ],
+   "noteCount": 220,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 78,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 45,
+    "keyHi": 78,
+    "keySpan": 33,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.425,
+    "sustain": 0,
+    "centroid": 436,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 11"
+  },
+  {
+   "id": "gb:pulse:duty12.5:enve012cd8a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2846,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.66667
+     ],
+     [
+      0.18417,
+      0.66667
+     ],
+     [
+      0.20091,
+      0.33333
+     ],
+     [
+      0.26788,
+      0.33333
+     ],
+     [
+      0.28463,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 31
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 31
+   },
+   "usedIn": [
+    "Mega Man V #28"
+   ],
+   "noteCount": 31,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 67,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 64,
+    "keyHi": 67,
+    "keySpan": 3,
+    "medianNote": 0.151,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.235,
+    "sustain": 0,
+    "centroid": 637,
+    "brightness": 1.93,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 9"
+  },
+  {
+   "id": "gb:pulse:duty25:env1fc05e88",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3851,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.75
+     ],
+     [
+      0.18417,
+      0.75
+     ],
+     [
+      0.20091,
+      0.5
+     ],
+     [
+      0.26788,
+      0.5
+     ],
+     [
+      0.28463,
+      0.25
+     ],
+     [
+      0.36834,
+      0.25
+     ],
+     [
+      0.38508,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 471
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 471
+   },
+   "usedIn": [
+    "Mega Man V #21",
+    "Mega Man V #23",
+    "Mega Man V #24"
+   ],
+   "noteCount": 471,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 83,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 48,
+    "keyHi": 83,
+    "keySpan": 35,
+    "medianNote": 0.017,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.32,
+    "sustain": 0,
+    "centroid": 436,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 4"
+  },
+  {
+   "id": "gb:pulse:duty25:env2bd420a2",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3516,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.90909
+     ],
+     [
+      0.05023,
+      0.90909
+     ],
+     [
+      0.06697,
+      0.81818
+     ],
+     [
+      0.08371,
+      0.81818
+     ],
+     [
+      0.10046,
+      0.72727
+     ],
+     [
+      0.1172,
+      0.72727
+     ],
+     [
+      0.13394,
+      0.63636
+     ],
+     [
+      0.15068,
+      0.63636
+     ],
+     [
+      0.16743,
+      0.54545
+     ],
+     [
+      0.18417,
+      0.54545
+     ],
+     [
+      0.20091,
+      0.45455
+     ],
+     [
+      0.21766,
+      0.45455
+     ],
+     [
+      0.25114,
+      0.27273
+     ],
+     [
+      0.26788,
+      0.27273
+     ],
+     [
+      0.28463,
+      0.18182
+     ],
+     [
+      0.30137,
+      0.18182
+     ],
+     [
+      0.31811,
+      0.09091
+     ],
+     [
+      0.33485,
+      0.09091
+     ],
+     [
+      0.3516,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1059
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1059
+   },
+   "usedIn": [
+    "Mega Man V #9",
+    "Mega Man V #10",
+    "Mega Man V #11",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #16",
+    "Mega Man V #6",
+    "Mega Man V #8",
+    "Mega Man V #22",
+    "Mega Man V #27",
+    "Mega Man V #25",
+    "Mega Man V #30",
+    "Mega Man V #15",
+    "Mega Man V #1",
+    "Mega Man V #17",
+    "Mega Man V #33"
+   ],
+   "noteCount": 1059,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 93,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 52,
+    "keyHi": 93,
+    "keySpan": 41,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.28,
+    "sustain": 0,
+    "centroid": 695,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 2"
+  },
+  {
+   "id": "gb:pulse:duty25:env04c3af61",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 998
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 998
+   },
+   "usedIn": [
+    "Mega Man V #2",
+    "Mega Man V #5",
+    "Mega Man V #6",
+    "Mega Man V #7",
+    "Mega Man V #8",
+    "Mega Man V #9",
+    "Mega Man V #10",
+    "Mega Man V #11",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #15",
+    "Mega Man V #16",
+    "Mega Man V #17",
+    "Mega Man V #18",
+    "Mega Man V #21",
+    "Mega Man V #22",
+    "Mega Man V #23",
+    "Mega Man V #24",
+    "Mega Man V #25",
+    "Mega Man V #26",
+    "Mega Man V #27",
+    "Mega Man V #30",
+    "Mega Man V #31",
+    "Mega Man V #32"
+   ],
+   "noteCount": 998,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 88,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 50,
+    "keyHi": 88,
+    "keySpan": 38,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 657,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 2"
+  },
+  {
+   "id": "gb:pulse:duty25:env5d4fc474",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4353,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.88889
+     ],
+     [
+      0.08371,
+      0.88889
+     ],
+     [
+      0.10046,
+      0.77778
+     ],
+     [
+      0.13394,
+      0.77778
+     ],
+     [
+      0.15068,
+      0.66667
+     ],
+     [
+      0.18417,
+      0.66667
+     ],
+     [
+      0.20091,
+      0.55556
+     ],
+     [
+      0.21766,
+      0.55556
+     ],
+     [
+      0.2344,
+      0.44444
+     ],
+     [
+      0.26788,
+      0.44444
+     ],
+     [
+      0.28463,
+      0.33333
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.33485,
+      0.22222
+     ],
+     [
+      0.36834,
+      0.22222
+     ],
+     [
+      0.38508,
+      0.11111
+     ],
+     [
+      0.41857,
+      0.11111
+     ],
+     [
+      0.43531,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 146
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 146
+   },
+   "usedIn": [
+    "Mega Man V #29",
+    "Mega Man V #15"
+   ],
+   "noteCount": 146,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 74,
+    "median": 49
+   },
+   "features": {
+    "keyMedian": 49,
+    "keyLo": 48,
+    "keyHi": 74,
+    "keySpan": 26,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.36,
+    "sustain": 0,
+    "centroid": 247,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 12"
+  },
+  {
+   "id": "gb:pulse:duty25:env6f117155",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.067,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1.36364
+     ],
+     [
+      1.97564,
+      1.36364
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 9
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 9
+   },
+   "usedIn": [
+    "Mega Man V #20"
+   ],
+   "noteCount": 9,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 79,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 69,
+    "keyHi": 79,
+    "keySpan": 10,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.045,
+    "t20": null,
+    "sustain": 0.993,
+    "centroid": 927,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 5"
+  },
+  {
+   "id": "gb:pulse:duty25:env09b33d28",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4521,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.75
+     ],
+     [
+      0.21766,
+      0.75
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.31811,
+      0.5
+     ],
+     [
+      0.33485,
+      0.25
+     ],
+     [
+      0.43531,
+      0.25
+     ],
+     [
+      0.45205,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 233
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 233
+   },
+   "usedIn": [
+    "Mega Man V #3",
+    "Mega Man V #4"
+   ],
+   "noteCount": 233,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 76,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 50,
+    "keyHi": 76,
+    "keySpan": 26,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.39,
+    "sustain": 0,
+    "centroid": 439,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 10"
+  },
+  {
+   "id": "gb:pulse:duty25:env9c7aa1ec",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.83333
+     ],
+     [
+      0.15068,
+      0.83333
+     ],
+     [
+      0.16743,
+      0.66667
+     ],
+     [
+      0.21766,
+      0.66667
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.30137,
+      0.5
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.38508,
+      0.33333
+     ],
+     [
+      0.40182,
+      0.16667
+     ],
+     [
+      0.45205,
+      0.16667
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 437
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 437
+   },
+   "usedIn": [
+    "Mega Man V #8",
+    "Mega Man V #18",
+    "Mega Man V #19",
+    "Mega Man V #22",
+    "Mega Man V #27",
+    "Mega Man V #29"
+   ],
+   "noteCount": 437,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 81,
+    "median": 56
+   },
+   "features": {
+    "keyMedian": 56,
+    "keyLo": 48,
+    "keyHi": 81,
+    "keySpan": 33,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.38,
+    "sustain": 0,
+    "centroid": 368,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 6"
+  },
+  {
+   "id": "gb:pulse:duty25:env9cdbb8df",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2344,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.85714
+     ],
+     [
+      0.05023,
+      0.85714
+     ],
+     [
+      0.06697,
+      0.71429
+     ],
+     [
+      0.08371,
+      0.71429
+     ],
+     [
+      0.10046,
+      0.57143
+     ],
+     [
+      0.1172,
+      0.57143
+     ],
+     [
+      0.13394,
+      0.42857
+     ],
+     [
+      0.15068,
+      0.42857
+     ],
+     [
+      0.16743,
+      0.28571
+     ],
+     [
+      0.18417,
+      0.28571
+     ],
+     [
+      0.20091,
+      0.14286
+     ],
+     [
+      0.21766,
+      0.14286
+     ],
+     [
+      0.2344,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 25
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 25
+   },
+   "usedIn": [
+    "Mega Man V #27"
+   ],
+   "noteCount": 25,
+   "used": true,
+   "keysPlayed": {
+    "lo": 66,
+    "hi": 78,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 66,
+    "keyHi": 78,
+    "keySpan": 12,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.195,
+    "sustain": 0,
+    "centroid": 979,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 10"
+  },
+  {
+   "id": "gb:pulse:duty25:env14f610d6",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2846,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.88889
+     ],
+     [
+      0.05023,
+      0.88889
+     ],
+     [
+      0.06697,
+      0.77778
+     ],
+     [
+      0.08371,
+      0.77778
+     ],
+     [
+      0.10046,
+      0.66667
+     ],
+     [
+      0.1172,
+      0.66667
+     ],
+     [
+      0.13394,
+      0.55556
+     ],
+     [
+      0.15068,
+      0.55556
+     ],
+     [
+      0.16743,
+      0.44444
+     ],
+     [
+      0.18417,
+      0.44444
+     ],
+     [
+      0.20091,
+      0.33333
+     ],
+     [
+      0.21766,
+      0.33333
+     ],
+     [
+      0.25114,
+      0.11111
+     ],
+     [
+      0.26788,
+      0.11111
+     ],
+     [
+      0.28463,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1201
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1201
+   },
+   "usedIn": [
+    "Mega Man V #3",
+    "Mega Man V #4",
+    "Mega Man V #19",
+    "Mega Man V #28",
+    "Mega Man V #30",
+    "Mega Man V #33",
+    "Mega Man V #8",
+    "Mega Man V #22"
+   ],
+   "noteCount": 1201,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 83,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 50,
+    "keyHi": 83,
+    "keySpan": 33,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.23,
+    "sustain": 0,
+    "centroid": 439,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck"
+  },
+  {
+   "id": "gb:pulse:duty25:env77b806ca",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.067,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1.36364
+     ],
+     [
+      1.97564,
+      1.36364
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 12
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 12
+   },
+   "usedIn": [
+    "Mega Man V #20"
+   ],
+   "noteCount": 12,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 86,
+    "median": 75
+   },
+   "features": {
+    "keyMedian": 75,
+    "keyLo": 62,
+    "keyHi": 86,
+    "keySpan": 24,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.045,
+    "t20": null,
+    "sustain": 0.999,
+    "centroid": 1101,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 4"
+  },
+  {
+   "id": "gb:pulse:duty25:env08226cb6",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1507,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.15068,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 422
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 422
+   },
+   "usedIn": [
+    "Mega Man V #21"
+   ],
+   "noteCount": 422,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 66,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 48,
+    "keyHi": 66,
+    "keySpan": 18,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.12,
+    "sustain": 0,
+    "centroid": 436,
+    "brightness": 1.76,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 2"
+  },
+  {
+   "id": "gb:pulse:duty25:env9526ddac",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.519,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.90909
+     ],
+     [
+      0.08371,
+      0.90909
+     ],
+     [
+      0.10046,
+      0.81818
+     ],
+     [
+      0.13394,
+      0.81818
+     ],
+     [
+      0.15068,
+      0.72727
+     ],
+     [
+      0.18417,
+      0.72727
+     ],
+     [
+      0.20091,
+      0.63636
+     ],
+     [
+      0.21766,
+      0.63636
+     ],
+     [
+      0.2344,
+      0.54545
+     ],
+     [
+      0.26788,
+      0.54545
+     ],
+     [
+      0.28463,
+      0.45455
+     ],
+     [
+      0.31811,
+      0.45455
+     ],
+     [
+      0.33485,
+      0.36364
+     ],
+     [
+      0.36834,
+      0.36364
+     ],
+     [
+      0.38508,
+      0.27273
+     ],
+     [
+      0.41857,
+      0.27273
+     ],
+     [
+      0.43531,
+      0.18182
+     ],
+     [
+      0.45205,
+      0.18182
+     ],
+     [
+      0.4688,
+      0.09091
+     ],
+     [
+      0.50228,
+      0.09091
+     ],
+     [
+      0.51902,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 299
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 299
+   },
+   "usedIn": [
+    "Mega Man V #15",
+    "Mega Man V #31",
+    "Mega Man V #33"
+   ],
+   "noteCount": 299,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 95,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 50,
+    "keyHi": 95,
+    "keySpan": 45,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.43,
+    "sustain": 0,
+    "centroid": 1040,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 7"
+  },
+  {
+   "id": "gb:pulse:duty25:env31809c6a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 3069
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 3069
+   },
+   "usedIn": [
+    "Mega Man V #3",
+    "Mega Man V #4",
+    "Mega Man V #7",
+    "Mega Man V #9",
+    "Mega Man V #10",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #15",
+    "Mega Man V #16",
+    "Mega Man V #18",
+    "Mega Man V #19",
+    "Mega Man V #21",
+    "Mega Man V #22",
+    "Mega Man V #23",
+    "Mega Man V #24",
+    "Mega Man V #25",
+    "Mega Man V #26",
+    "Mega Man V #27",
+    "Mega Man V #29"
+   ],
+   "noteCount": 3069,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 91,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 48,
+    "keyHi": 91,
+    "keySpan": 43,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 826,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like"
+  },
+  {
+   "id": "gb:pulse:duty25:env0040837d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1339,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      1.09091
+     ],
+     [
+      0.05023,
+      1.09091
+     ],
+     [
+      0.06697,
+      1.18182
+     ],
+     [
+      0.08371,
+      1.18182
+     ],
+     [
+      0.10046,
+      1.27273
+     ],
+     [
+      0.1172,
+      1.27273
+     ],
+     [
+      0.13394,
+      1.36364
+     ],
+     [
+      1.97564,
+      1.36364
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 63
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 63
+   },
+   "usedIn": [
+    "Mega Man V #10",
+    "Mega Man V #22"
+   ],
+   "noteCount": 63,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 87,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 63,
+    "keyHi": 87,
+    "keySpan": 24,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.095,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 825,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 3"
+  },
+  {
+   "id": "gb:pulse:duty25:env659742f0",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.83333
+     ],
+     [
+      0.15068,
+      0.83333
+     ],
+     [
+      0.16743,
+      0.66667
+     ],
+     [
+      0.21766,
+      0.66667
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.30137,
+      0.5
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.38508,
+      0.33333
+     ],
+     [
+      0.40182,
+      0.16667
+     ],
+     [
+      0.45205,
+      0.16667
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1065
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1065
+   },
+   "usedIn": [
+    "Mega Man V #5",
+    "Mega Man V #6",
+    "Mega Man V #7",
+    "Mega Man V #8",
+    "Mega Man V #9",
+    "Mega Man V #10",
+    "Mega Man V #11",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #16",
+    "Mega Man V #18",
+    "Mega Man V #22",
+    "Mega Man V #25",
+    "Mega Man V #26",
+    "Mega Man V #27"
+   ],
+   "noteCount": 1065,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 81,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 50,
+    "keyHi": 81,
+    "keySpan": 31,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.37,
+    "sustain": 0,
+    "centroid": 654,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet"
+  },
+  {
+   "id": "gb:pulse:duty25:envb48b5896",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.8
+     ],
+     [
+      0.18417,
+      0.8
+     ],
+     [
+      0.20091,
+      0.6
+     ],
+     [
+      0.26788,
+      0.6
+     ],
+     [
+      0.28463,
+      0.4
+     ],
+     [
+      0.36834,
+      0.4
+     ],
+     [
+      0.38508,
+      0.2
+     ],
+     [
+      0.45205,
+      0.2
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 115
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 115
+   },
+   "usedIn": [
+    "Mega Man V #15",
+    "Mega Man V #21",
+    "Mega Man V #31",
+    "Mega Man V #32",
+    "Mega Man V #2"
+   ],
+   "noteCount": 115,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 79,
+    "median": 61
+   },
+   "features": {
+    "keyMedian": 61,
+    "keyLo": 52,
+    "keyHi": 79,
+    "keySpan": 27,
+    "medianNote": 0.234,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.355,
+    "sustain": 0,
+    "centroid": 490,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 13"
+  },
+  {
+   "id": "gb:pulse:duty25:envd86b273d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1339,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      1.09091
+     ],
+     [
+      0.05023,
+      1.09091
+     ],
+     [
+      0.06697,
+      1.18182
+     ],
+     [
+      0.08371,
+      1.18182
+     ],
+     [
+      0.10046,
+      1.27273
+     ],
+     [
+      0.1172,
+      1.27273
+     ],
+     [
+      0.13394,
+      1.36364
+     ],
+     [
+      1.97564,
+      1.36364
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Mega Man V #1"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 72,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 62,
+    "keyHi": 72,
+    "keySpan": 10,
+    "medianNote": 0.268,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.095,
+    "t20": null,
+    "sustain": 0.993,
+    "centroid": 926,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 5"
+  },
+  {
+   "id": "gb:pulse:duty25:envd7123ad6",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1842,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.18417,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 239
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 239
+   },
+   "usedIn": [
+    "Mega Man V #2",
+    "Mega Man V #28",
+    "Mega Man V #21"
+   ],
+   "noteCount": 239,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 83,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 52,
+    "keyHi": 83,
+    "keySpan": 31,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.15,
+    "sustain": 0,
+    "centroid": 777,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 4"
+  },
+  {
+   "id": "gb:pulse:duty25:envec406403",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2511,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.875
+     ],
+     [
+      0.05023,
+      0.875
+     ],
+     [
+      0.06697,
+      0.75
+     ],
+     [
+      0.08371,
+      0.75
+     ],
+     [
+      0.10046,
+      0.625
+     ],
+     [
+      0.1172,
+      0.625
+     ],
+     [
+      0.13394,
+      0.5
+     ],
+     [
+      0.15068,
+      0.5
+     ],
+     [
+      0.16743,
+      0.375
+     ],
+     [
+      0.18417,
+      0.375
+     ],
+     [
+      0.20091,
+      0.25
+     ],
+     [
+      0.21766,
+      0.25
+     ],
+     [
+      0.25114,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 178
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 178
+   },
+   "usedIn": [
+    "Mega Man V #3",
+    "Mega Man V #7",
+    "Mega Man V #9",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #15",
+    "Mega Man V #5",
+    "Mega Man V #25"
+   ],
+   "noteCount": 178,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 81,
+    "median": 68
+   },
+   "features": {
+    "keyMedian": 68,
+    "keyLo": 57,
+    "keyHi": 81,
+    "keySpan": 24,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.22,
+    "sustain": 0,
+    "centroid": 736,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 5"
+  },
+  {
+   "id": "gb:pulse:duty25:envfabab815",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1005,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 15
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 15
+   },
+   "usedIn": [
+    "Mega Man V #15"
+   ],
+   "noteCount": 15,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 64,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 64,
+    "keyHi": 64,
+    "keySpan": 0,
+    "medianNote": 0.067,
+    "kit": true,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.08,
+    "sustain": 0,
+    "centroid": 565,
+    "brightness": 1.71,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Tom 2"
+  },
+  {
+   "id": "gb:pulse:duty50:env0d3b7b50",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.2009,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      1.09091
+     ],
+     [
+      0.08371,
+      1.09091
+     ],
+     [
+      0.10046,
+      1.18182
+     ],
+     [
+      0.13394,
+      1.18182
+     ],
+     [
+      0.15068,
+      1.27273
+     ],
+     [
+      0.18417,
+      1.27273
+     ],
+     [
+      0.20091,
+      1.36364
+     ],
+     [
+      1.97564,
+      1.36364
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 9
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 9
+   },
+   "usedIn": [
+    "Mega Man V #19"
+   ],
+   "noteCount": 9,
+   "used": true,
+   "keysPlayed": {
+    "lo": 70,
+    "hi": 78,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 70,
+    "keyHi": 78,
+    "keySpan": 8,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.145,
+    "t20": null,
+    "sustain": 0.997,
+    "centroid": 892,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 4"
+  },
+  {
+   "id": "gb:pulse:duty50:env2cfcba2f",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2344,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.85714
+     ],
+     [
+      0.05023,
+      0.85714
+     ],
+     [
+      0.06697,
+      0.71429
+     ],
+     [
+      0.08371,
+      0.71429
+     ],
+     [
+      0.10046,
+      0.57143
+     ],
+     [
+      0.1172,
+      0.57143
+     ],
+     [
+      0.13394,
+      0.42857
+     ],
+     [
+      0.15068,
+      0.42857
+     ],
+     [
+      0.16743,
+      0.28571
+     ],
+     [
+      0.18417,
+      0.28571
+     ],
+     [
+      0.20091,
+      0.14286
+     ],
+     [
+      0.21766,
+      0.14286
+     ],
+     [
+      0.2344,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 32
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 32
+   },
+   "usedIn": [
+    "Mega Man V #25",
+    "Mega Man V #26"
+   ],
+   "noteCount": 32,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 77,
+    "median": 54
+   },
+   "features": {
+    "keyMedian": 54,
+    "keyLo": 50,
+    "keyHi": 77,
+    "keySpan": 27,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.195,
+    "sustain": 0,
+    "centroid": 299,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 8"
+  },
+  {
+   "id": "gb:pulse:duty50:env5d8a93a0",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3851,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.875
+     ],
+     [
+      0.08371,
+      0.875
+     ],
+     [
+      0.10046,
+      0.75
+     ],
+     [
+      0.13394,
+      0.75
+     ],
+     [
+      0.15068,
+      0.625
+     ],
+     [
+      0.18417,
+      0.625
+     ],
+     [
+      0.20091,
+      0.5
+     ],
+     [
+      0.21766,
+      0.5
+     ],
+     [
+      0.2344,
+      0.375
+     ],
+     [
+      0.26788,
+      0.375
+     ],
+     [
+      0.28463,
+      0.25
+     ],
+     [
+      0.31811,
+      0.25
+     ],
+     [
+      0.33485,
+      0.125
+     ],
+     [
+      0.36834,
+      0.125
+     ],
+     [
+      0.38508,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 37
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 37
+   },
+   "usedIn": [
+    "Mega Man V #15",
+    "Mega Man V #6",
+    "Mega Man V #8"
+   ],
+   "noteCount": 37,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 76,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 60,
+    "keyHi": 76,
+    "keySpan": 16,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.325,
+    "sustain": 0,
+    "centroid": 563,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 18"
+  },
+  {
+   "id": "gb:pulse:duty50:env5d9bf2f4",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1339,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      1.09091
+     ],
+     [
+      0.05023,
+      1.09091
+     ],
+     [
+      0.06697,
+      1.18182
+     ],
+     [
+      0.08371,
+      1.18182
+     ],
+     [
+      0.10046,
+      1.27273
+     ],
+     [
+      0.1172,
+      1.27273
+     ],
+     [
+      0.13394,
+      1.36364
+     ],
+     [
+      1.97564,
+      1.36364
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 350
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 350
+   },
+   "usedIn": [
+    "Mega Man V #7",
+    "Mega Man V #8",
+    "Mega Man V #14",
+    "Mega Man V #21",
+    "Mega Man V #27"
+   ],
+   "noteCount": 350,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 71,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 52,
+    "keyHi": 71,
+    "keySpan": 19,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.09,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 399,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad"
+  },
+  {
+   "id": "gb:pulse:duty50:env7b818b2e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5525,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.8
+     ],
+     [
+      0.21766,
+      0.8
+     ],
+     [
+      0.2344,
+      0.6
+     ],
+     [
+      0.31811,
+      0.6
+     ],
+     [
+      0.33485,
+      0.4
+     ],
+     [
+      0.43531,
+      0.4
+     ],
+     [
+      0.45205,
+      0.2
+     ],
+     [
+      0.53577,
+      0.2
+     ],
+     [
+      0.55251,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 19
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 19
+   },
+   "usedIn": [
+    "Mega Man V #4"
+   ],
+   "noteCount": 19,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 83,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 67,
+    "keyHi": 83,
+    "keySpan": 16,
+    "medianNote": 0.151,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.38,
+    "sustain": 0,
+    "centroid": 944,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 20"
+  },
+  {
+   "id": "gb:pulse:duty50:env8ec5c482",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 587
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 587
+   },
+   "usedIn": [
+    "Mega Man V #5",
+    "Mega Man V #6",
+    "Mega Man V #7",
+    "Mega Man V #8",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #25",
+    "Mega Man V #26"
+   ],
+   "noteCount": 587,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 86,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 43,
+    "keyHi": 86,
+    "keySpan": 43,
+    "medianNote": 0.184,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.995,
+    "centroid": 632,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 4"
+  },
+  {
+   "id": "gb:pulse:duty50:env16acc031",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.83333
+     ],
+     [
+      0.15068,
+      0.83333
+     ],
+     [
+      0.16743,
+      0.66667
+     ],
+     [
+      0.21766,
+      0.66667
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.30137,
+      0.5
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.38508,
+      0.33333
+     ],
+     [
+      0.40182,
+      0.16667
+     ],
+     [
+      0.45205,
+      0.16667
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 55
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 55
+   },
+   "usedIn": [
+    "Mega Man V #5",
+    "Mega Man V #8",
+    "Mega Man V #25",
+    "Mega Man V #26"
+   ],
+   "noteCount": 55,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 77,
+    "median": 56
+   },
+   "features": {
+    "keyMedian": 56,
+    "keyLo": 50,
+    "keyHi": 77,
+    "keySpan": 27,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.36,
+    "sustain": 0,
+    "centroid": 335,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 16"
+  },
+  {
+   "id": "gb:pulse:duty50:env22b60f2a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1842,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.18417,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 12
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 12
+   },
+   "usedIn": [
+    "Mega Man V #2"
+   ],
+   "noteCount": 12,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 73,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 49,
+    "keyHi": 73,
+    "keySpan": 24,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.15,
+    "sustain": 0,
+    "centroid": 474,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 11"
+  },
+  {
+   "id": "gb:pulse:duty50:env24cf53ee",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.8
+     ],
+     [
+      0.18417,
+      0.8
+     ],
+     [
+      0.20091,
+      0.6
+     ],
+     [
+      0.26788,
+      0.6
+     ],
+     [
+      0.28463,
+      0.4
+     ],
+     [
+      0.36834,
+      0.4
+     ],
+     [
+      0.38508,
+      0.2
+     ],
+     [
+      0.45205,
+      0.2
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 117
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 117
+   },
+   "usedIn": [
+    "Mega Man V #28",
+    "Mega Man V #33"
+   ],
+   "noteCount": 117,
+   "used": true,
+   "keysPlayed": {
+    "lo": 74,
+    "hi": 93,
+    "median": 78
+   },
+   "features": {
+    "keyMedian": 78,
+    "keyLo": 74,
+    "keyHi": 93,
+    "keySpan": 19,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.32,
+    "sustain": 0,
+    "centroid": 1188,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 2"
+  },
+  {
+   "id": "gb:pulse:duty50:env30c58a79",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3516,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.90909
+     ],
+     [
+      0.05023,
+      0.90909
+     ],
+     [
+      0.06697,
+      0.81818
+     ],
+     [
+      0.08371,
+      0.81818
+     ],
+     [
+      0.10046,
+      0.72727
+     ],
+     [
+      0.1172,
+      0.72727
+     ],
+     [
+      0.13394,
+      0.63636
+     ],
+     [
+      0.15068,
+      0.63636
+     ],
+     [
+      0.16743,
+      0.54545
+     ],
+     [
+      0.18417,
+      0.54545
+     ],
+     [
+      0.20091,
+      0.45455
+     ],
+     [
+      0.21766,
+      0.45455
+     ],
+     [
+      0.25114,
+      0.27273
+     ],
+     [
+      0.26788,
+      0.27273
+     ],
+     [
+      0.28463,
+      0.18182
+     ],
+     [
+      0.30137,
+      0.18182
+     ],
+     [
+      0.31811,
+      0.09091
+     ],
+     [
+      0.33485,
+      0.09091
+     ],
+     [
+      0.3516,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 843
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 843
+   },
+   "usedIn": [
+    "Mega Man V #8",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #18",
+    "Mega Man V #26",
+    "Mega Man V #5",
+    "Mega Man V #6",
+    "Mega Man V #22",
+    "Mega Man V #25",
+    "Mega Man V #3",
+    "Mega Man V #33"
+   ],
+   "noteCount": 843,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 94,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 48,
+    "keyHi": 94,
+    "keySpan": 46,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.28,
+    "sustain": 0,
+    "centroid": 597,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 3"
+  },
+  {
+   "id": "gb:pulse:duty50:env665abf59",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2511,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.875
+     ],
+     [
+      0.05023,
+      0.875
+     ],
+     [
+      0.06697,
+      0.75
+     ],
+     [
+      0.08371,
+      0.75
+     ],
+     [
+      0.10046,
+      0.625
+     ],
+     [
+      0.1172,
+      0.625
+     ],
+     [
+      0.13394,
+      0.5
+     ],
+     [
+      0.15068,
+      0.5
+     ],
+     [
+      0.16743,
+      0.375
+     ],
+     [
+      0.18417,
+      0.375
+     ],
+     [
+      0.20091,
+      0.25
+     ],
+     [
+      0.21766,
+      0.25
+     ],
+     [
+      0.25114,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Mega Man V #14"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 71,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 69,
+    "keyHi": 71,
+    "keySpan": 2,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.225,
+    "sustain": 0,
+    "centroid": 795,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 12"
+  },
+  {
+   "id": "gb:pulse:duty50:envd28d14d5",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.519,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.90909
+     ],
+     [
+      0.08371,
+      0.90909
+     ],
+     [
+      0.10046,
+      0.81818
+     ],
+     [
+      0.13394,
+      0.81818
+     ],
+     [
+      0.15068,
+      0.72727
+     ],
+     [
+      0.18417,
+      0.72727
+     ],
+     [
+      0.20091,
+      0.63636
+     ],
+     [
+      0.21766,
+      0.63636
+     ],
+     [
+      0.2344,
+      0.54545
+     ],
+     [
+      0.26788,
+      0.54545
+     ],
+     [
+      0.28463,
+      0.45455
+     ],
+     [
+      0.31811,
+      0.45455
+     ],
+     [
+      0.33485,
+      0.36364
+     ],
+     [
+      0.36834,
+      0.36364
+     ],
+     [
+      0.38508,
+      0.27273
+     ],
+     [
+      0.41857,
+      0.27273
+     ],
+     [
+      0.43531,
+      0.18182
+     ],
+     [
+      0.45205,
+      0.18182
+     ],
+     [
+      0.4688,
+      0.09091
+     ],
+     [
+      0.50228,
+      0.09091
+     ],
+     [
+      0.51902,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 336
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 336
+   },
+   "usedIn": [
+    "Mega Man V #3",
+    "Mega Man V #4",
+    "Mega Man V #30",
+    "Mega Man V #33"
+   ],
+   "noteCount": 336,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 96,
+    "median": 77
+   },
+   "features": {
+    "keyMedian": 77,
+    "keyLo": 55,
+    "keyHi": 96,
+    "keySpan": 41,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.43,
+    "sustain": 0,
+    "centroid": 1122,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "gb:pulse:duty50:envd9006967",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.83333
+     ],
+     [
+      0.15068,
+      0.83333
+     ],
+     [
+      0.16743,
+      0.66667
+     ],
+     [
+      0.21766,
+      0.66667
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.30137,
+      0.5
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.38508,
+      0.33333
+     ],
+     [
+      0.40182,
+      0.16667
+     ],
+     [
+      0.45205,
+      0.16667
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 252
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 252
+   },
+   "usedIn": [
+    "Mega Man V #5",
+    "Mega Man V #6",
+    "Mega Man V #8",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #22",
+    "Mega Man V #25"
+   ],
+   "noteCount": 252,
+   "used": true,
+   "keysPlayed": {
+    "lo": 53,
+    "hi": 86,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 53,
+    "keyHi": 86,
+    "keySpan": 33,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.4,
+    "sustain": 0,
+    "centroid": 632,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 9"
+  },
+  {
+   "id": "gb:pulse:duty50:envfed3c93b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 335
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 335
+   },
+   "usedIn": [
+    "Mega Man V #4",
+    "Mega Man V #5",
+    "Mega Man V #6",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #22",
+    "Mega Man V #25",
+    "Mega Man V #28"
+   ],
+   "noteCount": 335,
+   "used": true,
+   "keysPlayed": {
+    "lo": 61,
+    "hi": 84,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 61,
+    "keyHi": 84,
+    "keySpan": 23,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.999,
+    "centroid": 842,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 5"
+  },
+  {
+   "id": "gb:pulse:duty75:env0b242ead",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.83333
+     ],
+     [
+      0.15068,
+      0.83333
+     ],
+     [
+      0.16743,
+      0.66667
+     ],
+     [
+      0.21766,
+      0.66667
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.30137,
+      0.5
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.38508,
+      0.33333
+     ],
+     [
+      0.40182,
+      0.16667
+     ],
+     [
+      0.45205,
+      0.16667
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 62
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 62
+   },
+   "usedIn": [
+    "Mega Man V #1"
+   ],
+   "noteCount": 62,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 62,
+    "median": 58
+   },
+   "features": {
+    "keyMedian": 58,
+    "keyLo": 56,
+    "keyHi": 62,
+    "keySpan": 6,
+    "medianNote": 0.301,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.4,
+    "sustain": 0,
+    "centroid": 413,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 15"
+  },
+  {
+   "id": "gb:pulse:duty75:env18ea1ab6",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 56
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 56
+   },
+   "usedIn": [
+    "Mega Man V #1",
+    "Mega Man V #3"
+   ],
+   "noteCount": 56,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 83,
+    "median": 58
+   },
+   "features": {
+    "keyMedian": 58,
+    "keyLo": 55,
+    "keyHi": 83,
+    "keySpan": 28,
+    "medianNote": 0.569,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 415,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 8"
+  },
+  {
+   "id": "gb:pulse:duty75:env47825d0e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5525,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.8
+     ],
+     [
+      0.21766,
+      0.8
+     ],
+     [
+      0.2344,
+      0.6
+     ],
+     [
+      0.31811,
+      0.6
+     ],
+     [
+      0.33485,
+      0.4
+     ],
+     [
+      0.43531,
+      0.4
+     ],
+     [
+      0.45205,
+      0.2
+     ],
+     [
+      0.53577,
+      0.2
+     ],
+     [
+      0.55251,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 37
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 37
+   },
+   "usedIn": [
+    "Mega Man V #3"
+   ],
+   "noteCount": 37,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 83,
+    "median": 77
+   },
+   "features": {
+    "keyMedian": 77,
+    "keyLo": 55,
+    "keyHi": 83,
+    "keySpan": 28,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.455,
+    "sustain": 0,
+    "centroid": 1233,
+    "brightness": 1.76,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 3"
+  },
+  {
+   "id": "gb:pulse:duty75:envaebcb80d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 311
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 311
+   },
+   "usedIn": [
+    "Mega Man V #5",
+    "Mega Man V #17"
+   ],
+   "noteCount": 311,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 88,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 49,
+    "keyHi": 88,
+    "keySpan": 39,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 1039,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 6"
+  },
+  {
+   "id": "gb:wave:8f5a09d7",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:ffbe43411d606508",
+     "sampleCount": 386
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "6e9ee21d12e94cf0",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:ffbe43411d606508",
+    "clusterNotes": 386
+   },
+   "usedIn": [
+    "Mega Man V #3",
+    "Mega Man V #4",
+    "Mega Man V #6",
+    "Mega Man V #7",
+    "Mega Man V #8",
+    "Mega Man V #9",
+    "Mega Man V #10",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #18",
+    "Mega Man V #26",
+    "Mega Man V #28",
+    "Mega Man V #30",
+    "Mega Man V #31",
+    "Mega Man V #33"
+   ],
+   "noteCount": 386,
+   "used": true,
+   "keysPlayed": {
+    "lo": 39,
+    "hi": 81,
+    "median": 63
+   },
+   "features": {
+    "keyMedian": 63,
+    "keyLo": 39,
+    "keyHi": 81,
+    "keySpan": 42,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.949,
+    "centroid": 346,
+    "brightness": 1.11,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 2"
+  },
+  {
+   "id": "gb:wave:54e38f6b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:c7a4fd4a4c7cfafa",
+     "sampleCount": 312
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "c266ac0615a43b6d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:c7a4fd4a4c7cfafa",
+    "clusterNotes": 312
+   },
+   "usedIn": [
+    "Mega Man V #29",
+    "Mega Man V #30",
+    "Mega Man V #31"
+   ],
+   "noteCount": 312,
+   "used": true,
+   "keysPlayed": {
+    "lo": 39,
+    "hi": 65,
+    "median": 46
+   },
+   "features": {
+    "keyMedian": 46,
+    "keyLo": 39,
+    "keyHi": 65,
+    "keySpan": 26,
+    "medianNote": 0.234,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.793,
+    "centroid": 306,
+    "brightness": 2.63,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead 2"
+  },
+  {
+   "id": "gb:wave:132fce2e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:2d89cb7625b77a88",
+     "sampleCount": 222
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "4a80734e555321f1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:2d89cb7625b77a88",
+    "clusterNotes": 222
+   },
+   "usedIn": [
+    "Mega Man V #1",
+    "Mega Man V #2",
+    "Mega Man V #17",
+    "Mega Man V #18",
+    "Mega Man V #21",
+    "Mega Man V #28"
+   ],
+   "noteCount": 222,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 61,
+    "median": 48
+   },
+   "features": {
+    "keyMedian": 48,
+    "keyLo": 36,
+    "keyHi": 61,
+    "keySpan": 25,
+    "medianNote": 0.234,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.809,
+    "centroid": 288,
+    "brightness": 2.2,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 3"
+  },
+  {
+   "id": "gb:wave:a41a4f92",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:b67f9a8116a0fee7",
+     "sampleCount": 2149
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "288ab2e35e0e0727",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:b67f9a8116a0fee7",
+    "clusterNotes": 2149
+   },
+   "usedIn": [
+    "Mega Man V #5",
+    "Mega Man V #6",
+    "Mega Man V #7",
+    "Mega Man V #8",
+    "Mega Man V #9",
+    "Mega Man V #10",
+    "Mega Man V #11",
+    "Mega Man V #12",
+    "Mega Man V #13",
+    "Mega Man V #14",
+    "Mega Man V #19",
+    "Mega Man V #22",
+    "Mega Man V #25",
+    "Mega Man V #26",
+    "Mega Man V #27"
+   ],
+   "noteCount": 2149,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 69,
+    "median": 50
+   },
+   "features": {
+    "keyMedian": 50,
+    "keyLo": 38,
+    "keyHi": 69,
+    "keySpan": 31,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.941,
+    "centroid": 204,
+    "brightness": 1.39,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  },
+  {
+   "id": "gb:wave:a2475399",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:70f0e7ec7cc18ba2",
+     "sampleCount": 902
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "4005f8f42953c07b",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:70f0e7ec7cc18ba2",
+    "clusterNotes": 902
+   },
+   "usedIn": [
+    "Mega Man V #3",
+    "Mega Man V #4",
+    "Mega Man V #15",
+    "Mega Man V #23",
+    "Mega Man V #24",
+    "Mega Man V #32",
+    "Mega Man V #33"
+   ],
+   "noteCount": 902,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 69,
+    "median": 40
+   },
+   "features": {
+    "keyMedian": 40,
+    "keyLo": 35,
+    "keyHi": 69,
+    "keySpan": 34,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.759,
+    "centroid": 146,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead"
+  },
+  {
+   "id": "gb:wave:ddd949dd",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:9517604904271ecf",
+     "sampleCount": 9
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "95ee7ec0df98d1d3",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:9517604904271ecf",
+    "clusterNotes": 9
+   },
+   "usedIn": [
+    "Mega Man V #20"
+   ],
+   "noteCount": 9,
+   "used": true,
+   "keysPlayed": {
+    "lo": 53,
+    "hi": 57,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 53,
+    "keyHi": 57,
+    "keySpan": 4,
+    "medianNote": 0.67,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.989,
+    "centroid": 604,
+    "brightness": 3.08,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 9"
+  }
+ ],
+ "samples": {
+  "ea6335b24e5659b4": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "ea6335b24e5659b4.wav"
+  },
+  "a4262fc218a2a29d": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "a4262fc218a2a29d.wav"
+  },
+  "7c708855ea845d72": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "7c708855ea845d72.wav"
+  },
+  "4a80734e555321f1": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "4a80734e555321f1.wav"
+  },
+  "a0cc766d654a5d44": {
+   "rate": 262144,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "a0cc766d654a5d44.wav"
+  },
+  "7b16a200c0f4dee8": {
+   "rate": 524288,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "7b16a200c0f4dee8.wav"
+  },
+  "21cfc05102f314ad": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "21cfc05102f314ad.wav"
+  },
+  "4005f8f42953c07b": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "4005f8f42953c07b.wav"
+  },
+  "6e9ee21d12e94cf0": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "6e9ee21d12e94cf0.wav"
+  },
+  "fa7a9cd0e4e00001": {
+   "rate": 16384,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "fa7a9cd0e4e00001.wav"
+  },
+  "288ab2e35e0e0727": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "288ab2e35e0e0727.wav"
+  },
+  "95ee7ec0df98d1d3": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "95ee7ec0df98d1d3.wav"
+  },
+  "c266ac0615a43b6d": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "c266ac0615a43b6d.wav"
+  }
+ }
+}
