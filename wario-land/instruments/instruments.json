@@ -1,0 +1,5829 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "gb-wario-land",
+ "title": "",
+ "drivers": [
+  "gb"
+ ],
+ "songs": 40,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "gb:noise:s1:w0:env9d030af7",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3851,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.75
+     ],
+     [
+      0.18417,
+      0.75
+     ],
+     [
+      0.20091,
+      0.5
+     ],
+     [
+      0.26788,
+      0.5
+     ],
+     [
+      0.28463,
+      0.25
+     ],
+     [
+      0.36834,
+      0.25
+     ],
+     [
+      0.38508,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s1w0",
+     "sampleCount": 228
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 1,
+      "width": 0
+     },
+     "sample": "a0cc766d654a5d44",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.167,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.016,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 7626,
+      "brightness": 82.45,
+      "harmonicity": 0.148,
+      "flatness": 0.566,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s1w0",
+    "clusterNotes": 228
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #9",
+    "Wario Land: Super Mario Land 3 #16",
+    "Wario Land: Super Mario Land 3 #17",
+    "Wario Land: Super Mario Land 3 #21",
+    "Wario Land: Super Mario Land 3 #23",
+    "Wario Land: Super Mario Land 3 #24",
+    "Wario Land: Super Mario Land 3 #25",
+    "Wario Land: Super Mario Land 3 #39"
+   ],
+   "noteCount": 228,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 6",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s1:w0:envd41110d1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s1w0",
+     "sampleCount": 249
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 1,
+      "width": 0
+     },
+     "sample": "a0cc766d654a5d44",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.084,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.016,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 7626,
+      "brightness": 82.45,
+      "harmonicity": 0.148,
+      "flatness": 0.566,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s1w0",
+    "clusterNotes": 249
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #7",
+    "Wario Land: Super Mario Land 3 #12"
+   ],
+   "noteCount": 249,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 5",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s1:w0:envda63003a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s1w0",
+     "sampleCount": 2652
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 1,
+      "width": 0
+     },
+     "sample": "a0cc766d654a5d44",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.016,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 7647,
+      "brightness": 82.67,
+      "harmonicity": 0.155,
+      "flatness": 0.564,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s1w0",
+    "clusterNotes": 2652
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #1",
+    "Wario Land: Super Mario Land 3 #2",
+    "Wario Land: Super Mario Land 3 #4",
+    "Wario Land: Super Mario Land 3 #5",
+    "Wario Land: Super Mario Land 3 #6",
+    "Wario Land: Super Mario Land 3 #7",
+    "Wario Land: Super Mario Land 3 #9",
+    "Wario Land: Super Mario Land 3 #11",
+    "Wario Land: Super Mario Land 3 #12",
+    "Wario Land: Super Mario Land 3 #16",
+    "Wario Land: Super Mario Land 3 #17",
+    "Wario Land: Super Mario Land 3 #18",
+    "Wario Land: Super Mario Land 3 #19",
+    "Wario Land: Super Mario Land 3 #21",
+    "Wario Land: Super Mario Land 3 #23",
+    "Wario Land: Super Mario Land 3 #24",
+    "Wario Land: Super Mario Land 3 #25",
+    "Wario Land: Super Mario Land 3 #34",
+    "Wario Land: Super Mario Land 3 #39",
+    "Wario Land: Super Mario Land 3 #40"
+   ],
+   "noteCount": 2652,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s1:w1:env3966bbc6",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1507,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.15068,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s1w1",
+     "sampleCount": 751
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 1,
+      "width": 1
+     },
+     "sample": "069656340d03ba37",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.016,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 9767,
+      "brightness": 105.59,
+      "harmonicity": 0.962,
+      "flatness": 0.189,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s1w1",
+    "clusterNotes": 751
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #1",
+    "Wario Land: Super Mario Land 3 #2",
+    "Wario Land: Super Mario Land 3 #5",
+    "Wario Land: Super Mario Land 3 #7",
+    "Wario Land: Super Mario Land 3 #12",
+    "Wario Land: Super Mario Land 3 #24",
+    "Wario Land: Super Mario Land 3 #34",
+    "Wario Land: Super Mario Land 3 #40"
+   ],
+   "noteCount": 751,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 3",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s1:w1:env9360c2f5",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3181,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.9
+     ],
+     [
+      0.05023,
+      0.9
+     ],
+     [
+      0.06697,
+      0.8
+     ],
+     [
+      0.08371,
+      0.8
+     ],
+     [
+      0.10046,
+      0.7
+     ],
+     [
+      0.1172,
+      0.7
+     ],
+     [
+      0.13394,
+      0.6
+     ],
+     [
+      0.15068,
+      0.6
+     ],
+     [
+      0.16743,
+      0.5
+     ],
+     [
+      0.18417,
+      0.5
+     ],
+     [
+      0.20091,
+      0.4
+     ],
+     [
+      0.21766,
+      0.4
+     ],
+     [
+      0.25114,
+      0.2
+     ],
+     [
+      0.26788,
+      0.2
+     ],
+     [
+      0.28463,
+      0.1
+     ],
+     [
+      0.30137,
+      0.1
+     ],
+     [
+      0.31811,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s1w1",
+     "sampleCount": 28
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 1,
+      "width": 1
+     },
+     "sample": "069656340d03ba37",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.301,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.016,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 9760,
+      "brightness": 105.52,
+      "harmonicity": 0.959,
+      "flatness": 0.195,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s1w1",
+    "clusterNotes": 28
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #22"
+   ],
+   "noteCount": 28,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 7",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s4:w0:env5d8f0f1b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1005,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.5
+     ],
+     [
+      0.08371,
+      0.5
+     ],
+     [
+      0.10046,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s4w0",
+     "sampleCount": 419
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "shift": 4,
+      "width": 0
+     },
+     "sample": "372a3510791634df",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.084,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.125,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.095,
+      "sustain": 0,
+      "centroid": 6176,
+      "brightness": 84.12,
+      "harmonicity": 0.191,
+      "flatness": 0.583,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s4w0",
+    "clusterNotes": 419
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #4",
+    "Wario Land: Super Mario Land 3 #9",
+    "Wario Land: Super Mario Land 3 #14",
+    "Wario Land: Super Mario Land 3 #16",
+    "Wario Land: Super Mario Land 3 #21",
+    "Wario Land: Super Mario Land 3 #22",
+    "Wario Land: Super Mario Land 3 #23",
+    "Wario Land: Super Mario Land 3 #30",
+    "Wario Land: Super Mario Land 3 #38"
+   ],
+   "noteCount": 419,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 4",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s4:w0:env9b2967dd",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0502,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s4w0",
+     "sampleCount": 1601
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "shift": 4,
+      "width": 0
+     },
+     "sample": "372a3510791634df",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.033,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.125,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.04,
+      "sustain": 0,
+      "centroid": 5841,
+      "brightness": 79.55,
+      "harmonicity": 0.329,
+      "flatness": 0.533,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s4w0",
+    "clusterNotes": 1601
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #6",
+    "Wario Land: Super Mario Land 3 #9",
+    "Wario Land: Super Mario Land 3 #13",
+    "Wario Land: Super Mario Land 3 #14",
+    "Wario Land: Super Mario Land 3 #16",
+    "Wario Land: Super Mario Land 3 #17",
+    "Wario Land: Super Mario Land 3 #19",
+    "Wario Land: Super Mario Land 3 #21",
+    "Wario Land: Super Mario Land 3 #22",
+    "Wario Land: Super Mario Land 3 #23",
+    "Wario Land: Super Mario Land 3 #30",
+    "Wario Land: Super Mario Land 3 #31",
+    "Wario Land: Super Mario Land 3 #33",
+    "Wario Land: Super Mario Land 3 #38",
+    "Wario Land: Super Mario Land 3 #39"
+   ],
+   "noteCount": 1601,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 2",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:pulse:duty12.5:env3d2cd539",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1674,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.16743,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1202
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1202
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #7",
+    "Wario Land: Super Mario Land 3 #12",
+    "Wario Land: Super Mario Land 3 #17",
+    "Wario Land: Super Mario Land 3 #23",
+    "Wario Land: Super Mario Land 3 #30",
+    "Wario Land: Super Mario Land 3 #33",
+    "Wario Land: Super Mario Land 3 #9",
+    "Wario Land: Super Mario Land 3 #14",
+    "Wario Land: Super Mario Land 3 #36"
+   ],
+   "noteCount": 1202,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 80,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 36,
+    "keyHi": 80,
+    "keySpan": 44,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.135,
+    "sustain": 0,
+    "centroid": 384,
+    "brightness": 1.96,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 2"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env4c30bfd8",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1172,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.1172,
+      1.875
+     ],
+     [
+      1.97564,
+      1.875
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 9
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 9
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #32"
+   ],
+   "noteCount": 9,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 67,
+    "median": 53
+   },
+   "features": {
+    "keyMedian": 53,
+    "keyLo": 48,
+    "keyHi": 67,
+    "keySpan": 19,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.095,
+    "t20": null,
+    "sustain": 0.989,
+    "centroid": 348,
+    "brightness": 2,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env5d9ba2d2",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2177,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.21766,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 69
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 69
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #40"
+   ],
+   "noteCount": 69,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 74,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 50,
+    "keyHi": 74,
+    "keySpan": 24,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.175,
+    "sustain": 0,
+    "centroid": 487,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 13"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env563df97d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 311
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 311
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #23",
+    "Wario Land: Super Mario Land 3 #30",
+    "Wario Land: Super Mario Land 3 #32",
+    "Wario Land: Super Mario Land 3 #34",
+    "Wario Land: Super Mario Land 3 #37",
+    "Wario Land: Super Mario Land 3 #40"
+   ],
+   "noteCount": 311,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 103,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 36,
+    "keyHi": 103,
+    "keySpan": 67,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.991,
+    "centroid": 391,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 4"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env606c7f03",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1674,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.16743,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 244
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 244
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #17",
+    "Wario Land: Super Mario Land 3 #30",
+    "Wario Land: Super Mario Land 3 #33"
+   ],
+   "noteCount": 244,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 80,
+    "median": 48
+   },
+   "features": {
+    "keyMedian": 48,
+    "keyLo": 36,
+    "keyHi": 80,
+    "keySpan": 44,
+    "medianNote": 0.151,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.135,
+    "sustain": 0,
+    "centroid": 257,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 8"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env92696099",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1005,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 48
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 48
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #32"
+   ],
+   "noteCount": 48,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 79,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 67,
+    "keyHi": 79,
+    "keySpan": 12,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.08,
+    "sustain": 0,
+    "centroid": 1385,
+    "brightness": 1.77,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 6"
+  },
+  {
+   "id": "gb:pulse:duty12.5:enva00fbd59",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1005,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 695
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 695
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #24",
+    "Wario Land: Super Mario Land 3 #9",
+    "Wario Land: Super Mario Land 3 #12"
+   ],
+   "noteCount": 695,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 78,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 43,
+    "keyHi": 78,
+    "keySpan": 35,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.08,
+    "sustain": 0,
+    "centroid": 468,
+    "brightness": 1.79,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 3"
+  },
+  {
+   "id": "gb:pulse:duty12.5:enva5b1b843",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 196
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 196
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #14",
+    "Wario Land: Super Mario Land 3 #37",
+    "Wario Land: Super Mario Land 3 #40"
+   ],
+   "noteCount": 196,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 98,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 38,
+    "keyHi": 98,
+    "keySpan": 60,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.994,
+    "centroid": 521,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 6"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envdd3158f5",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2177,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.21766,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 69
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 69
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #40"
+   ],
+   "noteCount": 69,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 79,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 55,
+    "keyHi": 79,
+    "keySpan": 24,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.175,
+    "sustain": 0,
+    "centroid": 649,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 14"
+  },
+  {
+   "id": "gb:pulse:duty25:env04c3af61",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 597
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 597
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #1",
+    "Wario Land: Super Mario Land 3 #2",
+    "Wario Land: Super Mario Land 3 #4",
+    "Wario Land: Super Mario Land 3 #6",
+    "Wario Land: Super Mario Land 3 #13",
+    "Wario Land: Super Mario Land 3 #18",
+    "Wario Land: Super Mario Land 3 #21",
+    "Wario Land: Super Mario Land 3 #24"
+   ],
+   "noteCount": 597,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 85,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 41,
+    "keyHi": 85,
+    "keySpan": 44,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.994,
+    "centroid": 465,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 3"
+  },
+  {
+   "id": "gb:pulse:duty25:env7a739735",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2344,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.85714
+     ],
+     [
+      0.05023,
+      0.85714
+     ],
+     [
+      0.06697,
+      0.71429
+     ],
+     [
+      0.08371,
+      0.71429
+     ],
+     [
+      0.10046,
+      0.57143
+     ],
+     [
+      0.1172,
+      0.57143
+     ],
+     [
+      0.13394,
+      0.42857
+     ],
+     [
+      0.15068,
+      0.42857
+     ],
+     [
+      0.16743,
+      0.28571
+     ],
+     [
+      0.18417,
+      0.28571
+     ],
+     [
+      0.20091,
+      0.14286
+     ],
+     [
+      0.21766,
+      0.14286
+     ],
+     [
+      0.2344,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 245
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 245
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #38",
+    "Wario Land: Super Mario Land 3 #18"
+   ],
+   "noteCount": 245,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 84,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 59,
+    "keyHi": 84,
+    "keySpan": 25,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.195,
+    "sustain": 0,
+    "centroid": 694,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 7"
+  },
+  {
+   "id": "gb:pulse:duty25:env07f0b0c2",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.6195,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.92308
+     ],
+     [
+      0.08371,
+      0.92308
+     ],
+     [
+      0.10046,
+      0.84615
+     ],
+     [
+      0.13394,
+      0.84615
+     ],
+     [
+      0.15068,
+      0.76923
+     ],
+     [
+      0.18417,
+      0.76923
+     ],
+     [
+      0.20091,
+      0.69231
+     ],
+     [
+      0.21766,
+      0.69231
+     ],
+     [
+      0.2344,
+      0.61538
+     ],
+     [
+      0.26788,
+      0.61538
+     ],
+     [
+      0.28463,
+      0.53846
+     ],
+     [
+      0.31811,
+      0.53846
+     ],
+     [
+      0.33485,
+      0.46154
+     ],
+     [
+      0.36834,
+      0.46154
+     ],
+     [
+      0.38508,
+      0.38462
+     ],
+     [
+      0.41857,
+      0.38462
+     ],
+     [
+      0.43531,
+      0.30769
+     ],
+     [
+      0.45205,
+      0.30769
+     ],
+     [
+      0.4688,
+      0.23077
+     ],
+     [
+      0.50228,
+      0.23077
+     ],
+     [
+      0.51902,
+      0.15385
+     ],
+     [
+      0.55251,
+      0.15385
+     ],
+     [
+      0.56925,
+      0.07692
+     ],
+     [
+      0.60274,
+      0.07692
+     ],
+     [
+      0.61948,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 8
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 8
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #8"
+   ],
+   "noteCount": 8,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 76,
+    "median": 42
+   },
+   "features": {
+    "keyMedian": 42,
+    "keyLo": 36,
+    "keyHi": 76,
+    "keySpan": 40,
+    "medianNote": 0.151,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.505,
+    "sustain": 0,
+    "centroid": 165,
+    "brightness": 1.79,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low mallet"
+  },
+  {
+   "id": "gb:pulse:duty25:env9cdbb8df",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2344,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.85714
+     ],
+     [
+      0.05023,
+      0.85714
+     ],
+     [
+      0.06697,
+      0.71429
+     ],
+     [
+      0.08371,
+      0.71429
+     ],
+     [
+      0.10046,
+      0.57143
+     ],
+     [
+      0.1172,
+      0.57143
+     ],
+     [
+      0.13394,
+      0.42857
+     ],
+     [
+      0.15068,
+      0.42857
+     ],
+     [
+      0.16743,
+      0.28571
+     ],
+     [
+      0.18417,
+      0.28571
+     ],
+     [
+      0.20091,
+      0.14286
+     ],
+     [
+      0.21766,
+      0.14286
+     ],
+     [
+      0.2344,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 201
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 201
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #38",
+    "Wario Land: Super Mario Land 3 #4",
+    "Wario Land: Super Mario Land 3 #18"
+   ],
+   "noteCount": 201,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 90,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 48,
+    "keyHi": 90,
+    "keySpan": 42,
+    "medianNote": 0.184,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.195,
+    "sustain": 0,
+    "centroid": 348,
+    "brightness": 1.78,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 9"
+  },
+  {
+   "id": "gb:pulse:duty25:env71e96cdb",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.6195,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.92308
+     ],
+     [
+      0.08371,
+      0.92308
+     ],
+     [
+      0.10046,
+      0.84615
+     ],
+     [
+      0.13394,
+      0.84615
+     ],
+     [
+      0.15068,
+      0.76923
+     ],
+     [
+      0.18417,
+      0.76923
+     ],
+     [
+      0.20091,
+      0.69231
+     ],
+     [
+      0.21766,
+      0.69231
+     ],
+     [
+      0.2344,
+      0.61538
+     ],
+     [
+      0.26788,
+      0.61538
+     ],
+     [
+      0.28463,
+      0.53846
+     ],
+     [
+      0.31811,
+      0.53846
+     ],
+     [
+      0.33485,
+      0.46154
+     ],
+     [
+      0.36834,
+      0.46154
+     ],
+     [
+      0.38508,
+      0.38462
+     ],
+     [
+      0.41857,
+      0.38462
+     ],
+     [
+      0.43531,
+      0.30769
+     ],
+     [
+      0.45205,
+      0.30769
+     ],
+     [
+      0.4688,
+      0.23077
+     ],
+     [
+      0.50228,
+      0.23077
+     ],
+     [
+      0.51902,
+      0.15385
+     ],
+     [
+      0.55251,
+      0.15385
+     ],
+     [
+      0.56925,
+      0.07692
+     ],
+     [
+      0.60274,
+      0.07692
+     ],
+     [
+      0.61948,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 8
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 8
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #8"
+   ],
+   "noteCount": 8,
+   "used": true,
+   "keysPlayed": {
+    "lo": 54,
+    "hi": 84,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 54,
+    "keyHi": 84,
+    "keySpan": 30,
+    "medianNote": 0.151,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.505,
+    "sustain": 0,
+    "centroid": 392,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 2"
+  },
+  {
+   "id": "gb:pulse:duty25:env31809c6a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 126
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 126
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #2",
+    "Wario Land: Super Mario Land 3 #4",
+    "Wario Land: Super Mario Land 3 #13",
+    "Wario Land: Super Mario Land 3 #18"
+   ],
+   "noteCount": 126,
+   "used": true,
+   "keysPlayed": {
+    "lo": 47,
+    "hi": 90,
+    "median": 56
+   },
+   "features": {
+    "keyMedian": 56,
+    "keyLo": 47,
+    "keyHi": 90,
+    "keySpan": 43,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.999,
+    "centroid": 370,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 8"
+  },
+  {
+   "id": "gb:pulse:duty25:enve060a146",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 90
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 90
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #4",
+    "Wario Land: Super Mario Land 3 #13"
+   ],
+   "noteCount": 90,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 83,
+    "median": 63
+   },
+   "features": {
+    "keyMedian": 63,
+    "keyLo": 48,
+    "keyHi": 83,
+    "keySpan": 35,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.11,
+    "sustain": 0,
+    "centroid": 546,
+    "brightness": 1.76,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 11"
+  },
+  {
+   "id": "gb:pulse:duty25:envee5ae54e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1674,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.16743,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #13"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 75,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 60,
+    "keyHi": 75,
+    "keySpan": 15,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.135,
+    "sustain": 0,
+    "centroid": 692,
+    "brightness": 1.76,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 16"
+  },
+  {
+   "id": "gb:pulse:duty50:env0da9f013",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3851,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.875
+     ],
+     [
+      0.08371,
+      0.875
+     ],
+     [
+      0.10046,
+      0.75
+     ],
+     [
+      0.13394,
+      0.75
+     ],
+     [
+      0.15068,
+      0.625
+     ],
+     [
+      0.18417,
+      0.625
+     ],
+     [
+      0.20091,
+      0.5
+     ],
+     [
+      0.21766,
+      0.5
+     ],
+     [
+      0.2344,
+      0.375
+     ],
+     [
+      0.26788,
+      0.375
+     ],
+     [
+      0.28463,
+      0.25
+     ],
+     [
+      0.31811,
+      0.25
+     ],
+     [
+      0.33485,
+      0.125
+     ],
+     [
+      0.36834,
+      0.125
+     ],
+     [
+      0.38508,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 37
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 37
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #8",
+    "Wario Land: Super Mario Land 3 #26",
+    "Wario Land: Super Mario Land 3 #32"
+   ],
+   "noteCount": 37,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 103,
+    "median": 83
+   },
+   "features": {
+    "keyMedian": 83,
+    "keyLo": 55,
+    "keyHi": 103,
+    "keySpan": 48,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.325,
+    "sustain": 0,
+    "centroid": 1575,
+    "brightness": 1.59,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "gb:pulse:duty50:env01fae245",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.83333
+     ],
+     [
+      0.05023,
+      0.83333
+     ],
+     [
+      0.06697,
+      0.66667
+     ],
+     [
+      0.08371,
+      0.66667
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.13394,
+      0.33333
+     ],
+     [
+      0.15068,
+      0.33333
+     ],
+     [
+      0.16743,
+      0.16667
+     ],
+     [
+      0.18417,
+      0.16667
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1581
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1581
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #10",
+    "Wario Land: Super Mario Land 3 #11",
+    "Wario Land: Super Mario Land 3 #15",
+    "Wario Land: Super Mario Land 3 #16",
+    "Wario Land: Super Mario Land 3 #29",
+    "Wario Land: Super Mario Land 3 #35",
+    "Wario Land: Super Mario Land 3 #22",
+    "Wario Land: Super Mario Land 3 #27",
+    "Wario Land: Super Mario Land 3 #28"
+   ],
+   "noteCount": 1581,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 104,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 48,
+    "keyHi": 104,
+    "keySpan": 56,
+    "medianNote": 0.151,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.16,
+    "sustain": 0,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck"
+  },
+  {
+   "id": "gb:pulse:duty50:env6b4e0e37",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1005,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.66667
+     ],
+     [
+      0.05023,
+      0.66667
+     ],
+     [
+      0.06697,
+      0.33333
+     ],
+     [
+      0.08371,
+      0.33333
+     ],
+     [
+      0.10046,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 308
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 308
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #27",
+    "Wario Land: Super Mario Land 3 #4"
+   ],
+   "noteCount": 308,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 104,
+    "median": 99
+   },
+   "features": {
+    "keyMedian": 99,
+    "keyLo": 48,
+    "keyHi": 104,
+    "keySpan": 56,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.09,
+    "sustain": 0,
+    "centroid": 3512,
+    "brightness": 1.41,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 3"
+  },
+  {
+   "id": "gb:pulse:duty50:env8ac77edd",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.83333
+     ],
+     [
+      0.05023,
+      0.83333
+     ],
+     [
+      0.06697,
+      0.66667
+     ],
+     [
+      0.08371,
+      0.66667
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.13394,
+      0.33333
+     ],
+     [
+      0.15068,
+      0.33333
+     ],
+     [
+      0.16743,
+      0.16667
+     ],
+     [
+      0.18417,
+      0.16667
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 473
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 473
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #11",
+    "Wario Land: Super Mario Land 3 #5"
+   ],
+   "noteCount": 473,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 91,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 58,
+    "keyHi": 91,
+    "keySpan": 33,
+    "medianNote": 0.151,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.165,
+    "sustain": 0,
+    "centroid": 795,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 5"
+  },
+  {
+   "id": "gb:pulse:duty50:env8c7543f6",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0837,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 72
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 72
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #20"
+   ],
+   "noteCount": 72,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 76,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 62,
+    "keyHi": 76,
+    "keySpan": 14,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.065,
+    "sustain": 0,
+    "centroid": 944,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 12"
+  },
+  {
+   "id": "gb:pulse:duty50:env8ec5c482",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1407
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1407
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #8",
+    "Wario Land: Super Mario Land 3 #17",
+    "Wario Land: Super Mario Land 3 #25",
+    "Wario Land: Super Mario Land 3 #31",
+    "Wario Land: Super Mario Land 3 #40"
+   ],
+   "noteCount": 1407,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 101,
+    "median": 90
+   },
+   "features": {
+    "keyMedian": 90,
+    "keyLo": 64,
+    "keyHi": 101,
+    "keySpan": 37,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 2281,
+    "brightness": 1.54,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like"
+  },
+  {
+   "id": "gb:pulse:duty50:env665abf59",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2511,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.875
+     ],
+     [
+      0.05023,
+      0.875
+     ],
+     [
+      0.06697,
+      0.75
+     ],
+     [
+      0.08371,
+      0.75
+     ],
+     [
+      0.10046,
+      0.625
+     ],
+     [
+      0.1172,
+      0.625
+     ],
+     [
+      0.13394,
+      0.5
+     ],
+     [
+      0.15068,
+      0.5
+     ],
+     [
+      0.16743,
+      0.375
+     ],
+     [
+      0.18417,
+      0.375
+     ],
+     [
+      0.20091,
+      0.25
+     ],
+     [
+      0.21766,
+      0.25
+     ],
+     [
+      0.25114,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 158
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 158
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #3"
+   ],
+   "noteCount": 158,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 72,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 41,
+    "keyHi": 72,
+    "keySpan": 31,
+    "medianNote": 0.251,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.22,
+    "sustain": 0,
+    "centroid": 399,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 10"
+  },
+  {
+   "id": "gb:pulse:duty50:env688dea00",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.18417,
+      0.5
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 261
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 261
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #22",
+    "Wario Land: Super Mario Land 3 #35"
+   ],
+   "noteCount": 261,
+   "used": true,
+   "keysPlayed": {
+    "lo": 54,
+    "hi": 80,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 54,
+    "keyHi": 80,
+    "keySpan": 26,
+    "medianNote": 0.184,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.15,
+    "sustain": 0,
+    "centroid": 842,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 6"
+  },
+  {
+   "id": "gb:pulse:duty50:env4321bf2b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.75
+     ],
+     [
+      0.05023,
+      0.75
+     ],
+     [
+      0.06697,
+      0.5
+     ],
+     [
+      0.08371,
+      0.5
+     ],
+     [
+      0.10046,
+      0.25
+     ],
+     [
+      0.1172,
+      0.25
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 487
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 487
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #4",
+    "Wario Land: Super Mario Land 3 #5",
+    "Wario Land: Super Mario Land 3 #35",
+    "Wario Land: Super Mario Land 3 #39"
+   ],
+   "noteCount": 487,
+   "used": true,
+   "keysPlayed": {
+    "lo": 53,
+    "hi": 96,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 53,
+    "keyHi": 96,
+    "keySpan": 43,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.12,
+    "sustain": 0,
+    "centroid": 597,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 4"
+  },
+  {
+   "id": "gb:pulse:duty50:envaa8533ce",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.18417,
+      0.5
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 498
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 498
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #31"
+   ],
+   "noteCount": 498,
+   "used": true,
+   "keysPlayed": {
+    "lo": 74,
+    "hi": 92,
+    "median": 80
+   },
+   "features": {
+    "keyMedian": 80,
+    "keyLo": 74,
+    "keyHi": 92,
+    "keySpan": 18,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.14,
+    "sustain": 0,
+    "centroid": 1331,
+    "brightness": 1.6,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck"
+  },
+  {
+   "id": "gb:pulse:duty50:envb4b0efd2",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2511,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.875
+     ],
+     [
+      0.05023,
+      0.875
+     ],
+     [
+      0.06697,
+      0.75
+     ],
+     [
+      0.08371,
+      0.75
+     ],
+     [
+      0.10046,
+      0.625
+     ],
+     [
+      0.1172,
+      0.625
+     ],
+     [
+      0.13394,
+      0.5
+     ],
+     [
+      0.15068,
+      0.5
+     ],
+     [
+      0.16743,
+      0.375
+     ],
+     [
+      0.18417,
+      0.375
+     ],
+     [
+      0.20091,
+      0.25
+     ],
+     [
+      0.21766,
+      0.25
+     ],
+     [
+      0.25114,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 24
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 24
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #28"
+   ],
+   "noteCount": 24,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 95,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 57,
+    "keyHi": 95,
+    "keySpan": 38,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.225,
+    "sustain": 0,
+    "centroid": 795,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 15"
+  },
+  {
+   "id": "gb:pulse:duty50:envbbfa1249",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0502,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 140
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 140
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #19"
+   ],
+   "noteCount": 140,
+   "used": true,
+   "keysPlayed": {
+    "lo": 85,
+    "hi": 90,
+    "median": 85
+   },
+   "features": {
+    "keyMedian": 85,
+    "keyLo": 85,
+    "keyHi": 90,
+    "keySpan": 5,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.04,
+    "sustain": 0,
+    "centroid": 1756,
+    "brightness": 1.58,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 4"
+  },
+  {
+   "id": "gb:pulse:duty50:envd5e294ad",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0837,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 477
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 477
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #1",
+    "Wario Land: Super Mario Land 3 #6",
+    "Wario Land: Super Mario Land 3 #20",
+    "Wario Land: Super Mario Land 3 #21",
+    "Wario Land: Super Mario Land 3 #23",
+    "Wario Land: Super Mario Land 3 #36",
+    "Wario Land: Super Mario Land 3 #39"
+   ],
+   "noteCount": 477,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 107,
+    "median": 105
+   },
+   "features": {
+    "keyMedian": 105,
+    "keyLo": 67,
+    "keyHi": 107,
+    "keySpan": 40,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.07,
+    "sustain": 0,
+    "centroid": 4605,
+    "brightness": 1.31,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 2"
+  },
+  {
+   "id": "gb:pulse:duty50:envecd58d96",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3851,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.75
+     ],
+     [
+      0.18417,
+      0.75
+     ],
+     [
+      0.20091,
+      0.5
+     ],
+     [
+      0.26788,
+      0.5
+     ],
+     [
+      0.28463,
+      0.25
+     ],
+     [
+      0.36834,
+      0.25
+     ],
+     [
+      0.38508,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 863
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 863
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #3",
+    "Wario Land: Super Mario Land 3 #10",
+    "Wario Land: Super Mario Land 3 #15",
+    "Wario Land: Super Mario Land 3 #16",
+    "Wario Land: Super Mario Land 3 #26",
+    "Wario Land: Super Mario Land 3 #29",
+    "Wario Land: Super Mario Land 3 #35"
+   ],
+   "noteCount": 863,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 96,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 41,
+    "keyHi": 96,
+    "keySpan": 55,
+    "medianNote": 0.268,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.37,
+    "sustain": 0,
+    "centroid": 474,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet"
+  },
+  {
+   "id": "gb:pulse:duty50:envf44c5929",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0502,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 140
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 140
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #19"
+   ],
+   "noteCount": 140,
+   "used": true,
+   "keysPlayed": {
+    "lo": 92,
+    "hi": 97,
+    "median": 92
+   },
+   "features": {
+    "keyMedian": 92,
+    "keyLo": 92,
+    "keyHi": 97,
+    "keySpan": 5,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.04,
+    "sustain": 0,
+    "centroid": 2520,
+    "brightness": 1.52,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 5"
+  },
+  {
+   "id": "gb:pulse:duty50:envfed3c93b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 957
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 957
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #17",
+    "Wario Land: Super Mario Land 3 #25",
+    "Wario Land: Super Mario Land 3 #32",
+    "Wario Land: Super Mario Land 3 #40"
+   ],
+   "noteCount": 957,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 93,
+    "median": 91
+   },
+   "features": {
+    "keyMedian": 91,
+    "keyLo": 64,
+    "keyHi": 93,
+    "keySpan": 29,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 2397,
+    "brightness": 1.53,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like 2"
+  },
+  {
+   "id": "gb:wave:3a135332",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:ebf3e23b60ae11d7",
+     "sampleCount": 40
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "0771602ec6460063",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:ebf3e23b60ae11d7",
+    "clusterNotes": 40
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #4"
+   ],
+   "noteCount": 40,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 77,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 60,
+    "keyHi": 77,
+    "keySpan": 17,
+    "medianNote": 0.234,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.987,
+    "centroid": 1837,
+    "brightness": 4.69,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 10"
+  },
+  {
+   "id": "gb:wave:3fcbeb04",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:ff1026175b5c43cf",
+     "sampleCount": 291
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "7ab2d51d9bf64ea1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:ff1026175b5c43cf",
+    "clusterNotes": 291
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #27"
+   ],
+   "noteCount": 291,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 104,
+    "median": 99
+   },
+   "features": {
+    "keyMedian": 99,
+    "keyLo": 48,
+    "keyHi": 104,
+    "keySpan": 56,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 5914,
+    "brightness": 2.38,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like 3"
+  },
+  {
+   "id": "gb:wave:7a36da2c",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:0755b8924030e296",
+     "sampleCount": 109
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "0bba09d7d3359811",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:0755b8924030e296",
+    "clusterNotes": 109
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #24"
+   ],
+   "noteCount": 109,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 82,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 65,
+    "keyHi": 82,
+    "keySpan": 17,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.99,
+    "centroid": 2411,
+    "brightness": 4.35,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 9"
+  },
+  {
+   "id": "gb:wave:42d5bd9a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:b9e4323b5d763912",
+     "sampleCount": 758
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "bfad29b4f16de1f5",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:b9e4323b5d763912",
+    "clusterNotes": 758
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #3",
+    "Wario Land: Super Mario Land 3 #10",
+    "Wario Land: Super Mario Land 3 #15",
+    "Wario Land: Super Mario Land 3 #16",
+    "Wario Land: Super Mario Land 3 #26",
+    "Wario Land: Super Mario Land 3 #28",
+    "Wario Land: Super Mario Land 3 #32",
+    "Wario Land: Super Mario Land 3 #35",
+    "Wario Land: Super Mario Land 3 #39"
+   ],
+   "noteCount": 758,
+   "used": true,
+   "keysPlayed": {
+    "lo": 54,
+    "hi": 103,
+    "median": 61
+   },
+   "features": {
+    "keyMedian": 61,
+    "keyLo": 54,
+    "keyHi": 103,
+    "keySpan": 49,
+    "medianNote": 0.268,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.995,
+    "centroid": 765,
+    "brightness": 2.76,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 2"
+  },
+  {
+   "id": "gb:wave:97a9db09",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:0bdf6c08f2112ca6",
+     "sampleCount": 993
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "16cee212c1d13613",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:0bdf6c08f2112ca6",
+    "clusterNotes": 993
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #2",
+    "Wario Land: Super Mario Land 3 #4",
+    "Wario Land: Super Mario Land 3 #7",
+    "Wario Land: Super Mario Land 3 #19",
+    "Wario Land: Super Mario Land 3 #22",
+    "Wario Land: Super Mario Land 3 #23",
+    "Wario Land: Super Mario Land 3 #32",
+    "Wario Land: Super Mario Land 3 #34"
+   ],
+   "noteCount": 993,
+   "used": true,
+   "keysPlayed": {
+    "lo": 31,
+    "hi": 91,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 31,
+    "keyHi": 91,
+    "keySpan": 60,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.98,
+    "centroid": 642,
+    "brightness": 3.28,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like"
+  },
+  {
+   "id": "gb:wave:8335fc2e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:1bba43367cab938c",
+     "sampleCount": 215
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "d733b3c26925f05b",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:1bba43367cab938c",
+    "clusterNotes": 215
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #4",
+    "Wario Land: Super Mario Land 3 #5",
+    "Wario Land: Super Mario Land 3 #23"
+   ],
+   "noteCount": 215,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 80,
+    "median": 54
+   },
+   "features": {
+    "keyMedian": 54,
+    "keyLo": 41,
+    "keyHi": 80,
+    "keySpan": 39,
+    "medianNote": 0.151,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.99,
+    "centroid": 299,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 5"
+  },
+  {
+   "id": "gb:wave:3707031e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:edb5ed85821f5188",
+     "sampleCount": 30
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "93d9c3780140c620",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:edb5ed85821f5188",
+    "clusterNotes": 30
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #32"
+   ],
+   "noteCount": 30,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 68,
+    "median": 43
+   },
+   "features": {
+    "keyMedian": 43,
+    "keyLo": 36,
+    "keyHi": 68,
+    "keySpan": 32,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.72,
+    "centroid": 348,
+    "brightness": 3.55,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead 2"
+  },
+  {
+   "id": "gb:wave:a136a6f1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:897f84d1d4d8c0ec",
+     "sampleCount": 681
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "4f375b3b90cd5936",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:897f84d1d4d8c0ec",
+    "clusterNotes": 681
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #4",
+    "Wario Land: Super Mario Land 3 #12",
+    "Wario Land: Super Mario Land 3 #14",
+    "Wario Land: Super Mario Land 3 #17",
+    "Wario Land: Super Mario Land 3 #30",
+    "Wario Land: Super Mario Land 3 #37"
+   ],
+   "noteCount": 681,
+   "used": true,
+   "keysPlayed": {
+    "lo": 31,
+    "hi": 91,
+    "median": 53
+   },
+   "features": {
+    "keyMedian": 53,
+    "keyLo": 31,
+    "keyHi": 91,
+    "keySpan": 60,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.94,
+    "centroid": 510,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  },
+  {
+   "id": "gb:wave:d3b76263",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:bce34aab3b8d1242",
+     "sampleCount": 134
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "740359d1a9a0d28e",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:bce34aab3b8d1242",
+    "clusterNotes": 134
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #1"
+   ],
+   "noteCount": 134,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 80,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 52,
+    "keyHi": 80,
+    "keySpan": 28,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.985,
+    "centroid": 1284,
+    "brightness": 4.37,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 7"
+  },
+  {
+   "id": "gb:wave:d7124651",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:3b461b979b4426cd",
+     "sampleCount": 453
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "10320478667ae360",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:3b461b979b4426cd",
+    "clusterNotes": 453
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #21",
+    "Wario Land: Super Mario Land 3 #29",
+    "Wario Land: Super Mario Land 3 #40"
+   ],
+   "noteCount": 453,
+   "used": true,
+   "keysPlayed": {
+    "lo": 31,
+    "hi": 92,
+    "median": 40
+   },
+   "features": {
+    "keyMedian": 40,
+    "keyLo": 31,
+    "keyHi": 92,
+    "keySpan": 61,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.677,
+    "centroid": 241,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead"
+  },
+  {
+   "id": "gb:wave:fc60277b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:67fa22485f77b43f",
+     "sampleCount": 342
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "6fe345235c369d4d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:67fa22485f77b43f",
+    "clusterNotes": 342
+   },
+   "usedIn": [
+    "Wario Land: Super Mario Land 3 #6",
+    "Wario Land: Super Mario Land 3 #11",
+    "Wario Land: Super Mario Land 3 #13",
+    "Wario Land: Super Mario Land 3 #18"
+   ],
+   "noteCount": 342,
+   "used": true,
+   "keysPlayed": {
+    "lo": 32,
+    "hi": 90,
+    "median": 44
+   },
+   "features": {
+    "keyMedian": 44,
+    "keyLo": 32,
+    "keyHi": 90,
+    "keySpan": 58,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.999,
+    "centroid": 168,
+    "brightness": 1.62,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low organ-like"
+  }
+ ],
+ "samples": {
+  "21cfc05102f314ad": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "21cfc05102f314ad.wav"
+  },
+  "ea6335b24e5659b4": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "ea6335b24e5659b4.wav"
+  },
+  "740359d1a9a0d28e": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "740359d1a9a0d28e.wav"
+  },
+  "069656340d03ba37": {
+   "rate": 262144,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "069656340d03ba37.wav"
+  },
+  "a0cc766d654a5d44": {
+   "rate": 262144,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "a0cc766d654a5d44.wav"
+  },
+  "16cee212c1d13613": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "16cee212c1d13613.wav"
+  },
+  "bfad29b4f16de1f5": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "bfad29b4f16de1f5.wav"
+  },
+  "4f375b3b90cd5936": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "4f375b3b90cd5936.wav"
+  },
+  "0771602ec6460063": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "0771602ec6460063.wav"
+  },
+  "d733b3c26925f05b": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "d733b3c26925f05b.wav"
+  },
+  "372a3510791634df": {
+   "rate": 32768,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "372a3510791634df.wav"
+  },
+  "6fe345235c369d4d": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "6fe345235c369d4d.wav"
+  },
+  "a4262fc218a2a29d": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "a4262fc218a2a29d.wav"
+  },
+  "10320478667ae360": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "10320478667ae360.wav"
+  },
+  "0bba09d7d3359811": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "0bba09d7d3359811.wav"
+  },
+  "7ab2d51d9bf64ea1": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "7ab2d51d9bf64ea1.wav"
+  },
+  "93d9c3780140c620": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "93d9c3780140c620.wav"
+  }
+ }
+}
