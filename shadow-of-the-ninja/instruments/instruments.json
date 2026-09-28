@@ -1,0 +1,10014 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "nes2-shadow-of-the-ninja",
+ "title": "",
+ "drivers": [
+  "nes"
+ ],
+ "songs": 12,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "nes:noise:p4:m0:env43c40e4e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p4m0",
+     "sampleCount": 1609
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 4,
+      "mode": 0
+     },
+     "sample": "9508c515074bc470",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.009,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 8342,
+      "brightness": 90.18,
+      "harmonicity": 0.213,
+      "flatness": 0.567,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p4m0",
+    "clusterNotes": 1609
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #2",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #8",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #10",
+    "Shadow of the Ninja #11",
+    "Shadow of the Ninja #12"
+   ],
+   "noteCount": 1609,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 3",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p8:m0:env54be33f1",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p8m0",
+     "sampleCount": 1466
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 8,
+      "mode": 0
+     },
+     "sample": "f392073fc631e05d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.018,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 7943,
+      "brightness": 85.87,
+      "harmonicity": 0.138,
+      "flatness": 0.584,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p8m0",
+    "clusterNotes": 1466
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #2",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #8",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #10",
+    "Shadow of the Ninja #11",
+    "Shadow of the Ninja #12"
+   ],
+   "noteCount": 1466,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 5",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p16:m0:env4264655e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p16m0",
+     "sampleCount": 1466
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 16,
+      "mode": 0
+     },
+     "sample": "b77f25d77cf617e9",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.037,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.04,
+      "sustain": 0,
+      "centroid": 7774,
+      "brightness": 84.04,
+      "harmonicity": 0.1,
+      "flatness": 0.553,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p16m0",
+    "clusterNotes": 1466
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #2",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #8",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #10",
+    "Shadow of the Ninja #11",
+    "Shadow of the Ninja #12"
+   ],
+   "noteCount": 1466,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 4",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p32:m0:env456863fe",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p32m0",
+     "sampleCount": 1442
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "period": 32,
+      "mode": 0
+     },
+     "sample": "83a3aede5f0edb0d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.067,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.073,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.075,
+      "sustain": 0,
+      "centroid": 8015,
+      "brightness": 86.65,
+      "harmonicity": 0.087,
+      "flatness": 0.589,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p32m0",
+    "clusterNotes": 1442
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #2",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #8",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #10",
+    "Shadow of the Ninja #11",
+    "Shadow of the Ninja #12"
+   ],
+   "noteCount": 1442,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 6",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p128:m0:enve2517b4f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p128m0",
+     "sampleCount": 1699
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 128,
+      "mode": 0
+     },
+     "sample": "02abdb4410d126c1",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.293,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.295,
+      "sustain": 0,
+      "centroid": 2656,
+      "brightness": 36.18,
+      "harmonicity": 0.24,
+      "flatness": 0.329,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p128m0",
+    "clusterNotes": 1699
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #2",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #8",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #10",
+    "Shadow of the Ninja #11",
+    "Shadow of the Ninja #12"
+   ],
+   "noteCount": 1699,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 2",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p202:m0:env7471df40",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p202m0",
+     "sampleCount": 946
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "period": 202,
+      "mode": 0
+     },
+     "sample": "accf980e05b24066",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.275,
+      "sustain": 0,
+      "centroid": 1620,
+      "brightness": 22.06,
+      "harmonicity": 0.331,
+      "flatness": 0.052,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p202m0",
+    "clusterNotes": 946
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #2",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #8",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #10",
+    "Shadow of the Ninja #11",
+    "Shadow of the Ninja #12"
+   ],
+   "noteCount": 946,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 9",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p1016:m0:env578f1bbb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p1016m0",
+     "sampleCount": 2038
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 1016,
+      "mode": 0
+     },
+     "sample": "bdcdc06995a55bd8",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 327,
+      "brightness": 5.29,
+      "harmonicity": 0.606,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p1016m0",
+    "clusterNotes": 2038
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #8",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #10",
+    "Shadow of the Ninja #11",
+    "Shadow of the Ninja #12"
+   ],
+   "noteCount": 2038,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p2034:m0:env92c1dcdb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p2034m0",
+     "sampleCount": 1019
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 2034,
+      "mode": 0
+     },
+     "sample": "6d02335f363abafa",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 173,
+      "brightness": 2.8,
+      "harmonicity": 0.853,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p2034m0",
+    "clusterNotes": 1019
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #8",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #10",
+    "Shadow of the Ninja #11",
+    "Shadow of the Ninja #12"
+   ],
+   "noteCount": 1019,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 7",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:noise:p4068:m0:envc67f791e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-noise-envelope",
+     "groupKey": "p4068m0",
+     "sampleCount": 1019
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "period": 4068,
+      "mode": 0
+     },
+     "sample": "4004e82e3c674467",
+     "loop": null,
+     "nameGuess": "Kick",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0.13,
+      "t20": 0.17,
+      "sustain": 0,
+      "centroid": 84,
+      "brightness": 1.36,
+      "harmonicity": 0.966,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "noise",
+    "groupKey": "p4068m0",
+    "clusterNotes": 1019
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #8",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #10",
+    "Shadow of the Ninja #11",
+    "Shadow of the Ninja #12"
+   ],
+   "noteCount": 1019,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 8",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "nes:pulse:duty12.5:env01ca2491",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.7238,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.09894
+     ],
+     [
+      0.03333,
+      0.7954
+     ],
+     [
+      1.98325,
+      0.7954
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 19
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 19
+   },
+   "usedIn": [
+    "Shadow of the Ninja #7"
+   ],
+   "noteCount": 19,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 87,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 72,
+    "keyHi": 87,
+    "keySpan": 15,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.731,
+    "centroid": 2271,
+    "brightness": 2.9,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env6c80ce2e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.09894
+     ],
+     [
+      1.98325,
+      1.09894
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #7"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 78,
+    "hi": 78,
+    "median": 78
+   },
+   "features": {
+    "keyMedian": 78,
+    "keyLo": 78,
+    "keyHi": 78,
+    "keySpan": 0,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.965,
+    "centroid": 2145,
+    "brightness": 2.9,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 5"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env26e2464e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0833,
+    "decay": 0.0667,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.46563
+     ],
+     [
+      0.08333,
+      2.12539
+     ],
+     [
+      0.11666,
+      1.69053
+     ],
+     [
+      0.14999,
+      1.23551
+     ],
+     [
+      1.98325,
+      1.23551
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Shadow of the Ninja #7"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 67,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 65,
+    "keyHi": 67,
+    "keySpan": 2,
+    "medianNote": 0.45,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.07,
+    "t20": null,
+    "sustain": 0.566,
+    "centroid": 1078,
+    "brightness": 2.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 34"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env99f18d86",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      1.98325,
+      1.11254
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #7"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 69,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 69,
+    "keyHi": 69,
+    "keySpan": 0,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.876,
+    "centroid": 1281,
+    "brightness": 2.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 40"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env583a8e8c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1167,
+    "decay": 0.0167,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08333,
+      1
+     ],
+     [
+      0.1,
+      3.73118
+     ],
+     [
+      0.11666,
+      4.15109
+     ],
+     [
+      0.13333,
+      2.86251
+     ],
+     [
+      1.98325,
+      2.86251
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #10"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 52,
+    "median": 52
+   },
+   "features": {
+    "keyMedian": 52,
+    "keyLo": 52,
+    "keyHi": 52,
+    "keySpan": 0,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.1,
+    "t20": null,
+    "sustain": 0.614,
+    "centroid": 482,
+    "brightness": 2.92,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 4"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env659c0731",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0833,
+    "decay": 0.0667,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03333,
+      1.46563
+     ],
+     [
+      0.08333,
+      2.12539
+     ],
+     [
+      0.11666,
+      1.69053
+     ],
+     [
+      0.14999,
+      1.23551
+     ],
+     [
+      1.98325,
+      1.23551
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Shadow of the Ninja #7"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 58,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 56,
+    "keyHi": 58,
+    "keySpan": 2,
+    "medianNote": 0.45,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.05,
+    "t20": null,
+    "sustain": 0.517,
+    "centroid": 643,
+    "brightness": 2.92,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 35"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env976f2417",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      1.98325,
+      0.76719
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 66
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 66
+   },
+   "usedIn": [
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #10"
+   ],
+   "noteCount": 66,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 72,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 48,
+    "keyHi": 72,
+    "keySpan": 24,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.646,
+    "centroid": 962,
+    "brightness": 2.92,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 13"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env4713a236",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.5235,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.13006
+     ],
+     [
+      0.03333,
+      0.59153
+     ],
+     [
+      1.98325,
+      0.59153
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 547
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 547
+   },
+   "usedIn": [
+    "Shadow of the Ninja #12",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #11"
+   ],
+   "noteCount": 547,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 79,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 43,
+    "keyHi": 79,
+    "keySpan": 36,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.505,
+    "centroid": 1019,
+    "brightness": 2.92,
+    "harmonicity": 0.994,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 4"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env7924d4bf",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 92,
+    "hi": 93,
+    "median": 93
+   },
+   "features": {
+    "keyMedian": 93,
+    "keyLo": 92,
+    "keyHi": 93,
+    "keySpan": 1,
+    "medianNote": 0.15,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.989,
+    "centroid": 4634,
+    "brightness": 2.63,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like"
+  },
+  {
+   "id": "nes:pulse:duty12.5:env77996546",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.2667,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.11666,
+      1
+     ],
+     [
+      0.13333,
+      1.3177
+     ],
+     [
+      0.24999,
+      1.3177
+     ],
+     [
+      0.26666,
+      1.62803
+     ],
+     [
+      1.98325,
+      1.62803
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #10"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 41,
+    "median": 41
+   },
+   "features": {
+    "keyMedian": 41,
+    "keyLo": 41,
+    "keyHi": 41,
+    "keySpan": 0,
+    "medianNote": 0.3,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.26,
+    "t20": null,
+    "sustain": 0.612,
+    "centroid": 255,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass 5"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envb9a79bb5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0333,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.05,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 144
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 144
+   },
+   "usedIn": [
+    "Shadow of the Ninja #12"
+   ],
+   "noteCount": 144,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 82,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 60,
+    "keyHi": 82,
+    "keySpan": 22,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.554,
+    "centroid": 1521,
+    "brightness": 2.91,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 9"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envbdfa91f1",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.05,
+    "sustain": 0.8849,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.13006
+     ],
+     [
+      0.05,
+      1.13006
+     ],
+     [
+      0.06666,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 86
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 86
+   },
+   "usedIn": [
+    "Shadow of the Ninja #12",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #10"
+   ],
+   "noteCount": 86,
+   "used": true,
+   "keysPlayed": {
+    "lo": 53,
+    "hi": 90,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 53,
+    "keyHi": 90,
+    "keySpan": 37,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.776,
+    "centroid": 1282,
+    "brightness": 2.91,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 12"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envc93b6790",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08333,
+      1
+     ],
+     [
+      0.1,
+      1.18625
+     ],
+     [
+      1.98325,
+      1.18625
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #10"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 50,
+    "median": 50
+   },
+   "features": {
+    "keyMedian": 50,
+    "keyLo": 50,
+    "keyHi": 50,
+    "keySpan": 0,
+    "medianNote": 0.233,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.095,
+    "t20": null,
+    "sustain": 0.845,
+    "centroid": 429,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 5"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envda395d5d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.6275,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.09894
+     ],
+     [
+      0.03333,
+      0.68958
+     ],
+     [
+      1.98325,
+      0.68958
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 112
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 112
+   },
+   "usedIn": [
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #11"
+   ],
+   "noteCount": 112,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 81,
+    "median": 43
+   },
+   "features": {
+    "keyMedian": 43,
+    "keyLo": 36,
+    "keyHi": 81,
+    "keySpan": 45,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.025,
+    "sustain": 0.419,
+    "centroid": 286,
+    "brightness": 2.92,
+    "harmonicity": 0.993,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead"
+  },
+  {
+   "id": "nes:pulse:duty12.5:envf3ddd409",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1333,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.11666,
+      1
+     ],
+     [
+      0.13333,
+      1.13006
+     ],
+     [
+      1.98325,
+      1.13006
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "511e2b74a88a4d8a",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #10"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 57,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 57,
+    "keyHi": 57,
+    "keySpan": 0,
+    "medianNote": 0.267,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.15,
+    "t20": null,
+    "sustain": 0.785,
+    "centroid": 643,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 6"
+  },
+  {
+   "id": "nes:pulse:duty25:env1e1c6d9b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1333,
+    "decay": 0.0167,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      3.73118
+     ],
+     [
+      0.13333,
+      4.15109
+     ],
+     [
+      0.14999,
+      2.86251
+     ],
+     [
+      1.98325,
+      2.86251
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Shadow of the Ninja #3"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 60,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 60,
+    "keyHi": 60,
+    "keySpan": 0,
+    "medianNote": 0.217,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.13,
+    "t20": null,
+    "sustain": 0.611,
+    "centroid": 519,
+    "brightness": 1.98,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 3"
+  },
+  {
+   "id": "nes:pulse:duty25:env1f4b66ff",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.05,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      1.11254
+     ],
+     [
+      0.06666,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #7"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 67,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 67,
+    "keyHi": 67,
+    "keySpan": 0,
+    "medianNote": 0.917,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.582,
+    "centroid": 777,
+    "brightness": 1.98,
+    "harmonicity": 0.996,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 41"
+  },
+  {
+   "id": "nes:pulse:duty25:env3ed3f552",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0833,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.18625
+     ],
+     [
+      0.03333,
+      1.18625
+     ],
+     [
+      0.05,
+      1.36828
+     ],
+     [
+      0.06666,
+      1.36828
+     ],
+     [
+      0.08333,
+      1.54624
+     ],
+     [
+      1.98325,
+      1.54624
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #9"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 50,
+    "median": 50
+   },
+   "features": {
+    "keyMedian": 50,
+    "keyLo": 50,
+    "keyHi": 50,
+    "keySpan": 0,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.075,
+    "t20": null,
+    "sustain": 0.892,
+    "centroid": 292,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 42"
+  },
+  {
+   "id": "nes:pulse:duty25:env4f6fed07",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.05,
+    "sustain": 0.5915,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.15345
+     ],
+     [
+      0.06666,
+      0.6823
+     ],
+     [
+      1.98325,
+      0.6823
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 44
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 44
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 44,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 95,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 64,
+    "keyHi": 95,
+    "keySpan": 31,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.572,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 16"
+  },
+  {
+   "id": "nes:pulse:duty25:env5aa08fc5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.64673
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      1.11254
+     ],
+     [
+      0.13333,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 6
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 6
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 6,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 40,
+    "median": 40
+   },
+   "features": {
+    "keyMedian": 40,
+    "keyLo": 38,
+    "keyHi": 40,
+    "keySpan": 2,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.397,
+    "centroid": 164,
+    "brightness": 1.99,
+    "harmonicity": 0.989,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass 4"
+  },
+  {
+   "id": "nes:pulse:duty25:env5c6469a6",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.3333,
+    "sustain": 0.4489,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.15345
+     ],
+     [
+      0.08333,
+      1.15345
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.16666,
+      1
+     ],
+     [
+      0.18333,
+      0.84299
+     ],
+     [
+      0.24999,
+      0.84299
+     ],
+     [
+      0.26666,
+      0.6823
+     ],
+     [
+      0.33332,
+      0.6823
+     ],
+     [
+      0.34999,
+      0.5178
+     ],
+     [
+      1.98325,
+      0.5178
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 20
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 20
+   },
+   "usedIn": [
+    "Shadow of the Ninja #6"
+   ],
+   "noteCount": 20,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 67,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 59,
+    "keyHi": 67,
+    "keySpan": 8,
+    "medianNote": 0.583,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.437,
+    "centroid": 733,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 22"
+  },
+  {
+   "id": "nes:pulse:duty25:env5e898129",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.7954,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.88491
+     ],
+     [
+      1.98325,
+      0.88491
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 64,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 64,
+    "keyHi": 64,
+    "keySpan": 0,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.756,
+    "centroid": 654,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 43"
+  },
+  {
+   "id": "nes:pulse:duty25:env7bcf240c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.1333,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      0.13333,
+      0.76719
+     ],
+     [
+      0.14999,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 39
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 39
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 39,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 79,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 38,
+    "keyHi": 79,
+    "keySpan": 41,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.568,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 17"
+  },
+  {
+   "id": "nes:pulse:duty25:env7eb6c18b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0667,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.3177
+     ],
+     [
+      0.05,
+      1.3177
+     ],
+     [
+      0.06666,
+      1.62803
+     ],
+     [
+      1.98325,
+      1.62803
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #9"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 45,
+    "median": 45
+   },
+   "features": {
+    "keyMedian": 45,
+    "keyLo": 45,
+    "keyHi": 45,
+    "keySpan": 0,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.07,
+    "t20": null,
+    "sustain": 0.78,
+    "centroid": 218,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead 4"
+  },
+  {
+   "id": "nes:pulse:duty25:env8cac4cb0",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.1833,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      0.18333,
+      0.76719
+     ],
+     [
+      0.19999,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 10
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 10
+   },
+   "usedIn": [
+    "Shadow of the Ninja #3"
+   ],
+   "noteCount": 10,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 62,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 60,
+    "keyHi": 62,
+    "keySpan": 2,
+    "medianNote": 0.217,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.538,
+    "centroid": 583,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 26"
+  },
+  {
+   "id": "nes:pulse:duty25:env9c91d467",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0667,
+    "sustain": 0.3571,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.05,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.39725
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      1.11254
+     ],
+     [
+      0.13333,
+      0.64673
+     ],
+     [
+      0.14999,
+      0.64673
+     ],
+     [
+      0.18333,
+      0.39725
+     ],
+     [
+      0.19999,
+      1
+     ],
+     [
+      0.21666,
+      1.11254
+     ],
+     [
+      0.23332,
+      0.64673
+     ],
+     [
+      0.24999,
+      0.64673
+     ],
+     [
+      0.28332,
+      0.39725
+     ],
+     [
+      0.29999,
+      1
+     ],
+     [
+      0.31665,
+      1.11254
+     ],
+     [
+      0.33332,
+      0.64673
+     ],
+     [
+      0.34999,
+      0.64673
+     ],
+     [
+      0.38332,
+      0.39725
+     ],
+     [
+      1.98325,
+      0.39725
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Shadow of the Ninja #8"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 59,
+    "median": 59
+   },
+   "features": {
+    "keyMedian": 59,
+    "keyLo": 59,
+    "keyHi": 59,
+    "keySpan": 0,
+    "medianNote": 0.4,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.327,
+    "centroid": 490,
+    "brightness": 1.99,
+    "harmonicity": 0.996,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 37"
+  },
+  {
+   "id": "nes:pulse:duty25:env9cf9ea5c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 235
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 235
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #2",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #11"
+   ],
+   "noteCount": 235,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 90,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 50,
+    "keyHi": 90,
+    "keySpan": 40,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.972,
+    "centroid": 733,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like"
+  },
+  {
+   "id": "nes:pulse:duty25:env12c56915",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.1333,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      0.13333,
+      0.76719
+     ],
+     [
+      0.14999,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 71,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 67,
+    "keyHi": 71,
+    "keySpan": 4,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.556,
+    "centroid": 977,
+    "brightness": 1.98,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 32"
+  },
+  {
+   "id": "nes:pulse:duty25:env26b76b3d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.05,
+    "sustain": 0.2591,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.3177
+     ],
+     [
+      0.06666,
+      0.34144
+     ],
+     [
+      1.98325,
+      0.34144
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 83,
+    "hi": 95,
+    "median": 92
+   },
+   "features": {
+    "keyMedian": 92,
+    "keyLo": 83,
+    "keyHi": 95,
+    "keySpan": 12,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.01,
+    "t20": null,
+    "sustain": 0.259,
+    "centroid": 3083,
+    "brightness": 1.86,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "nes:pulse:duty25:env39b48f8b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.1667,
+    "sustain": 0.4705,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.16666,
+      0.64673
+     ],
+     [
+      0.18333,
+      0.52345
+     ],
+     [
+      1.98325,
+      0.52345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 34
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 34
+   },
+   "usedIn": [
+    "Shadow of the Ninja #8"
+   ],
+   "noteCount": 34,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 66,
+    "median": 55
+   },
+   "features": {
+    "keyMedian": 55,
+    "keyLo": 52,
+    "keyHi": 66,
+    "keySpan": 14,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.469,
+    "centroid": 389,
+    "brightness": 1.99,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 19"
+  },
+  {
+   "id": "nes:pulse:duty25:env40ef9769",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.3333,
+    "sustain": 0.4705,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.64673
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      1.11254
+     ],
+     [
+      0.13333,
+      0.64673
+     ],
+     [
+      0.18333,
+      0.64673
+     ],
+     [
+      0.19999,
+      1
+     ],
+     [
+      0.21666,
+      1.11254
+     ],
+     [
+      0.23332,
+      0.64673
+     ],
+     [
+      0.33332,
+      0.64673
+     ],
+     [
+      0.34999,
+      0.52345
+     ],
+     [
+      1.98325,
+      0.52345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 15
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 15
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 15,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 40,
+    "median": 40
+   },
+   "features": {
+    "keyMedian": 40,
+    "keyLo": 38,
+    "keyHi": 40,
+    "keySpan": 2,
+    "medianNote": 0.383,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.322,
+    "centroid": 164,
+    "brightness": 1.99,
+    "harmonicity": 0.989,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass 2"
+  },
+  {
+   "id": "nes:pulse:duty25:env54a5350e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.9333,
+    "decay": 0.0167,
+    "sustain": 0.5235,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.11666,
+      1
+     ],
+     [
+      0.13333,
+      1.97598
+     ],
+     [
+      0.24999,
+      1.97598
+     ],
+     [
+      0.26666,
+      2.92881
+     ],
+     [
+      0.38332,
+      2.92881
+     ],
+     [
+      0.39998,
+      3.85929
+     ],
+     [
+      0.51665,
+      3.85929
+     ],
+     [
+      0.53331,
+      4.7682
+     ],
+     [
+      0.64997,
+      4.7682
+     ],
+     [
+      0.66664,
+      5.65628
+     ],
+     [
+      0.7833,
+      5.65628
+     ],
+     [
+      0.79997,
+      6.52424
+     ],
+     [
+      0.91663,
+      6.52424
+     ],
+     [
+      0.9333,
+      7.37276
+     ],
+     [
+      0.94996,
+      3.85929
+     ],
+     [
+      1.98325,
+      3.85929
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 6
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 6
+   },
+   "usedIn": [
+    "Shadow of the Ninja #11"
+   ],
+   "noteCount": 6,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "features": {
+    "keyMedian": 38,
+    "keyLo": 38,
+    "keyHi": 38,
+    "keySpan": 0,
+    "medianNote": 1.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.83,
+    "t20": null,
+    "sustain": 0.344,
+    "centroid": 146,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass 3"
+  },
+  {
+   "id": "nes:pulse:duty25:env59f9a099",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0833,
+    "sustain": 0.2409,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      0.08333,
+      0.76719
+     ],
+     [
+      0.1,
+      0.26801
+     ],
+     [
+      1.98325,
+      0.26801
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 8
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 8
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1"
+   ],
+   "noteCount": 8,
+   "used": true,
+   "keysPlayed": {
+    "lo": 70,
+    "hi": 74,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 70,
+    "keyHi": 74,
+    "keySpan": 4,
+    "medianNote": 0.3,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.236,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet"
+  },
+  {
+   "id": "nes:pulse:duty25:env72d67d27",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.4144,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.23551
+     ],
+     [
+      0.03333,
+      0.51201
+     ],
+     [
+      1.98325,
+      0.51201
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 10
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 10
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #6"
+   ],
+   "noteCount": 10,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 71,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 59,
+    "keyHi": 71,
+    "keySpan": 12,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.422,
+    "centroid": 734,
+    "brightness": 1.98,
+    "harmonicity": 0.992,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 25"
+  },
+  {
+   "id": "nes:pulse:duty25:env75d22c8e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.3333,
+    "sustain": 0.4705,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.64673
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      1.11254
+     ],
+     [
+      0.13333,
+      0.64673
+     ],
+     [
+      0.18333,
+      0.64673
+     ],
+     [
+      0.19999,
+      1
+     ],
+     [
+      0.21666,
+      1.11254
+     ],
+     [
+      0.23332,
+      0.64673
+     ],
+     [
+      0.33332,
+      0.64673
+     ],
+     [
+      0.34999,
+      0.52345
+     ],
+     [
+      1.98325,
+      0.52345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 9
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 9
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 9,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 47,
+    "median": 47
+   },
+   "features": {
+    "keyMedian": 47,
+    "keyLo": 45,
+    "keyHi": 47,
+    "keySpan": 2,
+    "medianNote": 0.383,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.389,
+    "centroid": 245,
+    "brightness": 1.99,
+    "harmonicity": 0.992,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead 2"
+  },
+  {
+   "id": "nes:pulse:duty25:env86cf4c15",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.9333,
+    "decay": 0.0167,
+    "sustain": 0.5235,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.11666,
+      1
+     ],
+     [
+      0.13333,
+      1.97598
+     ],
+     [
+      0.24999,
+      1.97598
+     ],
+     [
+      0.26666,
+      2.92881
+     ],
+     [
+      0.38332,
+      2.92881
+     ],
+     [
+      0.39998,
+      3.85929
+     ],
+     [
+      0.51665,
+      3.85929
+     ],
+     [
+      0.53331,
+      4.7682
+     ],
+     [
+      0.64997,
+      4.7682
+     ],
+     [
+      0.66664,
+      5.65628
+     ],
+     [
+      0.7833,
+      5.65628
+     ],
+     [
+      0.79997,
+      6.52424
+     ],
+     [
+      0.91663,
+      6.52424
+     ],
+     [
+      0.9333,
+      7.37276
+     ],
+     [
+      0.94996,
+      3.85929
+     ],
+     [
+      1.98325,
+      3.85929
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 6
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 6
+   },
+   "usedIn": [
+    "Shadow of the Ninja #11"
+   ],
+   "noteCount": 6,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 45,
+    "median": 45
+   },
+   "features": {
+    "keyMedian": 45,
+    "keyLo": 45,
+    "keyHi": 45,
+    "keySpan": 0,
+    "medianNote": 1.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.8,
+    "t20": null,
+    "sustain": 0.424,
+    "centroid": 219,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low soft pad"
+  },
+  {
+   "id": "nes:pulse:duty25:env93c1b4c8",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1333,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.11666,
+      1
+     ],
+     [
+      0.13333,
+      1.3177
+     ],
+     [
+      1.98325,
+      1.3177
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #10"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 45,
+    "median": 45
+   },
+   "features": {
+    "keyMedian": 45,
+    "keyLo": 45,
+    "keyHi": 45,
+    "keySpan": 0,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.125,
+    "t20": null,
+    "sustain": 0.78,
+    "centroid": 219,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low soft pad 2"
+  },
+  {
+   "id": "nes:pulse:duty25:env319a0337",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.1333,
+    "sustain": 0.4705,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.13333,
+      0.64673
+     ],
+     [
+      0.14999,
+      0.52345
+     ],
+     [
+      1.98325,
+      0.52345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 7
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 7
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #1"
+   ],
+   "noteCount": 7,
+   "used": true,
+   "keysPlayed": {
+    "lo": 40,
+    "hi": 76,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 40,
+    "keyHi": 76,
+    "keySpan": 36,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.481,
+    "centroid": 1161,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 30"
+  },
+  {
+   "id": "nes:pulse:duty25:env448c0da9",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.1333,
+    "sustain": 0.4705,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.13333,
+      0.64673
+     ],
+     [
+      0.14999,
+      0.52345
+     ],
+     [
+      1.98325,
+      0.52345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 6
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 6
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 6,
+   "used": true,
+   "keysPlayed": {
+    "lo": 47,
+    "hi": 71,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 47,
+    "keyHi": 71,
+    "keySpan": 24,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.47,
+    "centroid": 872,
+    "brightness": 1.98,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 31"
+  },
+  {
+   "id": "nes:pulse:duty25:env491ea0aa",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0667,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      0.06666,
+      0.76719
+     ],
+     [
+      0.08333,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 44
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 44
+   },
+   "usedIn": [
+    "Shadow of the Ninja #3"
+   ],
+   "noteCount": 44,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 64,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 57,
+    "keyHi": 64,
+    "keySpan": 7,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.538,
+    "centroid": 582,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 15"
+  },
+  {
+   "id": "nes:pulse:duty25:env597db46c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.4822
+     ],
+     [
+      1.98325,
+      1.4822
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 83,
+    "hi": 95,
+    "median": 88
+   },
+   "features": {
+    "keyMedian": 88,
+    "keyLo": 83,
+    "keyHi": 95,
+    "keySpan": 12,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.015,
+    "t20": null,
+    "sustain": 0.976,
+    "centroid": 2520,
+    "brightness": 1.91,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 4"
+  },
+  {
+   "id": "nes:pulse:duty25:env797fa986",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.7954,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.88491
+     ],
+     [
+      1.98325,
+      0.88491
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 69,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 69,
+    "keyHi": 69,
+    "keySpan": 0,
+    "medianNote": 0.7,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.795,
+    "centroid": 872,
+    "brightness": 1.98,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 38"
+  },
+  {
+   "id": "nes:pulse:duty25:env945cce5b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0833,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      0.08333,
+      0.76719
+     ],
+     [
+      0.1,
+      0.26801
+     ],
+     [
+      0.18333,
+      0.26801
+     ],
+     [
+      0.19999,
+      1
+     ],
+     [
+      0.21666,
+      1.11254
+     ],
+     [
+      0.23332,
+      0.76719
+     ],
+     [
+      0.33332,
+      0.76719
+     ],
+     [
+      0.34999,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 74,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 62,
+    "keyHi": 74,
+    "keySpan": 12,
+    "medianNote": 0.3,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.591,
+    "centroid": 1161,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 36"
+  },
+  {
+   "id": "nes:pulse:duty25:env961b722a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      1.98325,
+      0.76719
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 634
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 634
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #2",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #6"
+   ],
+   "noteCount": 634,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 83,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 45,
+    "keyHi": 83,
+    "keySpan": 38,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.659,
+    "centroid": 654,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 3"
+  },
+  {
+   "id": "nes:pulse:duty25:env3259bbb5",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1167,
+    "decay": 0.0167,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08333,
+      1
+     ],
+     [
+      0.1,
+      3.73118
+     ],
+     [
+      0.11666,
+      4.15109
+     ],
+     [
+      0.13333,
+      2.86251
+     ],
+     [
+      1.98325,
+      2.86251
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #2",
+    "Shadow of the Ninja #9"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 67,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 57,
+    "keyHi": 67,
+    "keySpan": 10,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.1,
+    "t20": null,
+    "sustain": 0.695,
+    "centroid": 693,
+    "brightness": 1.98,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad"
+  },
+  {
+   "id": "nes:pulse:duty25:env14836d5d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1167,
+    "decay": 0.0167,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.15345
+     ],
+     [
+      0.03333,
+      0.6823
+     ],
+     [
+      0.08333,
+      0.6823
+     ],
+     [
+      0.1,
+      1.30346
+     ],
+     [
+      0.11666,
+      1.45016
+     ],
+     [
+      0.13333,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 60,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 60,
+    "keyHi": 60,
+    "keySpan": 0,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.11,
+    "t20": null,
+    "sustain": 0.661,
+    "centroid": 519,
+    "brightness": 1.98,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 7"
+  },
+  {
+   "id": "nes:pulse:duty25:env18398b35",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0667,
+    "sustain": 0.3571,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.05,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.39725
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      1.11254
+     ],
+     [
+      0.13333,
+      0.64673
+     ],
+     [
+      0.14999,
+      0.64673
+     ],
+     [
+      0.18333,
+      0.39725
+     ],
+     [
+      1.98325,
+      0.39725
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 50
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 50
+   },
+   "usedIn": [
+    "Shadow of the Ninja #8"
+   ],
+   "noteCount": 50,
+   "used": true,
+   "keysPlayed": {
+    "lo": 54,
+    "hi": 60,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 54,
+    "keyHi": 60,
+    "keySpan": 6,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.344,
+    "centroid": 437,
+    "brightness": 1.99,
+    "harmonicity": 0.996,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 14"
+  },
+  {
+   "id": "nes:pulse:duty25:env47193c6a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1,
+    "decay": 0.0167,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.15345
+     ],
+     [
+      0.03333,
+      1.15345
+     ],
+     [
+      0.05,
+      1.30346
+     ],
+     [
+      0.08333,
+      1.30346
+     ],
+     [
+      0.1,
+      1.45016
+     ],
+     [
+      0.11666,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #9"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 62,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 62,
+    "keyHi": 62,
+    "keySpan": 0,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.085,
+    "t20": null,
+    "sustain": 0.631,
+    "centroid": 582,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 8"
+  },
+  {
+   "id": "nes:pulse:duty25:env81029b2e",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      1.98325,
+      0.76719
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1305
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1305
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #2",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #8",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #10"
+   ],
+   "noteCount": 1305,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 95,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 41,
+    "keyHi": 95,
+    "keySpan": 54,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.697,
+    "centroid": 777,
+    "brightness": 1.98,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 2"
+  },
+  {
+   "id": "nes:pulse:duty25:env6119753a",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.2591,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.3177
+     ],
+     [
+      0.03333,
+      0.34144
+     ],
+     [
+      1.98325,
+      0.34144
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Shadow of the Ninja #3"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 65,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 63,
+    "keyHi": 65,
+    "keySpan": 2,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.255,
+    "centroid": 654,
+    "brightness": 1.98,
+    "harmonicity": 0.993,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 2"
+  },
+  {
+   "id": "nes:pulse:duty25:env8322051d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.05,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.39725
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      1.11254
+     ],
+     [
+      0.13333,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #8"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 60,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 60,
+    "keyHi": 60,
+    "keySpan": 0,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.521,
+    "centroid": 519,
+    "brightness": 1.99,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 44"
+  },
+  {
+   "id": "nes:pulse:duty25:enva2cb0ba4",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1
+     ],
+     [
+      0.03333,
+      1.3177
+     ],
+     [
+      0.05,
+      1.3177
+     ],
+     [
+      0.06666,
+      1.62803
+     ],
+     [
+      0.08333,
+      1.62803
+     ],
+     [
+      0.1,
+      1.93126
+     ],
+     [
+      1.98325,
+      1.93126
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #9"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 50,
+    "median": 50
+   },
+   "features": {
+    "keyMedian": 50,
+    "keyLo": 50,
+    "keyHi": 50,
+    "keySpan": 0,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.095,
+    "t20": null,
+    "sustain": 0.892,
+    "centroid": 292,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 9"
+  },
+  {
+   "id": "nes:pulse:duty25:enva285f67c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0333,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.05,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 356
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 356
+   },
+   "usedIn": [
+    "Shadow of the Ninja #12"
+   ],
+   "noteCount": 356,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 82,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 64,
+    "keyHi": 82,
+    "keySpan": 18,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.564,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 6"
+  },
+  {
+   "id": "nes:pulse:duty25:enva7878ed1",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.1667,
+    "sustain": 0.3571,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.14999,
+      0.64673
+     ],
+     [
+      0.18333,
+      0.39725
+     ],
+     [
+      1.98325,
+      0.39725
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 36
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 36
+   },
+   "usedIn": [
+    "Shadow of the Ninja #8"
+   ],
+   "noteCount": 36,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 67,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 64,
+    "keyHi": 67,
+    "keySpan": 3,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.357,
+    "centroid": 733,
+    "brightness": 1.98,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 18"
+  },
+  {
+   "id": "nes:pulse:duty25:enva6845074",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.05,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      1.11254
+     ],
+     [
+      0.06666,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 2
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 2
+   },
+   "usedIn": [
+    "Shadow of the Ninja #7"
+   ],
+   "noteCount": 2,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 63,
+    "median": 63
+   },
+   "features": {
+    "keyMedian": 63,
+    "keyLo": 63,
+    "keyHi": 63,
+    "keySpan": 0,
+    "medianNote": 0.917,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.541,
+    "centroid": 617,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 39"
+  },
+  {
+   "id": "nes:pulse:duty25:envb2dc306d",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.05,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      0.05,
+      1.11254
+     ],
+     [
+      0.06666,
+      0.76719
+     ],
+     [
+      1.98325,
+      0.76719
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #7"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 67,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 67,
+    "keyHi": 67,
+    "keySpan": 0,
+    "medianNote": 0.917,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.69,
+    "centroid": 777,
+    "brightness": 1.98,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 45"
+  },
+  {
+   "id": "nes:pulse:duty25:envb5fe454c",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0667,
+    "sustain": 0.4705,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.06666,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.52345
+     ],
+     [
+      1.98325,
+      0.52345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 12
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 12
+   },
+   "usedIn": [
+    "Shadow of the Ninja #8"
+   ],
+   "noteCount": 12,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 64,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 60,
+    "keyHi": 64,
+    "keySpan": 4,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.436,
+    "centroid": 582,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 24"
+  },
+  {
+   "id": "nes:pulse:duty25:envb9adfec1",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      0.08333,
+      0.76719
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      1.11254
+     ],
+     [
+      0.13333,
+      0.76719
+     ],
+     [
+      1.98325,
+      0.76719
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 40,
+    "hi": 72,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 40,
+    "keyHi": 72,
+    "keySpan": 32,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.674,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 33"
+  },
+  {
+   "id": "nes:pulse:duty25:envb51a83f8",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.1333,
+    "sustain": 0.2097,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.23551
+     ],
+     [
+      0.03333,
+      0.51201
+     ],
+     [
+      0.13333,
+      0.51201
+     ],
+     [
+      0.14999,
+      0.25912
+     ],
+     [
+      1.98325,
+      0.25912
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 74,
+    "hi": 74,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 74,
+    "keyHi": 74,
+    "keySpan": 0,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.217,
+    "centroid": 1161,
+    "brightness": 1.98,
+    "harmonicity": 0.996,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 3"
+  },
+  {
+   "id": "nes:pulse:duty25:envb95248b9",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.2333,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      0.23332,
+      0.76719
+     ],
+     [
+      0.24999,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 13
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 13
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1"
+   ],
+   "noteCount": 13,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 76,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 64,
+    "keyHi": 76,
+    "keySpan": 12,
+    "medianNote": 0.283,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.568,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 23"
+  },
+  {
+   "id": "nes:pulse:duty25:envbe43eb03",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1333,
+    "decay": 0.0167,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      3.73118
+     ],
+     [
+      0.13333,
+      4.15109
+     ],
+     [
+      0.14999,
+      2.41307
+     ],
+     [
+      1.98325,
+      2.41307
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #7"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 71,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 71,
+    "keyHi": 71,
+    "keySpan": 0,
+    "medianNote": 0.333,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.115,
+    "t20": null,
+    "sustain": 0.569,
+    "centroid": 977,
+    "brightness": 1.98,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 10"
+  },
+  {
+   "id": "nes:pulse:duty25:envc09291b4",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1333,
+    "decay": 0.0167,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      3.73118
+     ],
+     [
+      0.13333,
+      4.15109
+     ],
+     [
+      0.14999,
+      2.86251
+     ],
+     [
+      1.98325,
+      2.86251
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #7"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 64,
+    "hi": 79,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 64,
+    "keyHi": 79,
+    "keySpan": 15,
+    "medianNote": 0.217,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.115,
+    "t20": null,
+    "sustain": 0.653,
+    "centroid": 654,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 2"
+  },
+  {
+   "id": "nes:pulse:duty25:envcaaa55b4",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0667,
+    "sustain": 0.3571,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.05,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.39725
+     ],
+     [
+      1.98325,
+      0.39725
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 218
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 218
+   },
+   "usedIn": [
+    "Shadow of the Ninja #8"
+   ],
+   "noteCount": 218,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 72,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 57,
+    "keyHi": 72,
+    "keySpan": 15,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.331,
+    "centroid": 582,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 7"
+  },
+  {
+   "id": "nes:pulse:duty25:envcbc7eb3f",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0667,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      0.06666,
+      0.76719
+     ],
+     [
+      0.08333,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 44
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 44
+   },
+   "usedIn": [
+    "Shadow of the Ninja #3"
+   ],
+   "noteCount": 44,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 60,
+    "median": 38
+   },
+   "features": {
+    "keyMedian": 38,
+    "keyLo": 38,
+    "keyHi": 60,
+    "keySpan": 22,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.407,
+    "centroid": 146,
+    "brightness": 1.99,
+    "harmonicity": 0.993,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass"
+  },
+  {
+   "id": "nes:pulse:duty25:envccd9f641",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 370
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 370
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #8",
+    "Shadow of the Ninja #11",
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #3"
+   ],
+   "noteCount": 370,
+   "used": true,
+   "keysPlayed": {
+    "lo": 47,
+    "hi": 79,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 47,
+    "keyHi": 79,
+    "keySpan": 32,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.581,
+    "centroid": 872,
+    "brightness": 1.98,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 5"
+  },
+  {
+   "id": "nes:pulse:duty25:envce7f56f9",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08333,
+      1
+     ],
+     [
+      0.1,
+      1.23551
+     ],
+     [
+      1.98325,
+      1.23551
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #10"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 50,
+    "median": 50
+   },
+   "features": {
+    "keyMedian": 50,
+    "keyLo": 50,
+    "keyHi": 50,
+    "keySpan": 0,
+    "medianNote": 0.233,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.095,
+    "t20": null,
+    "sustain": 0.892,
+    "centroid": 292,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 11"
+  },
+  {
+   "id": "nes:pulse:duty25:envd0ffd5d9",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1167,
+    "decay": 0.0167,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08333,
+      1
+     ],
+     [
+      0.1,
+      3.73118
+     ],
+     [
+      0.11666,
+      4.15109
+     ],
+     [
+      0.13333,
+      2.86251
+     ],
+     [
+      1.98325,
+      2.86251
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #9"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 72,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 72,
+    "keyHi": 72,
+    "keySpan": 0,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.105,
+    "t20": null,
+    "sustain": 0.695,
+    "centroid": 1035,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 12"
+  },
+  {
+   "id": "nes:pulse:duty25:envd9c6f7b0",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.15345
+     ],
+     [
+      1.98325,
+      1.15345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 95
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 95
+   },
+   "usedIn": [
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #5"
+   ],
+   "noteCount": 95,
+   "used": true,
+   "keysPlayed": {
+    "lo": 53,
+    "hi": 88,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 53,
+    "keyHi": 88,
+    "keySpan": 35,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.01,
+    "t20": null,
+    "sustain": 0.9,
+    "centroid": 583,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 10"
+  },
+  {
+   "id": "nes:pulse:duty25:enve9774efe",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.1833,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.76719
+     ],
+     [
+      0.18333,
+      0.76719
+     ],
+     [
+      0.19999,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 10
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 10
+   },
+   "usedIn": [
+    "Shadow of the Ninja #3"
+   ],
+   "noteCount": 10,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 67,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 65,
+    "keyHi": 67,
+    "keySpan": 2,
+    "medianNote": 0.217,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.567,
+    "centroid": 693,
+    "brightness": 1.98,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 27"
+  },
+  {
+   "id": "nes:pulse:duty25:enve0714656",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 156
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 156
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #2",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #10",
+    "Shadow of the Ninja #11"
+   ],
+   "noteCount": 156,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 93,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 57,
+    "keyHi": 93,
+    "keySpan": 36,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.913,
+    "centroid": 872,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 8"
+  },
+  {
+   "id": "nes:pulse:duty25:envf322c3b3",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 94
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 94
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #11",
+    "Shadow of the Ninja #3"
+   ],
+   "noteCount": 94,
+   "used": true,
+   "keysPlayed": {
+    "lo": 40,
+    "hi": 92,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 40,
+    "keyHi": 92,
+    "keySpan": 52,
+    "medianNote": 0.25,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.594,
+    "centroid": 1161,
+    "brightness": 1.98,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 11"
+  },
+  {
+   "id": "nes:pulse:duty25:envf3586271",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.5813,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      0.64673
+     ],
+     [
+      0.08333,
+      0.64673
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.11666,
+      1.11254
+     ],
+     [
+      0.13333,
+      0.64673
+     ],
+     [
+      1.98325,
+      0.64673
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 6
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 6
+   },
+   "usedIn": [
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 6,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 47,
+    "median": 47
+   },
+   "features": {
+    "keyMedian": 47,
+    "keyLo": 45,
+    "keyHi": 47,
+    "keySpan": 2,
+    "medianNote": 0.2,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.481,
+    "centroid": 245,
+    "brightness": 1.99,
+    "harmonicity": 0.992,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead 3"
+  },
+  {
+   "id": "nes:pulse:duty25:envfab4b034",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      1.98325,
+      1.11254
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 110
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 110
+   },
+   "usedIn": [
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6"
+   ],
+   "noteCount": 110,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 88,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 50,
+    "keyHi": 88,
+    "keySpan": 38,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.972,
+    "centroid": 733,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 2"
+  },
+  {
+   "id": "nes:pulse:duty25:envfed5348b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.25,
+    "decay": 0.0167,
+    "sustain": 0.6896,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.21666,
+      1
+     ],
+     [
+      0.23332,
+      7.37276
+     ],
+     [
+      0.24999,
+      8.20248
+     ],
+     [
+      0.26666,
+      5.65628
+     ],
+     [
+      1.98325,
+      5.65628
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "d752779a9bacd3d1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 73,
+    "hi": 73,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 73,
+    "keyHi": 73,
+    "keySpan": 0,
+    "medianNote": 0.317,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.24,
+    "t20": null,
+    "sustain": 0.68,
+    "centroid": 1096,
+    "brightness": 1.98,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad 13"
+  },
+  {
+   "id": "nes:pulse:duty50:env29b352c4",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.1167,
+    "sustain": 0.8988,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.11666,
+      1.11254
+     ],
+     [
+      0.13333,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 6
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 6
+   },
+   "usedIn": [
+    "Shadow of the Ninja #6"
+   ],
+   "noteCount": 6,
+   "used": true,
+   "keysPlayed": {
+    "lo": 79,
+    "hi": 83,
+    "median": 81
+   },
+   "features": {
+    "keyMedian": 81,
+    "keyLo": 79,
+    "keyHi": 83,
+    "keySpan": 4,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.897,
+    "centroid": 1409,
+    "brightness": 1.6,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 3"
+  },
+  {
+   "id": "nes:pulse:duty50:env92c4316b",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.8988,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 34
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 34
+   },
+   "usedIn": [
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 34,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 93,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 69,
+    "keyHi": 93,
+    "keySpan": 24,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.907,
+    "centroid": 1059,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 20"
+  },
+  {
+   "id": "nes:pulse:duty50:env28070887",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0833,
+    "sustain": 0.867,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.15345
+     ],
+     [
+      0.08333,
+      1.15345
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 8
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 8
+   },
+   "usedIn": [
+    "Shadow of the Ninja #6"
+   ],
+   "noteCount": 8,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 79,
+    "median": 78
+   },
+   "features": {
+    "keyMedian": 78,
+    "keyLo": 69,
+    "keyHi": 79,
+    "keySpan": 10,
+    "medianNote": 0.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.866,
+    "centroid": 1188,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High lead 2"
+  },
+  {
+   "id": "nes:pulse:duty50:enva3576549",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.0167,
+    "sustain": 0.8094,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.23551
+     ],
+     [
+      0.03333,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 34
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 34
+   },
+   "usedIn": [
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #4"
+   ],
+   "noteCount": 34,
+   "used": true,
+   "keysPlayed": {
+    "lo": 69,
+    "hi": 90,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 69,
+    "keyHi": 90,
+    "keySpan": 21,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.823,
+    "centroid": 1059,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 21"
+  },
+  {
+   "id": "nes:pulse:duty50:envc952bdfb",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.7,
+    "sustain": 0.3571,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      0.11666,
+      1.11254
+     ],
+     [
+      0.13333,
+      1
+     ],
+     [
+      0.23332,
+      1
+     ],
+     [
+      0.24999,
+      0.88491
+     ],
+     [
+      0.34999,
+      0.88491
+     ],
+     [
+      0.36665,
+      0.76719
+     ],
+     [
+      0.46665,
+      0.76719
+     ],
+     [
+      0.48331,
+      0.64673
+     ],
+     [
+      0.58331,
+      0.64673
+     ],
+     [
+      0.59998,
+      0.52345
+     ],
+     [
+      0.69997,
+      0.52345
+     ],
+     [
+      0.71664,
+      0.39725
+     ],
+     [
+      1.98325,
+      0.39725
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 10
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 10
+   },
+   "usedIn": [
+    "Shadow of the Ninja #6"
+   ],
+   "noteCount": 10,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 76,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 72,
+    "keyHi": 76,
+    "keySpan": 4,
+    "medianNote": 1.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.356,
+    "centroid": 944,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 28"
+  },
+  {
+   "id": "nes:pulse:duty50:enve36bad15",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.15345
+     ],
+     [
+      1.98325,
+      1.15345
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 61
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 61
+   },
+   "usedIn": [
+    "Shadow of the Ninja #6"
+   ],
+   "noteCount": 61,
+   "used": true,
+   "keysPlayed": {
+    "lo": 45,
+    "hi": 79,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 45,
+    "keyHi": 79,
+    "keySpan": 34,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.995,
+    "centroid": 632,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 3"
+  },
+  {
+   "id": "nes:pulse:duty50:envef4d3aa1",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.11254
+     ],
+     [
+      1.98325,
+      1.11254
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 44
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 44
+   },
+   "usedIn": [
+    "Shadow of the Ninja #6"
+   ],
+   "noteCount": 44,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 83,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 67,
+    "keyHi": 83,
+    "keySpan": 16,
+    "medianNote": 0.083,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 1059,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 4"
+  },
+  {
+   "id": "nes:pulse:duty50:envf7115d21",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0167,
+    "decay": 0.3333,
+    "sustain": 0.4489,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01667,
+      1.15345
+     ],
+     [
+      0.08333,
+      1.15345
+     ],
+     [
+      0.1,
+      1
+     ],
+     [
+      0.16666,
+      1
+     ],
+     [
+      0.18333,
+      0.84299
+     ],
+     [
+      0.24999,
+      0.84299
+     ],
+     [
+      0.26666,
+      0.6823
+     ],
+     [
+      0.33332,
+      0.6823
+     ],
+     [
+      0.34999,
+      0.5178
+     ],
+     [
+      1.98325,
+      0.5178
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 10
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "156e74116e651302",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 10
+   },
+   "usedIn": [
+    "Shadow of the Ninja #6"
+   ],
+   "noteCount": 10,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 71,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 67,
+    "keyHi": 71,
+    "keySpan": 4,
+    "medianNote": 1.183,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.448,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 29"
+  },
+  {
+   "id": "nes:triangle:env48a3dbda",
+   "driver": "nes",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98325,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "nes-triangle-envelope",
+     "groupKey": "tri",
+     "sampleCount": 3451
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "dbefed6c0b27b554",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "nes-chip",
+    "channel": "triangle",
+    "groupKey": "tri",
+    "clusterNotes": 3451
+   },
+   "usedIn": [
+    "Shadow of the Ninja #1",
+    "Shadow of the Ninja #2",
+    "Shadow of the Ninja #3",
+    "Shadow of the Ninja #4",
+    "Shadow of the Ninja #5",
+    "Shadow of the Ninja #6",
+    "Shadow of the Ninja #7",
+    "Shadow of the Ninja #8",
+    "Shadow of the Ninja #9",
+    "Shadow of the Ninja #10",
+    "Shadow of the Ninja #11",
+    "Shadow of the Ninja #12"
+   ],
+   "noteCount": 3451,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 72,
+    "median": 51
+   },
+   "features": {
+    "keyMedian": 51,
+    "keyLo": 36,
+    "keyHi": 72,
+    "keySpan": 36,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.897,
+    "centroid": 161,
+    "brightness": 1.03,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  }
+ ],
+ "samples": {
+  "d752779a9bacd3d1": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "d752779a9bacd3d1.wav"
+  },
+  "dbefed6c0b27b554": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "dbefed6c0b27b554.wav"
+  },
+  "accf980e05b24066": {
+   "rate": 8860,
+   "length": 2658,
+   "loop": null,
+   "bytes": 5404,
+   "file": "accf980e05b24066.wav"
+  },
+  "02abdb4410d126c1": {
+   "rate": 13983,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "02abdb4410d126c1.wav"
+  },
+  "83a3aede5f0edb0d": {
+   "rate": 55930,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "83a3aede5f0edb0d.wav"
+  },
+  "b77f25d77cf617e9": {
+   "rate": 111861,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "b77f25d77cf617e9.wav"
+  },
+  "f392073fc631e05d": {
+   "rate": 223722,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "f392073fc631e05d.wav"
+  },
+  "9508c515074bc470": {
+   "rate": 447443,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "9508c515074bc470.wav"
+  },
+  "6d02335f363abafa": {
+   "rate": 880,
+   "length": 264,
+   "loop": null,
+   "bytes": 616,
+   "file": "6d02335f363abafa.wav"
+  },
+  "4004e82e3c674467": {
+   "rate": 440,
+   "length": 132,
+   "loop": null,
+   "bytes": 352,
+   "file": "4004e82e3c674467.wav"
+  },
+  "bdcdc06995a55bd8": {
+   "rate": 1762,
+   "length": 529,
+   "loop": null,
+   "bytes": 1146,
+   "file": "bdcdc06995a55bd8.wav"
+  },
+  "511e2b74a88a4d8a": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "511e2b74a88a4d8a.wav"
+  },
+  "156e74116e651302": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "156e74116e651302.wav"
+  }
+ }
+}
