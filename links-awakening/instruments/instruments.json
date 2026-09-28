@@ -1,0 +1,10508 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "gb-links-awakening",
+ "title": "Link's Awakening",
+ "drivers": [
+  "gb"
+ ],
+ "songs": 120,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "gb:noise:s0:w0:env1a47cdfa",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.75
+     ],
+     [
+      0.05023,
+      0.75
+     ],
+     [
+      0.06697,
+      0.5
+     ],
+     [
+      0.08371,
+      0.5
+     ],
+     [
+      0.10046,
+      0.25
+     ],
+     [
+      0.1172,
+      0.25
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s0w0",
+     "sampleCount": 6
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 0,
+      "width": 0
+     },
+     "sample": "7b16a200c0f4dee8",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.117,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.008,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 6791,
+      "brightness": 73.42,
+      "harmonicity": 0.158,
+      "flatness": 0.593,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s0w0",
+    "clusterNotes": 6
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #9",
+    "Legend of Zelda:Link's Awakening #11"
+   ],
+   "noteCount": 6,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 7",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s0:w0:env2c157792",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.9376,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.03349,
+      0
+     ],
+     [
+      0.05023,
+      0
+     ],
+     [
+      0.06697,
+      0.06667
+     ],
+     [
+      0.1172,
+      0.06667
+     ],
+     [
+      0.13394,
+      0.13333
+     ],
+     [
+      0.18417,
+      0.13333
+     ],
+     [
+      0.20091,
+      0.2
+     ],
+     [
+      0.2344,
+      0.2
+     ],
+     [
+      0.25114,
+      0.26667
+     ],
+     [
+      0.30137,
+      0.26667
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.36834,
+      0.33333
+     ],
+     [
+      0.38508,
+      0.4
+     ],
+     [
+      0.43531,
+      0.4
+     ],
+     [
+      0.45205,
+      0.46667
+     ],
+     [
+      0.48554,
+      0.46667
+     ],
+     [
+      0.50228,
+      0.53333
+     ],
+     [
+      0.55251,
+      0.53333
+     ],
+     [
+      0.56925,
+      0.6
+     ],
+     [
+      0.61948,
+      0.6
+     ],
+     [
+      0.63622,
+      0.66667
+     ],
+     [
+      0.68645,
+      0.66667
+     ],
+     [
+      0.70319,
+      0.73333
+     ],
+     [
+      0.73668,
+      0.73333
+     ],
+     [
+      0.75342,
+      0.8
+     ],
+     [
+      0.80365,
+      0.8
+     ],
+     [
+      0.82039,
+      0.86667
+     ],
+     [
+      0.87062,
+      0.86667
+     ],
+     [
+      0.88736,
+      0.93333
+     ],
+     [
+      0.92085,
+      0.93333
+     ],
+     [
+      0.93759,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s0w0",
+     "sampleCount": 5
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 0,
+      "width": 0
+     },
+     "sample": "7b16a200c0f4dee8",
+     "loop": null,
+     "nameGuess": "Noise/FX",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 3.248,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.008,
+      "release": 0.005,
+      "measured": false,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s0w0",
+    "clusterNotes": 5
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #16"
+   ],
+   "noteCount": 5,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 9",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s0:w0:env939159b5",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s0w0",
+     "sampleCount": 833
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 0,
+      "width": 0
+     },
+     "sample": "7b16a200c0f4dee8",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.1,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.008,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 6791,
+      "brightness": 73.42,
+      "harmonicity": 0.158,
+      "flatness": 0.593,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s0w0",
+    "clusterNotes": 833
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #8",
+    "Legend of Zelda:Link's Awakening #9",
+    "Legend of Zelda:Link's Awakening #11",
+    "Legend of Zelda:Link's Awakening #16",
+    "Legend of Zelda:Link's Awakening #25"
+   ],
+   "noteCount": 833,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 4",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s0:w0:envc5c2b446",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0837,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s0w0",
+     "sampleCount": 3268
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 0,
+      "width": 0
+     },
+     "sample": "7b16a200c0f4dee8",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.067,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.008,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 6799,
+      "brightness": 73.5,
+      "harmonicity": 0.159,
+      "flatness": 0.595,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s0w0",
+    "clusterNotes": 3268
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #11",
+    "Legend of Zelda:Link's Awakening #16",
+    "Legend of Zelda:Link's Awakening #17",
+    "Legend of Zelda:Link's Awakening #25",
+    "Legend of Zelda:Link's Awakening #35",
+    "Legend of Zelda:Link's Awakening #37",
+    "Legend of Zelda:Link's Awakening #39"
+   ],
+   "noteCount": 3268,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s1:w0:env9d030af7",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3851,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.75
+     ],
+     [
+      0.18417,
+      0.75
+     ],
+     [
+      0.20091,
+      0.5
+     ],
+     [
+      0.26788,
+      0.5
+     ],
+     [
+      0.28463,
+      0.25
+     ],
+     [
+      0.36834,
+      0.25
+     ],
+     [
+      0.38508,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s1w0",
+     "sampleCount": 11
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 1,
+      "width": 0
+     },
+     "sample": "a0cc766d654a5d44",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.117,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.016,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 7626,
+      "brightness": 82.45,
+      "harmonicity": 0.148,
+      "flatness": 0.566,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s1w0",
+    "clusterNotes": 11
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #16"
+   ],
+   "noteCount": 11,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 6",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s1:w0:envd41110d1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s1w0",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 1,
+      "width": 0
+     },
+     "sample": "a0cc766d654a5d44",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.502,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.016,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 7626,
+      "brightness": 82.45,
+      "harmonicity": 0.148,
+      "flatness": 0.566,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s1w0",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #16"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 12",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s1:w0:envda63003a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s1w0",
+     "sampleCount": 1758
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 1,
+      "width": 0
+     },
+     "sample": "a0cc766d654a5d44",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.016,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 7647,
+      "brightness": 82.67,
+      "harmonicity": 0.155,
+      "flatness": 0.564,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s1w0",
+    "clusterNotes": 1758
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #8",
+    "Legend of Zelda:Link's Awakening #9",
+    "Legend of Zelda:Link's Awakening #11"
+   ],
+   "noteCount": 1758,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 3",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s2:w0:env718f8300",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s2w0",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 2,
+      "width": 0
+     },
+     "sample": "8214dd9bc1f63d21",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.117,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.031,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.035,
+      "sustain": 0,
+      "centroid": 8071,
+      "brightness": 87.26,
+      "harmonicity": 0.121,
+      "flatness": 0.543,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s2w0",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #16"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 10",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s3:w0:env7bfebf1c",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s3w0",
+     "sampleCount": 3
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 3,
+      "width": 0
+     },
+     "sample": "e5b405707f3cff7d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.502,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.063,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.065,
+      "sustain": 0,
+      "centroid": 7916,
+      "brightness": 85.58,
+      "harmonicity": 0.086,
+      "flatness": 0.569,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s3w0",
+    "clusterNotes": 3
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #16"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 11",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s3:w0:envb8004883",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.2344,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.2344,
+      15
+     ],
+     [
+      1.97564,
+      15
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s3w0",
+     "sampleCount": 279
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 3,
+      "width": 0
+     },
+     "sample": "e5b405707f3cff7d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.033,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.063,
+      "release": 0.005,
+      "attack": 0.05,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 7051,
+      "brightness": 76.23,
+      "harmonicity": 0.215,
+      "flatness": 0.592,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s3w0",
+    "clusterNotes": 279
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #6"
+   ],
+   "noteCount": 279,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 5",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s3:w1:env5233d8e6",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s3w1",
+     "sampleCount": 6
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 3,
+      "width": 1
+     },
+     "sample": "e2b6abf60b821645",
+     "loop": null,
+     "nameGuess": "Mallet",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.502,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.063,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 7373,
+      "brightness": 79.71,
+      "harmonicity": 0.982,
+      "flatness": 0.052,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s3w1",
+    "clusterNotes": 6
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #16"
+   ],
+   "noteCount": 6,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 8",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s4:w0:env5d8f0f1b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1005,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.5
+     ],
+     [
+      0.08371,
+      0.5
+     ],
+     [
+      0.10046,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s4w0",
+     "sampleCount": 1872
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "shift": 4,
+      "width": 0
+     },
+     "sample": "372a3510791634df",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.084,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.125,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.095,
+      "sustain": 0,
+      "centroid": 6176,
+      "brightness": 84.12,
+      "harmonicity": 0.191,
+      "flatness": 0.583,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s4w0",
+    "clusterNotes": 1872
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #6",
+    "Legend of Zelda:Link's Awakening #16",
+    "Legend of Zelda:Link's Awakening #25",
+    "Legend of Zelda:Link's Awakening #35",
+    "Legend of Zelda:Link's Awakening #37"
+   ],
+   "noteCount": 1872,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 2",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s4:w1:envec034637",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.9376,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.91667
+     ],
+     [
+      0.15068,
+      0.91667
+     ],
+     [
+      0.16743,
+      0.83333
+     ],
+     [
+      0.21766,
+      0.83333
+     ],
+     [
+      0.2344,
+      0.75
+     ],
+     [
+      0.30137,
+      0.75
+     ],
+     [
+      0.31811,
+      0.66667
+     ],
+     [
+      0.38508,
+      0.66667
+     ],
+     [
+      0.40182,
+      0.58333
+     ],
+     [
+      0.45205,
+      0.58333
+     ],
+     [
+      0.4688,
+      0.5
+     ],
+     [
+      0.53577,
+      0.5
+     ],
+     [
+      0.55251,
+      0.41667
+     ],
+     [
+      0.61948,
+      0.41667
+     ],
+     [
+      0.63622,
+      0.33333
+     ],
+     [
+      0.68645,
+      0.33333
+     ],
+     [
+      0.70319,
+      0.25
+     ],
+     [
+      0.77016,
+      0.25
+     ],
+     [
+      0.78691,
+      0.16667
+     ],
+     [
+      0.85388,
+      0.16667
+     ],
+     [
+      0.87062,
+      0.08333
+     ],
+     [
+      0.92085,
+      0.08333
+     ],
+     [
+      0.93759,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s4w1",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "shift": 4,
+      "width": 1
+     },
+     "sample": "8abc95f1a01c2a8c",
+     "loop": null,
+     "nameGuess": "Mallet",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.017,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.125,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.125,
+      "sustain": 0,
+      "centroid": 6427,
+      "brightness": 87.55,
+      "harmonicity": 0.999,
+      "flatness": 0,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s4w1",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #16"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 13",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:pulse:duty12.5:env1a4dc156",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.75
+     ],
+     [
+      0.08371,
+      0.75
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.13394,
+      0.5
+     ],
+     [
+      0.15068,
+      0.25
+     ],
+     [
+      0.18417,
+      0.25
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 438
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 438
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #39"
+   ],
+   "noteCount": 438,
+   "used": true,
+   "keysPlayed": {
+    "lo": 83,
+    "hi": 98,
+    "median": 92
+   },
+   "features": {
+    "keyMedian": 92,
+    "keyLo": 83,
+    "keyHi": 98,
+    "keySpan": 15,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.165,
+    "sustain": 0,
+    "centroid": 2987,
+    "brightness": 1.8,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 7"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env3d3eebb1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.5
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 192
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 192
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #7"
+   ],
+   "noteCount": 192,
+   "used": true,
+   "keysPlayed": {
+    "lo": 73,
+    "hi": 87,
+    "median": 83
+   },
+   "features": {
+    "keyMedian": 83,
+    "keyLo": 73,
+    "keyHi": 87,
+    "keySpan": 14,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.125,
+    "sustain": 0,
+    "centroid": 1861,
+    "brightness": 1.88,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 10"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env03e157cc",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.66667
+     ],
+     [
+      0.1172,
+      0.66667
+     ],
+     [
+      0.13394,
+      0.33333
+     ],
+     [
+      0.18417,
+      0.33333
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 888
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 888
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #39"
+   ],
+   "noteCount": 888,
+   "used": true,
+   "keysPlayed": {
+    "lo": 83,
+    "hi": 98,
+    "median": 92
+   },
+   "features": {
+    "keyMedian": 92,
+    "keyLo": 83,
+    "keyHi": 98,
+    "keySpan": 15,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.15,
+    "sustain": 0,
+    "centroid": 2987,
+    "brightness": 1.8,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 2"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env28b75154",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4353,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.88889
+     ],
+     [
+      0.08371,
+      0.88889
+     ],
+     [
+      0.10046,
+      0.77778
+     ],
+     [
+      0.13394,
+      0.77778
+     ],
+     [
+      0.15068,
+      0.66667
+     ],
+     [
+      0.18417,
+      0.66667
+     ],
+     [
+      0.20091,
+      0.55556
+     ],
+     [
+      0.21766,
+      0.55556
+     ],
+     [
+      0.2344,
+      0.44444
+     ],
+     [
+      0.26788,
+      0.44444
+     ],
+     [
+      0.28463,
+      0.33333
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.33485,
+      0.22222
+     ],
+     [
+      0.36834,
+      0.22222
+     ],
+     [
+      0.38508,
+      0.11111
+     ],
+     [
+      0.41857,
+      0.11111
+     ],
+     [
+      0.43531,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 444
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 444
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #25"
+   ],
+   "noteCount": 444,
+   "used": true,
+   "keysPlayed": {
+    "lo": 56,
+    "hi": 65,
+    "median": 61
+   },
+   "features": {
+    "keyMedian": 61,
+    "keyLo": 56,
+    "keyHi": 65,
+    "keySpan": 9,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.35,
+    "sustain": 0,
+    "centroid": 551,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 7"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env438f61c8",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4521,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.75
+     ],
+     [
+      0.21766,
+      0.75
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.31811,
+      0.5
+     ],
+     [
+      0.33485,
+      0.25
+     ],
+     [
+      0.43531,
+      0.25
+     ],
+     [
+      0.45205,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 219
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 219
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #7"
+   ],
+   "noteCount": 219,
+   "used": true,
+   "keysPlayed": {
+    "lo": 74,
+    "hi": 91,
+    "median": 80
+   },
+   "features": {
+    "keyMedian": 80,
+    "keyLo": 74,
+    "keyHi": 91,
+    "keySpan": 17,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.435,
+    "sustain": 0,
+    "centroid": 1623,
+    "brightness": 1.95,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 4"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env563df97d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 885
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 885
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #5",
+    "Legend of Zelda:Link's Awakening #6",
+    "Legend of Zelda:Link's Awakening #7",
+    "Legend of Zelda:Link's Awakening #9",
+    "Legend of Zelda:Link's Awakening #18",
+    "Legend of Zelda:Link's Awakening #22"
+   ],
+   "noteCount": 885,
+   "used": true,
+   "keysPlayed": {
+    "lo": 46,
+    "hi": 91,
+    "median": 77
+   },
+   "features": {
+    "keyMedian": 77,
+    "keyLo": 46,
+    "keyHi": 91,
+    "keySpan": 45,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.997,
+    "centroid": 1377,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like 2"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env3952c0e7",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2511,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.875
+     ],
+     [
+      0.05023,
+      0.875
+     ],
+     [
+      0.06697,
+      0.75
+     ],
+     [
+      0.08371,
+      0.75
+     ],
+     [
+      0.10046,
+      0.625
+     ],
+     [
+      0.1172,
+      0.625
+     ],
+     [
+      0.13394,
+      0.5
+     ],
+     [
+      0.15068,
+      0.5
+     ],
+     [
+      0.16743,
+      0.375
+     ],
+     [
+      0.18417,
+      0.375
+     ],
+     [
+      0.20091,
+      0.25
+     ],
+     [
+      0.21766,
+      0.25
+     ],
+     [
+      0.25114,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 84
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 84
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #39"
+   ],
+   "noteCount": 84,
+   "used": true,
+   "keysPlayed": {
+    "lo": 83,
+    "hi": 95,
+    "median": 92
+   },
+   "features": {
+    "keyMedian": 92,
+    "keyLo": 83,
+    "keyHi": 95,
+    "keySpan": 12,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.22,
+    "sustain": 0,
+    "centroid": 2993,
+    "brightness": 1.8,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 14"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env7036c31b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4353,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.88889
+     ],
+     [
+      0.08371,
+      0.88889
+     ],
+     [
+      0.10046,
+      0.77778
+     ],
+     [
+      0.13394,
+      0.77778
+     ],
+     [
+      0.15068,
+      0.66667
+     ],
+     [
+      0.18417,
+      0.66667
+     ],
+     [
+      0.20091,
+      0.55556
+     ],
+     [
+      0.21766,
+      0.55556
+     ],
+     [
+      0.2344,
+      0.44444
+     ],
+     [
+      0.26788,
+      0.44444
+     ],
+     [
+      0.28463,
+      0.33333
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.33485,
+      0.22222
+     ],
+     [
+      0.36834,
+      0.22222
+     ],
+     [
+      0.38508,
+      0.11111
+     ],
+     [
+      0.41857,
+      0.11111
+     ],
+     [
+      0.43531,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 444
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 444
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #25"
+   ],
+   "noteCount": 444,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 58,
+    "median": 54
+   },
+   "features": {
+    "keyMedian": 54,
+    "keyLo": 49,
+    "keyHi": 58,
+    "keySpan": 9,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.37,
+    "sustain": 0,
+    "centroid": 369,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 8"
+  },
+  {
+   "id": "gb:pulse:duty12.5:enva5b1b843",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 932
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 932
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #6",
+    "Legend of Zelda:Link's Awakening #16",
+    "Legend of Zelda:Link's Awakening #37"
+   ],
+   "noteCount": 932,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 156,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 41,
+    "keyHi": 156,
+    "keySpan": 115,
+    "medianNote": 0.033,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.991,
+    "centroid": 694,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 5"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envae11fb27",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 84
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 84
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #9"
+   ],
+   "noteCount": 84,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 55,
+    "median": 50
+   },
+   "features": {
+    "keyMedian": 50,
+    "keyLo": 41,
+    "keyHi": 55,
+    "keySpan": 14,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.105,
+    "sustain": 0,
+    "centroid": 282,
+    "brightness": 1.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 12"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envb78390c3",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3851,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.83333
+     ],
+     [
+      0.1172,
+      0.83333
+     ],
+     [
+      0.13394,
+      0.66667
+     ],
+     [
+      0.18417,
+      0.66667
+     ],
+     [
+      0.20091,
+      0.5
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.25114,
+      0.33333
+     ],
+     [
+      0.30137,
+      0.33333
+     ],
+     [
+      0.31811,
+      0.16667
+     ],
+     [
+      0.36834,
+      0.16667
+     ],
+     [
+      0.38508,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 534
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 534
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #11"
+   ],
+   "noteCount": 534,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 84,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 62,
+    "keyHi": 84,
+    "keySpan": 22,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.315,
+    "sustain": 0,
+    "centroid": 1162,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 6"
+  },
+  {
+   "id": "gb:pulse:duty25:env0d1e0cc6",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.067,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.5
+     ],
+     [
+      0.05023,
+      0.5
+     ],
+     [
+      0.06697,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 234
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 234
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #2"
+   ],
+   "noteCount": 234,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 70,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 60,
+    "keyHi": 70,
+    "keySpan": 10,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.06,
+    "sustain": 0,
+    "centroid": 640,
+    "brightness": 1.63,
+    "harmonicity": 0.995,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 10"
+  },
+  {
+   "id": "gb:pulse:duty25:env04c3af61",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 3731
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 3731
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #1",
+    "Legend of Zelda:Link's Awakening #2",
+    "Legend of Zelda:Link's Awakening #5",
+    "Legend of Zelda:Link's Awakening #6",
+    "Legend of Zelda:Link's Awakening #13",
+    "Legend of Zelda:Link's Awakening #14",
+    "Legend of Zelda:Link's Awakening #16",
+    "Legend of Zelda:Link's Awakening #32",
+    "Legend of Zelda:Link's Awakening #37",
+    "Legend of Zelda:Link's Awakening #39",
+    "Legend of Zelda:Link's Awakening #40"
+   ],
+   "noteCount": 3731,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 156,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 36,
+    "keyHi": 156,
+    "keySpan": 120,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.993,
+    "centroid": 927,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 4"
+  },
+  {
+   "id": "gb:pulse:duty25:env82fc703e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1507,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.66667
+     ],
+     [
+      0.08371,
+      0.66667
+     ],
+     [
+      0.10046,
+      0.33333
+     ],
+     [
+      0.13394,
+      0.33333
+     ],
+     [
+      0.15068,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 831
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 831
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #6"
+   ],
+   "noteCount": 831,
+   "used": true,
+   "keysPlayed": {
+    "lo": 51,
+    "hi": 74,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 51,
+    "keyHi": 74,
+    "keySpan": 23,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.135,
+    "sustain": 0,
+    "centroid": 519,
+    "brightness": 1.77,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 7"
+  },
+  {
+   "id": "gb:pulse:duty25:env31809c6a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 48
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 48
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #5"
+   ],
+   "noteCount": 48,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 74,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 60,
+    "keyHi": 74,
+    "keySpan": 14,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.993,
+    "centroid": 927,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 10"
+  },
+  {
+   "id": "gb:pulse:duty25:envb70eb0aa",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1172,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.1172,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 897
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 897
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #14"
+   ],
+   "noteCount": 897,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 51,
+    "median": 50
+   },
+   "features": {
+    "keyMedian": 50,
+    "keyLo": 48,
+    "keyHi": 51,
+    "keySpan": 3,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.095,
+    "sustain": 0,
+    "centroid": 256,
+    "brightness": 1.75,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 4"
+  },
+  {
+   "id": "gb:pulse:duty50:env0fe92d24",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3349,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.66667
+     ],
+     [
+      0.21766,
+      0.66667
+     ],
+     [
+      0.2344,
+      0.33333
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.33485,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1185
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1185
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #3",
+    "Legend of Zelda:Link's Awakening #22",
+    "Legend of Zelda:Link's Awakening #31",
+    "Legend of Zelda:Link's Awakening #26"
+   ],
+   "noteCount": 1185,
+   "used": true,
+   "keysPlayed": {
+    "lo": 44,
+    "hi": 105,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 44,
+    "keyHi": 105,
+    "keySpan": 61,
+    "medianNote": 0.268,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.25,
+    "sustain": 0,
+    "centroid": 944,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 2"
+  },
+  {
+   "id": "gb:pulse:duty50:env2be8f99b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 1.105,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      1.2
+     ],
+     [
+      0.21766,
+      1.2
+     ],
+     [
+      0.2344,
+      1.4
+     ],
+     [
+      0.31811,
+      1.4
+     ],
+     [
+      0.33485,
+      1.6
+     ],
+     [
+      0.43531,
+      1.6
+     ],
+     [
+      0.45205,
+      1.8
+     ],
+     [
+      0.53577,
+      1.8
+     ],
+     [
+      0.55251,
+      2
+     ],
+     [
+      0.65297,
+      2
+     ],
+     [
+      0.66971,
+      2.2
+     ],
+     [
+      0.75342,
+      2.2
+     ],
+     [
+      0.77016,
+      2.4
+     ],
+     [
+      0.87062,
+      2.4
+     ],
+     [
+      0.88736,
+      2.6
+     ],
+     [
+      0.97108,
+      2.6
+     ],
+     [
+      0.98782,
+      2.8
+     ],
+     [
+      1.08828,
+      2.8
+     ],
+     [
+      1.10502,
+      3
+     ],
+     [
+      1.97564,
+      3
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 192
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 192
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #25"
+   ],
+   "noteCount": 192,
+   "used": true,
+   "keysPlayed": {
+    "lo": 74,
+    "hi": 89,
+    "median": 82
+   },
+   "features": {
+    "keyMedian": 82,
+    "keyLo": 74,
+    "keyHi": 89,
+    "keySpan": 15,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.98,
+    "t20": null,
+    "sustain": 0.997,
+    "centroid": 1490,
+    "brightness": 1.6,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High soft pad"
+  },
+  {
+   "id": "gb:pulse:duty50:env3f54d9f9",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3181,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.75
+     ],
+     [
+      0.15068,
+      0.75
+     ],
+     [
+      0.16743,
+      0.5
+     ],
+     [
+      0.21766,
+      0.5
+     ],
+     [
+      0.2344,
+      0.25
+     ],
+     [
+      0.30137,
+      0.25
+     ],
+     [
+      0.31811,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 540
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 540
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #5"
+   ],
+   "noteCount": 540,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 74,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 57,
+    "keyHi": 74,
+    "keySpan": 17,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.26,
+    "sustain": 0,
+    "centroid": 563,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 5"
+  },
+  {
+   "id": "gb:pulse:duty50:env4b0e9780",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.5
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 288
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 288
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #7"
+   ],
+   "noteCount": 288,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 103,
+    "median": 81
+   },
+   "features": {
+    "keyMedian": 81,
+    "keyLo": 59,
+    "keyHi": 103,
+    "keySpan": 44,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.125,
+    "sustain": 0,
+    "centroid": 1409,
+    "brightness": 1.6,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 9"
+  },
+  {
+   "id": "gb:pulse:duty50:env4ea7ac16",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5693,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.83333
+     ],
+     [
+      0.18417,
+      0.83333
+     ],
+     [
+      0.20091,
+      0.66667
+     ],
+     [
+      0.26788,
+      0.66667
+     ],
+     [
+      0.28463,
+      0.5
+     ],
+     [
+      0.36834,
+      0.5
+     ],
+     [
+      0.38508,
+      0.33333
+     ],
+     [
+      0.45205,
+      0.33333
+     ],
+     [
+      0.4688,
+      0.16667
+     ],
+     [
+      0.55251,
+      0.16667
+     ],
+     [
+      0.56925,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 858
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 858
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #1",
+    "Legend of Zelda:Link's Awakening #13",
+    "Legend of Zelda:Link's Awakening #31",
+    "Legend of Zelda:Link's Awakening #22"
+   ],
+   "noteCount": 858,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 97,
+    "median": 88
+   },
+   "features": {
+    "keyMedian": 88,
+    "keyLo": 67,
+    "keyHi": 97,
+    "keySpan": 30,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.43,
+    "sustain": 0,
+    "centroid": 2057,
+    "brightness": 1.56,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "gb:pulse:duty50:env6b4e0e37",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1005,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.66667
+     ],
+     [
+      0.05023,
+      0.66667
+     ],
+     [
+      0.06697,
+      0.33333
+     ],
+     [
+      0.08371,
+      0.33333
+     ],
+     [
+      0.10046,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 840
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 840
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #29"
+   ],
+   "noteCount": 840,
+   "used": true,
+   "keysPlayed": {
+    "lo": 47,
+    "hi": 71,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 47,
+    "keyHi": 71,
+    "keySpan": 24,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.09,
+    "sustain": 0,
+    "centroid": 355,
+    "brightness": 1.62,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 6"
+  },
+  {
+   "id": "gb:pulse:duty50:env7b818b2e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5525,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.8
+     ],
+     [
+      0.21766,
+      0.8
+     ],
+     [
+      0.2344,
+      0.6
+     ],
+     [
+      0.31811,
+      0.6
+     ],
+     [
+      0.33485,
+      0.4
+     ],
+     [
+      0.43531,
+      0.4
+     ],
+     [
+      0.45205,
+      0.2
+     ],
+     [
+      0.53577,
+      0.2
+     ],
+     [
+      0.55251,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 4347
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 4347
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #1",
+    "Legend of Zelda:Link's Awakening #20",
+    "Legend of Zelda:Link's Awakening #22",
+    "Legend of Zelda:Link's Awakening #23",
+    "Legend of Zelda:Link's Awakening #24",
+    "Legend of Zelda:Link's Awakening #29",
+    "Legend of Zelda:Link's Awakening #30",
+    "Legend of Zelda:Link's Awakening #37",
+    "Legend of Zelda:Link's Awakening #38",
+    "Legend of Zelda:Link's Awakening #10",
+    "Legend of Zelda:Link's Awakening #36",
+    "Legend of Zelda:Link's Awakening #15",
+    "Legend of Zelda:Link's Awakening #3"
+   ],
+   "noteCount": 4347,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 106,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 36,
+    "keyHi": 106,
+    "keySpan": 70,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.365,
+    "sustain": 0,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet"
+  },
+  {
+   "id": "gb:pulse:duty50:env8ec5c482",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 6786
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 6786
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #1",
+    "Legend of Zelda:Link's Awakening #4",
+    "Legend of Zelda:Link's Awakening #5",
+    "Legend of Zelda:Link's Awakening #8",
+    "Legend of Zelda:Link's Awakening #10",
+    "Legend of Zelda:Link's Awakening #13",
+    "Legend of Zelda:Link's Awakening #17",
+    "Legend of Zelda:Link's Awakening #18",
+    "Legend of Zelda:Link's Awakening #19",
+    "Legend of Zelda:Link's Awakening #22",
+    "Legend of Zelda:Link's Awakening #24",
+    "Legend of Zelda:Link's Awakening #25",
+    "Legend of Zelda:Link's Awakening #30",
+    "Legend of Zelda:Link's Awakening #35",
+    "Legend of Zelda:Link's Awakening #37",
+    "Legend of Zelda:Link's Awakening #39"
+   ],
+   "noteCount": 6786,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 98,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 36,
+    "keyHi": 98,
+    "keySpan": 62,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like"
+  },
+  {
+   "id": "gb:pulse:duty50:env19b84f41",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.067,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.5
+     ],
+     [
+      0.05023,
+      0.5
+     ],
+     [
+      0.06697,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 840
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 840
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #29"
+   ],
+   "noteCount": 840,
+   "used": true,
+   "keysPlayed": {
+    "lo": 47,
+    "hi": 71,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 47,
+    "keyHi": 71,
+    "keySpan": 24,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.06,
+    "sustain": 0,
+    "centroid": 355,
+    "brightness": 1.62,
+    "harmonicity": 0.992,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 5"
+  },
+  {
+   "id": "gb:pulse:duty50:env24cf53ee",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.8
+     ],
+     [
+      0.18417,
+      0.8
+     ],
+     [
+      0.20091,
+      0.6
+     ],
+     [
+      0.26788,
+      0.6
+     ],
+     [
+      0.28463,
+      0.4
+     ],
+     [
+      0.36834,
+      0.4
+     ],
+     [
+      0.38508,
+      0.2
+     ],
+     [
+      0.45205,
+      0.2
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 504
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 504
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #4",
+    "Legend of Zelda:Link's Awakening #20"
+   ],
+   "noteCount": 504,
+   "used": true,
+   "keysPlayed": {
+    "lo": 49,
+    "hi": 98,
+    "median": 81
+   },
+   "features": {
+    "keyMedian": 81,
+    "keyLo": 49,
+    "keyHi": 98,
+    "keySpan": 49,
+    "medianNote": 0.301,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.385,
+    "sustain": 0,
+    "centroid": 1409,
+    "brightness": 1.6,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 3"
+  },
+  {
+   "id": "gb:pulse:duty50:env34a8c167",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 1.105,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      1.2
+     ],
+     [
+      0.21766,
+      1.2
+     ],
+     [
+      0.2344,
+      1.4
+     ],
+     [
+      0.31811,
+      1.4
+     ],
+     [
+      0.33485,
+      1.6
+     ],
+     [
+      0.43531,
+      1.6
+     ],
+     [
+      0.45205,
+      1.8
+     ],
+     [
+      0.53577,
+      1.8
+     ],
+     [
+      0.55251,
+      2
+     ],
+     [
+      0.65297,
+      2
+     ],
+     [
+      0.66971,
+      2.2
+     ],
+     [
+      0.75342,
+      2.2
+     ],
+     [
+      0.77016,
+      2.4
+     ],
+     [
+      0.87062,
+      2.4
+     ],
+     [
+      0.88736,
+      2.6
+     ],
+     [
+      0.97108,
+      2.6
+     ],
+     [
+      0.98782,
+      2.8
+     ],
+     [
+      1.08828,
+      2.8
+     ],
+     [
+      1.10502,
+      3
+     ],
+     [
+      1.97564,
+      3
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 192
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 192
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #25"
+   ],
+   "noteCount": 192,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 90,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 71,
+    "keyHi": 90,
+    "keySpan": 19,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.98,
+    "t20": null,
+    "sustain": 0.997,
+    "centroid": 1258,
+    "brightness": 1.6,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High soft pad 2"
+  },
+  {
+   "id": "gb:pulse:duty50:env047a2856",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.8874,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.875
+     ],
+     [
+      0.21766,
+      0.875
+     ],
+     [
+      0.2344,
+      0.75
+     ],
+     [
+      0.31811,
+      0.75
+     ],
+     [
+      0.33485,
+      0.625
+     ],
+     [
+      0.43531,
+      0.625
+     ],
+     [
+      0.45205,
+      0.5
+     ],
+     [
+      0.53577,
+      0.5
+     ],
+     [
+      0.55251,
+      0.375
+     ],
+     [
+      0.65297,
+      0.375
+     ],
+     [
+      0.66971,
+      0.25
+     ],
+     [
+      0.75342,
+      0.25
+     ],
+     [
+      0.77016,
+      0.125
+     ],
+     [
+      0.87062,
+      0.125
+     ],
+     [
+      0.88736,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 30
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 30
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #26"
+   ],
+   "noteCount": 30,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 73,
+    "median": 61
+   },
+   "features": {
+    "keyMedian": 61,
+    "keyLo": 52,
+    "keyHi": 73,
+    "keySpan": 21,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.695,
+    "sustain": 0,
+    "centroid": 447,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 12"
+  },
+  {
+   "id": "gb:pulse:duty50:env65ff1f43",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.067,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.5
+     ],
+     [
+      0.05023,
+      0.5
+     ],
+     [
+      0.06697,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 747
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 747
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #12"
+   ],
+   "noteCount": 747,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 103,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 58,
+    "keyHi": 103,
+    "keySpan": 45,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.06,
+    "sustain": 0,
+    "centroid": 1258,
+    "brightness": 1.6,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 3"
+  },
+  {
+   "id": "gb:pulse:duty50:env70f6eb33",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.8874,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.875
+     ],
+     [
+      0.21766,
+      0.875
+     ],
+     [
+      0.2344,
+      0.75
+     ],
+     [
+      0.31811,
+      0.75
+     ],
+     [
+      0.33485,
+      0.625
+     ],
+     [
+      0.43531,
+      0.625
+     ],
+     [
+      0.45205,
+      0.5
+     ],
+     [
+      0.53577,
+      0.5
+     ],
+     [
+      0.55251,
+      0.375
+     ],
+     [
+      0.65297,
+      0.375
+     ],
+     [
+      0.66971,
+      0.25
+     ],
+     [
+      0.75342,
+      0.25
+     ],
+     [
+      0.77016,
+      0.125
+     ],
+     [
+      0.87062,
+      0.125
+     ],
+     [
+      0.88736,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1134
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1134
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #24",
+    "Legend of Zelda:Link's Awakening #30",
+    "Legend of Zelda:Link's Awakening #37"
+   ],
+   "noteCount": 1134,
+   "used": true,
+   "keysPlayed": {
+    "lo": 51,
+    "hi": 93,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 51,
+    "keyHi": 93,
+    "keySpan": 42,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.68,
+    "sustain": 0,
+    "centroid": 597,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 3"
+  },
+  {
+   "id": "gb:pulse:duty50:env89ad2bb9",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2511,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.75
+     ],
+     [
+      0.1172,
+      0.75
+     ],
+     [
+      0.13394,
+      0.5
+     ],
+     [
+      0.18417,
+      0.5
+     ],
+     [
+      0.20091,
+      0.25
+     ],
+     [
+      0.2344,
+      0.25
+     ],
+     [
+      0.25114,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1227
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1227
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #7",
+    "Legend of Zelda:Link's Awakening #11",
+    "Legend of Zelda:Link's Awakening #12"
+   ],
+   "noteCount": 1227,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 103,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 58,
+    "keyHi": 103,
+    "keySpan": 45,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.195,
+    "sustain": 0,
+    "centroid": 842,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 3"
+  },
+  {
+   "id": "gb:pulse:duty50:env0590d309",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3851,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.83333
+     ],
+     [
+      0.1172,
+      0.83333
+     ],
+     [
+      0.13394,
+      0.66667
+     ],
+     [
+      0.18417,
+      0.66667
+     ],
+     [
+      0.20091,
+      0.5
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.25114,
+      0.33333
+     ],
+     [
+      0.30137,
+      0.33333
+     ],
+     [
+      0.31811,
+      0.16667
+     ],
+     [
+      0.36834,
+      0.16667
+     ],
+     [
+      0.38508,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 735
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 735
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #23",
+    "Legend of Zelda:Link's Awakening #26",
+    "Legend of Zelda:Link's Awakening #27",
+    "Legend of Zelda:Link's Awakening #30",
+    "Legend of Zelda:Link's Awakening #34"
+   ],
+   "noteCount": 735,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 107,
+    "median": 82
+   },
+   "features": {
+    "keyMedian": 82,
+    "keyLo": 36,
+    "keyHi": 107,
+    "keySpan": 71,
+    "medianNote": 0.335,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.305,
+    "sustain": 0,
+    "centroid": 1490,
+    "brightness": 1.6,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 2"
+  },
+  {
+   "id": "gb:pulse:duty50:env688dea00",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.18417,
+      0.5
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 123
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 123
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #15"
+   ],
+   "noteCount": 123,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 98,
+    "median": 83
+   },
+   "features": {
+    "keyMedian": 83,
+    "keyLo": 62,
+    "keyHi": 98,
+    "keySpan": 36,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.155,
+    "sustain": 0,
+    "centroid": 1575,
+    "brightness": 1.59,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 11"
+  },
+  {
+   "id": "gb:pulse:duty50:env1547c68f",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3851,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.83333
+     ],
+     [
+      0.1172,
+      0.83333
+     ],
+     [
+      0.13394,
+      0.66667
+     ],
+     [
+      0.18417,
+      0.66667
+     ],
+     [
+      0.20091,
+      0.5
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.25114,
+      0.33333
+     ],
+     [
+      0.30137,
+      0.33333
+     ],
+     [
+      0.31811,
+      0.16667
+     ],
+     [
+      0.36834,
+      0.16667
+     ],
+     [
+      0.38508,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 96
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 96
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #22",
+    "Legend of Zelda:Link's Awakening #35"
+   ],
+   "noteCount": 96,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 83,
+    "median": 77
+   },
+   "features": {
+    "keyMedian": 77,
+    "keyLo": 71,
+    "keyHi": 83,
+    "keySpan": 12,
+    "medianNote": 0.151,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.315,
+    "sustain": 0,
+    "centroid": 1122,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 5"
+  },
+  {
+   "id": "gb:pulse:duty50:env4501b8c3",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5525,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.85714
+     ],
+     [
+      0.15068,
+      0.85714
+     ],
+     [
+      0.16743,
+      0.71429
+     ],
+     [
+      0.21766,
+      0.71429
+     ],
+     [
+      0.2344,
+      0.57143
+     ],
+     [
+      0.30137,
+      0.57143
+     ],
+     [
+      0.31811,
+      0.42857
+     ],
+     [
+      0.38508,
+      0.42857
+     ],
+     [
+      0.40182,
+      0.28571
+     ],
+     [
+      0.45205,
+      0.28571
+     ],
+     [
+      0.4688,
+      0.14286
+     ],
+     [
+      0.53577,
+      0.14286
+     ],
+     [
+      0.55251,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 405
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 405
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #17",
+    "Legend of Zelda:Link's Awakening #18",
+    "Legend of Zelda:Link's Awakening #35"
+   ],
+   "noteCount": 405,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 83,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 41,
+    "keyHi": 83,
+    "keySpan": 42,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.45,
+    "sustain": 0,
+    "centroid": 422,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 9"
+  },
+  {
+   "id": "gb:pulse:duty50:env27287c8e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2344,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.21766,
+      0.5
+     ],
+     [
+      0.2344,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 2820
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 2820
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #22",
+    "Legend of Zelda:Link's Awakening #23",
+    "Legend of Zelda:Link's Awakening #26",
+    "Legend of Zelda:Link's Awakening #27",
+    "Legend of Zelda:Link's Awakening #28",
+    "Legend of Zelda:Link's Awakening #30",
+    "Legend of Zelda:Link's Awakening #34",
+    "Legend of Zelda:Link's Awakening #36",
+    "Legend of Zelda:Link's Awakening #38"
+   ],
+   "noteCount": 2820,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 107,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 36,
+    "keyHi": 107,
+    "keySpan": 71,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.195,
+    "sustain": 0,
+    "centroid": 1059,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck"
+  },
+  {
+   "id": "gb:pulse:duty50:env5471422a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2344,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.8
+     ],
+     [
+      0.08371,
+      0.8
+     ],
+     [
+      0.10046,
+      0.6
+     ],
+     [
+      0.13394,
+      0.6
+     ],
+     [
+      0.15068,
+      0.4
+     ],
+     [
+      0.18417,
+      0.4
+     ],
+     [
+      0.20091,
+      0.2
+     ],
+     [
+      0.21766,
+      0.2
+     ],
+     [
+      0.2344,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 207
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 207
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #2"
+   ],
+   "noteCount": 207,
+   "used": true,
+   "keysPlayed": {
+    "lo": 52,
+    "hi": 58,
+    "median": 57
+   },
+   "features": {
+    "keyMedian": 57,
+    "keyLo": 52,
+    "keyHi": 58,
+    "keySpan": 6,
+    "medianNote": 0.218,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.205,
+    "sustain": 0,
+    "centroid": 355,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 11"
+  },
+  {
+   "id": "gb:pulse:duty50:env34009705",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2344,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.10046,
+      1
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.21766,
+      0.5
+     ],
+     [
+      0.2344,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 810
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 810
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #22",
+    "Legend of Zelda:Link's Awakening #24",
+    "Legend of Zelda:Link's Awakening #26",
+    "Legend of Zelda:Link's Awakening #28",
+    "Legend of Zelda:Link's Awakening #37"
+   ],
+   "noteCount": 810,
+   "used": true,
+   "keysPlayed": {
+    "lo": 47,
+    "hi": 93,
+    "median": 68
+   },
+   "features": {
+    "keyMedian": 68,
+    "keyLo": 47,
+    "keyHi": 93,
+    "keySpan": 46,
+    "medianNote": 0.201,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.14,
+    "sustain": 0,
+    "centroid": 669,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 8"
+  },
+  {
+   "id": "gb:pulse:duty50:envb48c8064",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1507,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.66667
+     ],
+     [
+      0.08371,
+      0.66667
+     ],
+     [
+      0.10046,
+      0.33333
+     ],
+     [
+      0.13394,
+      0.33333
+     ],
+     [
+      0.15068,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1564
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1564
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #6",
+    "Legend of Zelda:Link's Awakening #8",
+    "Legend of Zelda:Link's Awakening #4",
+    "Legend of Zelda:Link's Awakening #16"
+   ],
+   "noteCount": 1564,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 84,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 36,
+    "keyHi": 84,
+    "keySpan": 48,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.13,
+    "sustain": 0,
+    "centroid": 1059,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 2"
+  },
+  {
+   "id": "gb:pulse:duty50:envb128eeab",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2009,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.75
+     ],
+     [
+      0.08371,
+      0.75
+     ],
+     [
+      0.10046,
+      0.5
+     ],
+     [
+      0.13394,
+      0.5
+     ],
+     [
+      0.15068,
+      0.25
+     ],
+     [
+      0.18417,
+      0.25
+     ],
+     [
+      0.20091,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 747
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 747
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #12"
+   ],
+   "noteCount": 747,
+   "used": true,
+   "keysPlayed": {
+    "lo": 58,
+    "hi": 103,
+    "median": 79
+   },
+   "features": {
+    "keyMedian": 79,
+    "keyLo": 58,
+    "keyHi": 103,
+    "keySpan": 45,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.19,
+    "sustain": 0,
+    "centroid": 1258,
+    "brightness": 1.6,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 4"
+  },
+  {
+   "id": "gb:pulse:duty50:envbb70768f",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.75
+     ],
+     [
+      0.05023,
+      0.75
+     ],
+     [
+      0.06697,
+      0.5
+     ],
+     [
+      0.08371,
+      0.5
+     ],
+     [
+      0.10046,
+      0.25
+     ],
+     [
+      0.1172,
+      0.25
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 495
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 495
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #2",
+    "Legend of Zelda:Link's Awakening #6"
+   ],
+   "noteCount": 495,
+   "used": true,
+   "keysPlayed": {
+    "lo": 47,
+    "hi": 66,
+    "median": 52
+   },
+   "features": {
+    "keyMedian": 52,
+    "keyLo": 47,
+    "keyHi": 66,
+    "keySpan": 19,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.12,
+    "sustain": 0,
+    "centroid": 266,
+    "brightness": 1.61,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 9"
+  },
+  {
+   "id": "gb:pulse:duty50:envc42b0fa4",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1005,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03349,
+      1
+     ],
+     [
+      0.05023,
+      0.5
+     ],
+     [
+      0.08371,
+      0.5
+     ],
+     [
+      0.10046,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1599
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1599
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #9"
+   ],
+   "noteCount": 1599,
+   "used": true,
+   "keysPlayed": {
+    "lo": 75,
+    "hi": 85,
+    "median": 82
+   },
+   "features": {
+    "keyMedian": 82,
+    "keyLo": 75,
+    "keyHi": 85,
+    "keySpan": 10,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.085,
+    "sustain": 0,
+    "centroid": 1490,
+    "brightness": 1.6,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck"
+  },
+  {
+   "id": "gb:pulse:duty50:envd1b4f306",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.1172,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.1172,
+      1.875
+     ],
+     [
+      1.97564,
+      1.875
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 9
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 9
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #26"
+   ],
+   "noteCount": 9,
+   "used": true,
+   "keysPlayed": {
+    "lo": 71,
+    "hi": 99,
+    "median": 83
+   },
+   "features": {
+    "keyMedian": 83,
+    "keyLo": 71,
+    "keyHi": 99,
+    "keySpan": 28,
+    "medianNote": 0.402,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.095,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 1575,
+    "brightness": 1.59,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High soft pad 3"
+  },
+  {
+   "id": "gb:pulse:duty50:envd386d818",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4018,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.8
+     ],
+     [
+      0.15068,
+      0.8
+     ],
+     [
+      0.16743,
+      0.6
+     ],
+     [
+      0.21766,
+      0.6
+     ],
+     [
+      0.2344,
+      0.4
+     ],
+     [
+      0.30137,
+      0.4
+     ],
+     [
+      0.31811,
+      0.2
+     ],
+     [
+      0.38508,
+      0.2
+     ],
+     [
+      0.40182,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 393
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 393
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #5",
+    "Legend of Zelda:Link's Awakening #26"
+   ],
+   "noteCount": 393,
+   "used": true,
+   "keysPlayed": {
+    "lo": 44,
+    "hi": 101,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 44,
+    "keyHi": 101,
+    "keySpan": 57,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.29,
+    "sustain": 0,
+    "centroid": 892,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 10"
+  },
+  {
+   "id": "gb:pulse:duty50:envd9006967",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4688,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.06697,
+      1
+     ],
+     [
+      0.08371,
+      0.83333
+     ],
+     [
+      0.15068,
+      0.83333
+     ],
+     [
+      0.16743,
+      0.66667
+     ],
+     [
+      0.21766,
+      0.66667
+     ],
+     [
+      0.2344,
+      0.5
+     ],
+     [
+      0.30137,
+      0.5
+     ],
+     [
+      0.31811,
+      0.33333
+     ],
+     [
+      0.38508,
+      0.33333
+     ],
+     [
+      0.40182,
+      0.16667
+     ],
+     [
+      0.45205,
+      0.16667
+     ],
+     [
+      0.4688,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 597
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 597
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #5",
+    "Legend of Zelda:Link's Awakening #20",
+    "Legend of Zelda:Link's Awakening #30",
+    "Legend of Zelda:Link's Awakening #33",
+    "Legend of Zelda:Link's Awakening #35"
+   ],
+   "noteCount": 597,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 83,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 36,
+    "keyHi": 83,
+    "keySpan": 47,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.36,
+    "sustain": 0,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 4"
+  },
+  {
+   "id": "gb:pulse:duty50:envef523820",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1674,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.16743,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 40
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 40
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #16",
+    "Legend of Zelda:Link's Awakening #4"
+   ],
+   "noteCount": 40,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 78,
+    "median": 44
+   },
+   "features": {
+    "keyMedian": 44,
+    "keyLo": 36,
+    "keyHi": 78,
+    "keySpan": 42,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.135,
+    "sustain": 0,
+    "centroid": 168,
+    "brightness": 1.62,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low pluck 3"
+  },
+  {
+   "id": "gb:pulse:duty50:envfed3c93b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 6195
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 6195
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #1",
+    "Legend of Zelda:Link's Awakening #2",
+    "Legend of Zelda:Link's Awakening #5",
+    "Legend of Zelda:Link's Awakening #8",
+    "Legend of Zelda:Link's Awakening #9",
+    "Legend of Zelda:Link's Awakening #13",
+    "Legend of Zelda:Link's Awakening #14",
+    "Legend of Zelda:Link's Awakening #17",
+    "Legend of Zelda:Link's Awakening #18",
+    "Legend of Zelda:Link's Awakening #25",
+    "Legend of Zelda:Link's Awakening #26",
+    "Legend of Zelda:Link's Awakening #29",
+    "Legend of Zelda:Link's Awakening #31",
+    "Legend of Zelda:Link's Awakening #35"
+   ],
+   "noteCount": 6195,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 106,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 36,
+    "keyHi": 106,
+    "keySpan": 70,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 2"
+  },
+  {
+   "id": "gb:pulse:duty75:env1bf283f8",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.067,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.5
+     ],
+     [
+      0.05023,
+      0.5
+     ],
+     [
+      0.06697,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 684
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 684
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #18",
+    "Legend of Zelda:Link's Awakening #21"
+   ],
+   "noteCount": 684,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 95,
+    "median": 84
+   },
+   "features": {
+    "keyMedian": 84,
+    "keyLo": 59,
+    "keyHi": 95,
+    "keySpan": 36,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.05,
+    "sustain": 0,
+    "centroid": 1681,
+    "brightness": 1.61,
+    "harmonicity": 0.996,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 5"
+  },
+  {
+   "id": "gb:pulse:duty75:env7c7951bb",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.067,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.5
+     ],
+     [
+      0.05023,
+      0.5
+     ],
+     [
+      0.06697,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 318
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 318
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #21"
+   ],
+   "noteCount": 318,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 83,
+    "median": 43
+   },
+   "features": {
+    "keyMedian": 43,
+    "keyLo": 36,
+    "keyHi": 83,
+    "keySpan": 47,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.06,
+    "sustain": 0,
+    "centroid": 165,
+    "brightness": 1.68,
+    "harmonicity": 0.972,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low pluck 2"
+  },
+  {
+   "id": "gb:pulse:duty75:env8aea7901",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1674,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.8
+     ],
+     [
+      0.05023,
+      0.8
+     ],
+     [
+      0.06697,
+      0.6
+     ],
+     [
+      0.08371,
+      0.6
+     ],
+     [
+      0.10046,
+      0.4
+     ],
+     [
+      0.1172,
+      0.4
+     ],
+     [
+      0.13394,
+      0.2
+     ],
+     [
+      0.15068,
+      0.2
+     ],
+     [
+      0.16743,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 651
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 651
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #18",
+    "Legend of Zelda:Link's Awakening #21",
+    "Legend of Zelda:Link's Awakening #19"
+   ],
+   "noteCount": 651,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 95,
+    "median": 85
+   },
+   "features": {
+    "keyMedian": 85,
+    "keyLo": 36,
+    "keyHi": 95,
+    "keySpan": 59,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.125,
+    "sustain": 0,
+    "centroid": 1919,
+    "brightness": 1.73,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 6"
+  },
+  {
+   "id": "gb:pulse:duty75:env9aa85974",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1674,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.8
+     ],
+     [
+      0.05023,
+      0.8
+     ],
+     [
+      0.06697,
+      0.6
+     ],
+     [
+      0.08371,
+      0.6
+     ],
+     [
+      0.10046,
+      0.4
+     ],
+     [
+      0.1172,
+      0.4
+     ],
+     [
+      0.13394,
+      0.2
+     ],
+     [
+      0.15068,
+      0.2
+     ],
+     [
+      0.16743,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 102
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 102
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #21"
+   ],
+   "noteCount": 102,
+   "used": true,
+   "keysPlayed": {
+    "lo": 76,
+    "hi": 83,
+    "median": 78
+   },
+   "features": {
+    "keyMedian": 78,
+    "keyLo": 76,
+    "keyHi": 83,
+    "keySpan": 7,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.135,
+    "sustain": 0,
+    "centroid": 1300,
+    "brightness": 1.76,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 13"
+  },
+  {
+   "id": "gb:pulse:duty75:env17f661bb",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2846,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.88889
+     ],
+     [
+      0.05023,
+      0.88889
+     ],
+     [
+      0.06697,
+      0.77778
+     ],
+     [
+      0.08371,
+      0.77778
+     ],
+     [
+      0.10046,
+      0.66667
+     ],
+     [
+      0.1172,
+      0.66667
+     ],
+     [
+      0.13394,
+      0.55556
+     ],
+     [
+      0.15068,
+      0.55556
+     ],
+     [
+      0.16743,
+      0.44444
+     ],
+     [
+      0.18417,
+      0.44444
+     ],
+     [
+      0.20091,
+      0.33333
+     ],
+     [
+      0.21766,
+      0.33333
+     ],
+     [
+      0.25114,
+      0.11111
+     ],
+     [
+      0.26788,
+      0.11111
+     ],
+     [
+      0.28463,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 417
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 417
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #19"
+   ],
+   "noteCount": 417,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 59,
+    "median": 47
+   },
+   "features": {
+    "keyMedian": 47,
+    "keyLo": 36,
+    "keyHi": 59,
+    "keySpan": 23,
+    "medianNote": 0.268,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.24,
+    "sustain": 0,
+    "centroid": 220,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low pluck"
+  },
+  {
+   "id": "gb:pulse:duty75:env68b7391d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2846,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.88889
+     ],
+     [
+      0.05023,
+      0.88889
+     ],
+     [
+      0.06697,
+      0.77778
+     ],
+     [
+      0.08371,
+      0.77778
+     ],
+     [
+      0.10046,
+      0.66667
+     ],
+     [
+      0.1172,
+      0.66667
+     ],
+     [
+      0.13394,
+      0.55556
+     ],
+     [
+      0.15068,
+      0.55556
+     ],
+     [
+      0.16743,
+      0.44444
+     ],
+     [
+      0.18417,
+      0.44444
+     ],
+     [
+      0.20091,
+      0.33333
+     ],
+     [
+      0.21766,
+      0.33333
+     ],
+     [
+      0.25114,
+      0.11111
+     ],
+     [
+      0.26788,
+      0.11111
+     ],
+     [
+      0.28463,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 306
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 306
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #35",
+    "Legend of Zelda:Link's Awakening #21"
+   ],
+   "noteCount": 306,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 58,
+    "median": 44
+   },
+   "features": {
+    "keyMedian": 44,
+    "keyLo": 36,
+    "keyHi": 58,
+    "keySpan": 22,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.235,
+    "sustain": 0,
+    "centroid": 185,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Plucked bass"
+  },
+  {
+   "id": "gb:pulse:duty75:env2945fa94",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.7534,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.08371,
+      1
+     ],
+     [
+      0.10046,
+      0.875
+     ],
+     [
+      0.18417,
+      0.875
+     ],
+     [
+      0.20091,
+      0.75
+     ],
+     [
+      0.26788,
+      0.75
+     ],
+     [
+      0.28463,
+      0.625
+     ],
+     [
+      0.36834,
+      0.625
+     ],
+     [
+      0.38508,
+      0.5
+     ],
+     [
+      0.45205,
+      0.5
+     ],
+     [
+      0.4688,
+      0.375
+     ],
+     [
+      0.55251,
+      0.375
+     ],
+     [
+      0.56925,
+      0.25
+     ],
+     [
+      0.65297,
+      0.25
+     ],
+     [
+      0.66971,
+      0.125
+     ],
+     [
+      0.73668,
+      0.125
+     ],
+     [
+      0.75342,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 51
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 51
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #26"
+   ],
+   "noteCount": 51,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 75,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 41,
+    "keyHi": 75,
+    "keySpan": 34,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.64,
+    "sustain": 0,
+    "centroid": 619,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 11"
+  },
+  {
+   "id": "gb:pulse:duty75:envaebcb80d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 204
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 204
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #35"
+   ],
+   "noteCount": 204,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 85,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 67,
+    "keyHi": 85,
+    "keySpan": 18,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.994,
+    "centroid": 927,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 8"
+  },
+  {
+   "id": "gb:pulse:duty75:envd085f632",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 120
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 120
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #21"
+   ],
+   "noteCount": 120,
+   "used": true,
+   "keysPlayed": {
+    "lo": 82,
+    "hi": 89,
+    "median": 84
+   },
+   "features": {
+    "keyMedian": 84,
+    "keyLo": 82,
+    "keyHi": 89,
+    "keySpan": 7,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.11,
+    "sustain": 0,
+    "centroid": 1805,
+    "brightness": 1.72,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 12"
+  },
+  {
+   "id": "gb:pulse:duty75:enve1aa0568",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.5
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 48
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 48
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #21"
+   ],
+   "noteCount": 48,
+   "used": true,
+   "keysPlayed": {
+    "lo": 76,
+    "hi": 79,
+    "median": 78
+   },
+   "features": {
+    "keyMedian": 78,
+    "keyLo": 76,
+    "keyHi": 79,
+    "keySpan": 3,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.125,
+    "sustain": 0,
+    "centroid": 1293,
+    "brightness": 1.75,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 15"
+  },
+  {
+   "id": "gb:pulse:duty75:enve4cb669f",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.05023,
+      1
+     ],
+     [
+      0.06697,
+      0.5
+     ],
+     [
+      0.1172,
+      0.5
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 402
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 402
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #18",
+    "Legend of Zelda:Link's Awakening #21"
+   ],
+   "noteCount": 402,
+   "used": true,
+   "keysPlayed": {
+    "lo": 82,
+    "hi": 95,
+    "median": 84
+   },
+   "features": {
+    "keyMedian": 84,
+    "keyLo": 82,
+    "keyHi": 95,
+    "keySpan": 13,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.115,
+    "sustain": 0,
+    "centroid": 1809,
+    "brightness": 1.73,
+    "harmonicity": 0.996,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck 8"
+  },
+  {
+   "id": "gb:pulse:duty75:enve5e682d1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3851,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01674,
+      1
+     ],
+     [
+      0.03349,
+      0.91667
+     ],
+     [
+      0.05023,
+      0.91667
+     ],
+     [
+      0.06697,
+      0.83333
+     ],
+     [
+      0.08371,
+      0.83333
+     ],
+     [
+      0.10046,
+      0.75
+     ],
+     [
+      0.1172,
+      0.75
+     ],
+     [
+      0.13394,
+      0.66667
+     ],
+     [
+      0.15068,
+      0.66667
+     ],
+     [
+      0.16743,
+      0.58333
+     ],
+     [
+      0.18417,
+      0.58333
+     ],
+     [
+      0.20091,
+      0.5
+     ],
+     [
+      0.21766,
+      0.5
+     ],
+     [
+      0.25114,
+      0.33333
+     ],
+     [
+      0.26788,
+      0.33333
+     ],
+     [
+      0.28463,
+      0.25
+     ],
+     [
+      0.30137,
+      0.25
+     ],
+     [
+      0.31811,
+      0.16667
+     ],
+     [
+      0.33485,
+      0.16667
+     ],
+     [
+      0.3516,
+      0.08333
+     ],
+     [
+      0.36834,
+      0.08333
+     ],
+     [
+      0.38508,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 36
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 36
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #21"
+   ],
+   "noteCount": 36,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 43,
+    "median": 39
+   },
+   "features": {
+    "keyMedian": 39,
+    "keyLo": 36,
+    "keyHi": 43,
+    "keySpan": 7,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.31,
+    "sustain": 0,
+    "centroid": 139,
+    "brightness": 1.79,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Plucked bass 3"
+  },
+  {
+   "id": "gb:pulse:duty75:envf5413f15",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1339,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.13394,
+      0
+     ],
+     [
+      1.97564,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 201
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 201
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #21"
+   ],
+   "noteCount": 201,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 43,
+    "median": 39
+   },
+   "features": {
+    "keyMedian": 39,
+    "keyLo": 36,
+    "keyHi": 43,
+    "keySpan": 7,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.11,
+    "sustain": 0,
+    "centroid": 137,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Plucked bass 2"
+  },
+  {
+   "id": "gb:wave:0a4781ce",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:1fdc276bd86697fb",
+     "sampleCount": 2061
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "0e4863e680d5524c",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:1fdc276bd86697fb",
+    "clusterNotes": 2061
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #17",
+    "Legend of Zelda:Link's Awakening #21",
+    "Legend of Zelda:Link's Awakening #26",
+    "Legend of Zelda:Link's Awakening #29"
+   ],
+   "noteCount": 2061,
+   "used": true,
+   "keysPlayed": {
+    "lo": 37,
+    "hi": 84,
+    "median": 46
+   },
+   "features": {
+    "keyMedian": 46,
+    "keyLo": 37,
+    "keyHi": 84,
+    "keySpan": 47,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.993,
+    "centroid": 322,
+    "brightness": 2.76,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low organ-like"
+  },
+  {
+   "id": "gb:wave:3a15a74f",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:477a3567b62c3744",
+     "sampleCount": 30
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "2415ab413405c884",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:477a3567b62c3744",
+    "clusterNotes": 30
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #40"
+   ],
+   "noteCount": 30,
+   "used": true,
+   "keysPlayed": {
+    "lo": 54,
+    "hi": 66,
+    "median": 61
+   },
+   "features": {
+    "keyMedian": 61,
+    "keyLo": 54,
+    "keyHi": 66,
+    "keySpan": 12,
+    "medianNote": 0.251,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.958,
+    "centroid": 1142,
+    "brightness": 4.12,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  },
+  {
+   "id": "gb:wave:3fcbeb04",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:ff1026175b5c43cf",
+     "sampleCount": 180
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "7ab2d51d9bf64ea1",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:ff1026175b5c43cf",
+    "clusterNotes": 180
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #3"
+   ],
+   "noteCount": 180,
+   "used": true,
+   "keysPlayed": {
+    "lo": 90,
+    "hi": 103,
+    "median": 97
+   },
+   "features": {
+    "keyMedian": 97,
+    "keyLo": 90,
+    "keyHi": 103,
+    "keySpan": 13,
+    "medianNote": 0.268,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 5340,
+    "brightness": 2.41,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like 3"
+  },
+  {
+   "id": "gb:wave:7d824b22",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:3e00c8dc49cd7cd7",
+     "sampleCount": 1170
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "c9a56e432459d8bc",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:3e00c8dc49cd7cd7",
+    "clusterNotes": 1170
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #12",
+    "Legend of Zelda:Link's Awakening #21",
+    "Legend of Zelda:Link's Awakening #26",
+    "Legend of Zelda:Link's Awakening #27"
+   ],
+   "noteCount": 1170,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 107,
+    "median": 83
+   },
+   "features": {
+    "keyMedian": 83,
+    "keyLo": 36,
+    "keyHi": 107,
+    "keySpan": 71,
+    "medianNote": 0.151,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.997,
+    "centroid": 2685,
+    "brightness": 2.72,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like"
+  },
+  {
+   "id": "gb:wave:20fce212",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:82872f3bd6cb093a",
+     "sampleCount": 2511
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "e926e9a8b39fe6c9",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:82872f3bd6cb093a",
+    "clusterNotes": 2511
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #18",
+    "Legend of Zelda:Link's Awakening #20",
+    "Legend of Zelda:Link's Awakening #22",
+    "Legend of Zelda:Link's Awakening #25",
+    "Legend of Zelda:Link's Awakening #35"
+   ],
+   "noteCount": 2511,
+   "used": true,
+   "keysPlayed": {
+    "lo": 25,
+    "hi": 70,
+    "median": 37
+   },
+   "features": {
+    "keyMedian": 37,
+    "keyLo": 25,
+    "keyHi": 70,
+    "keySpan": 45,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.533,
+    "centroid": 203,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead"
+  },
+  {
+   "id": "gb:wave:32fec1e2",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:6b73b1cbffe8c07d",
+     "sampleCount": 21
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "de573c8bb3cdf597",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:6b73b1cbffe8c07d",
+    "clusterNotes": 21
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #37"
+   ],
+   "noteCount": 21,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 76,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 59,
+    "keyHi": 76,
+    "keySpan": 17,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.992,
+    "centroid": 1160,
+    "brightness": 2.64,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 11"
+  },
+  {
+   "id": "gb:wave:42d5bd9a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:b9e4323b5d763912",
+     "sampleCount": 525
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "bfad29b4f16de1f5",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:b9e4323b5d763912",
+    "clusterNotes": 525
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #6",
+    "Legend of Zelda:Link's Awakening #15"
+   ],
+   "noteCount": 525,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 98,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 36,
+    "keyHi": 98,
+    "keySpan": 62,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.995,
+    "centroid": 1080,
+    "brightness": 2.76,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 7"
+  },
+  {
+   "id": "gb:wave:3349c50c",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:0bf0fe977b23f781",
+     "sampleCount": 174
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "49169f76bcc9fc8f",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:0bf0fe977b23f781",
+    "clusterNotes": 174
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #18",
+    "Legend of Zelda:Link's Awakening #19",
+    "Legend of Zelda:Link's Awakening #26",
+    "Legend of Zelda:Link's Awakening #35"
+   ],
+   "noteCount": 174,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 83,
+    "median": 45
+   },
+   "features": {
+    "keyMedian": 45,
+    "keyLo": 36,
+    "keyHi": 83,
+    "keySpan": 47,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 304,
+    "brightness": 2.76,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low organ-like 2"
+  },
+  {
+   "id": "gb:wave:8247ea04",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:063d3ed2dd2cb233",
+     "sampleCount": 30
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "eee33771272405ce",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:063d3ed2dd2cb233",
+    "clusterNotes": 30
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #32"
+   ],
+   "noteCount": 30,
+   "used": true,
+   "keysPlayed": {
+    "lo": 78,
+    "hi": 90,
+    "median": 85
+   },
+   "features": {
+    "keyMedian": 85,
+    "keyLo": 78,
+    "keyHi": 90,
+    "keySpan": 12,
+    "medianNote": 0.352,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.985,
+    "centroid": 5046,
+    "brightness": 4.55,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like 4"
+  },
+  {
+   "id": "gb:wave:8335fc2e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:1bba43367cab938c",
+     "sampleCount": 5760
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "d733b3c26925f05b",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:1bba43367cab938c",
+    "clusterNotes": 5760
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #1",
+    "Legend of Zelda:Link's Awakening #2",
+    "Legend of Zelda:Link's Awakening #5",
+    "Legend of Zelda:Link's Awakening #7",
+    "Legend of Zelda:Link's Awakening #8",
+    "Legend of Zelda:Link's Awakening #11",
+    "Legend of Zelda:Link's Awakening #13",
+    "Legend of Zelda:Link's Awakening #16"
+   ],
+   "noteCount": 5760,
+   "used": true,
+   "keysPlayed": {
+    "lo": 24,
+    "hi": 144,
+    "median": 53
+   },
+   "features": {
+    "keyMedian": 53,
+    "keyLo": 24,
+    "keyHi": 144,
+    "keySpan": 120,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.991,
+    "centroid": 282,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 3"
+  },
+  {
+   "id": "gb:wave:a136a6f1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:897f84d1d4d8c0ec",
+     "sampleCount": 1467
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "4f375b3b90cd5936",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:897f84d1d4d8c0ec",
+    "clusterNotes": 1467
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #6",
+    "Legend of Zelda:Link's Awakening #9",
+    "Legend of Zelda:Link's Awakening #14"
+   ],
+   "noteCount": 1467,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 56,
+    "median": 43
+   },
+   "features": {
+    "keyMedian": 43,
+    "keyLo": 38,
+    "keyHi": 56,
+    "keySpan": 18,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.647,
+    "centroid": 286,
+    "brightness": 2.92,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass"
+  },
+  {
+   "id": "gb:wave:bb23771e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:6928a0ec023546b1",
+     "sampleCount": 35
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "c64029f1c05ecc31",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:6928a0ec023546b1",
+    "clusterNotes": 35
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #16"
+   ],
+   "noteCount": 35,
+   "used": true,
+   "keysPlayed": {
+    "lo": 24,
+    "hi": 91,
+    "median": 32
+   },
+   "features": {
+    "keyMedian": 32,
+    "keyLo": 24,
+    "keyHi": 91,
+    "keySpan": 67,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "measured": false
+   },
+   "nameGuess": "Noise/FX"
+  },
+  {
+   "id": "gb:wave:e47aca9f",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:5b0d66f4b851c618",
+     "sampleCount": 1407
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "5bf63d53080ac719",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:5b0d66f4b851c618",
+    "clusterNotes": 1407
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #39"
+   ],
+   "noteCount": 1407,
+   "used": true,
+   "keysPlayed": {
+    "lo": 37,
+    "hi": 49,
+    "median": 37
+   },
+   "features": {
+    "keyMedian": 37,
+    "keyLo": 37,
+    "keyHi": 49,
+    "keySpan": 12,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.987,
+    "centroid": 192,
+    "brightness": 2.76,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass 2"
+  },
+  {
+   "id": "gb:wave:ef4bc978",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:ffdc897c5b79bf19",
+     "sampleCount": 168
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "baf282dc5af71744",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:ffdc897c5b79bf19",
+    "clusterNotes": 168
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #1"
+   ],
+   "noteCount": 168,
+   "used": true,
+   "keysPlayed": {
+    "lo": 41,
+    "hi": 62,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 41,
+    "keyHi": 62,
+    "keySpan": 21,
+    "medianNote": 0.1,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.994,
+    "centroid": 422,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 9"
+  },
+  {
+   "id": "gb:wave:fa1e11e8",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:0230ef87a670cc83",
+     "sampleCount": 630
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "774b3579a7fef4ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:0230ef87a670cc83",
+    "clusterNotes": 630
+   },
+   "usedIn": [
+    "Legend of Zelda:Link's Awakening #2"
+   ],
+   "noteCount": 630,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 49,
+    "median": 48
+   },
+   "features": {
+    "keyMedian": 48,
+    "keyLo": 43,
+    "keyHi": 49,
+    "keySpan": 6,
+    "medianNote": 0.117,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.995,
+    "centroid": 211,
+    "brightness": 1.62,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 6"
+  }
+ ],
+ "samples": {
+  "21cfc05102f314ad": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "21cfc05102f314ad.wav"
+  },
+  "ea6335b24e5659b4": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "ea6335b24e5659b4.wav"
+  },
+  "baf282dc5af71744": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "baf282dc5af71744.wav"
+  },
+  "d733b3c26925f05b": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "d733b3c26925f05b.wav"
+  },
+  "774b3579a7fef4ad": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "774b3579a7fef4ad.wav"
+  },
+  "7ab2d51d9bf64ea1": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "7ab2d51d9bf64ea1.wav"
+  },
+  "a4262fc218a2a29d": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "a4262fc218a2a29d.wav"
+  },
+  "bfad29b4f16de1f5": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "bfad29b4f16de1f5.wav"
+  },
+  "4f375b3b90cd5936": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "4f375b3b90cd5936.wav"
+  },
+  "e5b405707f3cff7d": {
+   "rate": 65536,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "e5b405707f3cff7d.wav"
+  },
+  "372a3510791634df": {
+   "rate": 32768,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "372a3510791634df.wav"
+  },
+  "a0cc766d654a5d44": {
+   "rate": 262144,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "a0cc766d654a5d44.wav"
+  },
+  "7b16a200c0f4dee8": {
+   "rate": 524288,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "7b16a200c0f4dee8.wav"
+  },
+  "c9a56e432459d8bc": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "c9a56e432459d8bc.wav"
+  },
+  "e2b6abf60b821645": {
+   "rate": 65536,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "e2b6abf60b821645.wav"
+  },
+  "0e4863e680d5524c": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "0e4863e680d5524c.wav"
+  },
+  "7c708855ea845d72": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "7c708855ea845d72.wav"
+  },
+  "e926e9a8b39fe6c9": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "e926e9a8b39fe6c9.wav"
+  },
+  "49169f76bcc9fc8f": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "49169f76bcc9fc8f.wav"
+  },
+  "eee33771272405ce": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "eee33771272405ce.wav"
+  },
+  "de573c8bb3cdf597": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "de573c8bb3cdf597.wav"
+  },
+  "5bf63d53080ac719": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "5bf63d53080ac719.wav"
+  },
+  "2415ab413405c884": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "2415ab413405c884.wav"
+  },
+  "c64029f1c05ecc31": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "c64029f1c05ecc31.wav"
+  },
+  "8abc95f1a01c2a8c": {
+   "rate": 32768,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "8abc95f1a01c2a8c.wav"
+  },
+  "8214dd9bc1f63d21": {
+   "rate": 131072,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "8214dd9bc1f63d21.wav"
+  }
+ }
+}
