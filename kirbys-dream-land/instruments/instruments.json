@@ -1,0 +1,2001 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "gb-kirbys-dream-land",
+ "title": "",
+ "drivers": [
+  "gb"
+ ],
+ "songs": 15,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "gb:noise:s0:w0:env939159b5",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s0w0",
+     "sampleCount": 878
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 0,
+      "width": 0
+     },
+     "sample": "7b16a200c0f4dee8",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.05,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.008,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 6791,
+      "brightness": 73.42,
+      "harmonicity": 0.158,
+      "flatness": 0.593,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s0w0",
+    "clusterNotes": 878
+   },
+   "usedIn": [
+    "Kirby's Dream Land #1",
+    "Kirby's Dream Land #2",
+    "Kirby's Dream Land #3",
+    "Kirby's Dream Land #4",
+    "Kirby's Dream Land #5",
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #7",
+    "Kirby's Dream Land #8"
+   ],
+   "noteCount": 878,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 4",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s1:w0:envd41110d1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s1w0",
+     "sampleCount": 280
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 1,
+      "width": 0
+     },
+     "sample": "a0cc766d654a5d44",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.134,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.016,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 7626,
+      "brightness": 82.45,
+      "harmonicity": 0.148,
+      "flatness": 0.566,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s1w0",
+    "clusterNotes": 280
+   },
+   "usedIn": [
+    "Kirby's Dream Land #1",
+    "Kirby's Dream Land #7",
+    "Kirby's Dream Land #11"
+   ],
+   "noteCount": 280,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 5",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s2:w0:env718f8300",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s2w0",
+     "sampleCount": 1206
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 2,
+      "width": 0
+     },
+     "sample": "8214dd9bc1f63d21",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.067,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.031,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.035,
+      "sustain": 0,
+      "centroid": 8071,
+      "brightness": 87.26,
+      "harmonicity": 0.121,
+      "flatness": 0.543,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s2w0",
+    "clusterNotes": 1206
+   },
+   "usedIn": [
+    "Kirby's Dream Land #1",
+    "Kirby's Dream Land #2",
+    "Kirby's Dream Land #3",
+    "Kirby's Dream Land #4",
+    "Kirby's Dream Land #5",
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #8",
+    "Kirby's Dream Land #10",
+    "Kirby's Dream Land #11",
+    "Kirby's Dream Land #12"
+   ],
+   "noteCount": 1206,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit 2",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s3:w0:env7bfebf1c",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s3w0",
+     "sampleCount": 1556
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 3,
+      "width": 0
+     },
+     "sample": "e5b405707f3cff7d",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.05,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.063,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.065,
+      "sustain": 0,
+      "centroid": 7916,
+      "brightness": 85.58,
+      "harmonicity": 0.086,
+      "flatness": 0.569,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s3w0",
+    "clusterNotes": 1556
+   },
+   "usedIn": [
+    "Kirby's Dream Land #1",
+    "Kirby's Dream Land #2",
+    "Kirby's Dream Land #4",
+    "Kirby's Dream Land #5",
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #7",
+    "Kirby's Dream Land #8",
+    "Kirby's Dream Land #9",
+    "Kirby's Dream Land #10",
+    "Kirby's Dream Land #12"
+   ],
+   "noteCount": 1556,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s4:w0:env5d01216d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s4w0",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "shift": 4,
+      "width": 0
+     },
+     "sample": "372a3510791634df",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.201,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.125,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.125,
+      "sustain": 0,
+      "centroid": 6352,
+      "brightness": 86.52,
+      "harmonicity": 0.141,
+      "flatness": 0.584,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s4w0",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Kirby's Dream Land #6"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 8",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s5:w0:env12399580",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s5w0",
+     "sampleCount": 910
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "shift": 5,
+      "width": 0
+     },
+     "sample": "9c7379e9df3059af",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.067,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.25,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.25,
+      "sustain": 0,
+      "centroid": 3118,
+      "brightness": 42.47,
+      "harmonicity": 0.226,
+      "flatness": 0.413,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s5w0",
+    "clusterNotes": 910
+   },
+   "usedIn": [
+    "Kirby's Dream Land #4",
+    "Kirby's Dream Land #5",
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #7",
+    "Kirby's Dream Land #8",
+    "Kirby's Dream Land #9",
+    "Kirby's Dream Land #10",
+    "Kirby's Dream Land #11",
+    "Kirby's Dream Land #12"
+   ],
+   "noteCount": 910,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 3",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s6:w0:envd962ff76",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s6w0",
+     "sampleCount": 107
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 38,
+     "keyHi": 38,
+     "rootKey": 38,
+     "fixedPitch": true,
+     "fixedKey": 38,
+     "raw": {
+      "shift": 6,
+      "width": 0
+     },
+     "sample": "bfe5f4a2dba76851",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 38,
+      "keyLo": 38,
+      "keyHi": 38,
+      "keySpan": 0,
+      "medianNote": 0.084,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.3,
+      "sustain": 0,
+      "centroid": 1470,
+      "brightness": 20.02,
+      "harmonicity": 0.339,
+      "flatness": 0.024,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s6w0",
+    "clusterNotes": 107
+   },
+   "usedIn": [
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #11"
+   ],
+   "noteCount": 107,
+   "used": true,
+   "keysPlayed": {
+    "lo": 38,
+    "hi": 38,
+    "median": 38
+   },
+   "nameGuess": "Drum kit 6",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:noise:s7:w0:envea4c3539",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s7w0",
+     "sampleCount": 4
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 35,
+     "keyHi": 35,
+     "rootKey": 35,
+     "fixedPitch": true,
+     "fixedKey": 35,
+     "raw": {
+      "shift": 7,
+      "width": 0
+     },
+     "sample": "588832283668cc82",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 35,
+      "keyLo": 35,
+      "keyHi": 35,
+      "keySpan": 0,
+      "medianNote": 0.117,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.3,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.3,
+      "sustain": 0,
+      "centroid": 670,
+      "brightness": 10.85,
+      "harmonicity": 0.378,
+      "flatness": 0.004,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s7w0",
+    "clusterNotes": 4
+   },
+   "usedIn": [
+    "Kirby's Dream Land #8"
+   ],
+   "noteCount": 4,
+   "used": true,
+   "keysPlayed": {
+    "lo": 35,
+    "hi": 35,
+    "median": 35
+   },
+   "nameGuess": "Drum kit 7",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:pulse:duty12.5:env563df97d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1684
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1684
+   },
+   "usedIn": [
+    "Kirby's Dream Land #1",
+    "Kirby's Dream Land #2",
+    "Kirby's Dream Land #3",
+    "Kirby's Dream Land #4",
+    "Kirby's Dream Land #5",
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #7",
+    "Kirby's Dream Land #8",
+    "Kirby's Dream Land #11"
+   ],
+   "noteCount": 1684,
+   "used": true,
+   "keysPlayed": {
+    "lo": 47,
+    "hi": 91,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 47,
+    "keyHi": 91,
+    "keySpan": 44,
+    "medianNote": 0.067,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 923,
+    "brightness": 1.98,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 3"
+  },
+  {
+   "id": "gb:pulse:duty12.5:enva5b1b843",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 472
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 472
+   },
+   "usedIn": [
+    "Kirby's Dream Land #1",
+    "Kirby's Dream Land #2",
+    "Kirby's Dream Land #3",
+    "Kirby's Dream Land #5",
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #8"
+   ],
+   "noteCount": 472,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 98,
+    "median": 75
+   },
+   "features": {
+    "keyMedian": 75,
+    "keyLo": 55,
+    "keyHi": 98,
+    "keySpan": 43,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.999,
+    "centroid": 1229,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 5"
+  },
+  {
+   "id": "gb:pulse:duty25:env04c3af61",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1405
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1405
+   },
+   "usedIn": [
+    "Kirby's Dream Land #2",
+    "Kirby's Dream Land #3",
+    "Kirby's Dream Land #5",
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #13",
+    "Kirby's Dream Land #15"
+   ],
+   "noteCount": 1405,
+   "used": true,
+   "keysPlayed": {
+    "lo": 53,
+    "hi": 100,
+    "median": 91
+   },
+   "features": {
+    "keyMedian": 91,
+    "keyLo": 53,
+    "keyHi": 100,
+    "keySpan": 47,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 2630,
+    "brightness": 1.68,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like"
+  },
+  {
+   "id": "gb:pulse:duty25:env31809c6a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.25",
+     "sampleCount": 1066
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "25%"
+     },
+     "sample": "ea6335b24e5659b4",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.25",
+    "clusterNotes": 1066
+   },
+   "usedIn": [
+    "Kirby's Dream Land #2",
+    "Kirby's Dream Land #3",
+    "Kirby's Dream Land #4",
+    "Kirby's Dream Land #5",
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #13",
+    "Kirby's Dream Land #15"
+   ],
+   "noteCount": 1066,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 100,
+    "median": 96
+   },
+   "features": {
+    "keyMedian": 96,
+    "keyLo": 65,
+    "keyHi": 100,
+    "keySpan": 35,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.997,
+    "centroid": 3328,
+    "brightness": 1.59,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like 3"
+  },
+  {
+   "id": "gb:pulse:duty50:env8ec5c482",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 1281
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 1281
+   },
+   "usedIn": [
+    "Kirby's Dream Land #1",
+    "Kirby's Dream Land #2",
+    "Kirby's Dream Land #3",
+    "Kirby's Dream Land #4",
+    "Kirby's Dream Land #5",
+    "Kirby's Dream Land #7",
+    "Kirby's Dream Land #8",
+    "Kirby's Dream Land #12",
+    "Kirby's Dream Land #14"
+   ],
+   "noteCount": 1281,
+   "used": true,
+   "keysPlayed": {
+    "lo": 46,
+    "hi": 98,
+    "median": 84
+   },
+   "features": {
+    "keyMedian": 84,
+    "keyLo": 46,
+    "keyHi": 98,
+    "keySpan": 52,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 1664,
+    "brightness": 1.59,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like 2"
+  },
+  {
+   "id": "gb:pulse:duty50:envfed3c93b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 2036
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 2036
+   },
+   "usedIn": [
+    "Kirby's Dream Land #1",
+    "Kirby's Dream Land #2",
+    "Kirby's Dream Land #3",
+    "Kirby's Dream Land #4",
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #7",
+    "Kirby's Dream Land #8",
+    "Kirby's Dream Land #9",
+    "Kirby's Dream Land #10",
+    "Kirby's Dream Land #12",
+    "Kirby's Dream Land #14"
+   ],
+   "noteCount": 2036,
+   "used": true,
+   "keysPlayed": {
+    "lo": 37,
+    "hi": 105,
+    "median": 75
+   },
+   "features": {
+    "keyMedian": 75,
+    "keyLo": 37,
+    "keyHi": 105,
+    "keySpan": 68,
+    "medianNote": 0.05,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.999,
+    "centroid": 1000,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like"
+  },
+  {
+   "id": "gb:pulse:duty75:env18ea1ab6",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 805
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 805
+   },
+   "usedIn": [
+    "Kirby's Dream Land #4",
+    "Kirby's Dream Land #5",
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #7",
+    "Kirby's Dream Land #8",
+    "Kirby's Dream Land #9"
+   ],
+   "noteCount": 805,
+   "used": true,
+   "keysPlayed": {
+    "lo": 46,
+    "hi": 99,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 46,
+    "keyHi": 99,
+    "keySpan": 53,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.994,
+    "centroid": 927,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 4"
+  },
+  {
+   "id": "gb:pulse:duty75:envaebcb80d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 1813
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 1813
+   },
+   "usedIn": [
+    "Kirby's Dream Land #1",
+    "Kirby's Dream Land #4",
+    "Kirby's Dream Land #5",
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #7",
+    "Kirby's Dream Land #8",
+    "Kirby's Dream Land #9",
+    "Kirby's Dream Land #10",
+    "Kirby's Dream Land #11"
+   ],
+   "noteCount": 1813,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 89,
+    "median": 75
+   },
+   "features": {
+    "keyMedian": 75,
+    "keyLo": 48,
+    "keyHi": 89,
+    "keySpan": 41,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.999,
+    "centroid": 1101,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 2"
+  },
+  {
+   "id": "gb:wave:75dad4ce",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:a8ac49c8463cfaa4",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "f12c98ff48776f41",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:a8ac49c8463cfaa4",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Kirby's Dream Land #1"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 24,
+    "hi": 24,
+    "median": 24
+   },
+   "features": {
+    "keyMedian": 24,
+    "keyLo": 24,
+    "keyHi": 24,
+    "keySpan": 0,
+    "medianNote": 0.134,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.01,
+    "t20": null,
+    "sustain": 0.609,
+    "centroid": 34,
+    "brightness": 1.03,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass"
+  },
+  {
+   "id": "gb:wave:095fc3cc",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:db3483f08a4019eb",
+     "sampleCount": 260
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "aa58046e52cc7df3",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:db3483f08a4019eb",
+    "clusterNotes": 260
+   },
+   "usedIn": [
+    "Kirby's Dream Land #2"
+   ],
+   "noteCount": 260,
+   "used": true,
+   "keysPlayed": {
+    "lo": 39,
+    "hi": 96,
+    "median": 56
+   },
+   "features": {
+    "keyMedian": 56,
+    "keyLo": 39,
+    "keyHi": 96,
+    "keySpan": 57,
+    "medianNote": 0.084,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.971,
+    "centroid": 426,
+    "brightness": 2.05,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 6"
+  },
+  {
+   "id": "gb:wave:694cfbca",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.97564,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:fb92ff415d199175",
+     "sampleCount": 2559
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "6526e89d9f5a162e",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:fb92ff415d199175",
+    "clusterNotes": 2559
+   },
+   "usedIn": [
+    "Kirby's Dream Land #1",
+    "Kirby's Dream Land #3",
+    "Kirby's Dream Land #4",
+    "Kirby's Dream Land #5",
+    "Kirby's Dream Land #6",
+    "Kirby's Dream Land #7",
+    "Kirby's Dream Land #8",
+    "Kirby's Dream Land #9",
+    "Kirby's Dream Land #10",
+    "Kirby's Dream Land #11",
+    "Kirby's Dream Land #12",
+    "Kirby's Dream Land #13",
+    "Kirby's Dream Land #14"
+   ],
+   "noteCount": 2559,
+   "used": true,
+   "keysPlayed": {
+    "lo": 32,
+    "hi": 76,
+    "median": 48
+   },
+   "features": {
+    "keyMedian": 48,
+    "keyLo": 32,
+    "keyHi": 76,
+    "keySpan": 44,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.889,
+    "centroid": 263,
+    "brightness": 2.01,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  }
+ ],
+ "samples": {
+  "7c708855ea845d72": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "7c708855ea845d72.wav"
+  },
+  "a4262fc218a2a29d": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "a4262fc218a2a29d.wav"
+  },
+  "21cfc05102f314ad": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "21cfc05102f314ad.wav"
+  },
+  "f12c98ff48776f41": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "f12c98ff48776f41.wav"
+  },
+  "6526e89d9f5a162e": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "6526e89d9f5a162e.wav"
+  },
+  "8214dd9bc1f63d21": {
+   "rate": 131072,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "8214dd9bc1f63d21.wav"
+  },
+  "7b16a200c0f4dee8": {
+   "rate": 524288,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "7b16a200c0f4dee8.wav"
+  },
+  "a0cc766d654a5d44": {
+   "rate": 262144,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "a0cc766d654a5d44.wav"
+  },
+  "e5b405707f3cff7d": {
+   "rate": 65536,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "e5b405707f3cff7d.wav"
+  },
+  "ea6335b24e5659b4": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "ea6335b24e5659b4.wav"
+  },
+  "aa58046e52cc7df3": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "aa58046e52cc7df3.wav"
+  },
+  "9c7379e9df3059af": {
+   "rate": 16384,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "9c7379e9df3059af.wav"
+  },
+  "372a3510791634df": {
+   "rate": 32768,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "372a3510791634df.wav"
+  },
+  "bfe5f4a2dba76851": {
+   "rate": 8192,
+   "length": 2458,
+   "loop": null,
+   "bytes": 5004,
+   "file": "bfe5f4a2dba76851.wav"
+  },
+  "588832283668cc82": {
+   "rate": 4096,
+   "length": 1229,
+   "loop": null,
+   "bytes": 2546,
+   "file": "588832283668cc82.wav"
+  }
+ }
+}
