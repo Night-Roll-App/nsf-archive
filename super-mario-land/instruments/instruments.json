@@ -1,0 +1,3652 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "gb-super-mario-land",
+ "title": "",
+ "drivers": [
+  "gb"
+ ],
+ "songs": 18,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "gb:noise:s0:w0:env2a717ebc",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1563,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.15625,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-noise-envelope",
+     "groupKey": "s0w0",
+     "sampleCount": 3306
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 42,
+     "keyHi": 42,
+     "rootKey": 42,
+     "fixedPitch": true,
+     "fixedKey": 42,
+     "raw": {
+      "shift": 0,
+      "width": 0
+     },
+     "sample": "7b16a200c0f4dee8",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 42,
+      "keyLo": 42,
+      "keyHi": 42,
+      "keySpan": 0,
+      "medianNote": 0.031,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.008,
+      "release": 0.005,
+      "attack": 0,
+      "t20": 0.01,
+      "sustain": 0,
+      "centroid": 6795,
+      "brightness": 73.46,
+      "harmonicity": 0.159,
+      "flatness": 0.594,
+      "measured": true,
+      "notes": 0
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "noise",
+    "groupKey": "s0w0",
+    "clusterNotes": 3306
+   },
+   "usedIn": [
+    "Super Mario Land #1",
+    "Super Mario Land #2",
+    "Super Mario Land #3",
+    "Super Mario Land #4",
+    "Super Mario Land #5",
+    "Super Mario Land #6",
+    "Super Mario Land #7",
+    "Super Mario Land #8",
+    "Super Mario Land #9",
+    "Super Mario Land #10",
+    "Super Mario Land #11",
+    "Super Mario Land #12",
+    "Super Mario Land #13"
+   ],
+   "noteCount": 3306,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 42,
+    "median": 42
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 0
+   }
+  },
+  {
+   "id": "gb:pulse:duty12.5:env1a586275",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.375,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03125,
+      1
+     ],
+     [
+      0.04688,
+      0.875
+     ],
+     [
+      0.07813,
+      0.875
+     ],
+     [
+      0.09375,
+      0.75
+     ],
+     [
+      0.125,
+      0.75
+     ],
+     [
+      0.14063,
+      0.625
+     ],
+     [
+      0.17188,
+      0.625
+     ],
+     [
+      0.1875,
+      0.5
+     ],
+     [
+      0.21875,
+      0.5
+     ],
+     [
+      0.23438,
+      0.375
+     ],
+     [
+      0.26563,
+      0.375
+     ],
+     [
+      0.28125,
+      0.25
+     ],
+     [
+      0.3125,
+      0.25
+     ],
+     [
+      0.32813,
+      0.125
+     ],
+     [
+      0.35938,
+      0.125
+     ],
+     [
+      0.375,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 227
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 227
+   },
+   "usedIn": [
+    "Super Mario Land #9"
+   ],
+   "noteCount": 227,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 43,
+    "median": 40
+   },
+   "features": {
+    "keyMedian": 40,
+    "keyLo": 36,
+    "keyHi": 43,
+    "keySpan": 7,
+    "medianNote": 0.188,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.31,
+    "sustain": 0,
+    "centroid": 165,
+    "brightness": 2.01,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Plucked bass 2"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env8a16e23e",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.4063,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01563,
+      1
+     ],
+     [
+      0.03125,
+      1.5
+     ],
+     [
+      0.04688,
+      1.5
+     ],
+     [
+      0.0625,
+      2
+     ],
+     [
+      0.07813,
+      2
+     ],
+     [
+      0.09375,
+      2.5
+     ],
+     [
+      0.10938,
+      2.5
+     ],
+     [
+      0.125,
+      3
+     ],
+     [
+      0.14063,
+      3
+     ],
+     [
+      0.15625,
+      3.5
+     ],
+     [
+      0.17188,
+      3.5
+     ],
+     [
+      0.1875,
+      4
+     ],
+     [
+      0.20313,
+      4
+     ],
+     [
+      0.21875,
+      4.5
+     ],
+     [
+      0.23438,
+      4.5
+     ],
+     [
+      0.25,
+      5
+     ],
+     [
+      0.26563,
+      5
+     ],
+     [
+      0.28125,
+      5.5
+     ],
+     [
+      0.29688,
+      5.5
+     ],
+     [
+      0.3125,
+      6
+     ],
+     [
+      0.32813,
+      6
+     ],
+     [
+      0.34375,
+      6.5
+     ],
+     [
+      0.35938,
+      6.5
+     ],
+     [
+      0.375,
+      7
+     ],
+     [
+      0.39063,
+      7
+     ],
+     [
+      0.40625,
+      7.5
+     ],
+     [
+      1.98438,
+      7.5
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 1
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 1
+   },
+   "usedIn": [
+    "Super Mario Land #14"
+   ],
+   "noteCount": 1,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 72,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 72,
+    "keyHi": 72,
+    "keySpan": 0,
+    "medianNote": 0.188,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.37,
+    "t20": null,
+    "sustain": 0.994,
+    "centroid": 1031,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Soft pad"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env563df97d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98438,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 8
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 8
+   },
+   "usedIn": [
+    "Super Mario Land #9"
+   ],
+   "noteCount": 8,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 50,
+    "median": 47
+   },
+   "features": {
+    "keyMedian": 47,
+    "keyLo": 43,
+    "keyHi": 50,
+    "keySpan": 7,
+    "medianNote": 0.75,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.979,
+    "centroid": 247,
+    "brightness": 2,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low organ-like"
+  },
+  {
+   "id": "gb:pulse:duty12.5:env676655c4",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4375,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.04688,
+      1
+     ],
+     [
+      0.0625,
+      0.85714
+     ],
+     [
+      0.10938,
+      0.85714
+     ],
+     [
+      0.125,
+      0.71429
+     ],
+     [
+      0.17188,
+      0.71429
+     ],
+     [
+      0.1875,
+      0.57143
+     ],
+     [
+      0.23438,
+      0.57143
+     ],
+     [
+      0.25,
+      0.42857
+     ],
+     [
+      0.29688,
+      0.42857
+     ],
+     [
+      0.3125,
+      0.28571
+     ],
+     [
+      0.35938,
+      0.28571
+     ],
+     [
+      0.375,
+      0.14286
+     ],
+     [
+      0.42188,
+      0.14286
+     ],
+     [
+      0.4375,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 8
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 8
+   },
+   "usedIn": [
+    "Super Mario Land #5"
+   ],
+   "noteCount": 8,
+   "used": true,
+   "keysPlayed": {
+    "lo": 81,
+    "hi": 86,
+    "median": 83
+   },
+   "features": {
+    "keyMedian": 83,
+    "keyLo": 81,
+    "keyHi": 86,
+    "keySpan": 5,
+    "medianNote": 0.125,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.37,
+    "sustain": 0,
+    "centroid": 1934,
+    "brightness": 1.96,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet"
+  },
+  {
+   "id": "gb:pulse:duty12.5:enva5b1b843",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98438,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 8
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 8
+   },
+   "usedIn": [
+    "Super Mario Land #9"
+   ],
+   "noteCount": 8,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 57,
+    "median": 54
+   },
+   "features": {
+    "keyMedian": 54,
+    "keyLo": 50,
+    "keyHi": 57,
+    "keySpan": 7,
+    "medianNote": 0.75,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.99,
+    "centroid": 369,
+    "brightness": 1.99,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 4"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envb75deab3",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.25,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01563,
+      1
+     ],
+     [
+      0.03125,
+      0.875
+     ],
+     [
+      0.04688,
+      0.875
+     ],
+     [
+      0.0625,
+      0.75
+     ],
+     [
+      0.07813,
+      0.75
+     ],
+     [
+      0.09375,
+      0.625
+     ],
+     [
+      0.10938,
+      0.625
+     ],
+     [
+      0.125,
+      0.5
+     ],
+     [
+      0.14063,
+      0.5
+     ],
+     [
+      0.15625,
+      0.375
+     ],
+     [
+      0.17188,
+      0.375
+     ],
+     [
+      0.1875,
+      0.25
+     ],
+     [
+      0.20313,
+      0.25
+     ],
+     [
+      0.21875,
+      0.125
+     ],
+     [
+      0.23438,
+      0.125
+     ],
+     [
+      0.25,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 121
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.125",
+    "clusterNotes": 121
+   },
+   "usedIn": [
+    "Super Mario Land #5"
+   ],
+   "noteCount": 121,
+   "used": true,
+   "keysPlayed": {
+    "lo": 57,
+    "hi": 88,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 57,
+    "keyHi": 88,
+    "keySpan": 31,
+    "medianNote": 0.25,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.205,
+    "sustain": 0,
+    "centroid": 972,
+    "brightness": 1.97,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 6"
+  },
+  {
+   "id": "gb:pulse:duty12.5:envc314b4a8",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.04688,
+      1
+     ],
+     [
+      0.0625,
+      0.875
+     ],
+     [
+      0.10938,
+      0.875
+     ],
+     [
+      0.125,
+      0.75
+     ],
+     [
+      0.17188,
+      0.75
+     ],
+     [
+      0.1875,
+      0.625
+     ],
+     [
+      0.23438,
+      0.625
+     ],
+     [
+      0.25,
+      0.5
+     ],
+     [
+      0.29688,
+      0.5
+     ],
+     [
+      0.3125,
+      0.375
+     ],
+     [
+      0.35938,
+      0.375
+     ],
+     [
+      0.375,
+      0.25
+     ],
+     [
+      0.42188,
+      0.25
+     ],
+     [
+      0.4375,
+      0.125
+     ],
+     [
+      0.48438,
+      0.125
+     ],
+     [
+      0.5,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.125",
+     "sampleCount": 8
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "12.5%"
+     },
+     "sample": "a4262fc218a2a29d",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.125",
+    "clusterNotes": 8
+   },
+   "usedIn": [
+    "Super Mario Land #5"
+   ],
+   "noteCount": 8,
+   "used": true,
+   "keysPlayed": {
+    "lo": 86,
+    "hi": 91,
+    "median": 88
+   },
+   "features": {
+    "keyMedian": 88,
+    "keyLo": 86,
+    "keyHi": 91,
+    "keySpan": 5,
+    "medianNote": 0.125,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.395,
+    "sustain": 0,
+    "centroid": 2520,
+    "brightness": 1.91,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High mallet 2"
+  },
+  {
+   "id": "gb:pulse:duty50:env0cb0ee20",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2031,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.20313,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 13
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 13
+   },
+   "usedIn": [
+    "Super Mario Land #14"
+   ],
+   "noteCount": 13,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 81,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 60,
+    "keyHi": 81,
+    "keySpan": 21,
+    "medianNote": 0.203,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.165,
+    "sustain": 0,
+    "centroid": 795,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 7"
+  },
+  {
+   "id": "gb:pulse:duty50:env1e50ef14",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3125,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.04688,
+      1
+     ],
+     [
+      0.0625,
+      0.8
+     ],
+     [
+      0.10938,
+      0.8
+     ],
+     [
+      0.125,
+      0.6
+     ],
+     [
+      0.17188,
+      0.6
+     ],
+     [
+      0.1875,
+      0.4
+     ],
+     [
+      0.23438,
+      0.4
+     ],
+     [
+      0.25,
+      0.2
+     ],
+     [
+      0.29688,
+      0.2
+     ],
+     [
+      0.3125,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 642
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 642
+   },
+   "usedIn": [
+    "Super Mario Land #8",
+    "Super Mario Land #4"
+   ],
+   "noteCount": 642,
+   "used": true,
+   "keysPlayed": {
+    "lo": 65,
+    "hi": 81,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 65,
+    "keyHi": 81,
+    "keySpan": 16,
+    "medianNote": 0.125,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.22,
+    "sustain": 0,
+    "centroid": 892,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck"
+  },
+  {
+   "id": "gb:pulse:duty50:env3a5b6319",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.25,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01563,
+      1
+     ],
+     [
+      0.03125,
+      0.875
+     ],
+     [
+      0.04688,
+      0.875
+     ],
+     [
+      0.0625,
+      0.75
+     ],
+     [
+      0.07813,
+      0.75
+     ],
+     [
+      0.09375,
+      0.625
+     ],
+     [
+      0.10938,
+      0.625
+     ],
+     [
+      0.125,
+      0.5
+     ],
+     [
+      0.14063,
+      0.5
+     ],
+     [
+      0.15625,
+      0.375
+     ],
+     [
+      0.17188,
+      0.375
+     ],
+     [
+      0.1875,
+      0.25
+     ],
+     [
+      0.20313,
+      0.25
+     ],
+     [
+      0.21875,
+      0.125
+     ],
+     [
+      0.23438,
+      0.125
+     ],
+     [
+      0.25,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 176
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 176
+   },
+   "usedIn": [
+    "Super Mario Land #4"
+   ],
+   "noteCount": 176,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 72,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 60,
+    "keyHi": 72,
+    "keySpan": 12,
+    "medianNote": 0.125,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.21,
+    "sustain": 0,
+    "centroid": 632,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 4"
+  },
+  {
+   "id": "gb:pulse:duty50:env4ea7ac16",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5625,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.07813,
+      1
+     ],
+     [
+      0.09375,
+      0.83333
+     ],
+     [
+      0.17188,
+      0.83333
+     ],
+     [
+      0.1875,
+      0.66667
+     ],
+     [
+      0.26563,
+      0.66667
+     ],
+     [
+      0.28125,
+      0.5
+     ],
+     [
+      0.35938,
+      0.5
+     ],
+     [
+      0.375,
+      0.33333
+     ],
+     [
+      0.45313,
+      0.33333
+     ],
+     [
+      0.46875,
+      0.16667
+     ],
+     [
+      0.54688,
+      0.16667
+     ],
+     [
+      0.5625,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 132
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 132
+   },
+   "usedIn": [
+    "Super Mario Land #3",
+    "Super Mario Land #16"
+   ],
+   "noteCount": 132,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 86,
+    "median": 73
+   },
+   "features": {
+    "keyMedian": 73,
+    "keyLo": 59,
+    "keyHi": 86,
+    "keySpan": 27,
+    "medianNote": 0.438,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.435,
+    "sustain": 0,
+    "centroid": 892,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 5"
+  },
+  {
+   "id": "gb:pulse:duty50:env8ec5c482",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98438,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 258
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 258
+   },
+   "usedIn": [
+    "Super Mario Land #2",
+    "Super Mario Land #6",
+    "Super Mario Land #12",
+    "Super Mario Land #15",
+    "Super Mario Land #18"
+   ],
+   "noteCount": 258,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 84,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 55,
+    "keyHi": 84,
+    "keySpan": 29,
+    "medianNote": 0.25,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.996,
+    "centroid": 597,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 2"
+  },
+  {
+   "id": "gb:pulse:duty50:env9ae9e44a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4219,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03125,
+      1
+     ],
+     [
+      0.04688,
+      0.88889
+     ],
+     [
+      0.07813,
+      0.88889
+     ],
+     [
+      0.09375,
+      0.77778
+     ],
+     [
+      0.125,
+      0.77778
+     ],
+     [
+      0.14063,
+      0.66667
+     ],
+     [
+      0.17188,
+      0.66667
+     ],
+     [
+      0.1875,
+      0.55556
+     ],
+     [
+      0.21875,
+      0.55556
+     ],
+     [
+      0.23438,
+      0.44444
+     ],
+     [
+      0.26563,
+      0.44444
+     ],
+     [
+      0.28125,
+      0.33333
+     ],
+     [
+      0.3125,
+      0.33333
+     ],
+     [
+      0.32813,
+      0.22222
+     ],
+     [
+      0.35938,
+      0.22222
+     ],
+     [
+      0.375,
+      0.11111
+     ],
+     [
+      0.40625,
+      0.11111
+     ],
+     [
+      0.42188,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 163
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 163
+   },
+   "usedIn": [
+    "Super Mario Land #7",
+    "Super Mario Land #12"
+   ],
+   "noteCount": 163,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 76,
+    "median": 48
+   },
+   "features": {
+    "keyMedian": 48,
+    "keyLo": 43,
+    "keyHi": 76,
+    "keySpan": 33,
+    "medianNote": 0.188,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.36,
+    "sustain": 0,
+    "centroid": 211,
+    "brightness": 1.62,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 3"
+  },
+  {
+   "id": "gb:pulse:duty50:env9b2e10b1",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1406,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.14063,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 327
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 327
+   },
+   "usedIn": [
+    "Super Mario Land #13",
+    "Super Mario Land #11"
+   ],
+   "noteCount": 327,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 79,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 67,
+    "keyHi": 79,
+    "keySpan": 12,
+    "medianNote": 0.141,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.115,
+    "sustain": 0,
+    "centroid": 842,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 3"
+  },
+  {
+   "id": "gb:pulse:duty50:env9c6c4396",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.0625,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.0625,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 13
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 13
+   },
+   "usedIn": [
+    "Super Mario Land #14"
+   ],
+   "noteCount": 13,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 81,
+    "median": 71
+   },
+   "features": {
+    "keyMedian": 71,
+    "keyLo": 60,
+    "keyHi": 81,
+    "keySpan": 21,
+    "medianNote": 0.063,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.05,
+    "sustain": 0,
+    "centroid": 795,
+    "brightness": 1.61,
+    "harmonicity": 0.998,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 8"
+  },
+  {
+   "id": "gb:pulse:duty50:env040e100b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.04688,
+      1
+     ],
+     [
+      0.0625,
+      0.875
+     ],
+     [
+      0.10938,
+      0.875
+     ],
+     [
+      0.125,
+      0.75
+     ],
+     [
+      0.17188,
+      0.75
+     ],
+     [
+      0.1875,
+      0.625
+     ],
+     [
+      0.23438,
+      0.625
+     ],
+     [
+      0.25,
+      0.5
+     ],
+     [
+      0.29688,
+      0.5
+     ],
+     [
+      0.3125,
+      0.375
+     ],
+     [
+      0.35938,
+      0.375
+     ],
+     [
+      0.375,
+      0.25
+     ],
+     [
+      0.42188,
+      0.25
+     ],
+     [
+      0.4375,
+      0.125
+     ],
+     [
+      0.48438,
+      0.125
+     ],
+     [
+      0.5,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 267
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 267
+   },
+   "usedIn": [
+    "Super Mario Land #17"
+   ],
+   "noteCount": 267,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 79,
+    "median": 68
+   },
+   "features": {
+    "keyMedian": 68,
+    "keyLo": 67,
+    "keyHi": 79,
+    "keySpan": 12,
+    "medianNote": 0.188,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.39,
+    "sustain": 0,
+    "centroid": 669,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet"
+  },
+  {
+   "id": "gb:pulse:duty50:env80f8daec",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.4375,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.04688,
+      1
+     ],
+     [
+      0.0625,
+      0.85714
+     ],
+     [
+      0.10938,
+      0.85714
+     ],
+     [
+      0.125,
+      0.71429
+     ],
+     [
+      0.17188,
+      0.71429
+     ],
+     [
+      0.1875,
+      0.57143
+     ],
+     [
+      0.23438,
+      0.57143
+     ],
+     [
+      0.25,
+      0.42857
+     ],
+     [
+      0.29688,
+      0.42857
+     ],
+     [
+      0.3125,
+      0.28571
+     ],
+     [
+      0.35938,
+      0.28571
+     ],
+     [
+      0.375,
+      0.14286
+     ],
+     [
+      0.42188,
+      0.14286
+     ],
+     [
+      0.4375,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 267
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 267
+   },
+   "usedIn": [
+    "Super Mario Land #17"
+   ],
+   "noteCount": 267,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 64,
+    "median": 44
+   },
+   "features": {
+    "keyMedian": 44,
+    "keyLo": 43,
+    "keyHi": 64,
+    "keySpan": 21,
+    "medianNote": 0.188,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.345,
+    "sustain": 0,
+    "centroid": 168,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Plucked bass"
+  },
+  {
+   "id": "gb:pulse:duty50:enva7d08e46",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.3281,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03125,
+      1
+     ],
+     [
+      0.04688,
+      0.85714
+     ],
+     [
+      0.07813,
+      0.85714
+     ],
+     [
+      0.09375,
+      0.71429
+     ],
+     [
+      0.125,
+      0.71429
+     ],
+     [
+      0.14063,
+      0.57143
+     ],
+     [
+      0.17188,
+      0.57143
+     ],
+     [
+      0.1875,
+      0.42857
+     ],
+     [
+      0.21875,
+      0.42857
+     ],
+     [
+      0.23438,
+      0.28571
+     ],
+     [
+      0.26563,
+      0.28571
+     ],
+     [
+      0.28125,
+      0.14286
+     ],
+     [
+      0.3125,
+      0.14286
+     ],
+     [
+      0.32813,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 209
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 209
+   },
+   "usedIn": [
+    "Super Mario Land #7",
+    "Super Mario Land #10"
+   ],
+   "noteCount": 209,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 72,
+    "median": 48
+   },
+   "features": {
+    "keyMedian": 48,
+    "keyLo": 43,
+    "keyHi": 72,
+    "keySpan": 29,
+    "medianNote": 0.188,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.27,
+    "sustain": 0,
+    "centroid": 211,
+    "brightness": 1.62,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 2"
+  },
+  {
+   "id": "gb:pulse:duty50:envd2e927f9",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.2813,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.01563,
+      1
+     ],
+     [
+      0.03125,
+      0.88889
+     ],
+     [
+      0.04688,
+      0.88889
+     ],
+     [
+      0.0625,
+      0.77778
+     ],
+     [
+      0.07813,
+      0.77778
+     ],
+     [
+      0.09375,
+      0.66667
+     ],
+     [
+      0.10938,
+      0.66667
+     ],
+     [
+      0.125,
+      0.55556
+     ],
+     [
+      0.14063,
+      0.55556
+     ],
+     [
+      0.15625,
+      0.44444
+     ],
+     [
+      0.17188,
+      0.44444
+     ],
+     [
+      0.1875,
+      0.33333
+     ],
+     [
+      0.20313,
+      0.33333
+     ],
+     [
+      0.21875,
+      0.22222
+     ],
+     [
+      0.23438,
+      0.22222
+     ],
+     [
+      0.25,
+      0.11111
+     ],
+     [
+      0.26563,
+      0.11111
+     ],
+     [
+      0.28125,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 148
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 148
+   },
+   "usedIn": [
+    "Super Mario Land #1"
+   ],
+   "noteCount": 148,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 91,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 55,
+    "keyHi": 91,
+    "keySpan": 36,
+    "medianNote": 0.25,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.225,
+    "sustain": 0,
+    "centroid": 1059,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 5"
+  },
+  {
+   "id": "gb:pulse:duty50:enve6d2b9b9",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1875,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.04688,
+      1
+     ],
+     [
+      0.0625,
+      0.66667
+     ],
+     [
+      0.10938,
+      0.66667
+     ],
+     [
+      0.125,
+      0.33333
+     ],
+     [
+      0.17188,
+      0.33333
+     ],
+     [
+      0.1875,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 502
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.5",
+    "clusterNotes": 502
+   },
+   "usedIn": [
+    "Super Mario Land #8",
+    "Super Mario Land #1"
+   ],
+   "noteCount": 502,
+   "used": true,
+   "keysPlayed": {
+    "lo": 43,
+    "hi": 90,
+    "median": 62
+   },
+   "features": {
+    "keyMedian": 62,
+    "keyLo": 43,
+    "keyHi": 90,
+    "keySpan": 47,
+    "medianNote": 0.125,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.18,
+    "sustain": 0,
+    "centroid": 474,
+    "brightness": 1.61,
+    "harmonicity": 0.999,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 2"
+  },
+  {
+   "id": "gb:pulse:duty50:enve6d72c8d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.1406,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.14063,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 617
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 617
+   },
+   "usedIn": [
+    "Super Mario Land #13",
+    "Super Mario Land #11"
+   ],
+   "noteCount": 617,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 91,
+    "median": 86
+   },
+   "features": {
+    "keyMedian": 86,
+    "keyLo": 60,
+    "keyHi": 91,
+    "keySpan": 31,
+    "medianNote": 0.078,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.115,
+    "sustain": 0,
+    "centroid": 1853,
+    "brightness": 1.58,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High pluck"
+  },
+  {
+   "id": "gb:pulse:duty50:envec3f2c0a",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.6563,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.07813,
+      1
+     ],
+     [
+      0.09375,
+      0.85714
+     ],
+     [
+      0.17188,
+      0.85714
+     ],
+     [
+      0.1875,
+      0.71429
+     ],
+     [
+      0.26563,
+      0.71429
+     ],
+     [
+      0.28125,
+      0.57143
+     ],
+     [
+      0.35938,
+      0.57143
+     ],
+     [
+      0.375,
+      0.42857
+     ],
+     [
+      0.45313,
+      0.42857
+     ],
+     [
+      0.46875,
+      0.28571
+     ],
+     [
+      0.54688,
+      0.28571
+     ],
+     [
+      0.5625,
+      0.14286
+     ],
+     [
+      0.64063,
+      0.14286
+     ],
+     [
+      0.65625,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 135
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 135
+   },
+   "usedIn": [
+    "Super Mario Land #3",
+    "Super Mario Land #16"
+   ],
+   "noteCount": 135,
+   "used": true,
+   "keysPlayed": {
+    "lo": 62,
+    "hi": 100,
+    "median": 74
+   },
+   "features": {
+    "keyMedian": 74,
+    "keyLo": 62,
+    "keyHi": 100,
+    "keySpan": 38,
+    "medianNote": 0.375,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.555,
+    "sustain": 0,
+    "centroid": 944,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 4"
+  },
+  {
+   "id": "gb:pulse:duty50:envfed3c93b",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98438,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.5",
+     "sampleCount": 339
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "50%"
+     },
+     "sample": "21cfc05102f314ad",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.5",
+    "clusterNotes": 339
+   },
+   "usedIn": [
+    "Super Mario Land #2",
+    "Super Mario Land #5",
+    "Super Mario Land #6",
+    "Super Mario Land #18"
+   ],
+   "noteCount": 339,
+   "used": true,
+   "keysPlayed": {
+    "lo": 55,
+    "hi": 84,
+    "median": 69
+   },
+   "features": {
+    "keyMedian": 69,
+    "keyLo": 55,
+    "keyHi": 84,
+    "keySpan": 29,
+    "medianNote": 0.25,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.998,
+    "centroid": 709,
+    "brightness": 1.61,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like"
+  },
+  {
+   "id": "gb:pulse:duty75:envaebcb80d",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98438,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse1-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 36
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse1",
+    "groupKey": "duty0.75",
+    "clusterNotes": 36
+   },
+   "usedIn": [
+    "Super Mario Land #9"
+   ],
+   "noteCount": 36,
+   "used": true,
+   "keysPlayed": {
+    "lo": 50,
+    "hi": 62,
+    "median": 56
+   },
+   "features": {
+    "keyMedian": 56,
+    "keyLo": 50,
+    "keyHi": 62,
+    "keySpan": 12,
+    "medianNote": 0.75,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.999,
+    "centroid": 370,
+    "brightness": 1.78,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Organ-like 3"
+  },
+  {
+   "id": "gb:pulse:duty75:envdab97fbf",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0.5625,
+    "sustain": 0,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      0.03125,
+      1
+     ],
+     [
+      0.04688,
+      0.91667
+     ],
+     [
+      0.07813,
+      0.91667
+     ],
+     [
+      0.09375,
+      0.83333
+     ],
+     [
+      0.125,
+      0.83333
+     ],
+     [
+      0.14063,
+      0.75
+     ],
+     [
+      0.17188,
+      0.75
+     ],
+     [
+      0.1875,
+      0.66667
+     ],
+     [
+      0.21875,
+      0.66667
+     ],
+     [
+      0.23438,
+      0.58333
+     ],
+     [
+      0.26563,
+      0.58333
+     ],
+     [
+      0.28125,
+      0.5
+     ],
+     [
+      0.3125,
+      0.5
+     ],
+     [
+      0.32813,
+      0.41667
+     ],
+     [
+      0.35938,
+      0.41667
+     ],
+     [
+      0.375,
+      0.33333
+     ],
+     [
+      0.40625,
+      0.33333
+     ],
+     [
+      0.42188,
+      0.25
+     ],
+     [
+      0.45313,
+      0.25
+     ],
+     [
+      0.46875,
+      0.16667
+     ],
+     [
+      0.5,
+      0.16667
+     ],
+     [
+      0.51563,
+      0.08333
+     ],
+     [
+      0.54688,
+      0.08333
+     ],
+     [
+      0.5625,
+      0
+     ],
+     [
+      1.98438,
+      0
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-pulse2-envelope",
+     "groupKey": "duty0.75",
+     "sampleCount": 96
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "raw": {
+      "duty": "75%"
+     },
+     "sample": "7c708855ea845d72",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "pulse2",
+    "groupKey": "duty0.75",
+    "clusterNotes": 96
+   },
+   "usedIn": [
+    "Super Mario Land #10"
+   ],
+   "noteCount": 96,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 80,
+    "median": 72
+   },
+   "features": {
+    "keyMedian": 72,
+    "keyLo": 63,
+    "keyHi": 80,
+    "keySpan": 17,
+    "medianNote": 0.125,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": 0.46,
+    "sustain": 0,
+    "centroid": 927,
+    "brightness": 1.77,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet 6"
+  },
+  {
+   "id": "gb:wave:3688d243",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98438,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:31173e1052278026",
+     "sampleCount": 226
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "2fa99e7021db9ca7",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:31173e1052278026",
+    "clusterNotes": 226
+   },
+   "usedIn": [
+    "Super Mario Land #8",
+    "Super Mario Land #10",
+    "Super Mario Land #12",
+    "Super Mario Land #15"
+   ],
+   "noteCount": 226,
+   "used": true,
+   "keysPlayed": {
+    "lo": 51,
+    "hi": 88,
+    "median": 63
+   },
+   "features": {
+    "keyMedian": 63,
+    "keyLo": 51,
+    "keyHi": 88,
+    "keySpan": 37,
+    "medianNote": 0.125,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.971,
+    "centroid": 320,
+    "brightness": 1.03,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 2"
+  },
+  {
+   "id": "gb:wave:668941f3",
+   "driver": "gb",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.005,
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      1.98438,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "exp-time",
+     "seconds": 0.005,
+     "floor": 0.00003051850947599719
+    },
+    "raw": {
+     "kind": "gb-wave-envelope",
+     "groupKey": "wave:wave:fd6b2f5c08a80514",
+     "sampleCount": 1747
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.2131,
+     "sample": "b8b32a7ee924bf27",
+     "loop": {
+      "start": 0,
+      "end": 32
+     }
+    }
+   ],
+   "raw": {
+    "kind": "gb-chip",
+    "channel": "wave",
+    "groupKey": "wave:wave:fd6b2f5c08a80514",
+    "clusterNotes": 1747
+   },
+   "usedIn": [
+    "Super Mario Land #1",
+    "Super Mario Land #2",
+    "Super Mario Land #3",
+    "Super Mario Land #4",
+    "Super Mario Land #5",
+    "Super Mario Land #6",
+    "Super Mario Land #9",
+    "Super Mario Land #11",
+    "Super Mario Land #14",
+    "Super Mario Land #18"
+   ],
+   "noteCount": 1747,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 84,
+    "median": 53
+   },
+   "features": {
+    "keyMedian": 53,
+    "keyLo": 36,
+    "keyHi": 84,
+    "keySpan": 48,
+    "medianNote": 0.188,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.001,
+    "release": 0.005,
+    "attack": 0.005,
+    "t20": null,
+    "sustain": 0.934,
+    "centroid": 251,
+    "brightness": 1.44,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  }
+ ],
+ "samples": {
+  "21cfc05102f314ad": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "21cfc05102f314ad.wav"
+  },
+  "b8b32a7ee924bf27": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "b8b32a7ee924bf27.wav"
+  },
+  "7b16a200c0f4dee8": {
+   "rate": 524288,
+   "length": 4096,
+   "loop": null,
+   "bytes": 8280,
+   "file": "7b16a200c0f4dee8.wav"
+  },
+  "a4262fc218a2a29d": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "a4262fc218a2a29d.wav"
+  },
+  "2fa99e7021db9ca7": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "2fa99e7021db9ca7.wav"
+  },
+  "7c708855ea845d72": {
+   "rate": 32000,
+   "length": 32,
+   "loop": {
+    "start": 0,
+    "end": 32
+   },
+   "bytes": 176,
+   "file": "7c708855ea845d72.wav"
+  }
+ }
+}
