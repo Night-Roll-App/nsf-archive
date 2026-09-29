@@ -1,0 +1,4974 @@
+{
+ "format": "night-roll-instruments",
+ "version": 1,
+ "slug": "final-fantasy-4",
+ "title": "",
+ "drivers": [
+  "spc"
+ ],
+ "songs": 65,
+ "notes": "rootKey: the key that plays the sample at its native rate (fractional = fine tune). Level = sample × gain × velocity curve × envelope, in the driver renderer's own scale. Envelope points are amplitude while the key is held; releaseCurve 'follow' continues along its points from the level at key-off, 'exp-time' falls exponentially to its floor over its seconds. Kit regions are keyed by the driver's own slot number. nameGuess is a measured guess, never a fact; features are the measurements.",
+ "instruments": [
+  {
+   "id": "spc:01f095ab:drum",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 101,
+     "keyHi": 101,
+     "rootKey": 101.0797,
+     "fixedPitch": true,
+     "fixedKey": 101.0797,
+     "raw": {
+      "pitch": 4096,
+      "rootConfidence": "medium"
+     },
+     "sample": "4cdf6baf01d631eb",
+     "loop": {
+      "start": 2048,
+      "end": 2480
+     },
+     "nameGuess": "Mallet",
+     "features": {
+      "keyMedian": 101,
+      "keyLo": 101,
+      "keyHi": 101,
+      "keySpan": 0,
+      "medianNote": 0.186,
+      "kit": true,
+      "oneShot": false,
+      "loopSeconds": 0.0135,
+      "sampleSeconds": 0.078,
+      "release": 0.008,
+      "attack": 0.025,
+      "t20": null,
+      "sustain": 0.413,
+      "centroid": 2847,
+      "brightness": 1.02,
+      "harmonicity": 0.82,
+      "flatness": 0.003,
+      "measured": true,
+      "notes": 21
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Samba de Chocobo!": [
+      72
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": true
+   },
+   "usedIn": [
+    "Samba de Chocobo!"
+   ],
+   "noteCount": 21,
+   "used": true,
+   "keysPlayed": {
+    "lo": 101,
+    "hi": 101,
+    "median": 101
+   },
+   "nameGuess": "Drum kit 11",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 1
+   }
+  },
+  {
+   "id": "spc:01f095ab:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 101.003,
+     "raw": {
+      "rootConfidence": "medium",
+      "rootHz": 2806.72
+     },
+     "sample": "4cdf6baf01d631eb",
+     "loop": {
+      "start": 2048,
+      "end": 2480
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Samba de Chocobo!": [
+      72
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": true
+   },
+   "usedIn": [
+    "Samba de Chocobo!"
+   ],
+   "noteCount": 16,
+   "used": true,
+   "keysPlayed": {
+    "lo": 96,
+    "hi": 96,
+    "median": 96
+   },
+   "features": {
+    "keyMedian": 96,
+    "keyLo": 96,
+    "keyHi": 96,
+    "keySpan": 0,
+    "medianNote": 0.185,
+    "kit": true,
+    "oneShot": false,
+    "loopSeconds": 0.0135,
+    "sampleSeconds": 0.078,
+    "release": 0.008,
+    "attack": 0.035,
+    "t20": null,
+    "sustain": 0.39,
+    "centroid": 2122,
+    "brightness": 1.01,
+    "harmonicity": 0.908,
+    "flatness": 0.003,
+    "measured": true
+   },
+   "nameGuess": "Mallet 2"
+  },
+  {
+   "id": "spc:4c660861:drum",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 72,
+     "keyHi": 72,
+     "rootKey": 72,
+     "fixedPitch": true,
+     "fixedKey": 72,
+     "raw": {
+      "pitch": 4096,
+      "rootConfidence": "none"
+     },
+     "sample": "4d7b86926a41fc1a",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 72,
+      "keyLo": 72,
+      "keyHi": 72,
+      "keySpan": 0,
+      "medianNote": 0.22,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.266,
+      "release": 0.008,
+      "attack": 0,
+      "t20": 0.14,
+      "sustain": 0,
+      "centroid": 4380,
+      "brightness": 8.37,
+      "harmonicity": 0.188,
+      "flatness": 0.382,
+      "measured": true,
+      "notes": 479
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Fight 2": [
+      69
+     ],
+     "Main Theme": [
+      67
+     ],
+     "Ring of Bomb": [
+      67
+     ],
+     "The Final Battle": [
+      69
+     ],
+     "Tranquil Beach": [
+      67
+     ],
+     "Within the Giant": [
+      70
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Fight 2",
+    "Main Theme",
+    "Ring of Bomb",
+    "The Final Battle",
+    "Tranquil Beach",
+    "Within the Giant"
+   ],
+   "noteCount": 479,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 72,
+    "median": 72
+   },
+   "nameGuess": "Drum kit 6",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 1
+   }
+  },
+  {
+   "id": "spc:5db9c614:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 173
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 45.0729,
+     "raw": {
+      "rootConfidence": "high",
+      "rootHz": 111.11
+     },
+     "sample": "78396fbc9e04c94e",
+     "loop": {
+      "start": 2400,
+      "end": 2688
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Another Moon": [
+      64
+     ],
+     "Castle Damcyan": [
+      67
+     ],
+     "Chocobo ~ Chocobo": [
+      65
+     ],
+     "Chocobo Forest": [
+      65
+     ],
+     "Dancing Calcobrina": [
+      66
+     ],
+     "Dancing Girls": [
+      66
+     ],
+     "Fanfare": [
+      65
+     ],
+     "Fight 1": [
+      66
+     ],
+     "Fight 2": [
+      66
+     ],
+     "Giott, the Great King": [
+      65
+     ],
+     "Hello! Big Chocobo!": [
+      65
+     ],
+     "Hey, Cid!": [
+      65
+     ],
+     "Illusionary World": [
+      66
+     ],
+     "Into the Darkness": [
+      67
+     ],
+     "Kingdom Baron": [
+      64
+     ],
+     "Land of Dwarves": [
+      64
+     ],
+     "Lunar Subterrane": [
+      66
+     ],
+     "Mt. Ordeals": [
+      64
+     ],
+     "Mystic Mysidia": [
+      67
+     ],
+     "Palom and Porom": [
+      67
+     ],
+     "Red Wings": [
+      66
+     ],
+     "Ring of Bomb": [
+      65
+     ],
+     "Run!!!": [
+      64
+     ],
+     "Samba de Chocobo!": [
+      64
+     ],
+     "Serpent Road": [
+      67
+     ],
+     "Somewhere in the World": [
+      66
+     ],
+     "Surprise": [
+      66
+     ],
+     "Suspicion": [
+      65
+     ],
+     "The Airship": [
+      67
+     ],
+     "The Big Whale": [
+      65
+     ],
+     "The Dreadful Fight": [
+      66
+     ],
+     "The Final Battle": [
+      66
+     ],
+     "The Lunarians": [
+      65
+     ],
+     "The Tower of Babel": [
+      64
+     ],
+     "Toroian Beauty": [
+      66
+     ],
+     "Tower of Zot": [
+      64
+     ],
+     "Tranquil Beach": [
+      65
+     ],
+     "Within the Giant": [
+      64
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 173,
+    "sampleLooped": true,
+    "envelopeVariants": [
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 170,
+      "noteCount": 14
+     }
+    ]
+   },
+   "usedIn": [
+    "Another Moon",
+    "Castle Damcyan",
+    "Chocobo ~ Chocobo",
+    "Chocobo Forest",
+    "Dancing Calcobrina",
+    "Dancing Girls",
+    "Fanfare",
+    "Fight 1",
+    "Fight 2",
+    "Giott, the Great King",
+    "Hello! Big Chocobo!",
+    "Hey, Cid!",
+    "Illusionary World",
+    "Into the Darkness",
+    "Kingdom Baron",
+    "Land of Dwarves",
+    "Lunar Subterrane",
+    "Mt. Ordeals",
+    "Mystic Mysidia",
+    "Palom and Porom",
+    "Red Wings",
+    "Ring of Bomb",
+    "Run!!!",
+    "Samba de Chocobo!",
+    "Serpent Road",
+    "Somewhere in the World",
+    "Surprise",
+    "Suspicion",
+    "The Airship",
+    "The Big Whale",
+    "The Dreadful Fight",
+    "The Final Battle",
+    "The Lunarians",
+    "The Tower of Babel",
+    "Toroian Beauty",
+    "Tower of Zot",
+    "Tranquil Beach",
+    "Within the Giant"
+   ],
+   "noteCount": 7366,
+   "used": true,
+   "keysPlayed": {
+    "lo": 23,
+    "hi": 60,
+    "median": 43
+   },
+   "features": {
+    "keyMedian": 43,
+    "keyLo": 23,
+    "keyHi": 60,
+    "keySpan": 37,
+    "medianNote": 0.175,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.009,
+    "sampleSeconds": 0.084,
+    "release": 0.008,
+    "attack": 0.085,
+    "t20": null,
+    "sustain": 0.725,
+    "centroid": 144,
+    "brightness": 1.47,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Synth bass"
+  },
+  {
+   "id": "spc:7b9316d9:drum",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 72,
+     "keyHi": 72,
+     "rootKey": 72,
+     "fixedPitch": true,
+     "fixedKey": 72,
+     "raw": {
+      "pitch": 4096,
+      "rootConfidence": "none"
+     },
+     "sample": "319100c86fca8c7c",
+     "loop": null,
+     "nameGuess": "Snare",
+     "features": {
+      "keyMedian": 72,
+      "keyLo": 72,
+      "keyHi": 72,
+      "keySpan": 0,
+      "medianNote": 0.188,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.219,
+      "release": 0.008,
+      "attack": 0,
+      "t20": 0.075,
+      "sustain": 0,
+      "centroid": 1069,
+      "brightness": 2.04,
+      "harmonicity": 0.408,
+      "flatness": 0.022,
+      "measured": true,
+      "notes": 204
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Samba de Chocobo!": [
+      73
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Samba de Chocobo!"
+   ],
+   "noteCount": 204,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 72,
+    "median": 72
+   },
+   "nameGuess": "Drum kit 9",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 1
+   }
+  },
+  {
+   "id": "spc:7b9316d9:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 72.003,
+     "raw": {
+      "rootConfidence": "none",
+      "rootHz": null
+     },
+     "sample": "319100c86fca8c7c",
+     "loop": null
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Samba de Chocobo!": [
+      73
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Samba de Chocobo!"
+   ],
+   "noteCount": 114,
+   "used": true,
+   "keysPlayed": {
+    "lo": 67,
+    "hi": 67,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 67,
+    "keyHi": 67,
+    "keySpan": 0,
+    "medianNote": 0.089,
+    "kit": true,
+    "oneShot": true,
+    "loopSeconds": null,
+    "sampleSeconds": 0.219,
+    "release": 0.008,
+    "attack": 0.005,
+    "t20": 0.095,
+    "sustain": 0,
+    "centroid": 802,
+    "brightness": 2.05,
+    "harmonicity": 0.475,
+    "flatness": 0.006,
+    "measured": true
+   },
+   "nameGuess": "Snare"
+  },
+  {
+   "id": "spc:8c11fd4b:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.0875,
+     "raw": {
+      "rootConfidence": "high",
+      "rootHz": 1000
+     },
+     "sample": "461bb50ce0289910",
+     "loop": {
+      "start": 656,
+      "end": 688
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Another Moon": [
+      69
+     ],
+     "Castle Damcyan": [
+      65
+     ],
+     "Chocobo Forest": [
+      66
+     ],
+     "Dancing Calcobrina": [
+      64
+     ],
+     "Epilogue (part 1)": [
+      71
+     ],
+     "Epilogue (part 2)": [
+      64
+     ],
+     "Epilogue (part 3)": [
+      69
+     ],
+     "Fabul": [
+      65
+     ],
+     "Gysahl's Whistle": [
+      64
+     ],
+     "Illusionary World": [
+      64
+     ],
+     "Into the Darkness": [
+      64
+     ],
+     "Land of Dwarves": [
+      66
+     ],
+     "Long Way to Go": [
+      64
+     ],
+     "Main Theme (Ocean)": [
+      64
+     ],
+     "Main Theme": [
+      64
+     ],
+     "Mystic Mysidia": [
+      65
+     ],
+     "Palom and Porom": [
+      66
+     ],
+     "Prologue": [
+      69
+     ],
+     "Rydia": [
+      64
+     ],
+     "Samba de Chocobo!": [
+      67
+     ],
+     "Serpent Road": [
+      65
+     ],
+     "Ship Ahoy": [
+      66
+     ],
+     "The Prelude": [
+      66
+     ],
+     "Theme of Love": [
+      64
+     ],
+     "Toroian Beauty": [
+      65
+     ],
+     "Welcome to Our Town!": [
+      64
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": true,
+    "envelopeVariants": [
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 168,
+      "noteCount": 10
+     },
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 173,
+      "noteCount": 2
+     },
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 174,
+      "noteCount": 2
+     }
+    ]
+   },
+   "usedIn": [
+    "Another Moon",
+    "Castle Damcyan",
+    "Chocobo Forest",
+    "Dancing Calcobrina",
+    "Epilogue (part 1)",
+    "Epilogue (part 2)",
+    "Epilogue (part 3)",
+    "Fabul",
+    "Gysahl's Whistle",
+    "Illusionary World",
+    "Into the Darkness",
+    "Land of Dwarves",
+    "Long Way to Go",
+    "Main Theme (Ocean)",
+    "Main Theme",
+    "Mystic Mysidia",
+    "Palom and Porom",
+    "Prologue",
+    "Rydia",
+    "Samba de Chocobo!",
+    "Serpent Road",
+    "Ship Ahoy",
+    "The Prelude",
+    "Theme of Love",
+    "Toroian Beauty",
+    "Welcome to Our Town!"
+   ],
+   "noteCount": 2647,
+   "used": true,
+   "keysPlayed": {
+    "lo": 48,
+    "hi": 95,
+    "median": 76
+   },
+   "features": {
+    "keyMedian": 76,
+    "keyLo": 48,
+    "keyHi": 95,
+    "keySpan": 47,
+    "medianNote": 0.376,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.022,
+    "release": 0.008,
+    "attack": 0.025,
+    "t20": null,
+    "sustain": 0.946,
+    "centroid": 1016,
+    "brightness": 1.54,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 2"
+  },
+  {
+   "id": "spc:8e99ece8:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 176
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 71.2505,
+     "raw": {
+      "rootConfidence": "high",
+      "rootHz": 500
+     },
+     "sample": "7440e901c4c0db93",
+     "loop": {
+      "start": 48,
+      "end": 112
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Down the Well": [
+      2
+     ],
+     "Serpent Road": [
+      2
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 176,
+    "sampleLooped": true,
+    "envelopeVariants": [
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 160,
+      "noteCount": 1
+     }
+    ]
+   },
+   "usedIn": [
+    "Down the Well",
+    "Serpent Road"
+   ],
+   "noteCount": 41,
+   "used": true,
+   "keysPlayed": {
+    "lo": 39,
+    "hi": 81,
+    "median": 45
+   },
+   "features": {
+    "keyMedian": 45,
+    "keyLo": 39,
+    "keyHi": 81,
+    "keySpan": 42,
+    "medianNote": 1.854,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.002,
+    "sampleSeconds": 0.004,
+    "release": 0.008,
+    "attack": 0.015,
+    "t20": null,
+    "sustain": 0.855,
+    "centroid": 239,
+    "brightness": 2.17,
+    "harmonicity": 1,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Low lead"
+  },
+  {
+   "id": "spc:14a2323d:drum",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 72,
+     "keyHi": 72,
+     "rootKey": 72,
+     "fixedPitch": true,
+     "fixedKey": 72,
+     "raw": {
+      "pitch": 4096,
+      "rootConfidence": "none"
+     },
+     "sample": "ae37b099a1048c31",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 72,
+      "keyLo": 72,
+      "keyHi": 72,
+      "keySpan": 0,
+      "medianNote": 0.13,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.219,
+      "release": 0.008,
+      "attack": 0.015,
+      "t20": 0.09,
+      "sustain": 0,
+      "centroid": 4200,
+      "brightness": 8.03,
+      "harmonicity": 0.523,
+      "flatness": 0.369,
+      "measured": true,
+      "notes": 5485
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Chocobo ~ Chocobo": [
+      67
+     ],
+     "Dancing Calcobrina": [
+      67
+     ],
+     "Dancing Girls": [
+      68
+     ],
+     "Epilogue (part 3)": [
+      66
+     ],
+     "Fanfare": [
+      67
+     ],
+     "Fight 1": [
+      69
+     ],
+     "Giott, the Great King": [
+      67
+     ],
+     "Hey, Cid!": [
+      66
+     ],
+     "Kingdom Baron": [
+      66
+     ],
+     "Land of Dwarves": [
+      68
+     ],
+     "Lunar Subterrane": [
+      67
+     ],
+     "Mt. Ordeals": [
+      68
+     ],
+     "Palom and Porom": [
+      68
+     ],
+     "Red Wings": [
+      67
+     ],
+     "Run!!!": [
+      69
+     ],
+     "Samba de Chocobo!": [
+      70
+     ],
+     "Surprise": [
+      68
+     ],
+     "The Airship": [
+      65
+     ],
+     "The Big Whale": [
+      69
+     ],
+     "The Tower of Babel": [
+      67
+     ],
+     "Tower of Zot": [
+      66
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Chocobo ~ Chocobo",
+    "Dancing Calcobrina",
+    "Dancing Girls",
+    "Epilogue (part 3)",
+    "Fanfare",
+    "Fight 1",
+    "Giott, the Great King",
+    "Hey, Cid!",
+    "Kingdom Baron",
+    "Land of Dwarves",
+    "Lunar Subterrane",
+    "Mt. Ordeals",
+    "Palom and Porom",
+    "Red Wings",
+    "Run!!!",
+    "Samba de Chocobo!",
+    "Surprise",
+    "The Airship",
+    "The Big Whale",
+    "The Tower of Babel",
+    "Tower of Zot"
+   ],
+   "noteCount": 5485,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 72,
+    "median": 72
+   },
+   "nameGuess": "Drum kit",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 1
+   }
+  },
+  {
+   "id": "spc:14a2323d:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 72.0005,
+     "raw": {
+      "rootConfidence": "none",
+      "rootHz": null
+     },
+     "sample": "ae37b099a1048c31",
+     "loop": null
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Mystic Mysidia": [
+      71
+     ],
+     "Serpent Road": [
+      71
+     ],
+     "The Tower of Babel": [
+      67
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Mystic Mysidia",
+    "Serpent Road",
+    "The Tower of Babel"
+   ],
+   "noteCount": 487,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 70,
+    "median": 70
+   },
+   "features": {
+    "keyMedian": 70,
+    "keyLo": 60,
+    "keyHi": 70,
+    "keySpan": 10,
+    "medianNote": 0.127,
+    "kit": false,
+    "oneShot": true,
+    "loopSeconds": null,
+    "sampleSeconds": 0.219,
+    "release": 0.008,
+    "attack": 0.01,
+    "t20": 0.075,
+    "sustain": 0,
+    "centroid": 2876,
+    "brightness": 6.17,
+    "harmonicity": 0.62,
+    "flatness": 0.228,
+    "measured": true
+   },
+   "nameGuess": "Hi-hat 2"
+  },
+  {
+   "id": "spc:22beee2a:drum",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 168
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 29,
+     "keyHi": 29,
+     "rootKey": 56.9654,
+     "fixedPitch": true,
+     "fixedKey": 29.0769,
+     "raw": {
+      "pitch": 818,
+      "rootConfidence": "high"
+     },
+     "sample": "0b74942e43922dd7",
+     "loop": {
+      "start": 1520,
+      "end": 9536
+     },
+     "nameGuess": "Kick",
+     "features": {
+      "keyMedian": 29,
+      "keyLo": 29,
+      "keyHi": 29,
+      "keySpan": 0,
+      "medianNote": 5.521,
+      "kit": true,
+      "oneShot": false,
+      "loopSeconds": 0.2505,
+      "sampleSeconds": 0.298,
+      "release": 0.008,
+      "attack": 0.075,
+      "t20": 0.12,
+      "sustain": 0.377,
+      "centroid": 120,
+      "brightness": 2.74,
+      "harmonicity": 0.964,
+      "flatness": 0,
+      "measured": true,
+      "notes": 34
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Another Moon": [
+      66
+     ],
+     "Prologue": [
+      66
+     ],
+     "The Lunarians": [
+      67
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 168,
+    "sampleLooped": true,
+    "envelopeVariants": [
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 170,
+      "noteCount": 14
+     }
+    ]
+   },
+   "usedIn": [
+    "Another Moon",
+    "Prologue",
+    "The Lunarians"
+   ],
+   "noteCount": 34,
+   "used": true,
+   "keysPlayed": {
+    "lo": 29,
+    "hi": 29,
+    "median": 29
+   },
+   "nameGuess": "Drum kit 10",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 1
+   }
+  },
+  {
+   "id": "spc:22beee2a:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 173
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 56.8671,
+     "raw": {
+      "rootConfidence": "high",
+      "rootHz": 219.56
+     },
+     "sample": "0b74942e43922dd7",
+     "loop": {
+      "start": 1520,
+      "end": 9536
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Epilogue (part 1)": [
+      73
+     ],
+     "Prologue": [
+      66
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 173,
+    "sampleLooped": true,
+    "envelopeVariants": [
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 168,
+      "noteCount": 1
+     }
+    ]
+   },
+   "usedIn": [
+    "Epilogue (part 1)",
+    "Prologue"
+   ],
+   "noteCount": 9,
+   "used": true,
+   "keysPlayed": {
+    "lo": 30,
+    "hi": 45,
+    "median": 33
+   },
+   "features": {
+    "keyMedian": 33,
+    "keyLo": 30,
+    "keyHi": 45,
+    "keySpan": 15,
+    "medianNote": 8.023,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.2505,
+    "sampleSeconds": 0.298,
+    "release": 0.008,
+    "attack": 0.06,
+    "t20": 0.22,
+    "sustain": 0.379,
+    "centroid": 146,
+    "brightness": 2.65,
+    "harmonicity": 0.96,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Plucked bass"
+  },
+  {
+   "id": "spc:34c3844b:drum",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 36,
+     "keyHi": 36,
+     "rootKey": 36.0099,
+     "fixedPitch": true,
+     "fixedKey": 36.0099,
+     "raw": {
+      "pitch": 4096,
+      "rootConfidence": "low"
+     },
+     "sample": "462d0a2a6210886c",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 36,
+      "keyLo": 36,
+      "keyHi": 36,
+      "keySpan": 0,
+      "medianNote": 0.22,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.266,
+      "release": 0.008,
+      "attack": 0.035,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 634,
+      "brightness": 9.69,
+      "harmonicity": 0.934,
+      "flatness": 0.036,
+      "measured": true,
+      "notes": 832
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Fight 2": [
+      70
+     ],
+     "Main Theme": [
+      68
+     ],
+     "Ring of Bomb": [
+      68
+     ],
+     "The Final Battle": [
+      70
+     ],
+     "Tranquil Beach": [
+      68
+     ],
+     "Within the Giant": [
+      71
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Fight 2",
+    "Main Theme",
+    "Ring of Bomb",
+    "The Final Battle",
+    "Tranquil Beach",
+    "Within the Giant"
+   ],
+   "noteCount": 832,
+   "used": true,
+   "keysPlayed": {
+    "lo": 36,
+    "hi": 36,
+    "median": 36
+   },
+   "nameGuess": "Drum kit 5",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 1
+   }
+  },
+  {
+   "id": "spc:39a4b72e:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 56.9391,
+     "raw": {
+      "rootConfidence": "high",
+      "rootHz": 220.82
+     },
+     "sample": "ff5adc4dd0f9679e",
+     "loop": {
+      "start": 48,
+      "end": 5120
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Dancing Calcobrina": [
+      65
+     ],
+     "Golbez, Clad in Dark": [
+      64
+     ],
+     "The Final Battle": [
+      68
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": true
+   },
+   "usedIn": [
+    "Dancing Calcobrina",
+    "Golbez, Clad in Dark",
+    "The Final Battle"
+   ],
+   "noteCount": 1112,
+   "used": true,
+   "keysPlayed": {
+    "lo": 17,
+    "hi": 71,
+    "median": 53
+   },
+   "features": {
+    "keyMedian": 53,
+    "keyLo": 17,
+    "keyHi": 71,
+    "keySpan": 54,
+    "medianNote": 0.175,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.1585,
+    "sampleSeconds": 0.16,
+    "release": 0.008,
+    "attack": 0.01,
+    "t20": null,
+    "sustain": 0.888,
+    "centroid": 785,
+    "brightness": 4.5,
+    "harmonicity": 0.997,
+    "flatness": 0.001,
+    "measured": true
+   },
+   "nameGuess": "Lead 5"
+  },
+  {
+   "id": "spc:66aa3adf:drum",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 72,
+     "keyHi": 72,
+     "rootKey": 72,
+     "fixedPitch": true,
+     "fixedKey": 72,
+     "raw": {
+      "pitch": 4096,
+      "rootConfidence": "none"
+     },
+     "sample": "8e6655f636e018d7",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 72,
+      "keyLo": 72,
+      "keyHi": 72,
+      "keySpan": 0,
+      "medianNote": 0.089,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.063,
+      "release": 0.008,
+      "attack": 0.025,
+      "t20": 0.03,
+      "sustain": 0,
+      "centroid": 7726,
+      "brightness": 14.77,
+      "harmonicity": 0.243,
+      "flatness": 0.274,
+      "measured": true,
+      "notes": 871
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Samba de Chocobo!": [
+      68
+     ],
+     "Toroian Beauty": [
+      68
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Samba de Chocobo!",
+    "Toroian Beauty"
+   ],
+   "noteCount": 871,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 72,
+    "median": 72
+   },
+   "nameGuess": "Drum kit 4",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 1
+   }
+  },
+  {
+   "id": "spc:670feb84:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 175
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.1528,
+     "raw": {
+      "rootConfidence": "high",
+      "rootHz": 1000
+     },
+     "sample": "ba69913c0417a221",
+     "loop": {
+      "start": 96,
+      "end": 128
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Crickets": [
+      5
+     ],
+     "Gysahl's Whistle": [
+      5
+     ],
+     "Hummingway's Tune": [
+      5
+     ],
+     "Melody of Lute (Night)": [
+      5
+     ],
+     "The Package Opens...": [
+      5
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 175,
+    "sampleLooped": true,
+    "envelopeVariants": [
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 160,
+      "noteCount": 30
+     },
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 165,
+      "noteCount": 5
+     },
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 168,
+      "noteCount": 4
+     }
+    ]
+   },
+   "usedIn": [
+    "Crickets",
+    "Gysahl's Whistle",
+    "Hummingway's Tune",
+    "Melody of Lute (Night)",
+    "The Package Opens..."
+   ],
+   "noteCount": 159,
+   "used": true,
+   "keysPlayed": {
+    "lo": 60,
+    "hi": 107,
+    "median": 93
+   },
+   "features": {
+    "keyMedian": 93,
+    "keyLo": 60,
+    "keyHi": 107,
+    "keySpan": 47,
+    "medianNote": 0.447,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.004,
+    "release": 0.008,
+    "attack": 0,
+    "t20": null,
+    "sustain": 0.992,
+    "centroid": 3385,
+    "brightness": 1.92,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "High organ-like"
+  },
+  {
+   "id": "spc:965bd0df:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 71.9381,
+     "raw": {
+      "rootConfidence": "none",
+      "rootHz": null
+     },
+     "sample": "9e2a3533dc276b7e",
+     "loop": null
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Another Moon": [
+      68
+     ],
+     "Dancing Girls": [
+      69
+     ],
+     "Epilogue (part 3)": [
+      68
+     ],
+     "Fabul": [
+      67
+     ],
+     "Hello! Big Chocobo!": [
+      66
+     ],
+     "Lunar Subterrane": [
+      68
+     ],
+     "Prologue": [
+      68
+     ],
+     "Red Wings": [
+      68
+     ],
+     "Ship Ahoy": [
+      65
+     ],
+     "The Big Whale": [
+      68
+     ],
+     "The Dreadful Fight": [
+      64
+     ],
+     "The Paladin": [
+      66
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Another Moon",
+    "Dancing Girls",
+    "Epilogue (part 3)",
+    "Fabul",
+    "Hello! Big Chocobo!",
+    "Lunar Subterrane",
+    "Prologue",
+    "Red Wings",
+    "Ship Ahoy",
+    "The Big Whale",
+    "The Dreadful Fight",
+    "The Paladin"
+   ],
+   "noteCount": 1163,
+   "used": true,
+   "keysPlayed": {
+    "lo": 61,
+    "hi": 75,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 61,
+    "keyHi": 75,
+    "keySpan": 14,
+    "medianNote": 0.167,
+    "kit": false,
+    "oneShot": true,
+    "loopSeconds": null,
+    "sampleSeconds": 0.5,
+    "release": 0.008,
+    "attack": 0.005,
+    "t20": 0.145,
+    "sustain": 0,
+    "centroid": 520,
+    "brightness": 1.33,
+    "harmonicity": 0.57,
+    "flatness": 0.002,
+    "measured": true
+   },
+   "nameGuess": "Pluck 2"
+  },
+  {
+   "id": "spc:a0bfcad5:drum",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 177
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 75,
+     "keyHi": 75,
+     "rootKey": 80.3517,
+     "fixedPitch": true,
+     "fixedKey": 75.3487,
+     "raw": {
+      "pitch": 3068,
+      "rootConfidence": "medium"
+     },
+     "sample": "ba0730b05badb7ef",
+     "loop": null,
+     "nameGuess": "Tom",
+     "features": {
+      "keyMedian": 75,
+      "keyLo": 75,
+      "keyHi": 75,
+      "keySpan": 0,
+      "medianNote": 0.088,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.104,
+      "release": 0.008,
+      "attack": 0.05,
+      "t20": 0.07,
+      "sustain": 0,
+      "centroid": 649,
+      "brightness": 1.04,
+      "harmonicity": 0.997,
+      "flatness": 0,
+      "measured": true,
+      "notes": 400
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Samba de Chocobo!": [
+      65
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 177,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Samba de Chocobo!"
+   ],
+   "noteCount": 400,
+   "used": true,
+   "keysPlayed": {
+    "lo": 75,
+    "hi": 75,
+    "median": 75
+   },
+   "nameGuess": "Drum kit 8",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 1
+   }
+  },
+  {
+   "id": "spc:a0bfcad5:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 80.0029,
+     "raw": {
+      "rootConfidence": "medium",
+      "rootHz": 847.65
+     },
+     "sample": "ba0730b05badb7ef",
+     "loop": null
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Mystic Mysidia": [
+      70
+     ],
+     "Samba de Chocobo!": [
+      65
+     ],
+     "Serpent Road": [
+      70
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false,
+    "envelopeVariants": [
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 177,
+      "noteCount": 80
+     }
+    ]
+   },
+   "usedIn": [
+    "Mystic Mysidia",
+    "Samba de Chocobo!",
+    "Serpent Road"
+   ],
+   "noteCount": 173,
+   "used": true,
+   "keysPlayed": {
+    "lo": 59,
+    "hi": 80,
+    "median": 68
+   },
+   "features": {
+    "keyMedian": 68,
+    "keyLo": 59,
+    "keyHi": 80,
+    "keySpan": 21,
+    "medianNote": 0.29,
+    "kit": false,
+    "oneShot": true,
+    "loopSeconds": null,
+    "sampleSeconds": 0.104,
+    "release": 0.008,
+    "attack": 0.075,
+    "t20": 0.085,
+    "sustain": 0,
+    "centroid": 437,
+    "brightness": 1.05,
+    "harmonicity": 0.997,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck 3"
+  },
+  {
+   "id": "spc:a0cf4fe0:drum",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 173
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 72,
+     "keyHi": 72,
+     "rootKey": 72,
+     "fixedPitch": true,
+     "fixedKey": 72,
+     "raw": {
+      "pitch": 4096,
+      "rootConfidence": "none"
+     },
+     "sample": "66fd78311eef6397",
+     "loop": {
+      "start": 2608,
+      "end": 8656
+     },
+     "nameGuess": "Cymbal",
+     "features": {
+      "keyMedian": 72,
+      "keyLo": 72,
+      "keyHi": 72,
+      "keySpan": 0,
+      "medianNote": 1.38,
+      "kit": true,
+      "oneShot": false,
+      "loopSeconds": 0.189,
+      "sampleSeconds": 0.271,
+      "release": 0.008,
+      "attack": 0.01,
+      "t20": null,
+      "sustain": 0.578,
+      "centroid": 3973,
+      "brightness": 7.59,
+      "harmonicity": 0.266,
+      "flatness": 0.166,
+      "measured": true,
+      "notes": 404
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Dancing Girls": [
+      67
+     ],
+     "Epilogue (part 3)": [
+      67
+     ],
+     "Fabul": [
+      66
+     ],
+     "Fight 1": [
+      67
+     ],
+     "Fight 2": [
+      67
+     ],
+     "Giott, the Great King": [
+      66
+     ],
+     "Join the Party!": [
+      67
+     ],
+     "Lunar Subterrane": [
+      69
+     ],
+     "Prologue": [
+      67
+     ],
+     "Red Wings": [
+      69
+     ],
+     "Ring of Bomb": [
+      66
+     ],
+     "Run!!!": [
+      68
+     ],
+     "Surprise": [
+      67
+     ],
+     "The Big Whale": [
+      67
+     ],
+     "The Dreadful Fight": [
+      67
+     ],
+     "The Final Battle": [
+      67
+     ],
+     "The Paladin": [
+      67
+     ],
+     "The Porno Magazine!": [
+      66
+     ],
+     "Tower of Zot": [
+      67
+     ],
+     "Tranquil Beach": [
+      66
+     ],
+     "Within the Giant": [
+      69
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 173,
+    "sampleLooped": true
+   },
+   "usedIn": [
+    "Dancing Girls",
+    "Epilogue (part 3)",
+    "Fabul",
+    "Fight 1",
+    "Fight 2",
+    "Giott, the Great King",
+    "Join the Party!",
+    "Lunar Subterrane",
+    "Prologue",
+    "Red Wings",
+    "Ring of Bomb",
+    "Run!!!",
+    "Surprise",
+    "The Big Whale",
+    "The Dreadful Fight",
+    "The Final Battle",
+    "The Paladin",
+    "The Porno Magazine!",
+    "Tower of Zot",
+    "Tranquil Beach",
+    "Within the Giant"
+   ],
+   "noteCount": 404,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 72,
+    "median": 72
+   },
+   "nameGuess": "Drum kit 7",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 1
+   }
+  },
+  {
+   "id": "spc:a0cf4fe0:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 174
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 72.0035,
+     "raw": {
+      "rootConfidence": "none",
+      "rootHz": null
+     },
+     "sample": "66fd78311eef6397",
+     "loop": {
+      "start": 2608,
+      "end": 8656
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Ship Ahoy": [
+      64
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 174,
+    "sampleLooped": true
+   },
+   "usedIn": [
+    "Ship Ahoy"
+   ],
+   "noteCount": 3,
+   "used": true,
+   "keysPlayed": {
+    "lo": 63,
+    "hi": 63,
+    "median": 63
+   },
+   "features": {
+    "keyMedian": 63,
+    "keyLo": 63,
+    "keyHi": 63,
+    "keySpan": 0,
+    "medianNote": 1.377,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.189,
+    "sampleSeconds": 0.271,
+    "release": 0.008,
+    "attack": 0.015,
+    "t20": null,
+    "sustain": 0.498,
+    "centroid": 1912,
+    "brightness": 6.14,
+    "harmonicity": 0.46,
+    "flatness": 0.022,
+    "measured": true
+   },
+   "nameGuess": "Noise/FX"
+  },
+  {
+   "id": "spc:a110172c:drum",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 72,
+     "keyHi": 72,
+     "rootKey": 72,
+     "fixedPitch": true,
+     "fixedKey": 72,
+     "raw": {
+      "pitch": 4096,
+      "rootConfidence": "none"
+     },
+     "sample": "c84fcee671116036",
+     "loop": null,
+     "nameGuess": "Hi-hat",
+     "features": {
+      "keyMedian": 72,
+      "keyLo": 72,
+      "keyHi": 72,
+      "keySpan": 0,
+      "medianNote": 0.16,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.11,
+      "release": 0.008,
+      "attack": 0.005,
+      "t20": 0.065,
+      "sustain": 0,
+      "centroid": 7839,
+      "brightness": 14.98,
+      "harmonicity": 0.224,
+      "flatness": 0.221,
+      "measured": true,
+      "notes": 3067
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Castle Damcyan": [
+      68
+     ],
+     "Chocobo ~ Chocobo": [
+      69
+     ],
+     "Fight 1": [
+      68
+     ],
+     "Fight 2": [
+      68
+     ],
+     "Into the Darkness": [
+      68
+     ],
+     "Land of Dwarves": [
+      67
+     ],
+     "Main Theme": [
+      69
+     ],
+     "The Airship": [
+      70
+     ],
+     "The Dreadful Fight": [
+      69
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Castle Damcyan",
+    "Chocobo ~ Chocobo",
+    "Fight 1",
+    "Fight 2",
+    "Into the Darkness",
+    "Land of Dwarves",
+    "Main Theme",
+    "The Airship",
+    "The Dreadful Fight"
+   ],
+   "noteCount": 3067,
+   "used": true,
+   "keysPlayed": {
+    "lo": 72,
+    "hi": 72,
+    "median": 72
+   },
+   "nameGuess": "Drum kit 2",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 1
+   }
+  },
+  {
+   "id": "spc:a110172c:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 72.0043,
+     "raw": {
+      "rootConfidence": "none",
+      "rootHz": null
+     },
+     "sample": "c84fcee671116036",
+     "loop": null
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Epilogue (part 1)": [
+      67
+     ],
+     "Mystic Mysidia": [
+      68
+     ],
+     "Serpent Road": [
+      68
+     ],
+     "Within the Giant": [
+      68
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Epilogue (part 1)",
+    "Mystic Mysidia",
+    "Serpent Road",
+    "Within the Giant"
+   ],
+   "noteCount": 848,
+   "used": true,
+   "keysPlayed": {
+    "lo": 39,
+    "hi": 86,
+    "median": 60
+   },
+   "features": {
+    "keyMedian": 60,
+    "keyLo": 39,
+    "keyHi": 86,
+    "keySpan": 47,
+    "medianNote": 0.098,
+    "kit": false,
+    "oneShot": true,
+    "loopSeconds": null,
+    "sampleSeconds": 0.11,
+    "release": 0.008,
+    "attack": 0.01,
+    "t20": 0.11,
+    "sustain": 0,
+    "centroid": 3791,
+    "brightness": 14.49,
+    "harmonicity": 0.244,
+    "flatness": 0.016,
+    "measured": true
+   },
+   "nameGuess": "Hi-hat"
+  },
+  {
+   "id": "spc:b8c675bf:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 107.0012,
+     "raw": {
+      "rootConfidence": "low",
+      "rootHz": 3966.18
+     },
+     "sample": "74bc8a1853950c17",
+     "loop": null
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Mystic Mysidia": [
+      69
+     ],
+     "Samba de Chocobo!": [
+      71
+     ],
+     "Serpent Road": [
+      69
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Mystic Mysidia",
+    "Samba de Chocobo!",
+    "Serpent Road"
+   ],
+   "noteCount": 407,
+   "used": true,
+   "keysPlayed": {
+    "lo": 83,
+    "hi": 107,
+    "median": 102
+   },
+   "features": {
+    "keyMedian": 102,
+    "keyLo": 83,
+    "keyHi": 107,
+    "keySpan": 24,
+    "medianNote": 0.187,
+    "kit": false,
+    "oneShot": true,
+    "loopSeconds": null,
+    "sampleSeconds": 0.126,
+    "release": 0.008,
+    "attack": 0.005,
+    "t20": 0.095,
+    "sustain": 0,
+    "centroid": 2644,
+    "brightness": 0.89,
+    "harmonicity": 0.785,
+    "flatness": 0.005,
+    "measured": true
+   },
+   "nameGuess": "High pluck"
+  },
+  {
+   "id": "spc:c5c331c5:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 177
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 83.0912,
+     "raw": {
+      "rootConfidence": "high",
+      "rootHz": 1000
+     },
+     "sample": "873c9a09c0d64363",
+     "loop": {
+      "start": 448,
+      "end": 480
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Cry in Sorrow (part 1)": [
+      64
+     ],
+     "Cry in Sorrow (part 2)": [
+      64
+     ],
+     "Good Night": [
+      64
+     ],
+     "Main Theme (Ocean)": [
+      65
+     ],
+     "Main Theme": [
+      65
+     ],
+     "The Lunarians": [
+      64
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 177,
+    "sampleLooped": true,
+    "envelopeVariants": [
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 175,
+      "noteCount": 359
+     },
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 171,
+      "noteCount": 26
+     }
+    ]
+   },
+   "usedIn": [
+    "Cry in Sorrow (part 1)",
+    "Cry in Sorrow (part 2)",
+    "Good Night",
+    "Main Theme (Ocean)",
+    "Main Theme",
+    "The Lunarians"
+   ],
+   "noteCount": 2336,
+   "used": true,
+   "keysPlayed": {
+    "lo": 42,
+    "hi": 89,
+    "median": 64
+   },
+   "features": {
+    "keyMedian": 64,
+    "keyLo": 42,
+    "keyHi": 89,
+    "keySpan": 47,
+    "medianNote": 0.099,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.001,
+    "sampleSeconds": 0.015,
+    "release": 0.008,
+    "attack": 0.025,
+    "t20": null,
+    "sustain": 0.934,
+    "centroid": 543,
+    "brightness": 1.65,
+    "harmonicity": 0.989,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 3"
+  },
+  {
+   "id": "spc:cc4d37de:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 179
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 80.8764,
+     "raw": {
+      "rootConfidence": "medium",
+      "rootHz": 883.43
+     },
+     "sample": "dce9200dba273b41",
+     "loop": null
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Castle Damcyan": [
+      64
+     ],
+     "Epilogue (part 1)": [
+      70
+     ],
+     "Epilogue (part 2)": [
+      68
+     ],
+     "Gysahl's Whistle": [
+      65
+     ],
+     "Illusionary World": [
+      65
+     ],
+     "Into the Darkness": [
+      65
+     ],
+     "Melody of Lute (Night)": [
+      64
+     ],
+     "Melody of Lute": [
+      64
+     ],
+     "Rydia": [
+      65
+     ],
+     "Somewhere in the World": [
+      65
+     ],
+     "Suspicion": [
+      66
+     ],
+     "The Airship": [
+      69
+     ],
+     "The Lunarians": [
+      66
+     ],
+     "The Paladin": [
+      68
+     ],
+     "The Prelude": [
+      64
+     ],
+     "The Tower of Babel": [
+      68
+     ],
+     "Theme of Love": [
+      65
+     ],
+     "Toroian Beauty": [
+      64
+     ],
+     "Welcome to Our Town!": [
+      65
+     ],
+     "Within the Giant": [
+      67
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 179,
+    "sampleLooped": false,
+    "envelopeVariants": [
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 160,
+      "noteCount": 2877
+     },
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 175,
+      "noteCount": 476
+     }
+    ]
+   },
+   "usedIn": [
+    "Castle Damcyan",
+    "Epilogue (part 1)",
+    "Epilogue (part 2)",
+    "Gysahl's Whistle",
+    "Illusionary World",
+    "Into the Darkness",
+    "Melody of Lute (Night)",
+    "Melody of Lute",
+    "Rydia",
+    "Somewhere in the World",
+    "Suspicion",
+    "The Airship",
+    "The Lunarians",
+    "The Paladin",
+    "The Prelude",
+    "The Tower of Babel",
+    "Theme of Love",
+    "Toroian Beauty",
+    "Welcome to Our Town!",
+    "Within the Giant"
+   ],
+   "noteCount": 6839,
+   "used": true,
+   "keysPlayed": {
+    "lo": 40,
+    "hi": 96,
+    "median": 67
+   },
+   "features": {
+    "keyMedian": 67,
+    "keyLo": 40,
+    "keyHi": 96,
+    "keySpan": 56,
+    "medianNote": 0.157,
+    "kit": false,
+    "oneShot": true,
+    "loopSeconds": null,
+    "sampleSeconds": 0.5,
+    "release": 0.008,
+    "attack": 0.02,
+    "t20": 0.265,
+    "sustain": 0,
+    "centroid": 492,
+    "brightness": 1.25,
+    "harmonicity": 0.98,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Mallet"
+  },
+  {
+   "id": "spc:e9b389b3:drum",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "drum-kit",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 24,
+     "keyHi": 24,
+     "rootKey": 23.6014,
+     "fixedPitch": true,
+     "fixedKey": 23.6014,
+     "raw": {
+      "pitch": 4096,
+      "rootConfidence": "low"
+     },
+     "sample": "13d80c0131be919f",
+     "loop": null,
+     "nameGuess": "Kick",
+     "features": {
+      "keyMedian": 24,
+      "keyLo": 24,
+      "keyHi": 24,
+      "keySpan": 0,
+      "medianNote": 0.193,
+      "kit": true,
+      "oneShot": true,
+      "loopSeconds": null,
+      "sampleSeconds": 0.076,
+      "release": 0.008,
+      "attack": 0.015,
+      "t20": 0.02,
+      "sustain": 0,
+      "centroid": 67,
+      "brightness": 2.03,
+      "harmonicity": 0.975,
+      "flatness": 0,
+      "measured": true,
+      "notes": 931
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Castle Damcyan": [
+      69
+     ],
+     "Chocobo ~ Chocobo": [
+      68
+     ],
+     "Fanfare": [
+      66
+     ],
+     "Fight 1": [
+      70
+     ],
+     "Land of Dwarves": [
+      69
+     ],
+     "Samba de Chocobo!": [
+      69
+     ],
+     "Somewhere in the World": [
+      67
+     ],
+     "The Airship": [
+      66
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Castle Damcyan",
+    "Chocobo ~ Chocobo",
+    "Fanfare",
+    "Fight 1",
+    "Land of Dwarves",
+    "Samba de Chocobo!",
+    "Somewhere in the World",
+    "The Airship"
+   ],
+   "noteCount": 931,
+   "used": true,
+   "keysPlayed": {
+    "lo": 24,
+    "hi": 24,
+    "median": 24
+   },
+   "nameGuess": "Drum kit 3",
+   "features": {
+    "kit": true,
+    "slots": 1,
+    "slotsPlayed": 1
+   }
+  },
+  {
+   "id": "spc:ea229d7f:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 71.0881,
+     "raw": {
+      "rootConfidence": "high",
+      "rootHz": 500
+     },
+     "sample": "84e657cbec76809f",
+     "loop": {
+      "start": 704,
+      "end": 768
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Another Moon": [
+      67
+     ],
+     "Chocobo ~ Chocobo": [
+      66
+     ],
+     "Dancing Girls": [
+      65
+     ],
+     "Epilogue (part 2)": [
+      66
+     ],
+     "Epilogue (part 3)": [
+      64
+     ],
+     "Fanfare": [
+      64
+     ],
+     "Fight 1": [
+      64
+     ],
+     "Fight 2": [
+      65
+     ],
+     "Giott, the Great King": [
+      64
+     ],
+     "Hello! Big Chocobo!": [
+      64
+     ],
+     "Hey, Cid!": [
+      64
+     ],
+     "Join the Party!": [
+      64
+     ],
+     "Kingdom Baron": [
+      67
+     ],
+     "Lunar Subterrane": [
+      64
+     ],
+     "Palom and Porom": [
+      65
+     ],
+     "Prologue": [
+      65
+     ],
+     "Red Wings": [
+      64
+     ],
+     "Run!!!": [
+      66
+     ],
+     "Surprise": [
+      64
+     ],
+     "The Airship": [
+      68
+     ],
+     "The Big Whale": [
+      66
+     ],
+     "The Dreadful Fight": [
+      65
+     ],
+     "The Final Battle": [
+      64
+     ],
+     "The Paladin": [
+      64
+     ],
+     "The Porno Magazine!": [
+      64
+     ],
+     "The Tower of Babel": [
+      66
+     ],
+     "Tower of Zot": [
+      68
+     ],
+     "Within the Giant": [
+      66
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": true
+   },
+   "usedIn": [
+    "Another Moon",
+    "Chocobo ~ Chocobo",
+    "Dancing Girls",
+    "Epilogue (part 2)",
+    "Epilogue (part 3)",
+    "Fanfare",
+    "Fight 1",
+    "Fight 2",
+    "Giott, the Great King",
+    "Hello! Big Chocobo!",
+    "Hey, Cid!",
+    "Join the Party!",
+    "Kingdom Baron",
+    "Lunar Subterrane",
+    "Palom and Porom",
+    "Prologue",
+    "Red Wings",
+    "Run!!!",
+    "Surprise",
+    "The Airship",
+    "The Big Whale",
+    "The Dreadful Fight",
+    "The Final Battle",
+    "The Paladin",
+    "The Porno Magazine!",
+    "The Tower of Babel",
+    "Tower of Zot",
+    "Within the Giant"
+   ],
+   "noteCount": 6048,
+   "used": true,
+   "keysPlayed": {
+    "lo": 31,
+    "hi": 89,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 31,
+    "keyHi": 89,
+    "keySpan": 58,
+    "medianNote": 0.157,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.002,
+    "sampleSeconds": 0.024,
+    "release": 0.008,
+    "attack": 0.02,
+    "t20": null,
+    "sustain": 0.941,
+    "centroid": 1264,
+    "brightness": 3.62,
+    "harmonicity": 0.99,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead"
+  },
+  {
+   "id": "spc:f1d2c42f:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 163
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 80.9447,
+     "raw": {
+      "rootConfidence": "high",
+      "rootHz": 882.87
+     },
+     "sample": "7cdf7dd2bbf8a688",
+     "loop": {
+      "start": 48,
+      "end": 10752
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Another Moon": [
+      65
+     ],
+     "Castle Damcyan": [
+      66
+     ],
+     "Epilogue (part 1)": [
+      66
+     ],
+     "Epilogue (part 2)": [
+      65
+     ],
+     "Epilogue (part 3)": [
+      65
+     ],
+     "Fabul": [
+      64
+     ],
+     "Fight 1": [
+      65
+     ],
+     "Fight 2": [
+      64
+     ],
+     "Golbez, Clad in Dark": [
+      65
+     ],
+     "Gysahl's Whistle": [
+      66
+     ],
+     "Illusionary World": [
+      67
+     ],
+     "Into the Darkness": [
+      66
+     ],
+     "Join the Party!": [
+      65
+     ],
+     "Kingdom Baron": [
+      65
+     ],
+     "Land of Dwarves": [
+      65
+     ],
+     "Long Way to Go": [
+      65
+     ],
+     "Lunar Subterrane": [
+      65
+     ],
+     "Main Theme (Ocean)": [
+      66
+     ],
+     "Main Theme": [
+      66
+     ],
+     "Mt. Ordeals": [
+      67
+     ],
+     "Mystic Mysidia": [
+      66
+     ],
+     "Prologue": [
+      64
+     ],
+     "Red Wings": [
+      65
+     ],
+     "Ring of Bomb": [
+      64
+     ],
+     "Run!!!": [
+      65
+     ],
+     "Somewhere in the World": [
+      64
+     ],
+     "Suspicion": [
+      64
+     ],
+     "The Airship": [
+      64
+     ],
+     "The Big Whale": [
+      64
+     ],
+     "The Dreadful Fight": [
+      68
+     ],
+     "The Final Battle": [
+      65
+     ],
+     "The Paladin": [
+      65
+     ],
+     "The Porno Magazine!": [
+      65
+     ],
+     "The Prelude": [
+      65
+     ],
+     "The Tower of Babel": [
+      65
+     ],
+     "Theme of Love": [
+      66
+     ],
+     "Toroian Beauty": [
+      67
+     ],
+     "Tower of Zot": [
+      65
+     ],
+     "Tranquil Beach": [
+      64
+     ],
+     "Welcome to Our Town!": [
+      66
+     ],
+     "Within the Giant": [
+      65
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 163,
+    "sampleLooped": true,
+    "envelopeVariants": [
+     {
+      "adsr1": 255,
+      "adsr2": 224,
+      "gain": 168,
+      "noteCount": 727
+     }
+    ]
+   },
+   "usedIn": [
+    "Another Moon",
+    "Castle Damcyan",
+    "Epilogue (part 1)",
+    "Epilogue (part 2)",
+    "Epilogue (part 3)",
+    "Fabul",
+    "Fight 1",
+    "Fight 2",
+    "Golbez, Clad in Dark",
+    "Gysahl's Whistle",
+    "Illusionary World",
+    "Into the Darkness",
+    "Join the Party!",
+    "Kingdom Baron",
+    "Land of Dwarves",
+    "Long Way to Go",
+    "Lunar Subterrane",
+    "Main Theme (Ocean)",
+    "Main Theme",
+    "Mt. Ordeals",
+    "Mystic Mysidia",
+    "Prologue",
+    "Red Wings",
+    "Ring of Bomb",
+    "Run!!!",
+    "Somewhere in the World",
+    "Suspicion",
+    "The Airship",
+    "The Big Whale",
+    "The Dreadful Fight",
+    "The Final Battle",
+    "The Paladin",
+    "The Porno Magazine!",
+    "The Prelude",
+    "The Tower of Babel",
+    "Theme of Love",
+    "Toroian Beauty",
+    "Tower of Zot",
+    "Tranquil Beach",
+    "Welcome to Our Town!",
+    "Within the Giant"
+   ],
+   "noteCount": 10899,
+   "used": true,
+   "keysPlayed": {
+    "lo": 27,
+    "hi": 91,
+    "median": 65
+   },
+   "features": {
+    "keyMedian": 65,
+    "keyLo": 27,
+    "keyHi": 91,
+    "keySpan": 64,
+    "medianNote": 0.264,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.3345,
+    "sampleSeconds": 0.336,
+    "release": 0.008,
+    "attack": 0.32,
+    "t20": null,
+    "sustain": 0.587,
+    "centroid": 834,
+    "brightness": 2.39,
+    "harmonicity": 0.979,
+    "flatness": 0.002,
+    "measured": true
+   },
+   "nameGuess": "Soft pad"
+  },
+  {
+   "id": "spc:f8d8992f:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 160
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 68.8715,
+     "raw": {
+      "rootConfidence": "medium",
+      "rootHz": 440.75
+     },
+     "sample": "534fdfc9b3f7a20c",
+     "loop": null
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Chocobo ~ Chocobo": [
+      64
+     ],
+     "Chocobo Forest": [
+      64
+     ],
+     "Dancing Girls": [
+      64
+     ],
+     "Mt. Ordeals": [
+      66
+     ],
+     "Mystic Mysidia": [
+      64
+     ],
+     "Palom and Porom": [
+      64
+     ],
+     "Serpent Road": [
+      64
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 160,
+    "sampleLooped": false
+   },
+   "usedIn": [
+    "Chocobo ~ Chocobo",
+    "Chocobo Forest",
+    "Dancing Girls",
+    "Mt. Ordeals",
+    "Mystic Mysidia",
+    "Palom and Porom",
+    "Serpent Road"
+   ],
+   "noteCount": 3327,
+   "used": true,
+   "keysPlayed": {
+    "lo": 47,
+    "hi": 79,
+    "median": 66
+   },
+   "features": {
+    "keyMedian": 66,
+    "keyLo": 47,
+    "keyHi": 79,
+    "keySpan": 32,
+    "medianNote": 0.139,
+    "kit": false,
+    "oneShot": true,
+    "loopSeconds": null,
+    "sampleSeconds": 0.438,
+    "release": 0.008,
+    "attack": 0.025,
+    "t20": 0.24,
+    "sustain": 0,
+    "centroid": 530,
+    "brightness": 1.43,
+    "harmonicity": 0.993,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Pluck"
+  },
+  {
+   "id": "spc:fbce1ce7:inst",
+   "driver": "spc",
+   "bank": null,
+   "program": null,
+   "kind": "melodic",
+   "pan": null,
+   "gain": 1,
+   "velocityCurve": "linear",
+   "maxRatio": null,
+   "envelope": {
+    "attack": 0.0001,
+    "decay": 0,
+    "sustain": 1,
+    "release": 0.008,
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      0.00006,
+      1
+     ],
+     [
+      1.00009,
+      1
+     ]
+    ],
+    "repeat": null,
+    "releaseCurve": {
+     "mode": "follow",
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       0.00797,
+       0.00342
+      ],
+      [
+       0.008,
+       0
+      ]
+     ]
+    },
+    "raw": {
+     "kind": "spc-adsr",
+     "adsr1": 255,
+     "adsr2": 224,
+     "gain": 177
+    }
+   },
+   "keyRegions": [
+    {
+     "keyLo": 0,
+     "keyHi": 127,
+     "rootKey": 59.0879,
+     "raw": {
+      "rootConfidence": "high",
+      "rootHz": 250
+     },
+     "sample": "c6ece8c7fdafc9ec",
+     "loop": {
+      "start": 1248,
+      "end": 1376
+     }
+    }
+   ],
+   "raw": {
+    "kind": "spc-instrument",
+    "srcnBySong": {
+     "Giott, the Great King": [
+      68
+     ],
+     "Main Theme (Ocean)": [
+      70
+     ],
+     "Main Theme": [
+      70
+     ],
+     "Mt. Ordeals": [
+      65
+     ],
+     "Run!!!": [
+      67
+     ],
+     "Samba de Chocobo!": [
+      66
+     ],
+     "Surprise": [
+      65
+     ]
+    },
+    "adsr1": 255,
+    "adsr2": 224,
+    "gain": 177,
+    "sampleLooped": true
+   },
+   "usedIn": [
+    "Giott, the Great King",
+    "Main Theme (Ocean)",
+    "Main Theme",
+    "Mt. Ordeals",
+    "Run!!!",
+    "Samba de Chocobo!",
+    "Surprise"
+   ],
+   "noteCount": 1830,
+   "used": true,
+   "keysPlayed": {
+    "lo": 28,
+    "hi": 77,
+    "median": 54
+   },
+   "features": {
+    "keyMedian": 54,
+    "keyLo": 28,
+    "keyHi": 77,
+    "keySpan": 49,
+    "medianNote": 0.284,
+    "kit": false,
+    "oneShot": false,
+    "loopSeconds": 0.004,
+    "sampleSeconds": 0.043,
+    "release": 0.008,
+    "attack": 0.02,
+    "t20": null,
+    "sustain": 0.931,
+    "centroid": 612,
+    "brightness": 3.31,
+    "harmonicity": 0.965,
+    "flatness": 0,
+    "measured": true
+   },
+   "nameGuess": "Lead 4"
+  }
+ ],
+ "samples": {
+  "84e657cbec76809f": {
+   "rate": 32000,
+   "length": 768,
+   "loop": {
+    "start": 704,
+    "end": 768
+   },
+   "bytes": 1648,
+   "file": "84e657cbec76809f.wav"
+  },
+  "9e2a3533dc276b7e": {
+   "rate": 32000,
+   "length": 16016,
+   "loop": null,
+   "bytes": 32120,
+   "file": "9e2a3533dc276b7e.wav"
+  },
+  "78396fbc9e04c94e": {
+   "rate": 32000,
+   "length": 2688,
+   "loop": {
+    "start": 2400,
+    "end": 2688
+   },
+   "bytes": 5488,
+   "file": "78396fbc9e04c94e.wav"
+  },
+  "0b74942e43922dd7": {
+   "rate": 32000,
+   "length": 9536,
+   "loop": {
+    "start": 1520,
+    "end": 9536
+   },
+   "bytes": 19184,
+   "file": "0b74942e43922dd7.wav"
+  },
+  "461bb50ce0289910": {
+   "rate": 32000,
+   "length": 688,
+   "loop": {
+    "start": 656,
+    "end": 688
+   },
+   "bytes": 1488,
+   "file": "461bb50ce0289910.wav"
+  },
+  "7cdf7dd2bbf8a688": {
+   "rate": 32000,
+   "length": 10752,
+   "loop": {
+    "start": 48,
+    "end": 10752
+   },
+   "bytes": 21616,
+   "file": "7cdf7dd2bbf8a688.wav"
+  },
+  "c84fcee671116036": {
+   "rate": 32000,
+   "length": 3504,
+   "loop": null,
+   "bytes": 7096,
+   "file": "c84fcee671116036.wav"
+  },
+  "dce9200dba273b41": {
+   "rate": 32000,
+   "length": 16016,
+   "loop": null,
+   "bytes": 32120,
+   "file": "dce9200dba273b41.wav"
+  },
+  "13d80c0131be919f": {
+   "rate": 32000,
+   "length": 2416,
+   "loop": null,
+   "bytes": 4920,
+   "file": "13d80c0131be919f.wav"
+  },
+  "534fdfc9b3f7a20c": {
+   "rate": 32000,
+   "length": 14016,
+   "loop": null,
+   "bytes": 28120,
+   "file": "534fdfc9b3f7a20c.wav"
+  },
+  "ae37b099a1048c31": {
+   "rate": 32000,
+   "length": 7008,
+   "loop": null,
+   "bytes": 14104,
+   "file": "ae37b099a1048c31.wav"
+  },
+  "ba69913c0417a221": {
+   "rate": 32000,
+   "length": 128,
+   "loop": {
+    "start": 96,
+    "end": 128
+   },
+   "bytes": 368,
+   "file": "ba69913c0417a221.wav"
+  },
+  "873c9a09c0d64363": {
+   "rate": 32000,
+   "length": 480,
+   "loop": {
+    "start": 448,
+    "end": 480
+   },
+   "bytes": 1072,
+   "file": "873c9a09c0d64363.wav"
+  },
+  "ff5adc4dd0f9679e": {
+   "rate": 32000,
+   "length": 5120,
+   "loop": {
+    "start": 48,
+    "end": 5120
+   },
+   "bytes": 10352,
+   "file": "ff5adc4dd0f9679e.wav"
+  },
+  "66fd78311eef6397": {
+   "rate": 32000,
+   "length": 8656,
+   "loop": {
+    "start": 2608,
+    "end": 8656
+   },
+   "bytes": 17424,
+   "file": "66fd78311eef6397.wav"
+  },
+  "7440e901c4c0db93": {
+   "rate": 32000,
+   "length": 112,
+   "loop": {
+    "start": 48,
+    "end": 112
+   },
+   "bytes": 336,
+   "file": "7440e901c4c0db93.wav"
+  },
+  "462d0a2a6210886c": {
+   "rate": 32000,
+   "length": 8512,
+   "loop": null,
+   "bytes": 17112,
+   "file": "462d0a2a6210886c.wav"
+  },
+  "4d7b86926a41fc1a": {
+   "rate": 32000,
+   "length": 8512,
+   "loop": null,
+   "bytes": 17112,
+   "file": "4d7b86926a41fc1a.wav"
+  },
+  "c6ece8c7fdafc9ec": {
+   "rate": 32000,
+   "length": 1376,
+   "loop": {
+    "start": 1248,
+    "end": 1376
+   },
+   "bytes": 2864,
+   "file": "c6ece8c7fdafc9ec.wav"
+  },
+  "74bc8a1853950c17": {
+   "rate": 32000,
+   "length": 4016,
+   "loop": null,
+   "bytes": 8120,
+   "file": "74bc8a1853950c17.wav"
+  },
+  "ba0730b05badb7ef": {
+   "rate": 32000,
+   "length": 3312,
+   "loop": null,
+   "bytes": 6712,
+   "file": "ba0730b05badb7ef.wav"
+  },
+  "4cdf6baf01d631eb": {
+   "rate": 32000,
+   "length": 2480,
+   "loop": {
+    "start": 2048,
+    "end": 2480
+   },
+   "bytes": 5072,
+   "file": "4cdf6baf01d631eb.wav"
+  },
+  "8e6655f636e018d7": {
+   "rate": 32000,
+   "length": 2016,
+   "loop": null,
+   "bytes": 4120,
+   "file": "8e6655f636e018d7.wav"
+  },
+  "319100c86fca8c7c": {
+   "rate": 32000,
+   "length": 7008,
+   "loop": null,
+   "bytes": 14104,
+   "file": "319100c86fca8c7c.wav"
+  }
+ },
+ "warnings": [
+  "instrument spc:965bd0df:inst's root pitch is a weak measurement (confidence none) — its tuning may be off",
+  "instrument spc:f1d2c42f:inst key-ons disagree on root by 13.8¢ across 41 song(s) (sample root 882.9 Hz, confidence high)",
+  "instrument spc:a110172c:inst's root pitch is a weak measurement (confidence none) — its tuning may be off",
+  "instrument spc:14a2323d:inst's root pitch is a weak measurement (confidence none) — its tuning may be off",
+  "instrument spc:670feb84:inst key-ons disagree on root by 30.5¢ across 5 song(s) (sample root 1000.0 Hz, confidence high)",
+  "instrument spc:a0cf4fe0:inst's root pitch is a weak measurement (confidence none) — its tuning may be off",
+  "instrument spc:b8c675bf:inst's root pitch is a weak measurement (confidence low) — its tuning may be off",
+  "instrument spc:7b9316d9:inst's root pitch is a weak measurement (confidence none) — its tuning may be off"
+ ]
+}
